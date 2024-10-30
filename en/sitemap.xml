@@ -41,9 +41,6 @@
     <loc>https://example.com/p/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/page/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -56,6 +53,9 @@
                 hreflang="en"
                 href="https://example.com/page/"
                 />
+  </url><url>
+    <loc>https://example.com/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
@@ -167,7 +167,7 @@
     <loc>https://example.com/p/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://example.com/%E5%85%B3%E4%BA%8E/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -177,11 +177,11 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/about/"
+                href="https://example.com/%E5%85%B3%E4%BA%8E/"
                 />
   </url><url>
-    <loc>https://example.com/links/</loc>
-  </url><url>
     <loc>https://example.com/search/</loc>
+  </url><url>
+    <loc>https://example.com/%E9%93%BE%E6%8E%A5/</loc>
   </url>
 </urlset>

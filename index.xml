@@ -8,12 +8,12 @@
         <language>en</language>
         <copyright>Example Person</copyright>
         <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>好听的流行电吉他SOLO，卢广仲《几分之几》</title>
+        <title>卢广仲《几分之几》电吉他改编演奏</title>
         <link>https://example.com/p/test-chinese/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/p/test-chinese/</guid>
-        <description>&lt;img src="https://example.com/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post 好听的流行电吉他SOLO，卢广仲《几分之几》" /&gt;&lt;h2 id=&#34;bilibili-video&#34;&gt;Bilibili video
+        <description>&lt;img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosGXyf-q4ZTGBKc9ReusgpD12XgJFIYmmRg&amp;s" alt="Featured image of post 卢广仲《几分之几》电吉他改编演奏" /&gt;&lt;h2 id=&#34;bilibili-video&#34;&gt;Bilibili video
 &lt;/h2&gt;
 
 
@@ -36,7 +36,7 @@
 </description>
         </item>
         <item>
-        <title>Archives</title>
+        <title>分类</title>
         <link>https://example.com/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
@@ -438,11 +438,11 @@ $$</description>
 &lt;/div&gt;</description>
         </item>
         <item>
-        <title>About</title>
-        <link>https://example.com/about/</link>
+        <title>关于</title>
+        <link>https://example.com/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/about/</guid>
+        <guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Apache License 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
 &lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
@@ -466,11 +466,19 @@ $$</description>
 </description>
         </item>
         <item>
-        <title>Links</title>
-        <link>https://example.com/links/</link>
+        <title>搜索</title>
+        <link>https://example.com/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/links/</guid>
+        <guid>https://example.com/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>链接</title>
+        <link>https://example.com/%E9%93%BE%E6%8E%A5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/%E9%93%BE%E6%8E%A5/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -499,14 +507,6 @@ $$</description>
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>Search</title>
-        <link>https://example.com/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/search/</guid>
-        <description></description>
         </item>
         
     </channel>
