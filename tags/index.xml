@@ -2,81 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on 小威音乐工作室</title>
-        <link>https://example.com/tags/</link>
+        <link>http://localhost:1313/tags/</link>
         <description>Recent content in Tags on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Css</title>
-        <link>https://example.com/tags/css/</link>
+        <link>http://localhost:1313/tags/css/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/css/</guid>
+        <guid>http://localhost:1313/tags/css/</guid>
         <description></description>
         </item>
         <item>
         <title>Html</title>
-        <link>https://example.com/tags/html/</link>
+        <link>http://localhost:1313/tags/html/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/html/</guid>
+        <guid>http://localhost:1313/tags/html/</guid>
         <description></description>
         </item>
         <item>
         <title>Markdown</title>
-        <link>https://example.com/tags/markdown/</link>
+        <link>http://localhost:1313/tags/markdown/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/markdown/</guid>
+        <guid>http://localhost:1313/tags/markdown/</guid>
         <description></description>
         </item>
         <item>
         <title>Themes</title>
-        <link>https://example.com/tags/themes/</link>
+        <link>http://localhost:1313/tags/themes/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/themes/</guid>
+        <guid>http://localhost:1313/tags/themes/</guid>
         <description></description>
         </item>
         <item>
         <title>Privacy</title>
-        <link>https://example.com/tags/privacy/</link>
+        <link>http://localhost:1313/tags/privacy/</link>
         <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/privacy/</guid>
+        <guid>http://localhost:1313/tags/privacy/</guid>
         <description></description>
         </item>
         <item>
         <title>Shortcodes</title>
-        <link>https://example.com/tags/shortcodes/</link>
+        <link>http://localhost:1313/tags/shortcodes/</link>
         <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/shortcodes/</guid>
+        <guid>http://localhost:1313/tags/shortcodes/</guid>
         <description></description>
         </item>
         <item>
         <title>Tag With Whitespaces</title>
-        <link>https://example.com/tags/tag-with-whitespaces/</link>
+        <link>http://localhost:1313/tags/tag-with-whitespaces/</link>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/tag-with-whitespaces/</guid>
+        <guid>http://localhost:1313/tags/tag-with-whitespaces/</guid>
         <description></description>
         </item>
         <item>
         <title>Text</title>
-        <link>https://example.com/tags/text/</link>
+        <link>http://localhost:1313/tags/text/</link>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/text/</guid>
+        <guid>http://localhost:1313/tags/text/</guid>
         <description></description>
         </item>
         <item>
         <title>Emoji</title>
-        <link>https://example.com/tags/emoji/</link>
+        <link>http://localhost:1313/tags/emoji/</link>
         <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/emoji/</guid>
+        <guid>http://localhost:1313/tags/emoji/</guid>
         <description></description>
         </item>
         
