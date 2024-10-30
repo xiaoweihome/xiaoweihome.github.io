@@ -20,6 +20,27 @@
                 href="https://example.com/"
                 />
   </url><url>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://example.com/zh-cn/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://example.com/ar/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/post/"
+                />
+  </url><url>
+    <loc>https://example.com/p/test-chinese/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -65,24 +86,6 @@
   </url><url>
     <loc>https://example.com/p/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://example.com/zh-cn/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/post/"
-                />
   </url><url>
     <loc>https://example.com/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
@@ -176,8 +179,6 @@
                 hreflang="en"
                 href="https://example.com/about/"
                 />
-  </url><url>
-    <loc>https://example.com/p/</loc>
   </url><url>
     <loc>https://example.com/links/</loc>
   </url><url>
