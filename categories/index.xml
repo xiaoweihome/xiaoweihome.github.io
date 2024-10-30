@@ -5,47 +5,47 @@
         <link>https://example.com/categories/</link>
         <description>Recent content in Categories on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
+        <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Test</title>
+        <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>吉他</title>
+        <link>https://example.com/categories/%E5%90%89%E4%BB%96/</link>
+        <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/categories/%E5%90%89%E4%BB%96/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>爵士鼓</title>
+        <link>https://example.com/categories/%E7%88%B5%E5%A3%AB%E9%BC%93/</link>
+        <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/categories/%E7%88%B5%E5%A3%AB%E9%BC%93/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>文章</title>
+        <link>https://example.com/categories/%E6%96%87%E7%AB%A0/</link>
+        <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/categories/%E6%96%87%E7%AB%A0/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>演奏作品</title>
+        <link>https://example.com/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</link>
+        <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>演奏作品</title>
         <link>https://example.com/categories/test/</link>
-        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/categories/test/</guid>
-        <description>&lt;img src="https://example.com/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
-        </item>
-        <item>
-        <title>测试</title>
-        <link>https://example.com/categories/%E6%B5%8B%E8%AF%95/</link>
-        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/%E6%B5%8B%E8%AF%95/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Syntax</title>
-        <link>https://example.com/categories/syntax/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/syntax/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Themes</title>
-        <link>https://example.com/categories/themes/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/themes/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Test With Whitespaces</title>
-        <link>https://example.com/categories/test-with-whitespaces/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/categories/test-with-whitespaces/</guid>
-        <description></description>
+        <description>&lt;img src="https://example.com/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post 演奏作品" /&gt;</description>
         </item>
         
     </channel>

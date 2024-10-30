@@ -5,91 +5,50 @@
     <loc>https://example.com/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.com/p/%E7%88%B5%E5%A3%AB%E9%BC%93%E6%BC%94%E5%A5%8F%E8%8D%89%E4%B8%9C%E6%B2%A1%E6%9C%89%E6%B4%BE%E5%AF%B9%E5%B1%B1%E6%B5%B7/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/post/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/%E5%90%89%E4%BB%96/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/%E7%88%B5%E5%A3%AB%E9%BC%93/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/p/%E7%BB%83%E4%B8%80%E9%A6%96%E7%8C%AB%E5%92%AA%E9%83%BD%E5%90%AC%E7%83%A6%E7%9A%84tom-quayle%E5%9F%BA%E6%9C%AC%E5%8A%9F%E7%BB%83%E4%B9%A0etude/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/p/%E5%8D%A2%E5%B9%BF%E4%BB%B2%E5%87%A0%E5%88%86%E4%B9%8B%E5%87%A0%E7%94%B5%E5%90%89%E4%BB%96%E6%94%B9%E7%BC%96%E6%BC%94%E5%A5%8F/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://example.com/categories/%E6%96%87%E7%AB%A0/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/test-chinese/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://example.com/p/%E6%96%87%E7%AB%A0/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/test/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://example.com/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/page/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/p/markdown-syntax-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/p/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/p/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/tag-with-whitespaces/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/test-with-whitespaces/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/p/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/p/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/%E5%85%B3%E4%BA%8E/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/_index.zh-cn/</loc>
+    <loc>https://example.com/%E9%93%BE%E6%8E%A5/</loc>
   </url><url>
     <loc>https://example.com/search/</loc>
   </url><url>
-    <loc>https://example.com/%E9%93%BE%E6%8E%A5/</loc>
+    <loc>https://example.com/categories/test/</loc>
   </url>
 </urlset>
