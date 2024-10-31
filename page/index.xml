@@ -15,36 +15,11 @@
         <description></description>
         </item>
         <item>
-        <title>联系</title>
-        <link>https://example.com/%E8%81%94%E7%B3%BB/</link>
+        <title>Link</title>
+        <link>https://example.com/link/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/%E8%81%94%E7%B3%BB/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;微信二维码
-&lt;img src=&#34;https://s3.bmp.ovh/imgs/2024/10/31/d61ec3a16b69f7f9.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;微信二维码&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;邮箱：
-&lt;a class=&#34;link&#34; href=&#34;mailto:548101652@qq.com&#34; &gt;548101652@qq.com&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        </item>
-        <item>
-        <title>链接</title>
-        <link>https://example.com/%E9%93%BE%E6%8E%A5/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/%E9%93%BE%E6%8E%A5/</guid>
+        <guid>https://example.com/link/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -72,6 +47,31 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>联系</title>
+        <link>https://example.com/%E8%81%94%E7%B3%BB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/%E8%81%94%E7%B3%BB/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;微信二维码
+&lt;img src=&#34;https://s3.bmp.ovh/imgs/2024/10/31/d61ec3a16b69f7f9.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;微信二维码&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;邮箱：
+&lt;a class=&#34;link&#34; href=&#34;mailto:548101652@qq.com&#34; &gt;548101652@qq.com&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         </item>
         <item>
