@@ -231,6 +231,14 @@
         <description></description>
         </item>
         <item>
+        <title>乐谱资料</title>
+        <link>https://example.com/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Link</title>
         <link>https://example.com/link/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -272,8 +280,9 @@
         
         <guid>https://example.com/%E8%81%94%E7%B3%BB/</guid>
         <description>&lt;blockquote&gt;
-&lt;p&gt;微信二维码
-&lt;img src=&#34;https://s3.bmp.ovh/imgs/2024/10/31/d61ec3a16b69f7f9.jpg&#34;
+&lt;p&gt;微信二维码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://s3.bmp.ovh/imgs/2024/10/31/d61ec3a16b69f7f9.jpg&#34;
 	
 	
 	
@@ -283,7 +292,6 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;邮箱：
 &lt;a class=&#34;link&#34; href=&#34;mailto:548101652@qq.com&#34; &gt;548101652@qq.com&lt;/a&gt;&lt;/p&gt;
