@@ -2,32 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on 小威音乐工作室</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>https://example.com/categories/</link>
         <description>Recent content in Categories on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>文章</title>
-        <link>http://localhost:1313/categories/%E6%96%87%E7%AB%A0/</link>
+        <link>https://example.com/categories/%E6%96%87%E7%AB%A0/</link>
         <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/%E6%96%87%E7%AB%A0/</guid>
+        <guid>https://example.com/categories/%E6%96%87%E7%AB%A0/</guid>
         <description></description>
         </item>
         <item>
         <title>演奏作品</title>
-        <link>http://localhost:1313/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</link>
+        <link>https://example.com/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</link>
         <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>乐器演奏</title>
-        <link>http://localhost:1313/categories/%E4%B9%90%E5%99%A8%E6%BC%94%E5%A5%8F/</link>
-        <pubDate>Fri, 09 Feb 2024 01:47:27 +0800</pubDate>
-        
-        <guid>http://localhost:1313/categories/%E4%B9%90%E5%99%A8%E6%BC%94%E5%A5%8F/</guid>
+        <guid>https://example.com/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</guid>
         <description></description>
         </item>
         
