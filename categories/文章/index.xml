@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>文章 on 小威音乐工作室</title>
-        <link>https://example.com/categories/%E6%96%87%E7%AB%A0/</link>
+        <link>http://localhost:1313/categories/%E6%96%87%E7%AB%A0/</link>
         <description>Recent content in 文章 on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/%E6%96%87%E7%AB%A0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%96%87%E7%AB%A0/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>文章</title>
-        <link>https://example.com/p/%E6%96%87%E7%AB%A0/</link>
+        <link>http://localhost:1313/p/%E6%96%87%E7%AB%A0/</link>
         <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/%E6%96%87%E7%AB%A0/</guid>
+        <guid>http://localhost:1313/p/%E6%96%87%E7%AB%A0/</guid>
         <description>&lt;img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosGXyf-q4ZTGBKc9ReusgpD12XgJFIYmmRg&amp;s" alt="Featured image of post 文章" /&gt;&lt;h2 id=&#34;12312321&#34;&gt;12312321
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;当你掌握这个领域的微精通项目越多，就离成为专家越来越近。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;每天做同样的事情很无聊，但&lt;strong&gt;设定一段时间，完成一个微精通的目标，就是很有效的学习。完成后，你再接着转向新的东西，或许是一项新的微精通。&lt;/strong&gt;&lt;/p&gt;
