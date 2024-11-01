@@ -6,10 +6,18 @@
         <description>Recent content in Categories on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 31 Oct 2024 01:47:27 +0800</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>鼓谱</title>
+        <link>https://example.com/categories/%E9%BC%93%E8%B0%B1/</link>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/categories/%E9%BC%93%E8%B0%B1/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>乐谱资料</title>
         <link>https://example.com/categories/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/</link>
-        <pubDate>Thu, 31 Oct 2024 01:47:27 +0800</pubDate>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/categories/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/</guid>
         <description></description>
