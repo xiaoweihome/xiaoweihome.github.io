@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on 小威音乐工作室</title>
-        <link>https://example.com/page/</link>
+        <link>https://xiaoweihome.github.io/page/</link>
         <description>Recent content in Pages on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>分类</title>
-        <link>https://example.com/archives/</link>
+        <link>https://xiaoweihome.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/archives/</guid>
+        <guid>https://xiaoweihome.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>乐谱资料</title>
-        <link>https://example.com/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/</link>
+        <link>https://xiaoweihome.github.io/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/</guid>
+        <guid>https://xiaoweihome.github.io/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/</guid>
         <description></description>
         </item>
         <item>
         <title>Link</title>
-        <link>https://example.com/link/</link>
+        <link>https://xiaoweihome.github.io/link/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/link/</guid>
+        <guid>https://xiaoweihome.github.io/link/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -59,10 +59,10 @@
         </item>
         <item>
         <title>联系</title>
-        <link>https://example.com/%E8%81%94%E7%B3%BB/</link>
+        <link>https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/%E8%81%94%E7%B3%BB/</guid>
+        <guid>https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;微信二维码&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -84,10 +84,10 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>https://example.com/search/</link>
+        <link>https://xiaoweihome.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/search/</guid>
+        <guid>https://xiaoweihome.github.io/search/</guid>
         <description></description>
         </item>
         
