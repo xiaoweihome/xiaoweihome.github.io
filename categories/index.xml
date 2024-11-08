@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on 小威音乐工作室</title>
-        <link>https://xiaoweihome.github.io/categories/</link>
+        <link>http://localhost:1313/categories/</link>
         <description>Recent content in Categories on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>爵士鼓技巧&amp;思维</title>
-        <link>https://xiaoweihome.github.io/categories/%E7%88%B5%E5%A3%AB%E9%BC%93%E6%8A%80%E5%B7%A7%E6%80%9D%E7%BB%B4/</link>
+        <link>http://localhost:1313/categories/%E7%88%B5%E5%A3%AB%E9%BC%93%E6%8A%80%E5%B7%A7%E6%80%9D%E7%BB%B4/</link>
         <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/categories/%E7%88%B5%E5%A3%AB%E9%BC%93%E6%8A%80%E5%B7%A7%E6%80%9D%E7%BB%B4/</guid>
+        <guid>http://localhost:1313/categories/%E7%88%B5%E5%A3%AB%E9%BC%93%E6%8A%80%E5%B7%A7%E6%80%9D%E7%BB%B4/</guid>
         <description></description>
         </item>
         <item>
         <title>鼓谱</title>
-        <link>https://xiaoweihome.github.io/categories/%E9%BC%93%E8%B0%B1/</link>
+        <link>http://localhost:1313/categories/%E9%BC%93%E8%B0%B1/</link>
         <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/categories/%E9%BC%93%E8%B0%B1/</guid>
+        <guid>http://localhost:1313/categories/%E9%BC%93%E8%B0%B1/</guid>
         <description></description>
         </item>
         <item>
         <title>文章</title>
-        <link>https://xiaoweihome.github.io/categories/%E6%96%87%E7%AB%A0/</link>
+        <link>http://localhost:1313/categories/%E6%96%87%E7%AB%A0/</link>
         <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/categories/%E6%96%87%E7%AB%A0/</guid>
+        <guid>http://localhost:1313/categories/%E6%96%87%E7%AB%A0/</guid>
         <description></description>
         </item>
         <item>
         <title>演奏作品</title>
-        <link>https://xiaoweihome.github.io/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</link>
+        <link>http://localhost:1313/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</link>
         <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</guid>
+        <guid>http://localhost:1313/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</guid>
         <description></description>
         </item>
         
