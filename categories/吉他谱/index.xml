@@ -23,7 +23,6 @@
 &gt; 目录
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%ab%98%e6%b8%85%e5%8a%9f%e8%83%bd%e8%b0%b1%e4%b8%8b%e8%bd%bd&#34; &gt;高清功能谱下载&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%88%86%e6%9e%90&#34; &gt;分析&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;高清功能谱下载&#34;&gt;高清功能谱下载
@@ -41,11 +40,119 @@
 		data-flex-basis=&#34;186px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h1 id=&#34;分析&#34;&gt;分析
-&lt;/h1&gt;&lt;h2 id=&#34;前八小节&#34;&gt;前八小节
+&lt;hr&gt;
+&lt;h1 id=&#34;和弦选择&#34;&gt;和弦选择
+&lt;/h1&gt;&lt;h2 id=&#34;版本一&#34;&gt;版本一
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;C-9&lt;/td&gt;
+          &lt;td&gt;%&lt;/td&gt;
+          &lt;td&gt;F-9&lt;/td&gt;
+          &lt;td&gt;%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;D-7b5&lt;/td&gt;
+          &lt;td&gt;G7b13&lt;/td&gt;
+          &lt;td&gt;C-9&lt;/td&gt;
+          &lt;td&gt;%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Eb-9&lt;/td&gt;
+          &lt;td&gt;Ab13&lt;/td&gt;
+          &lt;td&gt;D69&lt;/td&gt;
+          &lt;td&gt;%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;D-7b5&lt;/td&gt;
+          &lt;td&gt;G7b13&lt;/td&gt;
+          &lt;td&gt;C-9&lt;/td&gt;
+          &lt;td&gt;%&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;所有小七和弦可以用延伸成小九和弦&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;属七和弦可以加入b13或13的延伸音&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;大七和弦可以加入6音和9音变成69和弦&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;版本二&#34;&gt;版本二
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;C-9&lt;/td&gt;
+          &lt;td&gt;%&lt;/td&gt;
+          &lt;td&gt;F-9&lt;/td&gt;
+          &lt;td&gt;%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;D-7b5&lt;/td&gt;
+          &lt;td&gt;G7b13、&lt;strong&gt;Db9&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;C-9&lt;/td&gt;
+          &lt;td&gt;%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Eb-9&lt;/td&gt;
+          &lt;td&gt;Ab13、&lt;strong&gt;D9&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;D69&lt;/td&gt;
+          &lt;td&gt;%&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;D-7b5&lt;/td&gt;
+          &lt;td&gt;G7b13、&lt;strong&gt;Db9&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;C-9&lt;/td&gt;
+          &lt;td&gt;D-7b5、G7b13&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在版本一的基础上，加入三全音替代的属和弦&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在最后一小节加入25作为过渡&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;音阶选择&#34;&gt;音阶选择
+&lt;/h1&gt;&lt;h2 id=&#34;版本一-1&#34;&gt;版本一
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;前八个小节调性是C minor，&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1-8小节的调性是C minor，所以可以不考虑目标音，&lt;strong&gt;只用C minor音阶进行即兴&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;9-12小节的调性是DB major，所以可以不考虑目标音，&lt;strong&gt;只用Db major音阶进行即兴&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;13-16小节回到C minor,&lt;strong&gt;继续用C minor音阶&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 </description>
