@@ -25,6 +25,7 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%9f%b3%e9%98%b6&#34; &gt;音阶&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#major%e5%a4%a7%e8%b0%83%e9%9f%b3%e9%98%b6&#34; &gt;Major（大调音阶）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#dorian&#34; &gt;Dorian&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#minor%e8%87%aa%e7%84%b6%e5%b0%8f%e8%b0%83%e9%9f%b3%e9%98%b6&#34; &gt;Minor（自然小调音阶）&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#jazz-minor%e7%88%b5%e5%a3%ab%e6%97%8b%e5%be%8b%e5%b0%8f%e8%b0%83%e9%9f%b3%e9%98%b6&#34; &gt;Jazz Minor（爵士旋律小调音阶）&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#harmonic-minor%e5%92%8c%e5%a3%b0%e5%b0%8f%e8%b0%83&#34; &gt;Harmonic Minor（和声小调）&lt;/a&gt;&lt;/li&gt;
@@ -38,7 +39,7 @@
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/4.jpg&#34;
 	width=&#34;1237&#34;
 	height=&#34;1753&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/4_hu9057216791314593773.jpg 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/4_hu16068609043753044165.jpg 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/4_hu52501485930506266.jpg 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/4_hu13463174040390627694.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;大调音阶&#34;
@@ -65,7 +66,8 @@
 		data-flex-basis=&#34;169px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;hr&gt;
+&lt;h2 id=&#34;dorian&#34;&gt;Dorian
+&lt;/h2&gt;&lt;hr&gt;
 &lt;h2 id=&#34;jazz-minor爵士旋律小调音阶&#34;&gt;Jazz Minor（爵士旋律小调音阶）
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/2.jpg&#34;
 	width=&#34;1237&#34;
