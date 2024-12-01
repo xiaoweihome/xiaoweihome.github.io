@@ -4,6 +4,8 @@ let stopBtn = document.getElementById('stopBtn');
 let noteTypeSelect = document.getElementById('noteType');
 
 let intervalId = null;
+let currentBpm = parseInt(bpmInput.value, 10);  // 当前BPM
+let currentNoteType = noteTypeSelect.value;     // 当前音符类型
 
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 
@@ -22,23 +24,26 @@ function playClick(isStrong = false) {
     gainNode.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + 0.1);
     oscillator.stop(audioContext.currentTime + 0.1);
 
-    // 如果是重音，音量设置为极大；如果是轻音，音量设置为较大
+    // 重音和轻音的音量设置
     if (isStrong) {
-        gainNode.gain.setValueAtTime(2.0, audioContext.currentTime); // 重音音量极大
+        gainNode.gain.setValueAtTime(2.0, audioContext.currentTime); // 重音音量较大
     } else {
-        gainNode.gain.setValueAtTime(0.6, audioContext.currentTime); // 轻音音量较大
+        gainNode.gain.setValueAtTime(0.6, audioContext.currentTime); // 轻音音量较小
     }
 }
 
-// 开始节拍
-function startMetronome() {
+// 更新节奏和音符类型的函数
+function updateMetronome() {
     const bpm = parseInt(bpmInput.value, 10);
-    if (isNaN(bpm) || bpm < 40 || bpm > 240) {
-        alert('请输入有效的 BPM（40-240）');
-        return;
+
+    // 检查 BPM 是否有效，若不在范围内则自动设置为范围内的有效值
+    if (isNaN(bpm) || bpm < 0 || bpm > 1000) {
+        bpmInput.value = Math.max(0, Math.min(1000, bpm));  // 设置为合理范围内的BPM
+        return;  // 不做其他操作
     }
 
-    const interval = 60000 / bpm; // 计算节拍间隔（ms）
+    // 计算节拍间隔
+    const interval = 60000 / bpm;
 
     // 获取音符类型
     const noteType = noteTypeSelect.value;
@@ -83,6 +88,12 @@ function startMetronome() {
             setTimeout(() => playClick(isStrong), i * noteInterval);
         }
     }, cycleTime);
+}
+
+// 开始节拍
+function startMetronome() {
+    // 启动时就开始播放
+    updateMetronome(); 
 
     startBtn.disabled = true;
     stopBtn.disabled = false;
@@ -97,13 +108,22 @@ function stopMetronome() {
     stopBtn.disabled = true;
 }
 
-// 添加事件监听
+// 监听事件
 startBtn.addEventListener('click', startMetronome);
 stopBtn.addEventListener('click', stopMetronome);
-noteTypeSelect.addEventListener('change', () => {
-    // 音符类型更改时，重新开始节拍器
+
+// 监听BPM变化
+bpmInput.addEventListener('input', () => {
+    // 在节拍器运行时，动态更新BPM
     if (intervalId) {
-        stopMetronome();
-        startMetronome();
+        updateMetronome();
+    }
+});
+
+// 监听音符类型变化
+noteTypeSelect.addEventListener('change', () => {
+    // 音符类型更改时，动态更新节奏
+    if (intervalId) {
+        updateMetronome();
     }
 });
