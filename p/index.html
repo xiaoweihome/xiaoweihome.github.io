@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="\rBPM: 节拍音符: 四分音符\r八分音符\r三连音\r十六分音符\r开始\r停止">
 <title></title>
 
 <link rel='canonical' href='http://localhost:1313/p/'>
 
 <link rel="stylesheet" href="/scss/style.min.f91c16411405e1fc5da08861fe7cf176ce361269bd69c3b7428065036933611e.css"><meta property='og:title' content="">
-<meta property='og:description' content="">
+<meta property='og:description' content="\rBPM: 节拍音符: 四分音符\r八分音符\r三连音\r十六分音符\r开始\r停止">
 <meta property='og:url' content='http://localhost:1313/p/'>
 <meta property='og:site_name' content='小威音乐工作室'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' />
 <meta name="twitter:title" content="">
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content="\rBPM: 节拍音符: 四分音符\r八分音符\r三连音\r十六分音符\r开始\r停止">
     <link rel="shortcut icon" href="/favicon.png" />
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
@@ -110,7 +110,7 @@
             
                 <li>
                     <a 
-                        href='xiaowei.blog'
+                        href='http://xiaowei.blog'
                         target="_blank"
                         title="个人Blog"
                         rel="me"
@@ -316,7 +316,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 0 分钟
+                    阅读时长: 1 分钟
                 </time>
             </div>
         
@@ -331,7 +331,22 @@
     <section class="article-content">
     
     
-    
+    <div>
+    <label for="bpm">BPM: </label>
+    <input type="number" id="bpm" value="120" min="40" max="240">
+</div>
+<div>
+    <label for="noteType">节拍音符: </label>
+    <select id="noteType">
+        <option value="quarter">四分音符</option>
+        <option value="eighth">八分音符</option>
+        <option value="triplet">三连音</option>
+        <option value="sixteenth">十六分音符</option>
+    </select>
+</div>
+<button id="startBtn">开始</button>
+<button id="stopBtn" disabled>停止</button>
+
 </section>
 
 
@@ -519,8 +534,16 @@
     
         
     
-    发表了25篇文章 · 
-    总计0.80k字
+        
+    
+        
+    
+        
+    
+        
+    
+    发表了29篇文章 · 
+    总计1.12k字
 </section>
 
 
