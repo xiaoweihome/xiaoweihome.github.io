@@ -24,84 +24,112 @@
         
         <guid>https://xiaoweihome.github.io/p/%E6%B5%8B%E8%AF%95/</guid>
         <description>&lt;h2&gt;随机节奏生成器&lt;/h2&gt;
-&lt;p&gt;选择每次显示的音符数量和音符类型，然后点击按钮随机显示。&lt;/p&gt;
-&lt;!-- 随机图片数量选择 --&gt;
-&lt;p&gt;&lt;label for=&#34;imageCount&#34;&gt;选择显示音符拍号:&lt;/label&gt;
-&lt;select id=&#34;imageCount&#34;&gt;
-&lt;option value=&#34;1&#34;&gt;1 拍&lt;/option&gt;
-&lt;option value=&#34;2&#34;&gt;2 拍&lt;/option&gt;
-&lt;option value=&#34;3&#34;&gt;3 拍&lt;/option&gt;
-&lt;option value=&#34;4&#34; selected&gt;4 拍&lt;/option&gt;
-&lt;option value=&#34;5&#34;&gt;5 拍&lt;/option&gt;
-&lt;option value=&#34;6&#34;&gt;6 拍&lt;/option&gt;
-&lt;/select&gt;&lt;/p&gt;
-&lt;!-- 音符类型选择 --&gt;
-&lt;p&gt;&lt;label for=&#34;noteType&#34;&gt;选择音符类型:&lt;/label&gt;
-&lt;select id=&#34;noteType&#34;&gt;
-&lt;option value=&#34;binary&#34;&gt;二元音符&lt;/option&gt;
-&lt;option value=&#34;ternary&#34;&gt;三元音符&lt;/option&gt;
-&lt;option value=&#34;all&#34;&gt;全部随机&lt;/option&gt;
-&lt;/select&gt;&lt;/p&gt;
+&lt;p&gt;选择每次显示的音符数量、音符类型和难度，然后点击按钮随机显示。&lt;/p&gt;
+&lt;!-- 选择框和按钮的容器 --&gt;
+&lt;div class=&#34;controls&#34;&gt;
+    &lt;!-- 选择框放在同一行 --&gt;
+    &lt;div class=&#34;select-container&#34;&gt;
+        &lt;label for=&#34;imageCount&#34;&gt;选择显示音符拍号:&lt;/label&gt;
+        &lt;select id=&#34;imageCount&#34;&gt;
+            &lt;option value=&#34;1&#34;&gt;1 拍&lt;/option&gt;
+            &lt;option value=&#34;2&#34;&gt;2 拍&lt;/option&gt;
+            &lt;option value=&#34;3&#34;&gt;3 拍&lt;/option&gt;
+            &lt;option value=&#34;4&#34; selected&gt;4 拍&lt;/option&gt;
+            &lt;option value=&#34;5&#34;&gt;5 拍&lt;/option&gt;
+            &lt;option value=&#34;6&#34;&gt;6 拍&lt;/option&gt;
+        &lt;/select&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;select-container&#34;&gt;
+        &lt;label for=&#34;noteType&#34;&gt;选择音符类型:&lt;/label&gt;
+        &lt;select id=&#34;noteType&#34;&gt;
+            &lt;option value=&#34;binary&#34;&gt;二元音符&lt;/option&gt;
+            &lt;option value=&#34;ternary&#34;&gt;三元音符&lt;/option&gt;
+            &lt;option value=&#34;all&#34;&gt;全部随机&lt;/option&gt;
+        &lt;/select&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;select-container&#34;&gt;
+        &lt;label for=&#34;difficulty&#34;&gt;选择难度:&lt;/label&gt;
+        &lt;select id=&#34;difficulty&#34;&gt;
+            &lt;option value=&#34;easy&#34;&gt;初级&lt;/option&gt;
+            &lt;option value=&#34;medium&#34;&gt;中级&lt;/option&gt;
+            &lt;option value=&#34;hard&#34;&gt;高级&lt;/option&gt;
+        &lt;/select&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- 随机按钮 --&gt;
+&lt;p&gt;&lt;button class=&#34;random-button&#34; onclick=&#34;displayRandomImages()&#34;&gt;随机显示音符&lt;/button&gt;&lt;/p&gt;
 &lt;!-- 图片显示容器 --&gt;
 &lt;div class=&#34;image-container&#34; id=&#34;imageContainer&#34;&gt;&lt;/div&gt;
-&lt;!-- 按钮触发事件 --&gt;
-&lt;p&gt;&lt;button class=&#34;random-button&#34; onclick=&#34;displayRandomImages()&#34;&gt;随机显示音符&lt;/button&gt;&lt;/p&gt;
 &lt;!-- 随机显示音符的脚本 --&gt;
 &lt;script&gt;
-    // 二元音符图片的路径
-    const binaryImages = [
-        &#39;/img/notes/1.png&#39;,
-        &#39;/img/notes/2.png&#39;,
-        &#39;/img/notes/3.png&#39;,
-        &#39;/img/notes/4.png&#39;,
-        &#39;/img/notes/12.png&#39;,
-        &#39;/img/notes/23.png&#39;,
-        &#39;/img/notes/34.png&#39;,
-        &#39;/img/notes/14.png&#39;,
-        &#39;/img/notes/13.png&#39;,
-        &#39;/img/notes/24.png&#39;,
-        &#39;/img/notes/123.png&#39;,
-        &#39;/img/notes/234.png&#39;,
-        &#39;/img/notes/124.png&#39;,
-        &#39;/img/notes/134.png&#39;,
-        &#39;/img/notes/1234.png&#39;
+    // 音符图片的路径
+    const binaryImagesEasy = [
+        &#39;/img/notes/1.png&#39;, &#39;/img/notes/3.png&#39;, &#39;/img/notes/13.png&#39;, &#39;/img/notes/134.png&#39;,
+        &#39;/img/notes/123.png&#39;, &#39;/img/notes/1234.png&#39;
     ];
 
-    // 三元音符图片的路径
-    const ternaryImages = [
-        &#39;/img/notes/三1.png&#39;,
-        &#39;/img/notes/三2.png&#39;,
-        &#39;/img/notes/三3.png&#39;,
-        &#39;/img/notes/三12.png&#39;,
-        &#39;/img/notes/三23.png&#39;,
-        &#39;/img/notes/三13.png&#39;,
-        &#39;/img/notes/三123.png&#39;
+    const ternaryImagesEasy = [
+        &#39;/img/notes/三1.png&#39;, &#39;/img/notes/三3.png&#39;, &#39;/img/notes/三13.png&#39;, &#39;/img/notes/三123.png&#39;
     ];
 
-    // 所有音符图片的路径（包含二元音符和三元音符）
-    const allImages = binaryImages.concat(ternaryImages);
+    const binaryImagesMedium = binaryImagesEasy.concat([
+        &#39;/img/notes/14.png&#39;, &#39;/img/notes/12.png&#39;, &#39;/img/notes/23.png&#39;, &#39;/img/notes/34.png&#39;,
+        &#39;/img/notes/124.png&#39;, &#39;/img/notes/234.png&#39;
+    ]);
 
-    // 随机显示图片
+    const ternaryImagesMedium = ternaryImagesEasy.concat([
+        &#39;/img/notes/三12.png&#39;, &#39;/img/notes/三23.png&#39;
+    ]);
+
+    const binaryImagesHard = binaryImagesMedium.concat([
+        &#39;/img/notes/2.png&#39;, &#39;/img/notes/4.png&#39;, &#39;/img/notes/24.png&#39;
+    ]);
+
+    const ternaryImagesHard = ternaryImagesMedium.concat([
+        &#39;/img/notes/三2.png&#39;
+    ]);
+
+    const allImagesEasy = binaryImagesEasy.concat(ternaryImagesEasy);
+    const allImagesMedium = binaryImagesMedium.concat(ternaryImagesMedium);
+    const allImagesHard = binaryImagesHard.concat(ternaryImagesHard);
+
     function displayRandomImages() {
-        // 获取用户选择的图片数量和音符类型
         const imageCount = parseInt(document.getElementById(&#39;imageCount&#39;).value, 10);
         const noteType = document.getElementById(&#39;noteType&#39;).value;
+        const difficulty = document.getElementById(&#39;difficulty&#39;).value;
 
-        // 根据音符类型选择图片数组
-        let selectedImages;
-        if (noteType === &#39;binary&#39;) {
-            selectedImages = binaryImages;
-        } else if (noteType === &#39;ternary&#39;) {
-            selectedImages = ternaryImages;
-        } else {
-            selectedImages = allImages; // 全部随机
+        let selectedImages = [];
+
+        // 根据难度和音符类型选择相应的图片集合
+        if (difficulty === &#39;easy&#39;) {
+            if (noteType === &#39;binary&#39;) {
+                selectedImages = binaryImagesEasy;
+            } else if (noteType === &#39;ternary&#39;) {
+                selectedImages = ternaryImagesEasy;
+            } else {
+                selectedImages = allImagesEasy;
+            }
+        } else if (difficulty === &#39;medium&#39;) {
+            if (noteType === &#39;binary&#39;) {
+                selectedImages = binaryImagesMedium;
+            } else if (noteType === &#39;ternary&#39;) {
+                selectedImages = ternaryImagesMedium;
+            } else {
+                selectedImages = allImagesMedium;
+            }
+        } else if (difficulty === &#39;hard&#39;) {
+            if (noteType === &#39;binary&#39;) {
+                selectedImages = binaryImagesHard;
+            } else if (noteType === &#39;ternary&#39;) {
+                selectedImages = ternaryImagesHard;
+            } else {
+                selectedImages = allImagesHard;
+            }
         }
 
-        // 清空现有的图片显示
         const container = document.getElementById(&#39;imageContainer&#39;);
         container.innerHTML = &#39;&#39;;
 
-        // 随机选择指定数量的图片
         const randomImages = [];
         while (randomImages.length &lt; imageCount) {
             const randomIndex = Math.floor(Math.random() * selectedImages.length);
@@ -110,7 +138,6 @@
             }
         }
 
-        // 创建并显示随机图片
         randomImages.forEach(imagePath =&gt; {
             const imgElement = document.createElement(&#39;img&#39;);
             imgElement.src = imagePath;
@@ -119,7 +146,6 @@
         });
     }
 
-    // 初始加载时随机显示4张图片
     window.onload = displayRandomImages;
 &lt;/script&gt;
 &lt;!-- 样式部分 --&gt;
@@ -127,61 +153,87 @@
     /* 页面标题样式 */
     h2 {
         text-align: center;
-        font-size: 2em;
+        font-size: 2.5em;
         margin-bottom: 20px;
         color: #333;
     }
 
+    /* 控制面板容器 */
+    .controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 20px;  /* 选择框之间的间距 */
+    }
+
+    /* 每个选择框容器 */
+    .select-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .select-container label {
+        font-size: 1.1em;
+        margin-bottom: 5px;
+    }
+
     /* 按钮样式 */
     .random-button {
-        display: block;
-        margin: 30px auto;
-        padding: 10px 20px;
+        padding: 12px 30px;
         font-size: 1.2em;
         background-color: #4CAF50;
         color: white;
         border: none;
-        border-radius: 5px;
+        border-radius: 8px;
         cursor: pointer;
         transition: background-color 0.3s ease;
+        width: 200px;
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    /* 按钮悬浮效果 */
     .random-button:hover {
         background-color: #45a049;
     }
 
-    /* 图片数量选择框样式 */
-    #imageCount, #noteType {
-        display: block;
-        margin: 20px auto;
+    /* 图片数量和音符类型选择框样式 */
+    #imageCount, #noteType, #difficulty {
         padding: 10px;
         font-size: 1.1em;
+        border-radius: 6px;
+        border: 1px solid #ddd;
+        width: 150px;
     }
 
     /* 图片容器样式 */
     .image-container {
         display: flex;
         justify-content: center;
-        gap: 20px; /* 图片之间的间隔 */
-        flex-wrap: wrap; /* 在屏幕较小的时候自动换行 */
+        gap: 20px;
+        flex-wrap: wrap;
         margin-top: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     }
 
     /* 图片样式 */
     .image-container img {
-        max-width: 100%;
+        width: 150px; /* 增大图片宽度 */
         height: auto;
-        width: 120px; /* 固定宽度 */
         border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 阴影效果 */
-        border: 3px solid #f1f1f1; /* 图片边框 */
-        transition: transform 0.3s ease; /* 图片缩放效果 */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border: 3px solid #f1f1f1;
+        transition: transform 0.3s ease;
     }
 
-    /* 图片悬浮效果 */
     .image-container img:hover {
-        transform: scale(1.05); /* 放大效果 */
+        transform: scale(1.1); /* 增大图片时的放大效果 */
     }
 
     /* 页面背景颜色 */
@@ -196,14 +248,6 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-    }
-
-    /* 为图片容器添加阴影和内边距 */
-    .image-container {
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     }
 &lt;/style&gt;
 </description>
