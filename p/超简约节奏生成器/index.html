@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" 选择每次显示的音符数量和音符类型，然后点击按钮随机显示。 选择音符数量:\r1 拍\r2 拍\r3 拍\r4 拍\r5 拍\r6 拍\r选择音符类型:\r二元音符\r三元音符\r全部随机\r选择难度:\r初级\r中级\r高级\r随机显示音符 导出节奏图片\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="\r选择音符数量:\r1 拍\r2 拍\r3 拍\r4 拍\r5 拍\r6 拍\r选择音符类型:\r二元音符\r三元音符\r全部随机\r选择难度:\r初级\r中级\r高级\r随机显示音符 导出节奏图片\n">
 <title>超简约节奏生成器</title>
 
 <link rel='canonical' href='https://xiaoweihome.github.io/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E8%8A%82%E5%A5%8F%E7%94%9F%E6%88%90%E5%99%A8/'>
 
 <link rel="stylesheet" href="/scss/style.min.f91c16411405e1fc5da08861fe7cf176ce361269bd69c3b7428065036933611e.css"><meta property='og:title' content="超简约节奏生成器">
-<meta property='og:description' content=" 选择每次显示的音符数量和音符类型，然后点击按钮随机显示。 选择音符数量:\r1 拍\r2 拍\r3 拍\r4 拍\r5 拍\r6 拍\r选择音符类型:\r二元音符\r三元音符\r全部随机\r选择难度:\r初级\r中级\r高级\r随机显示音符 导出节奏图片\n">
+<meta property='og:description' content="\r选择音符数量:\r1 拍\r2 拍\r3 拍\r4 拍\r5 拍\r6 拍\r选择音符类型:\r二元音符\r三元音符\r全部随机\r选择难度:\r初级\r中级\r高级\r随机显示音符 导出节奏图片\n">
 <meta property='og:url' content='https://xiaoweihome.github.io/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E8%8A%82%E5%A5%8F%E7%94%9F%E6%88%90%E5%99%A8/'>
 <meta property='og:site_name' content='小威音乐工作室'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-12-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-12-02T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="超简约节奏生成器">
-<meta name="twitter:description" content=" 选择每次显示的音符数量和音符类型，然后点击按钮随机显示。 选择音符数量:\r1 拍\r2 拍\r3 拍\r4 拍\r5 拍\r6 拍\r选择音符类型:\r二元音符\r三元音符\r全部随机\r选择难度:\r初级\r中级\r高级\r随机显示音符 导出节奏图片\n">
+<meta name="twitter:description" content="\r选择音符数量:\r1 拍\r2 拍\r3 拍\r4 拍\r5 拍\r6 拍\r选择音符类型:\r二元音符\r三元音符\r全部随机\r选择难度:\r初级\r中级\r高级\r随机显示音符 导出节奏图片\n">
     <link rel="shortcut icon" href="/favicon.png" />
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
@@ -360,12 +360,7 @@
     <section class="article-content">
     
     
-    <blockquote>
-<ul>
-<li>选择每次显示的音符数量和音符类型，然后点击按钮随机显示。</li>
-</ul>
-</blockquote>
-<!-- 随机图片数量选择 -->
+    <!-- 选择每次显示的音符数量和音符类型 -->
 <div style="display: flex; justify-content: center; gap: 20px;">
     <label for="imageCount">选择音符数量:</label>
     <select id="imageCount">
@@ -394,7 +389,6 @@
 <!-- 按钮触发事件 -->
 <p><button class="random-button" onclick="displayRandomImages()">随机显示音符</button>
 <button class="export-button" onclick="exportImages()">导出节奏图片</button></p>
-<!-- 随机显示音符的脚本 -->
 <script>
     // 音符图片的路径
     const binaryNotes = [
@@ -432,37 +426,27 @@
         }
     };
 
-    // 随机显示图片
+    // 随机显示图片，允许重复
     function displayRandomImages() {
         // 获取用户选择的图片数量、音符类型和难度
         const imageCount = parseInt(document.getElementById('imageCount').value, 10);
         const noteType = document.getElementById('noteType').value;
         const difficulty = parseInt(document.getElementById('difficulty').value, 10);
 
-        let selectedImages = [];
-
-        selectedImages = difficultySets[difficulty][noteType] || [];
+        let selectedImages = difficultySets[difficulty][noteType] || [];
 
         // 清空现有的图片显示
         const container = document.getElementById('imageContainer');
         container.innerHTML = '';
 
-        // 随机选择指定数量的图片
-        const randomImages = [];
-        while (randomImages.length < imageCount) {
+        // 随机选择指定数量的图片，允许重复
+        for (let i = 0; i < imageCount; i++) {
             const randomIndex = Math.floor(Math.random() * selectedImages.length);
-            if (!randomImages.includes(selectedImages[randomIndex])) {
-                randomImages.push(selectedImages[randomIndex]);
-            }
-        }
-
-        // 创建并显示随机图片
-        randomImages.forEach(imagePath => {
             const imgElement = document.createElement('img');
-            imgElement.src = imagePath;
+            imgElement.src = selectedImages[randomIndex];
             imgElement.alt = '音符';
             container.appendChild(imgElement);
-        });
+        }
     }
 
     // 导出合成图片
@@ -480,19 +464,12 @@
         const ctx = canvas.getContext('2d');
 
         // 设置每张图片的尺寸
-        const imageWidth = 150; // 图片宽度
-        const imageHeight = 150; // 图片高度
-        const padding = 10; // 图片间隔
-        let totalWidth = 0;
-        let totalHeight = imageHeight + padding * 2; // 高度固定为一行
+        const imageWidth = 150;
+        const imageHeight = 150;
+        const padding = 10;
+        const totalWidth = (imageWidth + padding) * images.length - padding;
+        const totalHeight = imageHeight + padding * 2;
 
-        // 计算总宽度
-        for (let i = 0; i < images.length; i++) {
-            totalWidth += imageWidth + padding;
-        }
-        totalWidth -= padding; // 去除最后一张图片后多加的间隔
-
-        // 设置canvas的尺寸
         canvas.width = totalWidth;
         canvas.height = totalHeight;
 
@@ -511,7 +488,6 @@
             imgElement.onload = function () {
                 ctx.drawImage(imgElement, x, y, imageWidth, imageHeight);
 
-                // 导出图像
                 if (index === images.length - 1) {
                     const link = document.createElement('a');
                     link.href = canvas.toDataURL();
@@ -525,15 +501,7 @@
     // 初始加载时随机显示4张图片
     window.onload = displayRandomImages;
 </script>
-<!-- 样式部分 -->
 <style>
-    h2 {
-        text-align: center;
-        font-size: 2em;
-        margin-bottom: 20px;
-        color: #333;
-    }
-
     .random-button, .export-button {
         display: block;
         margin: 30px auto;
@@ -544,44 +512,20 @@
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        transition: background-color 0.3s;
-    }
-
-    .random-button:hover, .export-button:hover {
-        background-color: #45a049;
     }
 
     .image-container {
         display: flex;
         justify-content: center;
-        gap: 20px;
-        flex-wrap: nowrap;
+        gap: 10px;
         margin-top: 20px;
-        padding: 10px;
-        background-color: #fff;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .image-container img {
         width: 150px;
         height: 150px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        border: 3px solid #f1f1f1;
-    }
-
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f7f7f7;
-        color: #444;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
+        border: 2px solid #ccc;
+        border-radius: 5px;
     }
 </style>
 
@@ -617,19 +561,6 @@
     <h2 class="section-title">相关文章</h2>
     <div class="related-content">
         <div class="flex article-list--tile">
-            
-                
-<article class="">
-    <a href="/p/%E6%B5%8B%E8%AF%95/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">测试</h2>
-        </div>
-    </a>
-</article>
-
             
                 
 <article class="">
@@ -821,10 +752,8 @@
     
         
     
-        
-    
-    发表了32篇文章 · 
-    总计1.17k字
+    发表了31篇文章 · 
+    总计1.14k字
 </section>
 
 
