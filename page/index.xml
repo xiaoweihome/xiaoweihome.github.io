@@ -51,7 +51,7 @@
         }
         .metronome button {
             background: #007bff;
-            color: #fff;
+            color: #fff ;
             border: none;
             padding: 20px 50px; /* 调整按钮大小 */
             font-size: 20px;

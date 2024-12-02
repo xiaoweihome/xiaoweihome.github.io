@@ -9,14 +9,16 @@ var currentBpm = parseInt(bpmInput.value, 10); // 当前BPM
 
 var currentNoteType = noteTypeSelect.value; // 当前音符类型
 
-var audioContext = new (window.AudioContext || window.webkitAudioContext)(); // 播放节拍音效
+var audioContext = new (window.AudioContext || window.webkitAudioContext)(); // 播放节拍音效（更响亮和明显的音效）
 
 function playClick() {
   var isStrong = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
   var oscillator = audioContext.createOscillator();
   var gainNode = audioContext.createGain();
-  oscillator.type = 'sine';
-  oscillator.frequency.setValueAtTime(880, audioContext.currentTime);
+  oscillator.type = 'square'; // 使用方波，产生较为响亮的声音
+
+  oscillator.frequency.setValueAtTime(1000, audioContext.currentTime); // 使用更高的频率（1000Hz）
+
   oscillator.connect(gainNode);
   gainNode.connect(audioContext.destination);
   oscillator.start();
@@ -24,9 +26,9 @@ function playClick() {
   oscillator.stop(audioContext.currentTime + 0.1); // 重音和轻音的音量设置
 
   if (isStrong) {
-    gainNode.gain.setValueAtTime(2.0, audioContext.currentTime); // 重音音量较大
+    gainNode.gain.setValueAtTime(3.0, audioContext.currentTime); // 重音音量更大
   } else {
-    gainNode.gain.setValueAtTime(0.6, audioContext.currentTime); // 轻音音量较小
+    gainNode.gain.setValueAtTime(1.2, audioContext.currentTime); // 轻音音量适中
   }
 } // 更新节奏和音符类型的函数
 
