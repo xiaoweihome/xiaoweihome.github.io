@@ -398,33 +398,38 @@
         '/img/notes/1.png', '/img/notes/2.png', '/img/notes/3.png', '/img/notes/4.png',
         '/img/notes/12.png', '/img/notes/23.png', '/img/notes/34.png', '/img/notes/14.png',
         '/img/notes/13.png', '/img/notes/24.png', '/img/notes/123.png', '/img/notes/234.png',
-        '/img/notes/134.png', '/img/notes/124.png', '/img/notes/1234.png'
+        '/img/notes/134.png', '/img/notes/124.png', '/img/notes/1234.png', '/img/notes/0.png'
     ];
 
     const ternaryNotes = [
         '/img/notes/三1.png', '/img/notes/三2.png', '/img/notes/三3.png', '/img/notes/三12.png',
-        '/img/notes/三23.png', '/img/notes/三13.png', '/img/notes/三123.png'
+        '/img/notes/三23.png', '/img/notes/三13.png', '/img/notes/三123.png', '/img/notes/三0.png'
     ];
 
-    const allNotes = [...binaryNotes, ...ternaryNotes];
+
+
+    const allNotes = [...binaryNotes, ...ternaryNotes.filter(img => img !== '/img/notes/三1.png')];
 
     const difficultySets = {
         1: {
-            binary: ['/img/notes/1.png', '/img/notes/3.png', '/img/notes/13.png', '/img/notes/134.png', '/img/notes/123.png', '/img/notes/1234.png'],
-            ternary: ['/img/notes/三1.png', '/img/notes/三3.png', '/img/notes/三13.png', '/img/notes/三123.png'],
-            all: [...binaryNotes, ...ternaryNotes]
+            binary: ['/img/notes/1.png', '/img/notes/3.png', '/img/notes/13.png', '/img/notes/134.png', '/img/notes/123.png', '/img/notes/1234.png', '/img/notes/0.png'],
+            ternary: ['/img/notes/三1.png', '/img/notes/三3.png', '/img/notes/三13.png', '/img/notes/三123.png', '/img/notes/三0.png'],
+            all: [...binaryNotes, ...ternaryNotes.filter(img => img !== '/img/notes/三1.png', '/img/notes/三0.png')]
+            
         },
         2: {
-            binary: ['/img/notes/1.png', '/img/notes/3.png', '/img/notes/13.png', '/img/notes/134.png', '/img/notes/123.png', '/img/notes/1234.png', '/img/notes/14.png', '/img/notes/12.png', '/img/notes/23.png', '/img/notes/34.png', '/img/notes/124.png', '/img/notes/234.png'],
-            ternary: ['/img/notes/三1.png', '/img/notes/三3.png', '/img/notes/三13.png', '/img/notes/三123.png', '/img/notes/三12.png', '/img/notes/三23.png'],
-            all: [...binaryNotes, ...ternaryNotes]
+            binary: ['/img/notes/1.png', '/img/notes/3.png', '/img/notes/13.png', '/img/notes/134.png', '/img/notes/123.png', '/img/notes/1234.png', '/img/notes/14.png', '/img/notes/12.png', '/img/notes/23.png', '/img/notes/34.png', '/img/notes/124.png', '/img/notes/234.png', '/img/notes/0.png'],
+            ternary: ['/img/notes/三1.png', '/img/notes/三3.png', '/img/notes/三13.png', '/img/notes/三123.png', '/img/notes/三12.png', '/img/notes/三23.png', '/img/notes/三0.png'],
+            all: [...binaryNotes, ...ternaryNotes.filter(img => img !== '/img/notes/三1.png', '/img/notes/三0.png')]
         },
         3: {
-            binary: ['/img/notes/1.png', '/img/notes/3.png', '/img/notes/13.png', '/img/notes/134.png', '/img/notes/123.png', '/img/notes/1234.png', '/img/notes/14.png', '/img/notes/12.png', '/img/notes/23.png', '/img/notes/34.png', '/img/notes/124.png', '/img/notes/234.png', '/img/notes/2.png', '/img/notes/4.png', '/img/notes/24.png'],
-            ternary: ['/img/notes/三1.png', '/img/notes/三3.png', '/img/notes/三13.png', '/img/notes/三123.png', '/img/notes/三12.png', '/img/notes/三23.png', '/img/notes/三2.png'],
-            all: [...binaryNotes, ...ternaryNotes]
+            binary: ['/img/notes/1.png', '/img/notes/3.png', '/img/notes/13.png', '/img/notes/134.png', '/img/notes/123.png', '/img/notes/1234.png', '/img/notes/14.png', '/img/notes/12.png', '/img/notes/23.png', '/img/notes/34.png', '/img/notes/124.png', '/img/notes/234.png', '/img/notes/2.png', '/img/notes/4.png', '/img/notes/24.png', '/img/notes/0.png'],
+            ternary: ['/img/notes/三1.png', '/img/notes/三3.png', '/img/notes/三13.png', '/img/notes/三123.png', '/img/notes/三12.png', '/img/notes/三23.png', '/img/notes/三2.png', '/img/notes/三0.png'],
+            all: [...binaryNotes, ...ternaryNotes.filter(img => img !== '/img/notes/三1.png', '/img/notes/三0.png')]
         }
     };
+
+
 
     function displayRandomImages() {
         const imageCount = parseInt(document.getElementById('imageCount').value, 10);
@@ -552,7 +557,6 @@
         }
     }
 </style>
-
 </section>
 
 
@@ -577,6 +581,25 @@
     
 </article>
 
+    
+        <div class="article-list--compact links">
+    
+        <article>
+            <a href="http://weimusic.top/p/%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1%E5%87%BA%E5%A5%BD%E5%90%AC%E7%9A%84%E6%B5%81%E8%A1%8C%E5%8A%A0%E8%8A%B1/" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">如何设计出好听的流行加花</h2>
+                    <footer class="article-time">
+                        
+                            可以把生成的节奏运用这篇文章的方式进行拓展
+                        
+                    </footer>
+                </div>
+        
+                
+            </a>
+        </article>
+    
+</div>
     
 
     
@@ -755,7 +778,7 @@
         
     
     发表了31篇文章 · 
-    总计1.14k字
+    总计1.15k字
 </section>
 
 
