@@ -368,7 +368,7 @@
     <title>音符分组</title>
     <style>
         body {font-family: 'Arial', sans-serif; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh; background-color: #f0f2f5;}
-        .container {background: #fff; padding: 30px 40px; border-radius: 12px; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); text-align: center; max-width: 800px; width: 90%; box-sizing: border-box; position: relative;}
+        .program-container {background: #fff; padding: 40px 50px; border-radius: 12px; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); text-align: center; width: ; max-width: 2000px; box-sizing: border-box; position: relative;}
         .form-group {display: flex; flex-direction: column; align-items: center; margin-bottom: 20px;}
         .form-group label {margin-bottom: 5px; font-size: 16px; font-weight: bold; color: #333;}
         .form-group select, .form-group input {padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 14px; width: 80%; margin-top: 10px; box-sizing: border-box; transition: all 0.3s ease;}
@@ -393,16 +393,11 @@
         .popup-container h4 {font-size: 18px; color: #333;}
         .popup-container .arrangement {background-color: #f4f4f4; margin-top: 10px; padding: 8px 15px; border-radius: 6px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); cursor: pointer;}
         .popup-container .arrangement:hover {background-color: #e0e0e0;}
-        /* 新增的滑动条样式 */
-        #arrangementList {
-            max-height: 300px; /* 固定高度 */
-            overflow-y: auto; /* 添加垂直滚动 */
-            margin-top: 10px;
-        }
+        #arrangementList {max-height: 300px; overflow-y: auto; margin-top: 10px;}
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="program-container">
         <div class="form-group">
             <label for="beats">拍子：</label>
             <select id="beats">
@@ -464,7 +459,11 @@
             const beats = parseInt(document.getElementById('beats').value);
             const rate = parseInt(document.getElementById('rate').value);
             const groupCount = parseInt(document.getElementById('groupCount').value) || 0;
-            const selectedNumbers = Array.from(document.querySelectorAll('.checkbox-group input:checked')).map(checkbox => parseInt(checkbox.value));
+            const checkboxes = document.querySelectorAll('.checkbox-group input[type="checkbox"]');
+            const selectedNumbers = [];
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) selectedNumbers.push(parseInt(checkbox.value));
+            });
             const availableNumbers = selectedNumbers.length > 0 ? selectedNumbers : [1, 2, 3, 4, 5, 6, 7, 8];
             const totalNotes = beats * rate;
             if (groupCount > 0 && groupCount > totalNotes) {
