@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="<!DOCTYPE html>\r音符分组\r拍子：\r1拍\r2拍\r3拍\r4拍\r5拍\r6拍\r7拍\r8拍\r速率：\r八分音符\r三连音\r十六分音符\r六连音\r三十二分音符\r分组数量：\r1\r2\r3\r4\r5\r6\r7\r8\r显示所有分组\r!\r使用规则\r1. 选择拍子和速率。\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
 <title></title>
 
 <link rel='canonical' href='http://localhost:1313/p/'>
 
 <link rel="stylesheet" href="/scss/style.min.f91c16411405e1fc5da08861fe7cf176ce361269bd69c3b7428065036933611e.css"><meta property='og:title' content="">
-<meta property='og:description' content="<!DOCTYPE html>\r音符分组\r拍子：\r1拍\r2拍\r3拍\r4拍\r5拍\r6拍\r7拍\r8拍\r速率：\r八分音符\r三连音\r十六分音符\r六连音\r三十二分音符\r分组数量：\r1\r2\r3\r4\r5\r6\r7\r8\r显示所有分组\r!\r使用规则\r1. 选择拍子和速率。\n">
+<meta property='og:description' content="">
 <meta property='og:url' content='http://localhost:1313/p/'>
 <meta property='og:site_name' content='小威音乐工作室'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' />
 <meta name="twitter:title" content="">
-<meta name="twitter:description" content="<!DOCTYPE html>\r音符分组\r拍子：\r1拍\r2拍\r3拍\r4拍\r5拍\r6拍\r7拍\r8拍\r速率：\r八分音符\r三连音\r十六分音符\r六连音\r三十二分音符\r分组数量：\r1\r2\r3\r4\r5\r6\r7\r8\r显示所有分组\r!\r使用规则\r1. 选择拍子和速率。\n">
+<meta name="twitter:description" content="">
     <link rel="shortcut icon" href="/favicon.png" />
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
@@ -328,7 +328,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 0 分钟
                 </time>
             </div>
         
@@ -343,207 +343,7 @@
     <section class="article-content">
     
     
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>音符分组</title>
-    <style>
-        body {font-family: 'Arial', sans-serif; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh; background-color: #f0f2f5;}
-        .container {background: #fff; padding: 30px 40px; border-radius: 12px; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); text-align: center; max-width: 800px; width: 90%; box-sizing: border-box; position: relative;}
-        .form-group {display: flex; flex-direction: column; align-items: center; margin-bottom: 20px;}
-        .form-group label {margin-bottom: 5px; font-size: 16px; font-weight: bold; color: #333;}
-        .form-group select, .form-group input {padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 14px; width: 80%; margin-top: 10px; box-sizing: border-box; transition: all 0.3s ease;}
-        .form-group select:focus, .form-group input:focus {border-color: #4CAF50; box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);}
-        .checkbox-group {display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 20px; padding: 10px 0;}
-        .checkbox-group label {font-size: 14px; color: #555; display: inline-block;}
-        .checkbox-group input {margin-right: 5px; margin-top: 5px;}
-        button {background-color: #4CAF50; color: white; padding: 12px 30px; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; margin-top: 20px; transition: background-color 0.3s ease;}
-        button:hover {background-color: #45a049;}
-        .result {margin-top: 20px; font-size: 16px; color: #333; font-weight: bold; word-wrap: break-word; display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;}
-        .result .group {background-color: #f4f4f4; padding: 8px 15px; border-radius: 6px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); font-size: 14px; cursor: pointer;}
-        .result .group span {font-weight: bold; color: #4CAF50;}
-        .result .group:hover {background-color: #e0e0e0;}
-        .info-icon {background-color: #f44336; color: white; border-radius: 50%; width: 24px; height: 24px; font-size: 14px; display: inline-flex; justify-content: center; align-items: center; cursor: pointer; position: absolute; bottom: 20px; right: 20px; z-index: 1000;}
-        .info-popup {background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); max-width: 500px; margin: 20px auto; display: none;}
-        .info-popup h4 {margin-top: 0; font-size: 18px; color: #333;}
-        .info-popup p {font-size: 14px; color: #555; line-height: 1.6;}
-        .info-popup button {background-color: #f44336; color: white; padding: 8px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; margin-top: 10px;}
-        .info-popup button:hover {background-color: #e53935;}
-        .popup-overlay {position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.5); display: none; z-index: 1000;}
-        .popup-container {background: white; padding: 20px; border-radius: 10px; max-width: 600px; margin: 100px auto; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);}
-        .popup-container h4 {font-size: 18px; color: #333;}
-        .popup-container .arrangement {background-color: #f4f4f4; margin-top: 10px; padding: 8px 15px; border-radius: 6px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); cursor: pointer;}
-        .popup-container .arrangement:hover {background-color: #e0e0e0;}
-        /* 新增的滑动条样式 */
-        #arrangementList {
-            max-height: 300px; /* 固定高度 */
-            overflow-y: auto; /* 添加垂直滚动 */
-            margin-top: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="form-group">
-            <label for="beats">拍子：</label>
-            <select id="beats">
-                <option value="1">1拍</option>
-                <option value="2">2拍</option>
-                <option value="3">3拍</option>
-                <option value="4">4拍</option>
-                <option value="5">5拍</option>
-                <option value="6">6拍</option>
-                <option value="7">7拍</option>
-                <option value="8">8拍</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="rate">速率：</label>
-            <select id="rate">
-                <option value="2">八分音符</option>
-                <option value="3">三连音</option>
-                <option value="4">十六分音符</option>
-                <option value="6">六连音</option>
-                <option value="8">三十二分音符</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="groupCount">分组数量：</label>
-            <input id="groupCount" type="number" min="1" placeholder="输入数量（可选）">
-        </div>
-        <div class="checkbox-group">
-            <label><input type="checkbox" value="1">1</label>
-            <label><input type="checkbox" value="2">2</label>
-            <label><input type="checkbox" value="3">3</label>
-            <label><input type="checkbox" value="4">4</label>
-            <label><input type="checkbox" value="5">5</label>
-            <label><input type="checkbox" value="6">6</label>
-            <label><input type="checkbox" value="7">7</label>
-            <label><input type="checkbox" value="8">8</label>
-        </div>
-        <button onclick="generateAllGroupings()">显示所有分组</button>
-        <div class="result" id="result"></div>
-        <div class="info-icon" onclick="togglePopup()">!</div>
-    </div>
-    <div class="info-popup" id="infoPopup">
-        <h4>使用规则</h4>
-        <p>1. 选择拍子和速率。</p>
-        <p>2. 可选择音符数字进行分组。</p>
-        <p>3. 若没有输入分组数量，将显示所有可能的分组组合。</p>
-        <p>4. 点击“显示所有分组”查看结果。</p>
-        <button onclick="togglePopup()">关闭</button>
-    </div>
-    <div class="popup-overlay" id="popupOverlay">
-        <div class="popup-container">
-            <h4>排列结果</h4>
-            <div id="arrangementList"></div>
-            <button onclick="closeArrangementPopup()">关闭</button>
-        </div>
-    </div>
-    <script>
-        function generateAllGroupings() {
-            const beats = parseInt(document.getElementById('beats').value);
-            const rate = parseInt(document.getElementById('rate').value);
-            const groupCount = parseInt(document.getElementById('groupCount').value) || 0;
-            const selectedNumbers = Array.from(document.querySelectorAll('.checkbox-group input:checked')).map(checkbox => parseInt(checkbox.value));
-            const availableNumbers = selectedNumbers.length > 0 ? selectedNumbers : [1, 2, 3, 4, 5, 6, 7, 8];
-            const totalNotes = beats * rate;
-            if (groupCount > 0 && groupCount > totalNotes) {
-                alert('分组数量不能大于总音符数');
-                return;
-            }
-            let results = [];
-            if (groupCount > 0) {
-                findCombinations(totalNotes, [], groupCount);
-            } else {
-                findAllCombinations(totalNotes, []);
-            }
-            function findCombinations(remainingNotes, currentGroup, remainingGroups) {
-                if (remainingGroups === 0) {
-                    if (remainingNotes === 0) {
-                        results.push(currentGroup);
-                    }
-                    return;
-                }
-                for (let num of availableNumbers) {
-                    if (remainingNotes - num >= 0) {
-                        findCombinations(remainingNotes - num, [...currentGroup, num], remainingGroups - 1);
-                    }
-                }
-            }
-            function findAllCombinations(remainingNotes, currentGroup) {
-                if (remainingNotes === 0) {
-                    results.push(currentGroup);
-                    return;
-                }
-                for (let num of availableNumbers) {
-                    if (remainingNotes - num >= 0) {
-                        findAllCombinations(remainingNotes - num, [...currentGroup, num]);
-                    }
-                }
-            }
-            results = results.map(group => group.sort((a, b) => a - b).join(','));
-            const uniqueResults = Array.from(new Set(results));
-            displayResults(uniqueResults);
-        }
-        function displayResults(results) {
-            const resultDiv = document.getElementById('result');
-            resultDiv.innerHTML = '';
-            if (results.length === 0) {
-                resultDiv.textContent = '没有找到有效的分组组合。';
-                return;
-            }
-            results.forEach(result => {
-                const groupDiv = document.createElement('div');
-                groupDiv.classList.add('group');
-                const span = document.createElement('span');
-                span.textContent = result;
-                groupDiv.appendChild(span);
-                groupDiv.onclick = () => showArrangement(result);
-                resultDiv.appendChild(groupDiv);
-            });
-        }
-        function showArrangement(result) {
-            const arrangements = generateArrangements(result);
-            const arrangementListDiv = document.getElementById('arrangementList');
-            arrangementListDiv.innerHTML = '';
-            arrangements.forEach(arrangement => {
-                const div = document.createElement('div');
-                div.classList.add('arrangement');
-                div.textContent = arrangement;
-                arrangementListDiv.appendChild(div);
-            });
-            document.getElementById('popupOverlay').style.display = 'block';
-        }
-        function generateArrangements(result) {
-            let permutations = [];
-            const resultArray = result.split(',').map(Number);
-            const permute = (arr, temp = []) => {
-                if (arr.length === 0) {
-                    permutations.push(temp.join(','));
-                }
-                for (let i = 0; i < arr.length; i++) {
-                    const newArr = arr.slice();
-                    newArr.splice(i, 1);
-                    permute(newArr, temp.concat(arr[i]));
-                }
-            };
-            permute(resultArray);
-            return [...new Set(permutations)];
-        }
-        function closeArrangementPopup() {
-            document.getElementById('popupOverlay').style.display = 'none';
-        }
-        function togglePopup() {
-            const popup = document.getElementById('infoPopup');
-            popup.style.display = popup.style.display === 'block' ? 'none' : 'block';
-        }
-    </script>
-</body>
-</html>
-
+    
 </section>
 
 
@@ -747,8 +547,14 @@
     
         
     
-    发表了32篇文章 · 
-    总计1.31k字
+        
+    
+        
+    
+        
+    
+    发表了35篇文章 · 
+    总计1.32k字
 </section>
 
 
