@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="<!DOCTYPE html>\r音符分组\r拍子：\r1拍\r2拍\r3拍\r4拍\r5拍\r6拍\r7拍\r8拍\r速率：\r八分音符\r三连音\r十六分音符\r六连音\r三十二分音符\r分组数量：\r1\r2\r3\r4\r5\r6\r7\r8\r显示所有分组\r!\r使用说明\r1. 选择拍子：选择音符时的节奏长度。\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="<!DOCTYPE html>\r音符分组\r拍子：\r1拍\r2拍\r3拍\r4拍\r5拍\r6拍\r7拍\r8拍\r速率：\r八分音符\r三连音\r十六分音符\r六连音\r三十二分音符\r分组数量：\r1\r2\r3\r4\r5\r6\r7\r8\r显示所有分组\r!\r">
 <title>超简约音组生成器</title>
 
 <link rel='canonical' href='https://xiaoweihome.github.io/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E9%9F%B3%E7%BB%84%E7%94%9F%E6%88%90%E5%99%A8/'>
 
 <link rel="stylesheet" href="/scss/style.min.f91c16411405e1fc5da08861fe7cf176ce361269bd69c3b7428065036933611e.css"><meta property='og:title' content="超简约音组生成器">
-<meta property='og:description' content="<!DOCTYPE html>\r音符分组\r拍子：\r1拍\r2拍\r3拍\r4拍\r5拍\r6拍\r7拍\r8拍\r速率：\r八分音符\r三连音\r十六分音符\r六连音\r三十二分音符\r分组数量：\r1\r2\r3\r4\r5\r6\r7\r8\r显示所有分组\r!\r使用说明\r1. 选择拍子：选择音符时的节奏长度。\n">
+<meta property='og:description' content="<!DOCTYPE html>\r音符分组\r拍子：\r1拍\r2拍\r3拍\r4拍\r5拍\r6拍\r7拍\r8拍\r速率：\r八分音符\r三连音\r十六分音符\r六连音\r三十二分音符\r分组数量：\r1\r2\r3\r4\r5\r6\r7\r8\r显示所有分组\r!\r">
 <meta property='og:url' content='https://xiaoweihome.github.io/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E9%9F%B3%E7%BB%84%E7%94%9F%E6%88%90%E5%99%A8/'>
 <meta property='og:site_name' content='小威音乐工作室'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-12-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-12-12T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="超简约音组生成器">
-<meta name="twitter:description" content="<!DOCTYPE html>\r音符分组\r拍子：\r1拍\r2拍\r3拍\r4拍\r5拍\r6拍\r7拍\r8拍\r速率：\r八分音符\r三连音\r十六分音符\r六连音\r三十二分音符\r分组数量：\r1\r2\r3\r4\r5\r6\r7\r8\r显示所有分组\r!\r使用说明\r1. 选择拍子：选择音符时的节奏长度。\n">
+<meta name="twitter:description" content="<!DOCTYPE html>\r音符分组\r拍子：\r1拍\r2拍\r3拍\r4拍\r5拍\r6拍\r7拍\r8拍\r速率：\r八分音符\r三连音\r十六分音符\r六连音\r三十二分音符\r分组数量：\r1\r2\r3\r4\r5\r6\r7\r8\r显示所有分组\r!\r">
     <link rel="shortcut icon" href="/favicon.png" />
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
@@ -382,7 +382,7 @@
         .result .group {background-color: #f4f4f4; padding: 8px 15px; border-radius: 6px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); font-size: 14px; cursor: pointer;}
         .result .group span {font-weight: bold; color: #4CAF50;}
         .result .group:hover {background-color: #e0e0e0;}
-        .info-icon {background-color: #f44336; color: white; border-radius: 50%; width: 24px; height: 24px; font-size: 14px; display: inline-flex; justify-content: center; align-items: center; cursor: pointer; position: absolute; bottom: 20px; right: 20px; z-index: 1000;}
+        .info-icon {background-color: #f44336; color: white; border-radius: 50%; width: 24px; height: 24px; font-size: 14px; display: none; justify-content: center; align-items: center; cursor: pointer; position: absolute; bottom: 20px; right: 20px; z-index: 1000;}
         .info-popup {background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); max-width: 500px; margin: 20px auto; display: none;}
         .info-popup h4 {margin-top: 0; font-size: 18px; color: #333;}
         .info-popup p {font-size: 14px; color: #555; line-height: 1.6;}
@@ -441,17 +441,6 @@
         <button onclick="generateAllGroupings()">显示所有分组</button>
         <div class="result" id="result"></div>
         <div class="info-icon" onclick="togglePopup()">!</div>
-    </div>
-    <div class="info-popup-container">
-        <h4>使用说明</h4>
-        <p><strong>1. 选择拍子：</strong>选择音符时的节奏长度。</p>
-        <p><strong>2. 选择速率：</strong>选择音符的速率，例如八分音符、三连音等。</p>
-        <p><strong>3. 选择分组数量：</strong>根据需求输入分组的数量。如果没有输入，将显示所有可能的分组组合。</p>
-        <p><strong>4. 选择数字：</strong>勾选你希望使用的音符数字，程序会根据这些数字进行分组。</p>
-        <p><strong>5. 自动补充：</strong>如果数字不够，会自动补充需要的数字，以使总数相加满足总音符数。</p>
-        <p><strong>6. 分组展示：</strong>点击每一个分组，可以查看该分组的所有排列组合。</p>
-    </div>
-    <div class="popup-overlay" id="popupOverlay"></div>
     <script>
         function generateAllGroupings() {
             const beats = parseInt(document.getElementById('beats').value);
@@ -811,7 +800,7 @@
         
     
     发表了34篇文章 · 
-    总计1.32k字
+    总计1.31k字
 </section>
 
 
