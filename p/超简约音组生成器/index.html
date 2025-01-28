@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="<!DOCTYPE html>\r音符分组\r拍子：\r1拍\r2拍\r3拍\r4拍\r5拍\r6拍\r7拍\r8拍\r速率：\r八分音符\r三连音\r十六分音符\r六连音\r三十二分音符\r分组数量：\r1\r2\r3\r4\r5\r6\r7\r8\r显示所有分组\r!\r">
 <title>超简约音组生成器</title>
 
-<link rel='canonical' href='https://xiaoweihome.github.io/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E9%9F%B3%E7%BB%84%E7%94%9F%E6%88%90%E5%99%A8/'>
+<link rel='canonical' href='http://localhost:1313/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E9%9F%B3%E7%BB%84%E7%94%9F%E6%88%90%E5%99%A8/'>
 
 <link rel="stylesheet" href="/scss/style.min.f91c16411405e1fc5da08861fe7cf176ce361269bd69c3b7428065036933611e.css"><meta property='og:title' content="超简约音组生成器">
 <meta property='og:description' content="<!DOCTYPE html>\r音符分组\r拍子：\r1拍\r2拍\r3拍\r4拍\r5拍\r6拍\r7拍\r8拍\r速率：\r八分音符\r三连音\r十六分音符\r六连音\r三十二分音符\r分组数量：\r1\r2\r3\r4\r5\r6\r7\r8\r显示所有分组\r!\r">
-<meta property='og:url' content='https://xiaoweihome.github.io/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E9%9F%B3%E7%BB%84%E7%94%9F%E6%88%90%E5%99%A8/'>
+<meta property='og:url' content='http://localhost:1313/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E9%9F%B3%E7%BB%84%E7%94%9F%E6%88%90%E5%99%A8/'>
 <meta property='og:site_name' content='小威音乐工作室'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-12-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-12-12T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="超简约音组生成器">
@@ -368,7 +368,7 @@
     <title>音符分组</title>
     <style>
         body {font-family: 'Arial', sans-serif; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh; background-color: #f0f2f5;}
-        .program-container {background: #fff; padding: 40px 50px; border-radius: 12px; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); text-align: center; width: ; max-width: 2000px; box-sizing: border-box; position: relative;}
+        .program-container {background: #fff; padding: 20px 70px; border-radius: 12px; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); text-align: center; width: ; max-width: 2000px; box-sizing: border-box; position: relative;}
         .form-group {display: flex; flex-direction: column; align-items: center; margin-bottom: 20px;}
         .form-group label {margin-bottom: 5px; font-size: 16px; font-weight: bold; color: #333;}
         .form-group select, .form-group input {padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 14px; width: 80%; margin-top: 10px; box-sizing: border-box; transition: all 0.3s ease;}
@@ -376,7 +376,7 @@
         .checkbox-group {display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 20px; padding: 10px 0;}
         .checkbox-group label {font-size: 14px; color: #555; display: inline-block;}
         .checkbox-group input {margin-right: 5px; margin-top: 5px;}
-        button {background-color: #4CAF50; color: white; padding: 12px 30px; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; margin-top: 20px; transition: background-color 0.3s ease;}
+        button {background-color: #4CAF50; color: white; padding: 12px 260px; border: none; border-radius: 10px; cursor: pointer; font-size: 18px; margin-top: 20px; transition: background-color 0.3s ease;}
         button:hover {background-color: #45a049;}
         .result {margin-top: 20px; font-size: 16px; color: #333; font-weight: bold; word-wrap: break-word; display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;}
         .result .group {background-color: #f4f4f4; padding: 8px 15px; border-radius: 6px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); font-size: 14px; cursor: pointer;}
@@ -391,7 +391,7 @@
         .popup-overlay {position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.5); display: none; z-index: 1000;}
         .popup-container {background: white; padding: 20px; border-radius: 10px; max-width: 600px; margin: 100px auto; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
         .popup-container h4 {font-size: 18px; color: #333;}
-        .popup-container .arrangement {background-color: #f4f4f4; margin-top: 10px; padding: 8px 15px; border-radius: 6px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); cursor: pointer;}
+        .popup-container .arrangement {background-color: #f4f4f4; margin-top: 10px; padding: 80px 15px; border-radius: 6px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); cursor: pointer;}
         .popup-container .arrangement:hover {background-color: #e0e0e0;}
         #arrangementList {max-height: 300px; overflow-y: auto; margin-top: 10px;}
         .info-popup-container {position: fixed; bottom: 20px; right: 20px; background-color: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); width: 300px; max-height: 400px; overflow-y: auto;}
@@ -619,28 +619,6 @@
     
 
     
-
-<aside class="related-content--wrapper">
-    <h2 class="section-title">相关文章</h2>
-    <div class="related-content">
-        <div class="flex article-list--tile">
-            
-                
-<article class="">
-    <a href="/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E7%BB%83%E4%B9%A0%E8%AE%A1%E6%97%B6%E5%99%A8/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">超简约练习计时器</h2>
-        </div>
-    </a>
-</article>
-
-            
-        </div>
-    </div>
-</aside>
 
      
     
@@ -918,7 +896,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.58dc37a8e9944d3619e0fd7aeacb4fab7c861e596f47c60677429fa405542719.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
