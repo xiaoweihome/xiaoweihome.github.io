@@ -599,71 +599,78 @@
       </button>
     </div>
   </div>
-  <script>
-    let timer;
-    let isPaused = false;
-    let timeRemaining;
-    const logContainer = document.getElementById("log");
-    const audio = new Audio("https://www.soundjay.com/button/beep-07.wav");
-    function startTimer() {
-      let content = document.getElementById("practiceContent").value.trim();
+<script>
+  let timer;
+  let isPaused = false;
+  let timeRemaining = 0; // 剩余时间（秒）
+  let totalTime = 0; // 总时间（秒）
+  const logContainer = document.getElementById("log");
+  const audio = new Audio("https://www.soundjay.com/button/beep-07.wav");
+  function startTimer() {
+    if (isPaused) {
+      // 如果是暂停状态，直接继续计时
+      isPaused = false;
+    } else {
+      // 如果是初次开始，获取输入的时间
       const minutes = parseInt(document.getElementById("minutes").value, 10) || 0;
       const seconds = parseInt(document.getElementById("seconds").value, 10) || 0;
-      if (!content) {
-        content = "空白";
-      }
       if (minutes === 0 && seconds === 0) {
         alert("时间必须填写！");
         return;
       }
-      timeRemaining = minutes * 60 + seconds;
-      clearInterval(timer);
-      const minuteBox = document.getElementById("minuteBox");
-      const secondBox = document.getElementById("secondBox");
-      minuteBox.textContent = minutes < 10 ? "0" + minutes : minutes;
-      secondBox.textContent = seconds < 10 ? "0" + seconds : seconds;
-      document.getElementById("timerDisplay").classList.remove("hidden");
-      if (isPaused) {
-        isPaused = false;
-      } else {
-        timer = setInterval(() => {
-          timeRemaining--;
-          const updatedMinutes = Math.floor(timeRemaining / 60);
-          const updatedSeconds = timeRemaining % 60;
-          minuteBox.textContent = updatedMinutes < 10 ? "0" + updatedMinutes : updatedMinutes;
-          secondBox.textContent = updatedSeconds < 10 ? "0" + updatedSeconds : updatedSeconds;
-          if (timeRemaining <= 0) {
-            clearInterval(timer);
-            alert("计时结束！");
-            const logEntry = document.createElement("div");
-            logEntry.innerHTML = `内容：${content} | 时长：${updatedMinutes} 分 ${updatedSeconds} 秒 <button onclick="deleteLog(this)">🗑️</button>`;
-            logContainer.appendChild(logEntry);
-            try {
-              audio.play();
-            } catch (err) {
-              console.error("音频播放失败", err);
-            }
-          }
-        }, 1000);
+      // 初始化总时间和剩余时间
+      totalTime = minutes * 60 + seconds;
+      timeRemaining = totalTime;
+    }
+    clearInterval(timer); // 清除任何之前的计时器
+    const minuteBox = document.getElementById("minuteBox");
+    const secondBox = document.getElementById("secondBox");
+    timer = setInterval(() => {
+      if (timeRemaining <= 0) {
+        clearInterval(timer);
+        alert("计时结束！");
+        logPractice(); // 记录日志
+        try {
+          audio.play();
+        } catch (err) {
+          console.error("音频播放失败", err);
+        }
+        return;
       }
-    }
-    function pauseTimer() {
-      clearInterval(timer);
-      isPaused = true;
-    }
-    function resetTimer() {
-      clearInterval(timer);
-      document.getElementById("minuteBox").textContent = "00";
-      document.getElementById("secondBox").textContent = "00";
-      document.getElementById("timerDisplay").classList.add("hidden");
-      isPaused = false;
-    }
-    function clearAllRecords() {
-      logContainer.innerHTML = "";
-    }
-    function deleteLog(button) {
-      button.parentElement.remove();
-    }
+      timeRemaining--;
+      const updatedMinutes = Math.floor(timeRemaining / 60);
+      const updatedSeconds = timeRemaining % 60;
+      minuteBox.textContent = updatedMinutes < 10 ? "0" + updatedMinutes : updatedMinutes;
+      secondBox.textContent = updatedSeconds < 10 ? "0" + updatedSeconds : updatedSeconds;
+    }, 1000);
+  }
+  function pauseTimer() {
+    clearInterval(timer);
+    isPaused = true; // 标记为暂停状态
+  }
+  function resetTimer() {
+    clearInterval(timer);
+    timeRemaining = 0;
+    totalTime = 0;
+    document.getElementById("minuteBox").textContent = "00";
+    document.getElementById("secondBox").textContent = "00";
+    document.getElementById("timerDisplay").classList.add("hidden");
+    isPaused = false;
+  }
+  function logPractice() {
+    const content = document.getElementById("practiceContent").value.trim() || "空白";
+    // 计算实际练习时间
+    const elapsedTime = totalTime - timeRemaining;
+    const elapsedMinutes = Math.floor(elapsedTime / 60);
+    const elapsedSeconds = elapsedTime % 60;
+    const logEntry = document.createElement("div");
+    logEntry.innerHTML = `内容：${content} | 时长：${elapsedMinutes} 分 ${elapsedSeconds} 秒 
+      <button onclick="deleteLog(this)">🗑️</button>`;
+    logContainer.appendChild(logEntry);
+  }
+  function deleteLog(button) {
+    button.parentElement.remove();
+  }
     function exportLog() {
       const logContent = logContainer.innerText;
       const canvas = document.createElement("canvas");
@@ -680,12 +687,13 @@
         ctx.fillText(line, 20, y);
         y += 20;
       });
+      // 获取当前日期并格式化为年月日
       const now = new Date();
-      const dateString = now.toISOString().split('T')[0];
+      const dateString = now.toISOString().split('T')[0]; // 获取格式：YYYY-MM-DD
       const dataURL = canvas.toDataURL();
       const link = document.createElement("a");
       link.href = dataURL;
-      link.download = `${dateString}_练习记录.png`;
+      link.download = `${dateString}_练习记录.png`;  // 使用格式化后的日期作为文件名
       link.click();
     }
   </script>
