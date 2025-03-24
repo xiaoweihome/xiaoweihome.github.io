@@ -6,7 +6,258 @@
         <description>Recent content in Posts on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>每种乐器、人声不同频段的作用</title>
+        <link>https://xiaoweihome.github.io/p/%E6%AF%8F%E7%A7%8D%E4%B9%90%E5%99%A8%E4%BA%BA%E5%A3%B0%E4%B8%8D%E5%90%8C%E9%A2%91%E6%AE%B5%E7%9A%84%E4%BD%9C%E7%94%A8/</link>
+        <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoweihome.github.io/p/%E6%AF%8F%E7%A7%8D%E4%B9%90%E5%99%A8%E4%BA%BA%E5%A3%B0%E4%B8%8D%E5%90%8C%E9%A2%91%E6%AE%B5%E7%9A%84%E4%BD%9C%E7%94%A8/</guid>
+        <description>&lt;img src="https://xiaoweihome.github.io/p/%E6%AF%8F%E7%A7%8D%E4%B9%90%E5%99%A8%E4%BA%BA%E5%A3%B0%E4%B8%8D%E5%90%8C%E9%A2%91%E6%AE%B5%E7%9A%84%E4%BD%9C%E7%94%A8/1.jpg" alt="Featured image of post 每种乐器、人声不同频段的作用" /&gt;&lt;blockquote&gt;
+&lt;h1 id=&#34;imglistsvg-目录&#34;&gt;&lt;img src=&#34;https://xiaoweihome.github.io/img/list.svg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt; 目录
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%89%93%e5%87%bb%e4%b9%90&#34; &gt;打击乐&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%ba%95%e9%bc%93&#34; &gt;底鼓&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%86%9b%e9%bc%93&#34; &gt;军鼓&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e8%b4%9d%e6%96%af&#34; &gt;贝斯&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%ba%ba%e5%a3%b0&#34; &gt;人声&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%90%89%e4%bb%96&#34; &gt;吉他&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%9c%a8%e5%90%89%e4%bb%96&#34; &gt;木吉他&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e7%94%b5%e5%90%89%e4%bb%96&#34; &gt;电吉他&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%92%a2%e7%90%b4&#34; &gt;钢琴&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;打击乐&#34;&gt;打击乐
+&lt;/h1&gt;&lt;h2 id=&#34;底鼓&#34;&gt;底鼓
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;20 - 50 HZ： 低频的饱满程度（可能会缺少指向）🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;60 - 150 HZ： 提升力量感（底鼓最主要的频段，但是要注意和 Bass 协调）🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;300 - 350 HZ ：一般都会消除，可以为其他乐器让出空间（例如 Bass）⛔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;500 - 1500 HZ：提升底鼓踩锤带来的打击感，帮助声音更好的在小型回放设备突出 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;军鼓&#34;&gt;军鼓
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;100 HZ 以下：大多数时候不需要这部分的声音，可以减少相位飘忽问题 ⛔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;150 - 300 HZ：非常重要的打击感部分，突出军鼓的力量感和腔体声音，往往是歌曲中最重要的节奏部分 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;500 - 1000 HZ：可以适当消减为其它乐器留出空间，并更好的突出军鼓重要的频段 ⛔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1.5K - 3K HZ：提升军鼓的弹簧声音，高频亮度、和穿透力 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;贝斯&#34;&gt;贝斯
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;40 HZ以下：不太能听到，没什么音高感，多数情况下可以切除这部分的 Rumble，合理利用 Overtone 来提升听感。⛔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;40 - 100 HZ：Bass 重要的频段，可以提升低频的基础达到整首歌的饱满度，（但要注意和底鼓协调）🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;100 - 250 HZ：提升 Bass 音符的演奏清晰度，提升律动、清晰度和指向性 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;300 - 600 HZ：可以适当减少 Bass 的谐振和盒子感 ⛔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;800 - 1.2K HZ：提升手指拨弦的感觉和琴弦品丝的相撞感 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;人声&#34;&gt;人声
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;80 - 100 HZ 以下：基本可以切掉，对人声没有什么实际帮助 ⛔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;100 - 200 HZ：人声的底气，胸腔共鸣的声音，提升厚度 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;300 - 600 HZ：可以适当减少鼻音、闷的声音，往往这个区域的适当消减可以提升声音的通透感 ⛔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1.5K - 3K HZ：人声最核心的区域，提升可以增加声音的辨识度、清晰度和穿透力，但是要注意齿音的控制 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;7K - 9K HZ：注意控制齿音 ⛔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;10K 以上：制造空气感 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;吉他&#34;&gt;吉他
+&lt;/h1&gt;&lt;h2 id=&#34;木吉他&#34;&gt;木吉他
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;80 - 100 HZ 以下：往往可以去除，基本没有指向性 ⛔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;100 - 150 HZ：取决于演奏内容，往往需要控制 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;200 - 500 HZ：可以适当突出吉他腔体声音，提升木头共振的感觉 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2K - 5K HZ：主要的高频区域，可以提升清晰感，突出吉他位置 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5K - 10K 以上：提升拨片的扫弦打击感 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;电吉他&#34;&gt;电吉他
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;100 HZ 以下：基本不需要（吉他没有那么低的声音）⛔&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;100 - 250 HZ：节奏吉他的打击感，这个跟 BASS 的频段会有些冲突。🟢&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你的吉他使用的音区相对较低，可以当成高八度的 BASS，和 BASS 一起作为节奏的部分；&lt;/p&gt;
+&lt;p&gt;如果你的吉他使用的是比较高的音区，这个部分实际上可以忽略掉一部分；但如果使用了很多的失真，你可能需要保持这部分声音的充足，这样才会给你很多的力量感&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;250 - 400 HZ：往往这个频段是你希望去掉的声音，因为 400HZ 声音堆积非常多，切掉一些会让你的声音变得清晰 ⛔&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;1.5K - 3K HZ：最重要的地方，这个频段几乎决定了你的音色风格； 🟢&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果是失真吉他，你需要选择这个频段是高或者低；&lt;/p&gt;
+&lt;p&gt;如果你是Clean吉他，这个频段很重要，因为Clean音色很少有那种连续演奏的方式，所以音头在这个频段会更突出，会给别人更清晰的这种穿透感&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;2K - 5K HZ：高频的核心部分 🟢&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;100 - 250 HZ / 2K - 5K HZ：这两个频段可以当作一个核心的位置，通过调整中频（MIDDLE）来调整你整个吉他音色的感觉 🟢&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;10K 以上：大多数情况下不需要，很多时候电吉他的基础音色不需要10K-12K以上的频段。⛔&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;钢琴&#34;&gt;钢琴
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;80 - 100 HZ以下：往往可以去除，基本没有指向性 ⛔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;100 - 200 HZ：可以增加饱满低频，但要注意琴键打击的瑕疵 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;300 - 700 HZ：可以适当取出一部分，让高低频更通透 ⛔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1.5K - 7K：钢琴最核心的部分，适当的增加会提高钢琴在整体音乐的辨识度 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;10K：敲击感 🟢&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>人声贴唱的制作步骤</title>
+        <link>https://xiaoweihome.github.io/p/%E4%BA%BA%E5%A3%B0%E8%B4%B4%E5%94%B1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4/</link>
+        <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoweihome.github.io/p/%E4%BA%BA%E5%A3%B0%E8%B4%B4%E5%94%B1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4/</guid>
+        <description>&lt;blockquote&gt;
+&lt;h1 id=&#34;imglistsvg-目录&#34;&gt;&lt;img src=&#34;https://xiaoweihome.github.io/img/list.svg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt; 目录
+&lt;/h1&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;前期准备&#34;&gt;前期准备
+&lt;/h1&gt;&lt;h2 id=&#34;人声清理&#34;&gt;人声清理
+&lt;/h2&gt;&lt;p&gt;剪掉演唱中间不需要的一些杂音，让人声保持干净。&lt;/p&gt;
+&lt;h2 id=&#34;动态调整&#34;&gt;动态调整
+&lt;/h2&gt;&lt;p&gt;用 Clip Gain 调整人声的演唱动态，需要突出的地方提起来，需要沉下去的地方低下去，让人声的情绪动态更好。&lt;/p&gt;
+&lt;h2 id=&#34;节奏音准修正&#34;&gt;节奏、音准修正
+&lt;/h2&gt;&lt;p&gt;用 Melodyne 修正人声的音准、音长、节奏，让人声听起来与伴奏配合的更自然，没有突兀感。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;中期混音&#34;&gt;中期混音
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;插入轨：所有效果直接处理音轨，一般在这个音轨需要做的是连续性的处理，或者你对这个基础音色的修正、修改、优化。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;发送轨：把所有插入轨处理过后的信号发送到发送轨（发送同样一个复制出来完全一模一样的声音）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;插入轨效果以下有些步骤可以自行选择添加&#34;&gt;插入轨效果（以下有些步骤可以自行选择添加）
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;用 Pro Ds 去掉不必要的齿音。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用 Pro Q3 校正均衡，在去掉人声中不需要的声音。（校正型均衡）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用 Pro Q3 提升人声中你需要的声音。（提升型均衡）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;负责尖尖声音部分的压缩（抓住尖的部分）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;慢速压缩&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
         <title>Louis Bellson - Modern Reading Text in 4x4</title>
         <link>https://xiaoweihome.github.io/p/louis-bellson-modern-reading-text-in-4x4/</link>
         <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
@@ -2537,12 +2788,12 @@
 </description>
         </item>
         <item>
-        <title>【★★】周杰伦——霍元甲（简化版）</title>
-        <link>https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/</link>
+        <title>【★★】周杰伦 - 霍元甲（简化版）</title>
+        <link>https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/</link>
         <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/</guid>
-        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/1.png" alt="Featured image of post 【★★】周杰伦——霍元甲（简化版）" /&gt;&lt;h1 id=&#34;imgvocabularysvg-高清乐谱下载&#34;&gt;&lt;img src=&#34;https://xiaoweihome.github.io/img/vocabulary.svg&#34;
+        <guid>https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/</guid>
+        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/1.png" alt="Featured image of post 【★★】周杰伦 - 霍元甲（简化版）" /&gt;&lt;h1 id=&#34;imgvocabularysvg-高清乐谱下载&#34;&gt;&lt;img src=&#34;https://xiaoweihome.github.io/img/vocabulary.svg&#34;
 	
 	
 	
@@ -2550,10 +2801,10 @@
 	
 	
 &gt; 高清乐谱下载
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/1.png&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/1.png&#34;
 	width=&#34;1239&#34;
 	height=&#34;1754&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/1_hu8395029467961664648.png 480w, https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/1_hu12328617367747044361.png 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/1_hu8395029467961664648.png 480w, https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/1_hu12328617367747044361.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;1&#34;
@@ -2563,10 +2814,10 @@
 		data-flex-grow=&#34;70&#34;
 		data-flex-basis=&#34;169px&#34;
 	
-&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/2.png&#34;
+&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/2.png&#34;
 	width=&#34;1239&#34;
 	height=&#34;1754&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/2_hu11482925470044994031.png 480w, https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/2_hu16173710003835571254.png 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/2_hu11482925470044994031.png 480w, https://xiaoweihome.github.io/p/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E9%9C%8D%E5%85%83%E7%94%B2%E7%AE%80%E5%8C%96%E7%89%88/2_hu16173710003835571254.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;2&#34;
@@ -2733,7 +2984,9 @@
 &lt;hr&gt;
 &lt;h1 id=&#34;单击重音移位的拓展&#34;&gt;单击重音移位的拓展
 &lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;在RLRL的基础上，音符打在重音，休止用弱音填充（可以以十六分或三连音为基底练习）。&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;在RLRL的基础上，音符打在重音，休止用弱音填充（可以以十六分或三连音为基底练习）。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;把弱音转换为双击滚奏&#34;&gt;把弱音转换为双击滚奏
 &lt;/h4&gt;&lt;blockquote&gt;
@@ -2778,6 +3031,11 @@
 		data-flex-basis=&#34;179px&#34;
 	
 &gt;&lt;/p&gt;
+&lt;h1 id=&#34;paradiddle-底鼓拓展&#34;&gt;Paradiddle 底鼓拓展
+&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;大切分的双击换成底鼓&lt;/li&gt;
+&lt;li&gt;长音符（大于四分音符）最后一个音换成底鼓&lt;/li&gt;
+&lt;/ol&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;节奏型拓展&#34;&gt;节奏型拓展
 &lt;/h1&gt;&lt;h4 id=&#34;基础节奏的拓展&#34;&gt;基础节奏的拓展
@@ -3042,6 +3300,174 @@
     &lt;/iframe&gt;
 &lt;/div&gt;
 
+</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://xiaoweihome.github.io/p/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoweihome.github.io/p/</guid>
+        <description>&lt;h1 id=&#34;logic-pro-终极快捷键指南&#34;&gt;Logic Pro 终极快捷键指南
+&lt;/h1&gt;&lt;h2 id=&#34;-全局操作&#34;&gt;🌐 &lt;strong&gt;全局操作&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;基础编辑&#34;&gt;&lt;strong&gt;基础编辑&lt;/strong&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;全选&lt;/strong&gt;：&lt;strong&gt;⌘ + A&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;撤销&lt;/strong&gt;：&lt;strong&gt;⌘ + Z&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;取消撤销（前撤）&lt;/strong&gt;：&lt;strong&gt;⌘ + ⇧ + Z&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开启/关闭当前循环Looper&lt;/strong&gt;：&lt;strong&gt;C&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;循环选中音频/MIDI&lt;/strong&gt;：选中内容后按 &lt;strong&gt;U&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;跳过当前循环&lt;/strong&gt;：&lt;strong&gt;⌘ + 单击Loop黄条&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://i2.hdslb.com/bfs/article/cc5b4e8daf186c191cf3a2be6107e42dcc18dc32.jpg@1192w.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;轨道管理&#34;&gt;&lt;strong&gt;轨道管理&lt;/strong&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;新建轨道&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;任意轨道：&lt;strong&gt;⌥ + ⌘ + N&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;软件乐器轨：&lt;strong&gt;⌥ + ⌘ + S&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;音频轨：&lt;strong&gt;⌥ + ⌘ + A&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://i2.hdslb.com/bfs/article/b454012961243d4d77542b376bc319b87bdd7c59.jpg@1192w.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;复制轨道&lt;/strong&gt;：&lt;strong&gt;⌘ + D&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;轨道编组&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;多轨编组：选中轨道后按 &lt;strong&gt;⇧ + ⌘ + D&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;直接Summing编组：&lt;strong&gt;⇧ + ⌘ + G&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://i2.hdslb.com/bfs/article/b576743b1531391fc7d8d072f63d1ee75c281270.jpg@1192w.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;界面控制&#34;&gt;&lt;strong&gt;界面控制&lt;/strong&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;显示/隐藏组件&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;资源库：&lt;strong&gt;Y&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;检查器：&lt;strong&gt;I&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;混音台：&lt;strong&gt;X&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;所有插件窗口：&lt;strong&gt;V&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://i2.hdslb.com/bfs/article/98618ce7a6a6dc07dc91c2b50ed0cda01fa16a4a.jpg@1192w.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;快速访问&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;音频设置：&lt;strong&gt;⌥ + X&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;全局设置：&lt;strong&gt;G&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;乐段库：&lt;strong&gt;O&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-钢琴卷帘操作&#34;&gt;🎹 &lt;strong&gt;钢琴卷帘操作&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;midi编辑核心&#34;&gt;&lt;strong&gt;MIDI编辑核心&lt;/strong&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;打开/隐藏钢琴卷帘&lt;/strong&gt;：&lt;strong&gt;P&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;音符微调&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;移动半音：&lt;strong&gt;⌥ + ↑/↓&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;移动八度：&lt;strong&gt;⇧ + ⌥ + ↑/↓&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://i2.hdslb.com/bfs/article/2f50ad1d28f99f1b25d152cb8d63ec165caf25cd.jpg@1192w.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;力度控制&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;统一力度：&lt;strong&gt;⌥ + ⇧ + 拖拽&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;画线调整：直接绘制力度曲线&lt;br&gt;
+&lt;img src=&#34;https://i2.hdslb.com/bfs/article/b3c1fe0e7515999f5dee8e1f6b40df1f4454b4c8.jpg@1192w.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-高级技巧&#34;&gt;⚡ &lt;strong&gt;高级技巧&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;自动化与flex&#34;&gt;&lt;strong&gt;自动化与Flex&lt;/strong&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;自动化操作&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;显示自动化：&lt;strong&gt;A&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;曲线调整：&lt;strong&gt;⌃ + ⇧ + 拖拽&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;删除全部自动化：&lt;strong&gt;⌃ + ⌘ + Delete&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://i2.hdslb.com/bfs/article/abf969aa124a26d41916fe2cb41b5e6015eb15a1.png@1192w.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flex工具&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;启用：&lt;strong&gt;⌘ + F&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;切割音频：&lt;strong&gt;T + I + ⌥ + 点击&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-学习资源&#34;&gt;📚 &lt;strong&gt;学习资源&lt;/strong&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;内置帮助&lt;/strong&gt;：点击左上角问号图标&lt;br&gt;
+&lt;img src=&#34;https://i2.hdslb.com/bfs/article/f966e206ddaad450e42d352d6ff89f0f385be045.jpg@1188w_848h.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;快捷键菜单&lt;/strong&gt;：&lt;strong&gt;⌥ + K&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;在线练习&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://www.shortcutfoo.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ShortcutFoo&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;注&lt;/strong&gt;：所有快捷键保留完整说明与图片，仅通过分级标题、加粗关键操作、优化空行提升可读性。&lt;br&gt;
+完整功能细节请参考原始内容。&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         </item>
         
