@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" 目录 前期准备 人声清理 剪掉演唱中间不需要的一些杂音，让人声保持干净。\n动态调整 用 Clip Gain 调整人声的演唱动态，需要突出的地方提起来，需要沉下去的地方低下去，让人声的情绪动态更好。\n节奏、音准修正 用 Melodyne 修正人声的音准、音长、节奏，让人声听起来与伴奏配合的更自然，没有突兀感。\n中期混音 插入轨：所有效果直接处理音轨，一般在这个音轨需要做的是连续性的处理，或者你对这个基础音色的修正、修改、优化。\n发送轨：把所有插入轨处理过后的信号发送到发送轨（发送同样一个复制出来完全一模一样的声音）\n插入轨效果（以下有些步骤可以自行选择添加） 用 Pro Ds 去掉不必要的齿音。\n用 Pro Q3 校正均衡，在去掉人声中不需要的声音。（校正型均衡）\n用 Pro Q3 提升人声中你需要的声音。（提升型均衡）\n负责尖尖声音部分的压缩（抓住尖的部分）\n慢速压缩\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" 目录 前期准备 人声清理 动态调整 节奏、音准修正 中期混音 插入轨效果 发送轨效果 自动化处理 后期处理 总线处理 响度提升 前期准备 人声清理 剪掉演唱中间不需要的一些杂音，让人声保持干净。\n动态调整 用 Clip Gain 调整人声的演唱动态，需要突出的地方提起来，需要沉下去的地方低下去，让人声的情绪动态更好。\n节奏、音准修正 用 Melodyne 修正人声的音准、音长、节奏，让人声听起来与伴奏配合的更自然，没有突兀感。\n中期混音 插入轨：所有效果直接处理音轨，一般在这个音轨需要做的是连续性的处理，或者你对这个基础音色的修正、修改、优化。\n发送轨：把所有插入轨处理过后的信号发送到发送轨（发送同样一个复制出来完全一模一样的声音）\n插入轨效果（以下有些步骤可以自行选择添加） 用 Pro Ds 去掉不必要的齿音。\n用 Pro Q3 校正均衡，在去掉人声中不需要的声音。（校正型均衡）\n用 Pro Q3 提升人声中你需要的声音。（提升型均衡）\n负责尖尖声音部分的压缩（抓住尖的部分）\n慢速压缩\n人声激励增加中高频段声音\n发送轨效果 短混响（房间混响、平板混响）制造第一时间的饱满度，把人声变宽，更加立体\n长混响（大厅混响）制造空间感，大厅混响不会抢人声中高频\n音染型插件获得更多增益\n自动化处理 用 automation 做音量的自动化曲线，把希望突出的地方突出，希望减少的地方减少。\n后期处理 总线处理 一般人声在最后已经调试好了想要的声音，总线就不需要进行太大的处理。\n">
 <title>人声贴唱的制作步骤</title>
 
 <link rel='canonical' href='https://xiaoweihome.github.io/p/%E4%BA%BA%E5%A3%B0%E8%B4%B4%E5%94%B1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4/'>
 
 <link rel="stylesheet" href="/scss/style.min.f91c16411405e1fc5da08861fe7cf176ce361269bd69c3b7428065036933611e.css"><meta property='og:title' content="人声贴唱的制作步骤">
-<meta property='og:description' content=" 目录 前期准备 人声清理 剪掉演唱中间不需要的一些杂音，让人声保持干净。\n动态调整 用 Clip Gain 调整人声的演唱动态，需要突出的地方提起来，需要沉下去的地方低下去，让人声的情绪动态更好。\n节奏、音准修正 用 Melodyne 修正人声的音准、音长、节奏，让人声听起来与伴奏配合的更自然，没有突兀感。\n中期混音 插入轨：所有效果直接处理音轨，一般在这个音轨需要做的是连续性的处理，或者你对这个基础音色的修正、修改、优化。\n发送轨：把所有插入轨处理过后的信号发送到发送轨（发送同样一个复制出来完全一模一样的声音）\n插入轨效果（以下有些步骤可以自行选择添加） 用 Pro Ds 去掉不必要的齿音。\n用 Pro Q3 校正均衡，在去掉人声中不需要的声音。（校正型均衡）\n用 Pro Q3 提升人声中你需要的声音。（提升型均衡）\n负责尖尖声音部分的压缩（抓住尖的部分）\n慢速压缩\n">
+<meta property='og:description' content=" 目录 前期准备 人声清理 动态调整 节奏、音准修正 中期混音 插入轨效果 发送轨效果 自动化处理 后期处理 总线处理 响度提升 前期准备 人声清理 剪掉演唱中间不需要的一些杂音，让人声保持干净。\n动态调整 用 Clip Gain 调整人声的演唱动态，需要突出的地方提起来，需要沉下去的地方低下去，让人声的情绪动态更好。\n节奏、音准修正 用 Melodyne 修正人声的音准、音长、节奏，让人声听起来与伴奏配合的更自然，没有突兀感。\n中期混音 插入轨：所有效果直接处理音轨，一般在这个音轨需要做的是连续性的处理，或者你对这个基础音色的修正、修改、优化。\n发送轨：把所有插入轨处理过后的信号发送到发送轨（发送同样一个复制出来完全一模一样的声音）\n插入轨效果（以下有些步骤可以自行选择添加） 用 Pro Ds 去掉不必要的齿音。\n用 Pro Q3 校正均衡，在去掉人声中不需要的声音。（校正型均衡）\n用 Pro Q3 提升人声中你需要的声音。（提升型均衡）\n负责尖尖声音部分的压缩（抓住尖的部分）\n慢速压缩\n人声激励增加中高频段声音\n发送轨效果 短混响（房间混响、平板混响）制造第一时间的饱满度，把人声变宽，更加立体\n长混响（大厅混响）制造空间感，大厅混响不会抢人声中高频\n音染型插件获得更多增益\n自动化处理 用 automation 做音量的自动化曲线，把希望突出的地方突出，希望减少的地方减少。\n后期处理 总线处理 一般人声在最后已经调试好了想要的声音，总线就不需要进行太大的处理。\n">
 <meta property='og:url' content='https://xiaoweihome.github.io/p/%E4%BA%BA%E5%A3%B0%E8%B4%B4%E5%94%B1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4/'>
 <meta property='og:site_name' content='小威音乐工作室'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-03-22T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-03-22T00:00:00&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-03-22T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-03-22T00:00:00&#43;00:00'/><meta property='og:image' content='https://xiaoweihome.github.io/p/%E4%BA%BA%E5%A3%B0%E8%B4%B4%E5%94%B1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4/1.jpg' />
 <meta name="twitter:title" content="人声贴唱的制作步骤">
-<meta name="twitter:description" content=" 目录 前期准备 人声清理 剪掉演唱中间不需要的一些杂音，让人声保持干净。\n动态调整 用 Clip Gain 调整人声的演唱动态，需要突出的地方提起来，需要沉下去的地方低下去，让人声的情绪动态更好。\n节奏、音准修正 用 Melodyne 修正人声的音准、音长、节奏，让人声听起来与伴奏配合的更自然，没有突兀感。\n中期混音 插入轨：所有效果直接处理音轨，一般在这个音轨需要做的是连续性的处理，或者你对这个基础音色的修正、修改、优化。\n发送轨：把所有插入轨处理过后的信号发送到发送轨（发送同样一个复制出来完全一模一样的声音）\n插入轨效果（以下有些步骤可以自行选择添加） 用 Pro Ds 去掉不必要的齿音。\n用 Pro Q3 校正均衡，在去掉人声中不需要的声音。（校正型均衡）\n用 Pro Q3 提升人声中你需要的声音。（提升型均衡）\n负责尖尖声音部分的压缩（抓住尖的部分）\n慢速压缩\n">
+<meta name="twitter:description" content=" 目录 前期准备 人声清理 动态调整 节奏、音准修正 中期混音 插入轨效果 发送轨效果 自动化处理 后期处理 总线处理 响度提升 前期准备 人声清理 剪掉演唱中间不需要的一些杂音，让人声保持干净。\n动态调整 用 Clip Gain 调整人声的演唱动态，需要突出的地方提起来，需要沉下去的地方低下去，让人声的情绪动态更好。\n节奏、音准修正 用 Melodyne 修正人声的音准、音长、节奏，让人声听起来与伴奏配合的更自然，没有突兀感。\n中期混音 插入轨：所有效果直接处理音轨，一般在这个音轨需要做的是连续性的处理，或者你对这个基础音色的修正、修改、优化。\n发送轨：把所有插入轨处理过后的信号发送到发送轨（发送同样一个复制出来完全一模一样的声音）\n插入轨效果（以下有些步骤可以自行选择添加） 用 Pro Ds 去掉不必要的齿音。\n用 Pro Q3 校正均衡，在去掉人声中不需要的声音。（校正型均衡）\n用 Pro Q3 提升人声中你需要的声音。（提升型均衡）\n负责尖尖声音部分的压缩（抓住尖的部分）\n慢速压缩\n人声激励增加中高频段声音\n发送轨效果 短混响（房间混响、平板混响）制造第一时间的饱满度，把人声变宽，更加立体\n长混响（大厅混响）制造空间感，大厅混响不会抢人声中高频\n音染型插件获得更多增益\n自动化处理 用 automation 做音量的自动化曲线，把希望突出的地方突出，希望减少的地方减少。\n后期处理 总线处理 一般人声在最后已经调试好了想要的声音，总线就不需要进行太大的处理。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://xiaoweihome.github.io/p/%E4%BA%BA%E5%A3%B0%E8%B4%B4%E5%94%B1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4/1.jpg' />
     <link rel="shortcut icon" href="/favicon.png" />
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-CX857XXFSH"></script>
@@ -322,8 +323,20 @@
     
     
             <main class="main full-width">
-    <article class="main-article">
+    <article class="has-image main-article">
     <header class="article-header">
+        <div class="article-image">
+            <a href="/p/%E4%BA%BA%E5%A3%B0%E8%B4%B4%E5%94%B1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4/">
+                <img src="/p/%E4%BA%BA%E5%A3%B0%E8%B4%B4%E5%94%B1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4/1_hu2807880297223858113.jpg"
+                        srcset="/p/%E4%BA%BA%E5%A3%B0%E8%B4%B4%E5%94%B1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4/1_hu2807880297223858113.jpg 800w, /p/%E4%BA%BA%E5%A3%B0%E8%B4%B4%E5%94%B1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4/1_hu10080268398744730299.jpg 1600w"
+                        width="800" 
+                        height="800" 
+                        loading="lazy"
+                        alt="Featured image of post 人声贴唱的制作步骤" />
+                
+            </a>
+        </div>
+    
 
     <div class="article-details">
     
@@ -399,7 +412,29 @@
 	
 	
 > 目录
-</h1></blockquote>
+</h1><ul>
+<li><a class="link" href="#%e5%89%8d%e6%9c%9f%e5%87%86%e5%a4%87" >前期准备</a>
+<ul>
+<li><a class="link" href="#%e4%ba%ba%e5%a3%b0%e6%b8%85%e7%90%86" >人声清理</a></li>
+<li><a class="link" href="#%e5%8a%a8%e6%80%81%e8%b0%83%e6%95%b4" >动态调整</a></li>
+<li><a class="link" href="#%e8%8a%82%e5%a5%8f%e9%9f%b3%e5%87%86%e4%bf%ae%e6%ad%a3" >节奏、音准修正</a></li>
+</ul>
+</li>
+<li><a class="link" href="#%e4%b8%ad%e6%9c%9f%e6%b7%b7%e9%9f%b3" >中期混音</a>
+<ul>
+<li><a class="link" href="#%e6%8f%92%e5%85%a5%e8%bd%a8%e6%95%88%e6%9e%9c%e4%bb%a5%e4%b8%8b%e6%9c%89%e4%ba%9b%e6%ad%a5%e9%aa%a4%e5%8f%af%e4%bb%a5%e8%87%aa%e8%a1%8c%e9%80%89%e6%8b%a9%e6%b7%bb%e5%8a%a0" >插入轨效果</a></li>
+<li><a class="link" href="#%e5%8f%91%e9%80%81%e8%bd%a8%e6%95%88%e6%9e%9c" >发送轨效果</a></li>
+<li><a class="link" href="#%e8%87%aa%e5%8a%a8%e5%8c%96%e5%a4%84%e7%90%86" >自动化处理</a></li>
+</ul>
+</li>
+<li><a class="link" href="#%e5%90%8e%e6%9c%9f%e5%a4%84%e7%90%86" >后期处理</a>
+<ul>
+<li><a class="link" href="#%e6%80%bb%e7%ba%bf%e5%a4%84%e7%90%86" >总线处理</a></li>
+<li><a class="link" href="#%e5%93%8d%e5%ba%a6%e6%8f%90%e5%8d%87" >响度提升</a></li>
+</ul>
+</li>
+</ul>
+</blockquote>
 <hr>
 <h1 id="前期准备">前期准备
 </h1><h2 id="人声清理">人声清理
@@ -433,7 +468,42 @@
 <li>
 <p>慢速压缩</p>
 </li>
+<li>
+<p>人声激励增加中高频段声音</p>
+</li>
 </ol>
+<h2 id="发送轨效果">发送轨效果
+</h2><ol>
+<li>
+<p>短混响（房间混响、平板混响）制造第一时间的饱满度，把人声变宽，更加立体</p>
+</li>
+<li>
+<p>长混响（大厅混响）制造空间感，大厅混响不会抢人声中高频</p>
+</li>
+<li>
+<p>音染型插件获得更多增益</p>
+</li>
+</ol>
+<h2 id="自动化处理">自动化处理
+</h2><blockquote>
+<p>用 automation 做音量的自动化曲线，把希望突出的地方突出，希望减少的地方减少。</p>
+</blockquote>
+<hr>
+<h1 id="后期处理">后期处理
+</h1><h2 id="总线处理">总线处理
+</h2><blockquote>
+<p>一般人声在最后已经调试好了想要的声音，总线就不需要进行太大的处理。</p>
+</blockquote>
+<ol>
+<li>
+<p>可以用压缩（比如 Pro C2 的 Mastering 模式，2:1比例，压2-3db（非常少的量），让人声和伴奏离得更近一些，听起来更融合。</p>
+</li>
+<li>
+<p>再用 EQ 补充一些需要的频段，可以用 X线（提高高频、降低低频）</p>
+</li>
+</ol>
+<h2 id="响度提升">响度提升
+</h2><p>用限幅器（比如 Pro L2）调整响度，整体不超过 3db 限幅即可。（超过会失去动态）</p>
 
 </section>
 
@@ -640,7 +710,7 @@
         
     
     发表了37篇文章 · 
-    总计1.70k字
+    总计1.74k字
 </section>
 
 

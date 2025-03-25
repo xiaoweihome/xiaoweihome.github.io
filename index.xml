@@ -211,7 +211,7 @@
         <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>https://xiaoweihome.github.io/p/%E4%BA%BA%E5%A3%B0%E8%B4%B4%E5%94%B1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4/</guid>
-        <description>&lt;blockquote&gt;
+        <description>&lt;img src="https://xiaoweihome.github.io/p/%E4%BA%BA%E5%A3%B0%E8%B4%B4%E5%94%B1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4/1.jpg" alt="Featured image of post 人声贴唱的制作步骤" /&gt;&lt;blockquote&gt;
 &lt;h1 id=&#34;imglistsvg-目录&#34;&gt;&lt;img src=&#34;https://xiaoweihome.github.io/img/list.svg&#34;
 	
 	
@@ -220,7 +220,29 @@
 	
 	
 &gt; 目录
-&lt;/h1&gt;&lt;/blockquote&gt;
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%89%8d%e6%9c%9f%e5%87%86%e5%a4%87&#34; &gt;前期准备&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%ba%ba%e5%a3%b0%e6%b8%85%e7%90%86&#34; &gt;人声清理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%8a%a8%e6%80%81%e8%b0%83%e6%95%b4&#34; &gt;动态调整&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e8%8a%82%e5%a5%8f%e9%9f%b3%e5%87%86%e4%bf%ae%e6%ad%a3&#34; &gt;节奏、音准修正&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%b8%ad%e6%9c%9f%e6%b7%b7%e9%9f%b3&#34; &gt;中期混音&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%8f%92%e5%85%a5%e8%bd%a8%e6%95%88%e6%9e%9c%e4%bb%a5%e4%b8%8b%e6%9c%89%e4%ba%9b%e6%ad%a5%e9%aa%a4%e5%8f%af%e4%bb%a5%e8%87%aa%e8%a1%8c%e9%80%89%e6%8b%a9%e6%b7%bb%e5%8a%a0&#34; &gt;插入轨效果&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%8f%91%e9%80%81%e8%bd%a8%e6%95%88%e6%9e%9c&#34; &gt;发送轨效果&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e8%87%aa%e5%8a%a8%e5%8c%96%e5%a4%84%e7%90%86&#34; &gt;自动化处理&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%90%8e%e6%9c%9f%e5%a4%84%e7%90%86&#34; &gt;后期处理&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%80%bb%e7%ba%bf%e5%a4%84%e7%90%86&#34; &gt;总线处理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%93%8d%e5%ba%a6%e6%8f%90%e5%8d%87&#34; &gt;响度提升&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;前期准备&#34;&gt;前期准备
 &lt;/h1&gt;&lt;h2 id=&#34;人声清理&#34;&gt;人声清理
@@ -254,7 +276,42 @@
 &lt;li&gt;
 &lt;p&gt;慢速压缩&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;人声激励增加中高频段声音&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h2 id=&#34;发送轨效果&#34;&gt;发送轨效果
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;短混响（房间混响、平板混响）制造第一时间的饱满度，把人声变宽，更加立体&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;长混响（大厅混响）制造空间感，大厅混响不会抢人声中高频&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;音染型插件获得更多增益&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;自动化处理&#34;&gt;自动化处理
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;用 automation 做音量的自动化曲线，把希望突出的地方突出，希望减少的地方减少。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;后期处理&#34;&gt;后期处理
+&lt;/h1&gt;&lt;h2 id=&#34;总线处理&#34;&gt;总线处理
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;一般人声在最后已经调试好了想要的声音，总线就不需要进行太大的处理。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;可以用压缩（比如 Pro C2 的 Mastering 模式，2:1比例，压2-3db（非常少的量），让人声和伴奏离得更近一些，听起来更融合。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;再用 EQ 补充一些需要的频段，可以用 X线（提高高频、降低低频）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;响度提升&#34;&gt;响度提升
+&lt;/h2&gt;&lt;p&gt;用限幅器（比如 Pro L2）调整响度，整体不超过 3db 限幅即可。（超过会失去动态）&lt;/p&gt;
 </description>
         </item>
         <item>
