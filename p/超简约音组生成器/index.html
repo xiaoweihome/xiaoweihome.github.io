@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="<!DOCTYPE html>\r音符分组生成器\r拍子：\r1拍2拍3拍\r4拍5拍6拍\r7拍8拍\r速率：\r八分音符三连音\r十六分音符六连音\r三十二分音符\r分组数量：\r12\r34\r56\r78\r显示所有分组\r导出结果\r">
+<title>超简约音组生成器</title>
+
+<link rel='canonical' href='https://xiaoweihome.github.io/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E9%9F%B3%E7%BB%84%E7%94%9F%E6%88%90%E5%99%A8/'>
+
+<link rel="stylesheet" href="/scss/style.min.f91c16411405e1fc5da08861fe7cf176ce361269bd69c3b7428065036933611e.css"><meta property='og:title' content="超简约音组生成器">
+<meta property='og:description' content="<!DOCTYPE html>\r音符分组生成器\r拍子：\r1拍2拍3拍\r4拍5拍6拍\r7拍8拍\r速率：\r八分音符三连音\r十六分音符六连音\r三十二分音符\r分组数量：\r12\r34\r56\r78\r显示所有分组\r导出结果\r">
+<meta property='og:url' content='https://xiaoweihome.github.io/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E9%9F%B3%E7%BB%84%E7%94%9F%E6%88%90%E5%99%A8/'>
+<meta property='og:site_name' content='小威音乐工作室'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-12-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-12-12T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="超简约音组生成器">
+<meta name="twitter:description" content="<!DOCTYPE html>\r音符分组生成器\r拍子：\r1拍2拍3拍\r4拍5拍6拍\r7拍8拍\r速率：\r八分音符三连音\r十六分音符六连音\r三十二分音符\r分组数量：\r12\r34\r56\r78\r显示所有分组\r导出结果\r">
+    <link rel="shortcut icon" href="/favicon.png" />
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-CX857XXFSH"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-CX857XXFSH');
+        }
+      </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu16753285127133054316.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">小威音乐工作室</a></h1>
+            <h2 class="site-description">分享音乐相关的知识、工具</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/'
+                        target="_blank"
+                        title="18038545271"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M16.5 10c3.038 0 5.5 2.015 5.5 4.5c0 1.397 -.778 2.645 -2 3.47l0 2.03l-1.964 -1.178a6.649 6.649 0 0 1 -1.536 .178c-3.038 0 -5.5 -2.015 -5.5 -4.5s2.462 -4.5 5.5 -4.5z"></path> <path d="M11.197 15.698c-.69 .196 -1.43 .302 -2.197 .302a8.008 8.008 0 0 1 -2.612 -.432l-2.388 1.432v-2.801c-1.237 -1.082 -2 -2.564 -2 -4.199c0 -3.314 3.134 -6 7 -6c3.782 0 6.863 2.57 7 5.785l0 .233"></path> <path d="M10 8h.01"></path> <path d="M7 8h.01"></path> <path d="M15 14h.01"></path> <path d="M18 14h.01"></path> </svg> 
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/49575257'
+                        target="_blank"
+                        title="Bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" stroke-width="2"> <path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z"></path> <path d="M8 3l2 3"></path> <path d="M16 3l-2 3"></path> <path d="M9 13v-2"></path> <path d="M15 11v2"></path> </svg> 
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='http://xiaowei.blog'
+                        target="_blank"
+                        title="个人Blog"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg viewBox="0 -20 512 511" xmlns="http://www.w3.org/2000/svg"><path d="m10 32.269531v408.398438c0 12.023437 9.746094 21.769531 21.769531 21.769531h448.460938c12.023437 0 21.769531-9.746094 21.769531-21.769531v-408.398438c0-12.023437-9.746094-21.769531-21.769531-21.769531h-448.460938c-12.023437 0-21.769531 9.746094-21.769531 21.769531zm0 0" fill="#fff"/><path d="m31.769531 10.5h448.460938c12.023437 0 21.769531 9.746094 21.769531 21.769531v74.019531h-492v-74.019531c0-12.023437 9.746094-21.769531 21.769531-21.769531zm0 0" fill="#72d8ff"/><path d="m67.179688 48.394531h-.101563c-5.523437 0-10 4.476563-10 10 0 5.523438 4.476563 10 10 10h.101563c5.523437 0 10-4.476562 10-10 0-5.523437-4.476563-10-10-10zm0 0"/><path d="m116.710938 48.394531h-.101563c-5.523437 0-10 4.476563-10 10 0 5.523438 4.476563 10 10 10h.101563c5.523437 0 10-4.476562 10-10 0-5.523437-4.476563-10-10-10zm0 0"/><path d="m166.242188 48.394531h-.101563c-5.523437 0-10 4.476563-10 10 0 5.523438 4.476563 10 10 10h.101563c5.523437 0 10-4.476562 10-10 0-5.523437-4.476563-10-10-10zm0 0"/><path d="m444.308594 48.394531h-192.929688c-5.523437 0-10 4.476563-10 10 0 5.519531 4.476563 10 10 10h192.929688c5.523437 0 10-4.480469 10-10 0-5.523437-4.476563-10-10-10zm0 0"/><path d="m262.890625 452.4375c-2.628906 0-5.199219 1.070312-7.070313 2.929688-1.859374 1.859374-2.929687 4.441406-2.929687 7.070312s1.070313 5.210938 2.929687 7.070312c1.871094 1.859376 4.441407 2.929688 7.070313 2.929688s5.210937-1.070312 7.070313-2.929688c1.867187-1.859374 2.929687-4.441406 2.929687-7.070312s-1.0625-5.210938-2.929687-7.070312c-1.859376-1.859376-4.441407-2.929688-7.070313-2.929688zm0 0"/><path d="m480.230469.5h-448.460938c-17.515625 0-31.769531 14.253906-31.769531 31.769531v408.398438c0 17.519531 14.253906 31.769531 31.769531 31.769531h189.230469c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10h-189.230469c-6.488281 0-11.769531-5.277344-11.769531-11.769531v-324.378907h472v324.378907c0 6.488281-5.28125 11.769531-11.769531 11.769531h-176.5625c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10h176.5625c17.515625 0 31.769531-14.25 31.769531-31.769531v-408.398438c0-17.515625-14.253906-31.769531-31.769531-31.769531zm-460.230469 95.785156v-64.015625c0-6.488281 5.28125-11.769531 11.769531-11.769531h448.460938c6.488281 0 11.769531 5.28125 11.769531 11.769531v64.019531h-472zm0 0"/><path d="m178.039062 230.5c0-19.851562-16.148437-36-36-36h-33.667968c-5.523438 0-10 4.476562-10 10v104c0 5.523438 4.476562 10 10 10h33.667968c19.851563 0 36-16.148438 36-36 0-10.214844-4.28125-19.441406-11.140624-26 6.859374-6.558594 11.140624-15.785156 11.140624-26zm-20 52c0 8.820312-7.179687 16-16 16h-23.667968v-32h23.667968c8.820313 0 16 7.175781 16 16zm-39.667968-36v-32h23.667968c8.824219 0 16 7.179688 16 16s-7.175781 16-16 16zm0 0"/><path d="m206.648438 194.5c-5.523438 0-10 4.476562-10 10v80.871094c0 18.269531 14.863281 33.128906 33.128906 33.128906 5.523437 0 10-4.476562 10-10s-4.476563-10-10-10c-7.238282 0-13.128906-5.890625-13.128906-13.128906v-80.871094c0-5.523438-4.476563-10-10-10zm0 0"/><path d="m324.867188 282.289062c0-19.96875-16.242188-36.214843-36.210938-36.214843s-36.210938 16.246093-36.210938 36.214843 16.246094 36.210938 36.210938 36.210938c19.96875 0 36.210938-16.242188 36.210938-36.210938zm-52.421876 0c0-8.941406 7.273438-16.214843 16.210938-16.214843s16.210938 7.273437 16.210938 16.214843c0 8.9375-7.269532 16.210938-16.210938 16.210938s-16.210938-7.273438-16.210938-16.210938zm0 0"/><path d="m377.414062 346.5c-8.9375 0-16.210937-7.273438-16.210937-16.210938 0-5.523437-4.476563-10-10-10s-10 4.476563-10 10c0 19.96875 16.246094 36.210938 36.210937 36.210938 19.96875 0 36.214844-16.242188 36.214844-36.210938v-48c0-19.96875-16.246094-36.214843-36.214844-36.214843-19.964843 0-36.210937 16.246093-36.210937 36.214843s16.246094 36.210938 36.210937 36.210938c5.828126 0 11.332032-1.390625 16.214844-3.847656v15.636718c0 8.9375-7.273437 16.210938-16.214844 16.210938zm0-48c-8.9375 0-16.210937-7.273438-16.210937-16.210938 0-8.941406 7.273437-16.214843 16.210937-16.214843 8.941407 0 16.214844 7.273437 16.214844 16.214843 0 8.9375-7.273437 16.210938-16.214844 16.210938zm0 0"/><path d="m108.371094 416.5h295.257812c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10h-295.257812c-5.519532 0-10 4.476562-10 10s4.480468 10 10 10zm0 0"/></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E8%81%94%E7%B3%BB/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>联系</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>分类</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%B7%A5%E5%85%B7/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M7 10h3v-3l-3.5 -3.5a6 6 0 0 1 8 8l6 6a2 2 0 0 1 -3 3l-6 -6a6 6 0 0 1 -8 -8l3.5 3.5"></path> </svg> 
+                
+                <span>工具</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M14 3v4a1 1 0 0 0 1 1h4"></path> <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path> <path d="M11 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path> <path d="M12 16l0 -5l2 1"></path> </svg> 
+                
+                <span>个人作品</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E6%BC%94%E5%A5%8F%E6%8A%80%E5%B7%A7/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path> <path d="M20 12.5v4.75a.734 .734 0 0 1 -.055 .325a.704 .704 0 0 1 -.348 .366l-5.462 2.58a5 5 0 0 1 -4.27 0l-5.462 -2.58a.705 .705 0 0 1 -.401 -.691l0 -4.75"></path> <path d="M4.431 12.216l5.634 -2.332a5.065 5.065 0 0 1 3.87 0l5.634 2.332a.692 .692 0 0 1 .028 1.269l-5.462 2.543a5.064 5.064 0 0 1 -4.27 0l-5.462 -2.543a.691 .691 0 0 1 .028 -1.27z"></path> <path d="M12 7l0 6"></path> </svg> 
+                
+                <span>演奏技巧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M10 19h-6a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1h6a2 2 0 0 1 2 2a2 2 0 0 1 2 -2h6a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-6a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2z"></path> <path d="M12 5v16"></path> <path d="M7 7h1"></path> <path d="M7 11h1"></path> <path d="M16 7h1"></path> <path d="M16 11h1"></path> <path d="M16 15h1"></path> </svg> 
+                
+                <span>乐谱资料</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E4%B9%90%E5%8F%A5%E5%BA%93/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7"></path> <path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3"></path> <path d="M9.7 17l4.6 0"></path> </svg> 
+                
+                <span>乐句库</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path> <path d="M9 17v-13h10v7"></path> <path d="M9 8h10"></path> <path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z"></path> </svg> 
+                
+                <span>音乐推荐</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+
+    
+    
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E9%9F%B3%E7%BB%84%E7%94%9F%E6%88%90%E5%99%A8/">超简约音组生成器</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2024/12/12</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音符分组生成器</title>
+    <style>
+        body{font-family:'Arial',sans-serif;margin:0;padding:0;display:flex;justify-content:center;align-items:center;min-height:100vh;background-color:#f0f2f5;}
+        .program-container{background:#fff;padding:20px 70px;border-radius:12px;box-shadow:0 8px 15px rgba(0,0,0,0.1);text-align:center;max-width:2000px;box-sizing:border-box;position:relative;}
+        .form-group{display:flex;flex-direction:column;align-items:center;margin-bottom:20px;}
+        .form-group label{margin-bottom:5px;font-size:16px;font-weight:bold;color:#333;}
+        .form-group select,.form-group input{padding:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;width:80%;margin-top:10px;box-sizing:border-box;transition:all 0.3s ease;}
+        .form-group select:focus,.form-group input:focus{border-color:#4CAF50;box-shadow:0 0 5px rgba(76,175,80,0.5);}
+        .checkbox-group{display:flex;flex-wrap:wrap;justify-content:center;gap:15px;margin-top:20px;padding:10px 0;}
+        .checkbox-group label{font-size:14px;color:#555;display:inline-block;}
+        .checkbox-group input{margin-right:5px;margin-top:5px;}
+        .button-container{display:flex;flex-direction:column;gap:12px;margin-top:20px;width:80%;margin-left:auto;margin-right:auto;}
+        button{background-color:#4CAF50;color:white;padding:14px 0;border:none;border-radius:10px;cursor:pointer;font-size:18px;transition:background-color 0.3s ease;width:100%;}
+        button:hover{background-color:#45a049;}
+        .export-btn{background-color:#2196F3;}
+        .export-btn:hover{background-color:#1976D2;}
+        .result{margin-top:20px;font-size:16px;color:#333;font-weight:bold;display:flex;flex-wrap:wrap;gap:15px;justify-content:center;}
+        .result .group{background-color:#f4f4f4;padding:8px 15px;border-radius:6px;box-shadow:0 4px 10px rgba(0,0,0,0.1);cursor:pointer;transition:background 0.2s;}
+        .result .group:hover{background-color:#e0e0e0;}
+        .permutation-modal{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:white;padding:20px;border-radius:8px;box-shadow:0 0 15px rgba(0,0,0,0.2);z-index:1000;max-height:80vh;overflow-y:auto;width:320px;}
+        .permutation-item{padding:8px;margin:4px;background:#f5f5f5;border-radius:4px;transition:background 0.2s;display:flex;justify-content:space-between;align-items:center;}
+        .permutation-item:hover{background:#4CAF50;color:white;}
+        .modal-mask{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.3);z-index:999;}
+        .copy-btn{background:rgba(255,255,255,0.2);border:none;padding:4px 8px;border-radius:3px;cursor:pointer;font-size:12px;transition:all 0.2s;}
+        .permutation-item:hover .copy-btn{background:rgba(255,255,255,0.3);}
+        .permutation-item:hover .copy-btn:hover{background:rgba(255,255,255,0.4);}
+    </style>
+</head>
+<body>
+    <div class="program-container">
+        <div class="form-group">
+            <label for="beats">拍子：</label>
+            <select id="beats">
+                <option value="1">1拍</option><option value="2">2拍</option><option value="3">3拍</option>
+                <option value="4">4拍</option><option value="5">5拍</option><option value="6">6拍</option>
+                <option value="7">7拍</option><option value="8">8拍</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="rate">速率：</label>
+            <select id="rate">
+                <option value="2">八分音符</option><option value="3">三连音</option>
+                <option value="4">十六分音符</option><option value="6">六连音</option>
+                <option value="8">三十二分音符</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="groupCount">分组数量：</label>
+            <input id="groupCount" type="number" min="1" placeholder="输入数量（可选）">
+        </div>
+        <div class="checkbox-group">
+            <label><input type="checkbox" value="1">1</label><label><input type="checkbox" value="2">2</label>
+            <label><input type="checkbox" value="3">3</label><label><input type="checkbox" value="4">4</label>
+            <label><input type="checkbox" value="5">5</label><label><input type="checkbox" value="6">6</label>
+            <label><input type="checkbox" value="7">7</label><label><input type="checkbox" value="8">8</label>
+        </div>
+        <div class="button-container">
+            <button onclick="generateAllGroupings()">显示所有分组</button>
+            <button class="export-btn" onclick="exportResults()" id="exportBtn" disabled>导出结果</button>
+        </div>
+        <div class="result" id="result"></div>
+    </div>
+    <script>
+        let currentResults = [];
+        function generateAllGroupings(){
+            const beats=parseInt(document.getElementById('beats').value);
+            const rate=parseInt(document.getElementById('rate').value);
+            const groupCount=parseInt(document.getElementById('groupCount').value)||0;
+            const checkboxes=document.querySelectorAll('.checkbox-group input[type="checkbox"]:checked');
+            const availableNumbers=Array.from(checkboxes).map(c=>parseInt(c.value));
+            const totalNotes=beats*rate;
+            if(groupCount>0&&groupCount>totalNotes){alert('分组数量不能大于总音符数');return;}
+            let results=[];
+            function fc(rn,cg,rg){if(rg===0){if(rn===0)results.push(cg);return;}
+                for(let n of availableNumbers){if(rn-n>=0)fc(rn-n,[...cg,n],rg-1);}}
+            function fac(rn,cg){if(rn===0){results.push(cg);return;}
+                for(let n of availableNumbers){if(rn-n>=0)fac(rn-n,[...cg,n]);}}
+            groupCount>0?fc(totalNotes,[],groupCount):fac(totalNotes,[]);
+            if(results.length===0&&groupCount===0)results.push(...fn(totalNotes,availableNumbers));
+            results=results.map(g=>g.sort((a,b)=>a-b).join(','));
+            currentResults=[...new Set(results)];
+            document.getElementById('exportBtn').disabled=false;
+            displayResults(currentResults);}
+        function fn(tn,an){let mn=tn,fg=[],a=0,m=100;
+            while(mn>0&&a<m){let r=an[Math.floor(Math.random()*an.length)];
+                if(mn-r>=0){fg.push(r);mn-=r;}a++;}
+            if(mn>0){if(mn===9)fg.push(8,1);else if(mn===10)fg.push(8,2);else fg.push(mn);}
+            return[fg];}
+        function displayResults(rs){const rd=document.getElementById('result');
+            rd.innerHTML=rs.length?rs.map(r=>`<div class="group" onclick="showPermutations(event,'${r}')">${r}</div>`).join(''):'没有找到有效的分组组合。';
+            document.getElementById('exportBtn').disabled=!rs.length;}
+        function showPermutations(e,a){const p=generateUP(a);
+            const m=document.createElement('div');
+            m.className='permutation-modal';
+            m.innerHTML=`<h3 style="margin:0 0 15px;color:#333;">${a} 的所有排列</h3>
+                <div style="max-height:400px;overflow-y:auto;">${p.map(p=>`
+                    <div class="permutation-item">
+                        <span>${p}</span>
+                        <button class="copy-btn" onclick="copyText(event,'${p}')">复制</button>
+                    </div>
+                `).join('')}</div>`;
+            const mask=document.createElement('div');
+            mask.className='modal-mask';
+            mask.onclick=()=>{document.body.removeChild(m);document.body.removeChild(mask);};
+            document.body.appendChild(mask);document.body.appendChild(m);}
+        function generateUP(s){const r=new Set(),a=s.split(',').map(Number);
+            function p(c,rm){if(rm.length===0){r.add(c.join(','));return;}
+                const u=new Set();for(let i=0;i<rm.length;i++){if(!u.has(rm[i])){u.add(rm[i]);p([...c,rm[i]],[...rm.slice(0,i),...rm.slice(i+1)]);}}}
+            p([],a);return Array.from(r);}
+        function copyText(event,text){navigator.clipboard.writeText(text)
+            .then(()=>{
+                const btn=event.target;
+                btn.textContent='已复制!';
+                btn.style.background='#45a049';
+                setTimeout(()=>{
+                    btn.textContent='复制';
+                    btn.style.background='rgba(255,255,255,0.2)';
+                },1500);})
+            .catch(err=>{console.error('复制失败:',err);alert('复制失败，请手动选择文本复制');});}
+        function exportResults(){if(!currentResults.length){alert('没有可导出的结果');return;}
+            const t=new Date().toLocaleString().replace(/[/:]/g,'-');
+            const f=`音符分组-${t}.txt`,c=currentResults.join('\n');
+            const b=new Blob([c],{type:'text/plain'}),u=URL.createObjectURL(b);
+            const a=document.createElement('a');a.href=u;a.download=f;
+            document.body.appendChild(a);a.click();document.body.removeChild(a);
+            URL.revokeObjectURL(u);
+            const btn=document.getElementById('exportBtn');
+            btn.textContent='已导出!';
+            setTimeout(()=>{btn.textContent='导出结果';},2000);}
+    </script>
+</body>
+</html>
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>小威音乐工作室</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+        <div class="article-list--compact links">
+    
+        <article>
+            <a href="" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">如何进行音组的练习</h2>
+                    <footer class="article-time">
+                        
+                            搭配这个生成器可以进行的音组练习
+                        
+                    </footer>
+                </div>
+        
+                
+            </a>
+        </article>
+    
+</div>
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1.ef7f8bf56c406002f11d3c365e36c087_hu9274120373354547625.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 关于混响的一些知识"
+                        
+                        data-hash="md5-73&#43;L9WxAYALxHTw2XjbAhw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">关于混响的一些知识</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "guitar550" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2016 - 
+        
+        2025 小威音乐工作室
+    </section>
+    
+
+    <footer>
+        <button id="scrollToTop" style="display: none; position: fixed; bottom: 5px; left: 50%; transform: translateX(-50%); padding: 0px; width: 100px; background: #ffffff; color: #000000; border: none; border-radius: 5px; cursor: pointer;">
+            <i class="fas fa-arrow-up" style="margin-right: 5px;"></i>
+        </button>
+    </footer>
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <script>
+        
+        const scrollToTopBtn = document.getElementById('scrollToTop');
+    
+        
+        window.onscroll = function() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollToTopBtn.style.display = 'block';
+            } else {
+                scrollToTopBtn.style.display = 'none';
+            }
+        };
+    
+        
+        scrollToTopBtn.onclick = function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        };
+    </script>
+
+    
+
+<section class="totalcount">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    发表了39篇文章 · 
+    总计1.79k字
+</section>
+
+
+<section class="running-time">
+    本网站已稳定运行
+    <span id="runningdays" class="running-days"></span>
+    </section>
+
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+    
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<script>
+    (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+  
+    ChannelIO('boot', {
+      "pluginKey": "9da734c6-d727-4773-8163-059f4ac9ef71"
+    });
+  </script>
+
+
+<script>
+  let s1 = '2024-11-4'; 
+  s1 = new Date(s1.replace(/-/g, "/"));
+  let s2 = new Date();
+  let timeDifference = s2.getTime() - s1.getTime();
+
+  let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+  let result = days + "天" + hours + "小时" + minutes + "分钟";
+  document.getElementById('runningdays').innerHTML = result;
+</script>
+    </body>
+</html>

@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="\r📖 目录（点击展开）\r混响需要理解的基础概念\n什么是混响 第一反射 混响音尾（Tale / Reverb body） 声音传播的特点 每种混响的特点\n大厅混响（Hall） 带混响特点的录音棚（Room） 为混响设计的“密室”（Chamber） 机械混响 —— 弹簧混响（Spring） 机械混响 —— 平板混响（Plate） 混响的基本参数\nReverb time / Decay time（混响的时长） Size（空间的尺寸） Diffusion（弥散） Damping（阻尼） Pre Delay（预延迟） 混响的高级控制\n通过频段去塑造混响的声音 分频段Decay 动态控制（闪避、门限、压缩） Modulation 混响需要理解的基础概念 什么是混响 当声音在一个空间响起，声波会发散到这空间的各个方向，声波达到空间的表面上反射回来，随着时间这种反射能力会渐渐消失。\n">
+<title>关于混响的一些知识</title>
+
+<link rel='canonical' href='https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/'>
+
+<link rel="stylesheet" href="/scss/style.min.f91c16411405e1fc5da08861fe7cf176ce361269bd69c3b7428065036933611e.css"><meta property='og:title' content="关于混响的一些知识">
+<meta property='og:description' content="\r📖 目录（点击展开）\r混响需要理解的基础概念\n什么是混响 第一反射 混响音尾（Tale / Reverb body） 声音传播的特点 每种混响的特点\n大厅混响（Hall） 带混响特点的录音棚（Room） 为混响设计的“密室”（Chamber） 机械混响 —— 弹簧混响（Spring） 机械混响 —— 平板混响（Plate） 混响的基本参数\nReverb time / Decay time（混响的时长） Size（空间的尺寸） Diffusion（弥散） Damping（阻尼） Pre Delay（预延迟） 混响的高级控制\n通过频段去塑造混响的声音 分频段Decay 动态控制（闪避、门限、压缩） Modulation 混响需要理解的基础概念 什么是混响 当声音在一个空间响起，声波会发散到这空间的各个方向，声波达到空间的表面上反射回来，随着时间这种反射能力会渐渐消失。\n">
+<meta property='og:url' content='https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/'>
+<meta property='og:site_name' content='小威音乐工作室'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-04-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-04-28T00:00:00&#43;00:00'/><meta property='og:image' content='https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1.jpg' />
+<meta name="twitter:title" content="关于混响的一些知识">
+<meta name="twitter:description" content="\r📖 目录（点击展开）\r混响需要理解的基础概念\n什么是混响 第一反射 混响音尾（Tale / Reverb body） 声音传播的特点 每种混响的特点\n大厅混响（Hall） 带混响特点的录音棚（Room） 为混响设计的“密室”（Chamber） 机械混响 —— 弹簧混响（Spring） 机械混响 —— 平板混响（Plate） 混响的基本参数\nReverb time / Decay time（混响的时长） Size（空间的尺寸） Diffusion（弥散） Damping（阻尼） Pre Delay（预延迟） 混响的高级控制\n通过频段去塑造混响的声音 分频段Decay 动态控制（闪避、门限、压缩） Modulation 混响需要理解的基础概念 什么是混响 当声音在一个空间响起，声波会发散到这空间的各个方向，声波达到空间的表面上反射回来，随着时间这种反射能力会渐渐消失。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1.jpg' />
+    <link rel="shortcut icon" href="/favicon.png" />
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-CX857XXFSH"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-CX857XXFSH');
+        }
+      </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu16753285127133054316.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">小威音乐工作室</a></h1>
+            <h2 class="site-description">分享音乐相关的知识、工具</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/'
+                        target="_blank"
+                        title="18038545271"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M16.5 10c3.038 0 5.5 2.015 5.5 4.5c0 1.397 -.778 2.645 -2 3.47l0 2.03l-1.964 -1.178a6.649 6.649 0 0 1 -1.536 .178c-3.038 0 -5.5 -2.015 -5.5 -4.5s2.462 -4.5 5.5 -4.5z"></path> <path d="M11.197 15.698c-.69 .196 -1.43 .302 -2.197 .302a8.008 8.008 0 0 1 -2.612 -.432l-2.388 1.432v-2.801c-1.237 -1.082 -2 -2.564 -2 -4.199c0 -3.314 3.134 -6 7 -6c3.782 0 6.863 2.57 7 5.785l0 .233"></path> <path d="M10 8h.01"></path> <path d="M7 8h.01"></path> <path d="M15 14h.01"></path> <path d="M18 14h.01"></path> </svg> 
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/49575257'
+                        target="_blank"
+                        title="Bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" stroke-width="2"> <path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z"></path> <path d="M8 3l2 3"></path> <path d="M16 3l-2 3"></path> <path d="M9 13v-2"></path> <path d="M15 11v2"></path> </svg> 
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='http://xiaowei.blog'
+                        target="_blank"
+                        title="个人Blog"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg viewBox="0 -20 512 511" xmlns="http://www.w3.org/2000/svg"><path d="m10 32.269531v408.398438c0 12.023437 9.746094 21.769531 21.769531 21.769531h448.460938c12.023437 0 21.769531-9.746094 21.769531-21.769531v-408.398438c0-12.023437-9.746094-21.769531-21.769531-21.769531h-448.460938c-12.023437 0-21.769531 9.746094-21.769531 21.769531zm0 0" fill="#fff"/><path d="m31.769531 10.5h448.460938c12.023437 0 21.769531 9.746094 21.769531 21.769531v74.019531h-492v-74.019531c0-12.023437 9.746094-21.769531 21.769531-21.769531zm0 0" fill="#72d8ff"/><path d="m67.179688 48.394531h-.101563c-5.523437 0-10 4.476563-10 10 0 5.523438 4.476563 10 10 10h.101563c5.523437 0 10-4.476562 10-10 0-5.523437-4.476563-10-10-10zm0 0"/><path d="m116.710938 48.394531h-.101563c-5.523437 0-10 4.476563-10 10 0 5.523438 4.476563 10 10 10h.101563c5.523437 0 10-4.476562 10-10 0-5.523437-4.476563-10-10-10zm0 0"/><path d="m166.242188 48.394531h-.101563c-5.523437 0-10 4.476563-10 10 0 5.523438 4.476563 10 10 10h.101563c5.523437 0 10-4.476562 10-10 0-5.523437-4.476563-10-10-10zm0 0"/><path d="m444.308594 48.394531h-192.929688c-5.523437 0-10 4.476563-10 10 0 5.519531 4.476563 10 10 10h192.929688c5.523437 0 10-4.480469 10-10 0-5.523437-4.476563-10-10-10zm0 0"/><path d="m262.890625 452.4375c-2.628906 0-5.199219 1.070312-7.070313 2.929688-1.859374 1.859374-2.929687 4.441406-2.929687 7.070312s1.070313 5.210938 2.929687 7.070312c1.871094 1.859376 4.441407 2.929688 7.070313 2.929688s5.210937-1.070312 7.070313-2.929688c1.867187-1.859374 2.929687-4.441406 2.929687-7.070312s-1.0625-5.210938-2.929687-7.070312c-1.859376-1.859376-4.441407-2.929688-7.070313-2.929688zm0 0"/><path d="m480.230469.5h-448.460938c-17.515625 0-31.769531 14.253906-31.769531 31.769531v408.398438c0 17.519531 14.253906 31.769531 31.769531 31.769531h189.230469c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10h-189.230469c-6.488281 0-11.769531-5.277344-11.769531-11.769531v-324.378907h472v324.378907c0 6.488281-5.28125 11.769531-11.769531 11.769531h-176.5625c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10h176.5625c17.515625 0 31.769531-14.25 31.769531-31.769531v-408.398438c0-17.515625-14.253906-31.769531-31.769531-31.769531zm-460.230469 95.785156v-64.015625c0-6.488281 5.28125-11.769531 11.769531-11.769531h448.460938c6.488281 0 11.769531 5.28125 11.769531 11.769531v64.019531h-472zm0 0"/><path d="m178.039062 230.5c0-19.851562-16.148437-36-36-36h-33.667968c-5.523438 0-10 4.476562-10 10v104c0 5.523438 4.476562 10 10 10h33.667968c19.851563 0 36-16.148438 36-36 0-10.214844-4.28125-19.441406-11.140624-26 6.859374-6.558594 11.140624-15.785156 11.140624-26zm-20 52c0 8.820312-7.179687 16-16 16h-23.667968v-32h23.667968c8.820313 0 16 7.175781 16 16zm-39.667968-36v-32h23.667968c8.824219 0 16 7.179688 16 16s-7.175781 16-16 16zm0 0"/><path d="m206.648438 194.5c-5.523438 0-10 4.476562-10 10v80.871094c0 18.269531 14.863281 33.128906 33.128906 33.128906 5.523437 0 10-4.476562 10-10s-4.476563-10-10-10c-7.238282 0-13.128906-5.890625-13.128906-13.128906v-80.871094c0-5.523438-4.476563-10-10-10zm0 0"/><path d="m324.867188 282.289062c0-19.96875-16.242188-36.214843-36.210938-36.214843s-36.210938 16.246093-36.210938 36.214843 16.246094 36.210938 36.210938 36.210938c19.96875 0 36.210938-16.242188 36.210938-36.210938zm-52.421876 0c0-8.941406 7.273438-16.214843 16.210938-16.214843s16.210938 7.273437 16.210938 16.214843c0 8.9375-7.269532 16.210938-16.210938 16.210938s-16.210938-7.273438-16.210938-16.210938zm0 0"/><path d="m377.414062 346.5c-8.9375 0-16.210937-7.273438-16.210937-16.210938 0-5.523437-4.476563-10-10-10s-10 4.476563-10 10c0 19.96875 16.246094 36.210938 36.210937 36.210938 19.96875 0 36.214844-16.242188 36.214844-36.210938v-48c0-19.96875-16.246094-36.214843-36.214844-36.214843-19.964843 0-36.210937 16.246093-36.210937 36.214843s16.246094 36.210938 36.210937 36.210938c5.828126 0 11.332032-1.390625 16.214844-3.847656v15.636718c0 8.9375-7.273437 16.210938-16.214844 16.210938zm0-48c-8.9375 0-16.210937-7.273438-16.210937-16.210938 0-8.941406 7.273437-16.214843 16.210937-16.214843 8.941407 0 16.214844 7.273437 16.214844 16.214843 0 8.9375-7.273437 16.210938-16.214844 16.210938zm0 0"/><path d="m108.371094 416.5h295.257812c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10h-295.257812c-5.519532 0-10 4.476562-10 10s4.480468 10 10 10zm0 0"/></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E8%81%94%E7%B3%BB/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>联系</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>分类</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%B7%A5%E5%85%B7/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M7 10h3v-3l-3.5 -3.5a6 6 0 0 1 8 8l6 6a2 2 0 0 1 -3 3l-6 -6a6 6 0 0 1 -8 -8l3.5 3.5"></path> </svg> 
+                
+                <span>工具</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M14 3v4a1 1 0 0 0 1 1h4"></path> <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path> <path d="M11 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path> <path d="M12 16l0 -5l2 1"></path> </svg> 
+                
+                <span>个人作品</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E6%BC%94%E5%A5%8F%E6%8A%80%E5%B7%A7/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path> <path d="M20 12.5v4.75a.734 .734 0 0 1 -.055 .325a.704 .704 0 0 1 -.348 .366l-5.462 2.58a5 5 0 0 1 -4.27 0l-5.462 -2.58a.705 .705 0 0 1 -.401 -.691l0 -4.75"></path> <path d="M4.431 12.216l5.634 -2.332a5.065 5.065 0 0 1 3.87 0l5.634 2.332a.692 .692 0 0 1 .028 1.269l-5.462 2.543a5.064 5.064 0 0 1 -4.27 0l-5.462 -2.543a.691 .691 0 0 1 .028 -1.27z"></path> <path d="M12 7l0 6"></path> </svg> 
+                
+                <span>演奏技巧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M10 19h-6a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1h6a2 2 0 0 1 2 2a2 2 0 0 1 2 -2h6a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-6a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2z"></path> <path d="M12 5v16"></path> <path d="M7 7h1"></path> <path d="M7 11h1"></path> <path d="M16 7h1"></path> <path d="M16 11h1"></path> <path d="M16 15h1"></path> </svg> 
+                
+                <span>乐谱资料</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E4%B9%90%E5%8F%A5%E5%BA%93/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7"></path> <path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3"></path> <path d="M9.7 17l4.6 0"></path> </svg> 
+                
+                <span>乐句库</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path> <path d="M9 17v-13h10v7"></path> <path d="M9 8h10"></path> <path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z"></path> </svg> 
+                
+                <span>音乐推荐</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+
+    
+    
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/">
+                <img src="/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1_hu18324130895833440464.jpg"
+                        srcset="/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1_hu18324130895833440464.jpg 800w, /p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1_hu6566813441172222158.jpg 1600w"
+                        width="800" 
+                        height="383" 
+                        loading="lazy"
+                        alt="Featured image of post 关于混响的一些知识" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/">关于混响的一些知识</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025/04/28</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <details>
+<summary style="background-color: #f0f4f8; padding: 1em; border-radius: 8px; cursor: pointer; border: 1px solid #ddd;">
+  <strong>📖 目录（点击展开）</strong>
+</summary>
+<div style="background-color: #f9fbfd; padding: 1em; margin-top: 0.5em; border-radius: 8px;">
+<ul>
+<li>
+<p><a class="link" href="#%e6%b7%b7%e5%93%8d%e9%9c%80%e8%a6%81%e7%90%86%e8%a7%a3%e7%9a%84%e5%9f%ba%e7%a1%80%e6%a6%82%e5%bf%b5" >混响需要理解的基础概念</a></p>
+<ul>
+<li><a class="link" href="#%e4%bb%80%e4%b9%88%e6%98%af%e6%b7%b7%e5%93%8d" >什么是混响</a></li>
+<li><a class="link" href="#%e7%ac%ac%e4%b8%80%e5%8f%8d%e5%b0%84" >第一反射</a></li>
+<li><a class="link" href="#%e6%b7%b7%e5%93%8d%e9%9f%b3%e5%b0%betale--reverb-body" >混响音尾（Tale / Reverb body）</a></li>
+<li><a class="link" href="#%e5%a3%b0%e9%9f%b3%e4%bc%a0%e6%92%ad%e7%9a%84%e7%89%b9%e7%82%b9" >声音传播的特点</a></li>
+</ul>
+</li>
+<li>
+<p><a class="link" href="#%e6%af%8f%e7%a7%8d%e6%b7%b7%e5%93%8d%e7%9a%84%e7%89%b9%e7%82%b9" >每种混响的特点</a></p>
+<ul>
+<li><a class="link" href="#%e5%a4%a7%e5%8e%85%e6%b7%b7%e5%93%8dhall" >大厅混响（Hall）</a></li>
+<li><a class="link" href="#%e5%b8%a6%e6%b7%b7%e5%93%8d%e7%89%b9%e7%82%b9%e7%9a%84%e5%bd%95%e9%9f%b3%e6%a3%9aroom" >带混响特点的录音棚（Room）</a></li>
+<li><a class="link" href="#%e4%b8%ba%e6%b7%b7%e5%93%8d%e8%ae%be%e8%ae%a1%e7%9a%84%e5%af%86%e5%ae%a4chamber" >为混响设计的“密室”（Chamber）</a></li>
+<li><a class="link" href="#%e6%9c%ba%e6%a2%b0%e6%b7%b7%e5%93%8d--%e5%bc%b9%e7%b0%a7%e6%b7%b7%e5%93%8dspring" >机械混响 —— 弹簧混响（Spring）</a></li>
+<li><a class="link" href="#%e6%9c%ba%e6%a2%b0%e6%b7%b7%e5%93%8d--%e5%b9%b3%e6%9d%bf%e6%b7%b7%e5%93%8dplate" >机械混响 —— 平板混响（Plate）</a></li>
+</ul>
+</li>
+<li>
+<p><a class="link" href="#%e6%b7%b7%e5%93%8d%e7%9a%84%e5%9f%ba%e6%9c%ac%e5%8f%82%e6%95%b0" >混响的基本参数</a></p>
+<ul>
+<li><a class="link" href="#reverb-time--decay-time%e6%b7%b7%e5%93%8d%e7%9a%84%e6%97%b6%e9%95%bf" >Reverb time / Decay time（混响的时长）</a></li>
+<li><a class="link" href="#size%e7%a9%ba%e9%97%b4%e7%9a%84%e5%b0%ba%e5%af%b8" >Size（空间的尺寸）</a></li>
+<li><a class="link" href="#diffusion%e5%bc%a5%e6%95%a3" >Diffusion（弥散）</a></li>
+<li><a class="link" href="#damping%e9%98%bb%e5%b0%bc" >Damping（阻尼）</a></li>
+<li><a class="link" href="#pre-delay%e9%a2%84%e5%bb%b6%e8%bf%9f" >Pre Delay（预延迟）</a></li>
+</ul>
+</li>
+<li>
+<p><a class="link" href="#%e6%b7%b7%e5%93%8d%e7%9a%84%e9%ab%98%e7%ba%a7%e6%8e%a7%e5%88%b6" >混响的高级控制</a></p>
+<ul>
+<li><a class="link" href="#%e9%80%9a%e8%bf%87%e9%a2%91%e6%ae%b5%e5%8e%bb%e5%a1%91%e9%80%a0%e6%b7%b7%e5%93%8d%e7%9a%84%e5%a3%b0%e9%9f%b3" >通过频段去塑造混响的声音</a></li>
+<li><a class="link" href="#%e5%88%86%e9%a2%91%e6%ae%b5decay" >分频段Decay</a></li>
+<li><a class="link" href="#%e5%8a%a8%e6%80%81%e6%8e%a7%e5%88%b6%e9%97%aa%e9%81%bf%e9%97%a8%e9%99%90%e5%8e%8b%e7%bc%a9" >动态控制（闪避、门限、压缩）</a></li>
+<li><a class="link" href="#modulation" >Modulation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</details>
+<h1 id="混响需要理解的基础概念">混响需要理解的基础概念
+</h1><h3 id="什么是混响">什么是混响
+</h3><blockquote>
+<p><strong>当声音在一个空间响起，声波会发散到这空间的各个方向，声波达到空间的表面上反射回来，随着时间这种反射能力会渐渐消失。</strong></p>
+</blockquote>
+<blockquote>
+<ul>
+<li>如果没有非常严谨的声学控制，几乎所有的封闭空间都会产生混响，在声音响起之后，这些反射回来的声音会在初始声音发出之后，很快到达听众耳朵，而<strong>这一系列的声音会产生一个整体、连续的回音，这就是混响。</strong></li>
+</ul>
+</blockquote>
+<h3 id="第一反射">第一反射
+</h3><blockquote>
+<p><strong>第一反射是声音通过空间表面第一时间反射回来的声音，就像回音一样</strong>。</p>
+</blockquote>
+<blockquote>
+<p><strong>空间的尺寸和声音的传播速度会决定它弹回来的时间，而材质则会影响第一反射的频率。</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>空间的大小、尺寸、距离的远近、反射面的材质都会影响反射的声音。</strong></p>
+<ul>
+<li>
+<p>比如你在一个密封的贴满瓷砖的小空间拍手和你在一个大一些的全是海绵的房间中拍手，反射回来的声音都是不一样的，前者反射非常快而且非常清脆，后者非常闷非常小而且回来的会统一一些。</p>
+</li>
+<li>
+<p>对于第一反射的控制在你制作一个合理、仿真的空间混响时尤为重要，一般在配音、影视、戏剧中需要特别注意。</p>
+</li>
+</ul>
+</blockquote>
+<h3 id="混响音尾tale--reverb-body-">混响音尾（Tale \ Reverb body ）
+</h3><blockquote>
+<p>混响音尾更类似我们脑海中混响的感觉，就是<strong>第一时间反射过后因为声音传播中能量的消失以及整个空间声音反射的特性而留下的震荡的声音。</strong></p>
+<ul>
+<li>它的长短和频率也能够给你非常好的对于所处空间的印象，比如卧室和教堂听到的混响就是截然不同的感觉。</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>反射时间长会让你感觉处在一个非常容易反射且空间很大的地方，如果很短甚至听不到混响的音尾会让你觉得这是一个比较小的空间，或者是比较不容易让声音反射的空间。</strong></li>
+</ul>
+</blockquote>
+<h3 id="声音传播的特点">声音传播的特点
+</h3><blockquote>
+<ul>
+<li>声音的速度 340m/s = 0.34m/ms</li>
+<li><strong>传播中高频先衰减</strong>（所以越小的空间，你能听到更多高频的声音，当然也不是一定的）</li>
+<li>反射面材质对于频段有重要影响</li>
+<li>Inverse square law（你离声音越远声音就越低，每距离增加一倍时声音会减半），所以<strong>你想让一个声音离你远不仅可以降低音量，同时也可以调整混响的音量和频段，降低高频。</strong>）</li>
+</ul>
+</blockquote>
+<hr>
+<h1 id="每种混响的特点">每种混响的特点
+</h1><h3 id="大厅混响hall">大厅混响（Hall）
+</h3><blockquote>
+<p>场景</p>
+<ul>
+<li>演奏大厅</li>
+<li>歌剧院</li>
+<li>教堂</li>
+<li>空旷的封闭场所</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>特点</p>
+<ul>
+<li>非常长的混响时长</li>
+<li>非常平滑渐进的消失过程</li>
+<li>第一反射不会很明显（所以第一反射不是很重要）</li>
+</ul>
+</blockquote>
+<p><strong>大厅混响会比较失焦，使用大厅混响时，要注意控制它的时长、频段、整个动态的感觉，因为大厅混响往往比较长，大厅混响声音会比较暗。</strong></p>
+<h3 id="带混响特点的录音棚room">带混响特点的录音棚（Room）
+</h3><blockquote>
+<p>场景</p>
+<ul>
+<li>经过声学设计的录音棚</li>
+<li>专门录制声音的房间</li>
+<li>Vocal booth / Drum room</li>
+<li>或者是任何类型的房间</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>特点</p>
+<ul>
+<li>比较短的混响时长</li>
+<li>非常快速的第一反射。</li>
+</ul>
+</blockquote>
+<h3 id="为混响设计的密室chamber">为混响设计的“密室”（Chamber）
+</h3><blockquote>
+<p>场景</p>
+<ul>
+<li>完全封闭的房间</li>
+<li>内墙涂装往往是反射性很强的材质</li>
+<li>通过音响回放声音</li>
+<li>通过 Mic 拾取混响声音</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>特点</p>
+<ul>
+<li>浸入式、饱满、高密度，更明显的清晰度，饱和度和聚焦的感觉。*</li>
+</ul>
+</blockquote>
+<h2 id="机械混响--弹簧混响spring">机械混响 —— 弹簧混响（Spring）
+</h2><blockquote>
+<p>特点</p>
+<ul>
+<li>声音很弹且松散</li>
+<li>根据输入信号的强弱有明显的动态变化</li>
+<li>能够听到金属感的高频</li>
+<li>以及线条非常清晰的音尾</li>
+</ul>
+</blockquote>
+<h2 id="机械混响--平板混响plate">机械混响 —— 平板混响（Plate）
+</h2><blockquote>
+<p>特点</p>
+<ul>
+<li>传到的声音在震荡的过程中非常紧密</li>
+<li>声音会显得比较明亮和弥散</li>
+<li>平板混响一个有趣的特点是：有些设备上会有明显的低频滞后现象</li>
+</ul>
+</blockquote>
+<p><strong>平板混响会堆积低频，所以要控制低频。</strong></p>
+<hr>
+<h1 id="混响的基本参数">混响的基本参数
+</h1><h3 id="reverb-time--decay-time混响的时长">Reverb time / Decay time（混响的时长）
+</h3><blockquote>
+<p><strong>整个声音一共震荡多长时间才会消失。（混响消失时间）</strong></p>
+</blockquote>
+<h3 id="size空间的尺寸">Size（空间的尺寸）
+</h3><blockquote>
+<p>模拟空间大小，<strong>可以影响混响的震动时长</strong>，空间大时，高频的声音会消散的更快。</p>
+<p>如果你想模拟一个真实的空间，就需要一个真实、合理、正常的尺寸。</p>
+</blockquote>
+<h3 id="diffusion弥散">Diffusion（弥散）
+</h3><blockquote>
+<p>一个声音出来后<strong>特别干、特别硬，听起来像很多延迟卡卡的感觉，就是弥散比较低</strong>；反之，<strong>很高声音就会变得特别扩散，每个声音都变得模糊，不那么清晰，更圆润、饱满的感觉。</strong></p>
+</blockquote>
+<h3 id="damping阻尼">Damping（阻尼）
+</h3><blockquote>
+<p><strong>给混响的声音刹车，控制混响的声音。</strong></p>
+</blockquote>
+<h3 id="pre-delay预延迟">Pre Delay（预延迟）
+</h3><blockquote>
+<p>设置后，<strong>当你的干声发出来以后，混响会晚一点才出来</strong></p>
+<p><strong>可以帮助躲开一些声音的内容，让声音更清晰，但太长时间就会不自然（一般最高就是80ms）</strong></p>
+</blockquote>
+<hr>
+<h1 id="混响的高级控制">混响的高级控制
+</h1><h3 id="通过频段去塑造混响的声音">通过频段去塑造混响的声音
+</h3><p><strong>均衡控制原理：通过调节混响中的频段（EQ）来控制混响声音特性，解决高频过多/低频过多的问题，实现声音变暗/变暖/变亮的效果</strong></p>
+<blockquote>
+<ul>
+<li>距离控制：调节可使混响声音离人声更远（如演示中&quot;听起来比较近，需要更远&quot;的调整）</li>
+<li>高频问题：过亮的高频会与人声产生竞争（如演示中&quot;影子在后面追着&quot;的效果）,适当衰减可减少&quot;影子效应&quot;</li>
+<li>中频调节：可单独增强中频混响量,增强人声清晰度</li>
+<li>避免低频混响过重淹没其他乐器（对比卡拉OK式大混响）</li>
+</ul>
+</blockquote>
+<h3 id="分频段decay">分频段Decay
+</h3><p><strong>设置不同频段不同的衰减时间（哪个频段消失的慢，哪个频段消失的快）</strong></p>
+<blockquote>
+<ul>
+<li>低频控制：避免持续过久影响清晰度</li>
+<li>高频保持：增强空间延续感</li>
+</ul>
+</blockquote>
+<h3 id="动态控制闪避门限压缩">动态控制（闪避、门限、压缩）
+</h3><blockquote>
+<p><strong>闪避：通过压缩设备实现人声与混响的错位控制，人声出现时降低混响音量，人声消失时提升混响音量。</strong>
+（解决人声被混响淹没的问题，保持音乐空间饱满度）</p>
+<p>实现方式：在混响插件后接带侧链功能的压缩设备，监听人声干声信号作为触发。</p>
+<ul>
+<li>侧链压缩阈值设置需匹配人声音量动态</li>
+<li>压缩比建议4:1以上，启动时间(attack)5-20ms</li>
+<li>过度压缩导致混响&quot;抽吸效应&quot;</li>
+</ul>
+</blockquote>
+<blockquote>
+<p><strong>门限：截断混响尾音，类似非线性混响的 abrupt cut-off 效果。</strong></p>
+<p>实现方式：直接使用非线性混响算法（如设置1秒强制衰减）
+通过噪声门(gate)限制混响信号</p>
+<ul>
+<li>消除混响尾音对干声的干扰
+特殊音效制作（演示示例：三秒混响突变为一秒）</li>
+</ul>
+</blockquote>
+<blockquote>
+<p><strong>压缩：稳定混响存在感，消除跟随干声的动态波动。</strong></p>
+<p>特殊应用：打击乐混响动态控制
+人声大动态曲目的空间稳定</p>
+</blockquote>
+<h3 id="modulation">Modulation
+</h3><p><strong>如果混响声音过于平淡，可以通过 Modulation 适当的增加一些混响的色彩</strong></p>
+<hr>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>小威音乐工作室</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2016 - 
+        
+        2025 小威音乐工作室
+    </section>
+    
+
+    <footer>
+        <button id="scrollToTop" style="display: none; position: fixed; bottom: 5px; left: 50%; transform: translateX(-50%); padding: 0px; width: 100px; background: #ffffff; color: #000000; border: none; border-radius: 5px; cursor: pointer;">
+            <i class="fas fa-arrow-up" style="margin-right: 5px;"></i>
+        </button>
+    </footer>
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <script>
+        
+        const scrollToTopBtn = document.getElementById('scrollToTop');
+    
+        
+        window.onscroll = function() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollToTopBtn.style.display = 'block';
+            } else {
+                scrollToTopBtn.style.display = 'none';
+            }
+        };
+    
+        
+        scrollToTopBtn.onclick = function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        };
+    </script>
+
+    
+
+<section class="totalcount">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    发表了39篇文章 · 
+    总计1.79k字
+</section>
+
+
+<section class="running-time">
+    本网站已稳定运行
+    <span id="runningdays" class="running-days"></span>
+    </section>
+
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+    
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<script>
+    (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+  
+    ChannelIO('boot', {
+      "pluginKey": "9da734c6-d727-4773-8163-059f4ac9ef71"
+    });
+  </script>
+
+
+<script>
+  let s1 = '2024-11-4'; 
+  s1 = new Date(s1.replace(/-/g, "/"));
+  let s2 = new Date();
+  let timeDifference = s2.getTime() - s1.getTime();
+
+  let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+  let result = days + "天" + hours + "小时" + minutes + "分钟";
+  document.getElementById('runningdays').innerHTML = result;
+</script>
+    </body>
+</html>
