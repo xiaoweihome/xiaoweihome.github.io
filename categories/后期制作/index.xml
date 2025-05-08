@@ -6,7 +6,257 @@
         <description>Recent content in 后期制作 on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/categories/%E5%90%8E%E6%9C%9F%E5%88%B6%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/categories/%E5%90%8E%E6%9C%9F%E5%88%B6%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>关于混响的一些知识</title>
+        <link>https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</guid>
+        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1.jpg" alt="Featured image of post 关于混响的一些知识" /&gt;&lt;details&gt;
+&lt;summary style=&#34;background-color: #f0f4f8; padding: 1em; border-radius: 8px; cursor: pointer; border: 1px solid #ddd;&#34;&gt;
+  &lt;strong&gt;📖 目录（点击展开）&lt;/strong&gt;
+&lt;/summary&gt;
+&lt;div style=&#34;background-color: #f9fbfd; padding: 1em; margin-top: 0.5em; border-radius: 8px;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%b7%b7%e5%93%8d%e9%9c%80%e8%a6%81%e7%90%86%e8%a7%a3%e7%9a%84%e5%9f%ba%e7%a1%80%e6%a6%82%e5%bf%b5&#34; &gt;混响需要理解的基础概念&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af%e6%b7%b7%e5%93%8d&#34; &gt;什么是混响&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e7%ac%ac%e4%b8%80%e5%8f%8d%e5%b0%84&#34; &gt;第一反射&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%b7%b7%e5%93%8d%e9%9f%b3%e5%b0%betale--reverb-body&#34; &gt;混响音尾（Tale / Reverb body）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%a3%b0%e9%9f%b3%e4%bc%a0%e6%92%ad%e7%9a%84%e7%89%b9%e7%82%b9&#34; &gt;声音传播的特点&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%af%8f%e7%a7%8d%e6%b7%b7%e5%93%8d%e7%9a%84%e7%89%b9%e7%82%b9&#34; &gt;每种混响的特点&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%a4%a7%e5%8e%85%e6%b7%b7%e5%93%8dhall&#34; &gt;大厅混响（Hall）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%b8%a6%e6%b7%b7%e5%93%8d%e7%89%b9%e7%82%b9%e7%9a%84%e5%bd%95%e9%9f%b3%e6%a3%9aroom&#34; &gt;带混响特点的录音棚（Room）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%b8%ba%e6%b7%b7%e5%93%8d%e8%ae%be%e8%ae%a1%e7%9a%84%e5%af%86%e5%ae%a4chamber&#34; &gt;为混响设计的“密室”（Chamber）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%9c%ba%e6%a2%b0%e6%b7%b7%e5%93%8d--%e5%bc%b9%e7%b0%a7%e6%b7%b7%e5%93%8dspring&#34; &gt;机械混响 —— 弹簧混响（Spring）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%9c%ba%e6%a2%b0%e6%b7%b7%e5%93%8d--%e5%b9%b3%e6%9d%bf%e6%b7%b7%e5%93%8dplate&#34; &gt;机械混响 —— 平板混响（Plate）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%b7%b7%e5%93%8d%e7%9a%84%e5%9f%ba%e6%9c%ac%e5%8f%82%e6%95%b0&#34; &gt;混响的基本参数&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#reverb-time--decay-time%e6%b7%b7%e5%93%8d%e7%9a%84%e6%97%b6%e9%95%bf&#34; &gt;Reverb time / Decay time（混响的时长）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#size%e7%a9%ba%e9%97%b4%e7%9a%84%e5%b0%ba%e5%af%b8&#34; &gt;Size（空间的尺寸）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#diffusion%e5%bc%a5%e6%95%a3&#34; &gt;Diffusion（弥散）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#damping%e9%98%bb%e5%b0%bc&#34; &gt;Damping（阻尼）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#pre-delay%e9%a2%84%e5%bb%b6%e8%bf%9f&#34; &gt;Pre Delay（预延迟）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%b7%b7%e5%93%8d%e7%9a%84%e9%ab%98%e7%ba%a7%e6%8e%a7%e5%88%b6&#34; &gt;混响的高级控制&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%80%9a%e8%bf%87%e9%a2%91%e6%ae%b5%e5%8e%bb%e5%a1%91%e9%80%a0%e6%b7%b7%e5%93%8d%e7%9a%84%e5%a3%b0%e9%9f%b3&#34; &gt;通过频段去塑造混响的声音&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%88%86%e9%a2%91%e6%ae%b5decay&#34; &gt;分频段Decay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%8a%a8%e6%80%81%e6%8e%a7%e5%88%b6%e9%97%aa%e9%81%bf%e9%97%a8%e9%99%90%e5%8e%8b%e7%bc%a9&#34; &gt;动态控制（闪避、门限、压缩）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#modulation&#34; &gt;Modulation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;h1 id=&#34;混响需要理解的基础概念&#34;&gt;混响需要理解的基础概念
+&lt;/h1&gt;&lt;h3 id=&#34;什么是混响&#34;&gt;什么是混响
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;当声音在一个空间响起，声波会发散到这空间的各个方向，声波达到空间的表面上反射回来，随着时间这种反射能力会渐渐消失。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;如果没有非常严谨的声学控制，几乎所有的封闭空间都会产生混响，在声音响起之后，这些反射回来的声音会在初始声音发出之后，很快到达听众耳朵，而&lt;strong&gt;这一系列的声音会产生一个整体、连续的回音，这就是混响。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;第一反射&#34;&gt;第一反射
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;第一反射是声音通过空间表面第一时间反射回来的声音，就像回音一样&lt;/strong&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;空间的尺寸和声音的传播速度会决定它弹回来的时间，而材质则会影响第一反射的频率。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;空间的大小、尺寸、距离的远近、反射面的材质都会影响反射的声音。&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;比如你在一个密封的贴满瓷砖的小空间拍手和你在一个大一些的全是海绵的房间中拍手，反射回来的声音都是不一样的，前者反射非常快而且非常清脆，后者非常闷非常小而且回来的会统一一些。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;对于第一反射的控制在你制作一个合理、仿真的空间混响时尤为重要，一般在配音、影视、戏剧中需要特别注意。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;混响音尾tale--reverb-body-&#34;&gt;混响音尾（Tale \ Reverb body ）
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;混响音尾更类似我们脑海中混响的感觉，就是&lt;strong&gt;第一时间反射过后因为声音传播中能量的消失以及整个空间声音反射的特性而留下的震荡的声音。&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;它的长短和频率也能够给你非常好的对于所处空间的印象，比如卧室和教堂听到的混响就是截然不同的感觉。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;反射时间长会让你感觉处在一个非常容易反射且空间很大的地方，如果很短甚至听不到混响的音尾会让你觉得这是一个比较小的空间，或者是比较不容易让声音反射的空间。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;声音传播的特点&#34;&gt;声音传播的特点
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;声音的速度 340m/s = 0.34m/ms&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;传播中高频先衰减&lt;/strong&gt;（所以越小的空间，你能听到更多高频的声音，当然也不是一定的）&lt;/li&gt;
+&lt;li&gt;反射面材质对于频段有重要影响&lt;/li&gt;
+&lt;li&gt;Inverse square law（你离声音越远声音就越低，每距离增加一倍时声音会减半），所以&lt;strong&gt;你想让一个声音离你远不仅可以降低音量，同时也可以调整混响的音量和频段，降低高频。&lt;/strong&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;每种混响的特点&#34;&gt;每种混响的特点
+&lt;/h1&gt;&lt;h3 id=&#34;大厅混响hall&#34;&gt;大厅混响（Hall）
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;场景&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;演奏大厅&lt;/li&gt;
+&lt;li&gt;歌剧院&lt;/li&gt;
+&lt;li&gt;教堂&lt;/li&gt;
+&lt;li&gt;空旷的封闭场所&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;特点&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;非常长的混响时长&lt;/li&gt;
+&lt;li&gt;非常平滑渐进的消失过程&lt;/li&gt;
+&lt;li&gt;第一反射不会很明显（所以第一反射不是很重要）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;大厅混响会比较失焦，使用大厅混响时，要注意控制它的时长、频段、整个动态的感觉，因为大厅混响往往比较长，大厅混响声音会比较暗。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;带混响特点的录音棚room&#34;&gt;带混响特点的录音棚（Room）
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;场景&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;经过声学设计的录音棚&lt;/li&gt;
+&lt;li&gt;专门录制声音的房间&lt;/li&gt;
+&lt;li&gt;Vocal booth / Drum room&lt;/li&gt;
+&lt;li&gt;或者是任何类型的房间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;特点&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;比较短的混响时长&lt;/li&gt;
+&lt;li&gt;非常快速的第一反射。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;为混响设计的密室chamber&#34;&gt;为混响设计的“密室”（Chamber）
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;场景&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;完全封闭的房间&lt;/li&gt;
+&lt;li&gt;内墙涂装往往是反射性很强的材质&lt;/li&gt;
+&lt;li&gt;通过音响回放声音&lt;/li&gt;
+&lt;li&gt;通过 Mic 拾取混响声音&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;特点&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;浸入式、饱满、高密度，更明显的清晰度，饱和度和聚焦的感觉。*&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;机械混响--弹簧混响spring&#34;&gt;机械混响 —— 弹簧混响（Spring）
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;特点&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;声音很弹且松散&lt;/li&gt;
+&lt;li&gt;根据输入信号的强弱有明显的动态变化&lt;/li&gt;
+&lt;li&gt;能够听到金属感的高频&lt;/li&gt;
+&lt;li&gt;以及线条非常清晰的音尾&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;机械混响--平板混响plate&#34;&gt;机械混响 —— 平板混响（Plate）
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;特点&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;传到的声音在震荡的过程中非常紧密&lt;/li&gt;
+&lt;li&gt;声音会显得比较明亮和弥散&lt;/li&gt;
+&lt;li&gt;平板混响一个有趣的特点是：有些设备上会有明显的低频滞后现象&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;平板混响会堆积低频，所以要控制低频。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;混响的基本参数&#34;&gt;混响的基本参数
+&lt;/h1&gt;&lt;h3 id=&#34;reverb-time--decay-time混响的时长&#34;&gt;Reverb time / Decay time（混响的时长）
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;整个声音一共震荡多长时间才会消失。（混响消失时间）&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;size空间的尺寸&#34;&gt;Size（空间的尺寸）
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;模拟空间大小，&lt;strong&gt;可以影响混响的震动时长&lt;/strong&gt;，空间大时，高频的声音会消散的更快。&lt;/p&gt;
+&lt;p&gt;如果你想模拟一个真实的空间，就需要一个真实、合理、正常的尺寸。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;diffusion弥散&#34;&gt;Diffusion（弥散）
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;一个声音出来后&lt;strong&gt;特别干、特别硬，听起来像很多延迟卡卡的感觉，就是弥散比较低&lt;/strong&gt;；反之，&lt;strong&gt;很高声音就会变得特别扩散，每个声音都变得模糊，不那么清晰，更圆润、饱满的感觉。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;damping阻尼&#34;&gt;Damping（阻尼）
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;给混响的声音刹车，控制混响的声音。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;pre-delay预延迟&#34;&gt;Pre Delay（预延迟）
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;设置后，&lt;strong&gt;当你的干声发出来以后，混响会晚一点才出来&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;可以帮助躲开一些声音的内容，让声音更清晰，但太长时间就会不自然（一般最高就是80ms）&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;混响的高级控制&#34;&gt;混响的高级控制
+&lt;/h1&gt;&lt;h3 id=&#34;通过频段去塑造混响的声音&#34;&gt;通过频段去塑造混响的声音
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;均衡控制原理：通过调节混响中的频段（EQ）来控制混响声音特性，解决高频过多/低频过多的问题，实现声音变暗/变暖/变亮的效果&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;距离控制：调节可使混响声音离人声更远（如演示中&amp;quot;听起来比较近，需要更远&amp;quot;的调整）&lt;/li&gt;
+&lt;li&gt;高频问题：过亮的高频会与人声产生竞争（如演示中&amp;quot;影子在后面追着&amp;quot;的效果）,适当衰减可减少&amp;quot;影子效应&amp;quot;&lt;/li&gt;
+&lt;li&gt;中频调节：可单独增强中频混响量,增强人声清晰度&lt;/li&gt;
+&lt;li&gt;避免低频混响过重淹没其他乐器（对比卡拉OK式大混响）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;分频段decay&#34;&gt;分频段Decay
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;设置不同频段不同的衰减时间（哪个频段消失的慢，哪个频段消失的快）&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;低频控制：避免持续过久影响清晰度&lt;/li&gt;
+&lt;li&gt;高频保持：增强空间延续感&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;动态控制闪避门限压缩&#34;&gt;动态控制（闪避、门限、压缩）
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;闪避：通过压缩设备实现人声与混响的错位控制，人声出现时降低混响音量，人声消失时提升混响音量。&lt;/strong&gt;
+（解决人声被混响淹没的问题，保持音乐空间饱满度）&lt;/p&gt;
+&lt;p&gt;实现方式：在混响插件后接带侧链功能的压缩设备，监听人声干声信号作为触发。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;侧链压缩阈值设置需匹配人声音量动态&lt;/li&gt;
+&lt;li&gt;压缩比建议4:1以上，启动时间(attack)5-20ms&lt;/li&gt;
+&lt;li&gt;过度压缩导致混响&amp;quot;抽吸效应&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;门限：截断混响尾音，类似非线性混响的 abrupt cut-off 效果。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;实现方式：直接使用非线性混响算法（如设置1秒强制衰减）
+通过噪声门(gate)限制混响信号&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;消除混响尾音对干声的干扰
+特殊音效制作（演示示例：三秒混响突变为一秒）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;压缩：稳定混响存在感，消除跟随干声的动态波动。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;特殊应用：打击乐混响动态控制
+人声大动态曲目的空间稳定&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;modulation&#34;&gt;Modulation
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;如果混响声音过于平淡，可以通过 Modulation 适当的增加一些混响的色彩&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
         <title>每种乐器、人声不同频段的作用</title>
         <link>https://xiaoweihome.github.io/p/%E6%AF%8F%E7%A7%8D%E4%B9%90%E5%99%A8%E4%BA%BA%E5%A3%B0%E4%B8%8D%E5%90%8C%E9%A2%91%E6%AE%B5%E7%9A%84%E4%BD%9C%E7%94%A8/</link>
         <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
