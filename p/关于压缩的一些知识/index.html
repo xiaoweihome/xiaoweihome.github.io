@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="什么是动态 动态范围(Dynamic Range)：指声音中最强和最弱信号之间的差异程度，表现为&quot;大声和小声之间的区别&quot;。\n核心特征：\n动态≠音量：音量是绝对响度，动态是相对变化幅度\n大动态示例：唐僧念经时突然被惊吓大叫（从平稳到剧烈变化）（大动态带来夸张的表现力）\n小动态示例：持续均匀的念经声（音量恒定）（小动态能够让声音一致）\n测量单位：分贝(dB)，指数级增长（每增加10dB相当于能量增加10倍）\n什么是波形 波形(wave/envelope)：就是声音的形状，可以直观理解为声音的视觉化表现， 通过波形可以观察到声音的动态变化，但无法直接看出频率信息。\n波形的四个重要部分：ADSR（Attack 启动 / Decay 衰变 / Sustain 延音 / Release 释放）\nAttack: 声音从无到达到波峰的时间（如军鼓&quot;啪&quot;的瞬间） Decay: 从波峰开始衰减的时间 Sustain: 声音持续阶段的电平保持 Release: 声音完全消失的过程 注意：这里说的 Attack 和 Release 与压缩插件中的是不同的，这里是形容波形\n什么是压缩 压缩（Compressor）用于减少声音的动态范围，使声音更加平稳。\n通过设置合适的阈值和压缩比例，可以**把过大的声音压下来，让跳动的声音变得平稳，更易于人耳捕捉。**在录音过程中，可以限制非常大的动态声音到一个范围内，避免超出声卡范围 声音塑形 通过压缩来改变声音的音头和音尾，从而改变声音的特性。\n方法: 通过调整压缩的启动时间和释放时间，可以塑造出不同的声音形状。例如，延长军鼓音头或增大音尾，可以改变其打击感。 音染色彩 音染色彩是指压缩设备或插件在压缩过程中给声音带来的额外音色和音质变化。\n很多模拟硬件的压缩插件能带来音色和音染，这些设备通过不同的技术和设计，会给声音带来很多不一样的色彩。 例如，变压器可以给低频和中频带来饱满的色彩，电子元件可以带来谐波和音染。\n压缩的各种参数 ">
+<title>关于压缩的一些知识</title>
+
+<link rel='canonical' href='https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/'>
+
+<link rel="stylesheet" href="/scss/style.min.f91c16411405e1fc5da08861fe7cf176ce361269bd69c3b7428065036933611e.css"><meta property='og:title' content="关于压缩的一些知识">
+<meta property='og:description' content="什么是动态 动态范围(Dynamic Range)：指声音中最强和最弱信号之间的差异程度，表现为&quot;大声和小声之间的区别&quot;。\n核心特征：\n动态≠音量：音量是绝对响度，动态是相对变化幅度\n大动态示例：唐僧念经时突然被惊吓大叫（从平稳到剧烈变化）（大动态带来夸张的表现力）\n小动态示例：持续均匀的念经声（音量恒定）（小动态能够让声音一致）\n测量单位：分贝(dB)，指数级增长（每增加10dB相当于能量增加10倍）\n什么是波形 波形(wave/envelope)：就是声音的形状，可以直观理解为声音的视觉化表现， 通过波形可以观察到声音的动态变化，但无法直接看出频率信息。\n波形的四个重要部分：ADSR（Attack 启动 / Decay 衰变 / Sustain 延音 / Release 释放）\nAttack: 声音从无到达到波峰的时间（如军鼓&quot;啪&quot;的瞬间） Decay: 从波峰开始衰减的时间 Sustain: 声音持续阶段的电平保持 Release: 声音完全消失的过程 注意：这里说的 Attack 和 Release 与压缩插件中的是不同的，这里是形容波形\n什么是压缩 压缩（Compressor）用于减少声音的动态范围，使声音更加平稳。\n通过设置合适的阈值和压缩比例，可以**把过大的声音压下来，让跳动的声音变得平稳，更易于人耳捕捉。**在录音过程中，可以限制非常大的动态声音到一个范围内，避免超出声卡范围 声音塑形 通过压缩来改变声音的音头和音尾，从而改变声音的特性。\n方法: 通过调整压缩的启动时间和释放时间，可以塑造出不同的声音形状。例如，延长军鼓音头或增大音尾，可以改变其打击感。 音染色彩 音染色彩是指压缩设备或插件在压缩过程中给声音带来的额外音色和音质变化。\n很多模拟硬件的压缩插件能带来音色和音染，这些设备通过不同的技术和设计，会给声音带来很多不一样的色彩。 例如，变压器可以给低频和中频带来饱满的色彩，电子元件可以带来谐波和音染。\n压缩的各种参数 ">
+<meta property='og:url' content='https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/'>
+<meta property='og:site_name' content='小威音乐工作室'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-06-03T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-06-03T00:00:00&#43;00:00'/><meta property='og:image' content='https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0.jpg' />
+<meta name="twitter:title" content="关于压缩的一些知识">
+<meta name="twitter:description" content="什么是动态 动态范围(Dynamic Range)：指声音中最强和最弱信号之间的差异程度，表现为&quot;大声和小声之间的区别&quot;。\n核心特征：\n动态≠音量：音量是绝对响度，动态是相对变化幅度\n大动态示例：唐僧念经时突然被惊吓大叫（从平稳到剧烈变化）（大动态带来夸张的表现力）\n小动态示例：持续均匀的念经声（音量恒定）（小动态能够让声音一致）\n测量单位：分贝(dB)，指数级增长（每增加10dB相当于能量增加10倍）\n什么是波形 波形(wave/envelope)：就是声音的形状，可以直观理解为声音的视觉化表现， 通过波形可以观察到声音的动态变化，但无法直接看出频率信息。\n波形的四个重要部分：ADSR（Attack 启动 / Decay 衰变 / Sustain 延音 / Release 释放）\nAttack: 声音从无到达到波峰的时间（如军鼓&quot;啪&quot;的瞬间） Decay: 从波峰开始衰减的时间 Sustain: 声音持续阶段的电平保持 Release: 声音完全消失的过程 注意：这里说的 Attack 和 Release 与压缩插件中的是不同的，这里是形容波形\n什么是压缩 压缩（Compressor）用于减少声音的动态范围，使声音更加平稳。\n通过设置合适的阈值和压缩比例，可以**把过大的声音压下来，让跳动的声音变得平稳，更易于人耳捕捉。**在录音过程中，可以限制非常大的动态声音到一个范围内，避免超出声卡范围 声音塑形 通过压缩来改变声音的音头和音尾，从而改变声音的特性。\n方法: 通过调整压缩的启动时间和释放时间，可以塑造出不同的声音形状。例如，延长军鼓音头或增大音尾，可以改变其打击感。 音染色彩 音染色彩是指压缩设备或插件在压缩过程中给声音带来的额外音色和音质变化。\n很多模拟硬件的压缩插件能带来音色和音染，这些设备通过不同的技术和设计，会给声音带来很多不一样的色彩。 例如，变压器可以给低频和中频带来饱满的色彩，电子元件可以带来谐波和音染。\n压缩的各种参数 "><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0.jpg' />
+    <link rel="shortcut icon" href="/favicon.png" />
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-CX857XXFSH"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-CX857XXFSH');
+        }
+      </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu16753285127133054316.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">小威音乐工作室</a></h1>
+            <h2 class="site-description">分享音乐相关的知识、工具</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/'
+                        target="_blank"
+                        title="18038545271"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M16.5 10c3.038 0 5.5 2.015 5.5 4.5c0 1.397 -.778 2.645 -2 3.47l0 2.03l-1.964 -1.178a6.649 6.649 0 0 1 -1.536 .178c-3.038 0 -5.5 -2.015 -5.5 -4.5s2.462 -4.5 5.5 -4.5z"></path> <path d="M11.197 15.698c-.69 .196 -1.43 .302 -2.197 .302a8.008 8.008 0 0 1 -2.612 -.432l-2.388 1.432v-2.801c-1.237 -1.082 -2 -2.564 -2 -4.199c0 -3.314 3.134 -6 7 -6c3.782 0 6.863 2.57 7 5.785l0 .233"></path> <path d="M10 8h.01"></path> <path d="M7 8h.01"></path> <path d="M15 14h.01"></path> <path d="M18 14h.01"></path> </svg> 
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/49575257'
+                        target="_blank"
+                        title="Bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" stroke-width="2"> <path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z"></path> <path d="M8 3l2 3"></path> <path d="M16 3l-2 3"></path> <path d="M9 13v-2"></path> <path d="M15 11v2"></path> </svg> 
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='http://xiaowei.blog'
+                        target="_blank"
+                        title="个人Blog"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg viewBox="0 -20 512 511" xmlns="http://www.w3.org/2000/svg"><path d="m10 32.269531v408.398438c0 12.023437 9.746094 21.769531 21.769531 21.769531h448.460938c12.023437 0 21.769531-9.746094 21.769531-21.769531v-408.398438c0-12.023437-9.746094-21.769531-21.769531-21.769531h-448.460938c-12.023437 0-21.769531 9.746094-21.769531 21.769531zm0 0" fill="#fff"/><path d="m31.769531 10.5h448.460938c12.023437 0 21.769531 9.746094 21.769531 21.769531v74.019531h-492v-74.019531c0-12.023437 9.746094-21.769531 21.769531-21.769531zm0 0" fill="#72d8ff"/><path d="m67.179688 48.394531h-.101563c-5.523437 0-10 4.476563-10 10 0 5.523438 4.476563 10 10 10h.101563c5.523437 0 10-4.476562 10-10 0-5.523437-4.476563-10-10-10zm0 0"/><path d="m116.710938 48.394531h-.101563c-5.523437 0-10 4.476563-10 10 0 5.523438 4.476563 10 10 10h.101563c5.523437 0 10-4.476562 10-10 0-5.523437-4.476563-10-10-10zm0 0"/><path d="m166.242188 48.394531h-.101563c-5.523437 0-10 4.476563-10 10 0 5.523438 4.476563 10 10 10h.101563c5.523437 0 10-4.476562 10-10 0-5.523437-4.476563-10-10-10zm0 0"/><path d="m444.308594 48.394531h-192.929688c-5.523437 0-10 4.476563-10 10 0 5.519531 4.476563 10 10 10h192.929688c5.523437 0 10-4.480469 10-10 0-5.523437-4.476563-10-10-10zm0 0"/><path d="m262.890625 452.4375c-2.628906 0-5.199219 1.070312-7.070313 2.929688-1.859374 1.859374-2.929687 4.441406-2.929687 7.070312s1.070313 5.210938 2.929687 7.070312c1.871094 1.859376 4.441407 2.929688 7.070313 2.929688s5.210937-1.070312 7.070313-2.929688c1.867187-1.859374 2.929687-4.441406 2.929687-7.070312s-1.0625-5.210938-2.929687-7.070312c-1.859376-1.859376-4.441407-2.929688-7.070313-2.929688zm0 0"/><path d="m480.230469.5h-448.460938c-17.515625 0-31.769531 14.253906-31.769531 31.769531v408.398438c0 17.519531 14.253906 31.769531 31.769531 31.769531h189.230469c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10h-189.230469c-6.488281 0-11.769531-5.277344-11.769531-11.769531v-324.378907h472v324.378907c0 6.488281-5.28125 11.769531-11.769531 11.769531h-176.5625c-5.523438 0-10 4.476562-10 10s4.476562 10 10 10h176.5625c17.515625 0 31.769531-14.25 31.769531-31.769531v-408.398438c0-17.515625-14.253906-31.769531-31.769531-31.769531zm-460.230469 95.785156v-64.015625c0-6.488281 5.28125-11.769531 11.769531-11.769531h448.460938c6.488281 0 11.769531 5.28125 11.769531 11.769531v64.019531h-472zm0 0"/><path d="m178.039062 230.5c0-19.851562-16.148437-36-36-36h-33.667968c-5.523438 0-10 4.476562-10 10v104c0 5.523438 4.476562 10 10 10h33.667968c19.851563 0 36-16.148438 36-36 0-10.214844-4.28125-19.441406-11.140624-26 6.859374-6.558594 11.140624-15.785156 11.140624-26zm-20 52c0 8.820312-7.179687 16-16 16h-23.667968v-32h23.667968c8.820313 0 16 7.175781 16 16zm-39.667968-36v-32h23.667968c8.824219 0 16 7.179688 16 16s-7.175781 16-16 16zm0 0"/><path d="m206.648438 194.5c-5.523438 0-10 4.476562-10 10v80.871094c0 18.269531 14.863281 33.128906 33.128906 33.128906 5.523437 0 10-4.476562 10-10s-4.476563-10-10-10c-7.238282 0-13.128906-5.890625-13.128906-13.128906v-80.871094c0-5.523438-4.476563-10-10-10zm0 0"/><path d="m324.867188 282.289062c0-19.96875-16.242188-36.214843-36.210938-36.214843s-36.210938 16.246093-36.210938 36.214843 16.246094 36.210938 36.210938 36.210938c19.96875 0 36.210938-16.242188 36.210938-36.210938zm-52.421876 0c0-8.941406 7.273438-16.214843 16.210938-16.214843s16.210938 7.273437 16.210938 16.214843c0 8.9375-7.269532 16.210938-16.210938 16.210938s-16.210938-7.273438-16.210938-16.210938zm0 0"/><path d="m377.414062 346.5c-8.9375 0-16.210937-7.273438-16.210937-16.210938 0-5.523437-4.476563-10-10-10s-10 4.476563-10 10c0 19.96875 16.246094 36.210938 36.210937 36.210938 19.96875 0 36.214844-16.242188 36.214844-36.210938v-48c0-19.96875-16.246094-36.214843-36.214844-36.214843-19.964843 0-36.210937 16.246093-36.210937 36.214843s16.246094 36.210938 36.210937 36.210938c5.828126 0 11.332032-1.390625 16.214844-3.847656v15.636718c0 8.9375-7.273437 16.210938-16.214844 16.210938zm0-48c-8.9375 0-16.210937-7.273438-16.210937-16.210938 0-8.941406 7.273437-16.214843 16.210937-16.214843 8.941407 0 16.214844 7.273437 16.214844 16.214843 0 8.9375-7.273437 16.210938-16.214844 16.210938zm0 0"/><path d="m108.371094 416.5h295.257812c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10h-295.257812c-5.519532 0-10 4.476562-10 10s4.480468 10 10 10zm0 0"/></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E8%81%94%E7%B3%BB/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>联系</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>分类</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%B7%A5%E5%85%B7/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M7 10h3v-3l-3.5 -3.5a6 6 0 0 1 8 8l6 6a2 2 0 0 1 -3 3l-6 -6a6 6 0 0 1 -8 -8l3.5 3.5"></path> </svg> 
+                
+                <span>工具</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M14 3v4a1 1 0 0 0 1 1h4"></path> <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path> <path d="M11 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path> <path d="M12 16l0 -5l2 1"></path> </svg> 
+                
+                <span>个人作品</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E6%BC%94%E5%A5%8F%E6%8A%80%E5%B7%A7/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path> <path d="M20 12.5v4.75a.734 .734 0 0 1 -.055 .325a.704 .704 0 0 1 -.348 .366l-5.462 2.58a5 5 0 0 1 -4.27 0l-5.462 -2.58a.705 .705 0 0 1 -.401 -.691l0 -4.75"></path> <path d="M4.431 12.216l5.634 -2.332a5.065 5.065 0 0 1 3.87 0l5.634 2.332a.692 .692 0 0 1 .028 1.269l-5.462 2.543a5.064 5.064 0 0 1 -4.27 0l-5.462 -2.543a.691 .691 0 0 1 .028 -1.27z"></path> <path d="M12 7l0 6"></path> </svg> 
+                
+                <span>演奏技巧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M10 19h-6a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1h6a2 2 0 0 1 2 2a2 2 0 0 1 2 -2h6a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-6a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2z"></path> <path d="M12 5v16"></path> <path d="M7 7h1"></path> <path d="M7 11h1"></path> <path d="M16 7h1"></path> <path d="M16 11h1"></path> <path d="M16 15h1"></path> </svg> 
+                
+                <span>乐谱资料</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E4%B9%90%E5%8F%A5%E5%BA%93/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7"></path> <path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3"></path> <path d="M9.7 17l4.6 0"></path> </svg> 
+                
+                <span>乐句库</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2"> <path d="M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path> <path d="M9 17v-13h10v7"></path> <path d="M9 8h10"></path> <path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z"></path> </svg> 
+                
+                <span>音乐推荐</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+
+    
+    
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/">
+                <img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0_hu12055703269072699472.jpg"
+                        srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0_hu12055703269072699472.jpg 800w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0_hu2472621777568424199.jpg 1600w"
+                        width="800" 
+                        height="409" 
+                        loading="lazy"
+                        alt="Featured image of post 关于压缩的一些知识" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E5%90%8E%E6%9C%9F%E5%88%B6%E4%BD%9C/" >
+                后期制作
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/">关于压缩的一些知识</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025/06/03</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="什么是动态">什么是动态
+</h1><p><strong>动态范围(Dynamic Range)：指声音中最强和最弱信号之间的差异程度，表现为&quot;大声和小声之间的区别&quot;。</strong></p>
+<blockquote>
+<p>核心特征：</p>
+<ul>
+<li>
+<p>动态≠音量：音量是绝对响度，动态是相对变化幅度</p>
+</li>
+<li>
+<p>大动态示例：唐僧念经时突然被惊吓大叫（从平稳到剧烈变化）（大动态带来夸张的表现力）</p>
+</li>
+<li>
+<p>小动态示例：持续均匀的念经声（音量恒定）（小动态能够让声音一致）</p>
+</li>
+</ul>
+</blockquote>
+<p><strong>测量单位：分贝(dB)，指数级增长（每增加10dB相当于能量增加10倍）</strong></p>
+<p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1.png"
+	width="901"
+	height="894"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1_hu15936649420288845176.png 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1_hu4108069468856548473.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="241px"
+	
+></p>
+<hr>
+<h1 id="什么是波形">什么是波形
+</h1><p><strong>波形(wave/envelope)：就是声音的形状，可以直观理解为声音的视觉化表现， 通过波形可以观察到声音的动态变化，但无法直接看出频率信息。</strong></p>
+<blockquote>
+<p>波形的四个重要部分：ADSR（Attack 启动 / Decay 衰变 / Sustain 延音 / Release 释放）</p>
+<ul>
+<li>Attack: 声音从无到达到波峰的时间（如军鼓&quot;啪&quot;的瞬间）</li>
+<li>Decay: 从波峰开始衰减的时间</li>
+<li>Sustain: 声音持续阶段的电平保持</li>
+<li>Release: 声音完全消失的过程</li>
+</ul>
+<p><strong>注意：这里说的 Attack 和 Release 与压缩插件中的是不同的，这里是形容波形</strong></p>
+</blockquote>
+<p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/2.png"
+	width="1259"
+	height="800"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/2_hu9277250461764573533.png 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/2_hu9568305450771071270.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="157"
+		data-flex-basis="377px"
+	
+></p>
+<hr>
+<h1 id="什么是压缩">什么是压缩
+</h1><p><strong>压缩（Compressor）用于减少声音的动态范围，使声音更加平稳。</strong></p>
+<blockquote>
+<ul>
+<li>通过设置合适的阈值和压缩比例，可以**把过大的声音压下来，让跳动的声音变得平稳，更易于人耳捕捉。**在录音过程中，可以限制非常大的动态声音到一个范围内，避免超出声卡范围</li>
+</ul>
+</blockquote>
+<h2 id="声音塑形">声音塑形
+</h2><p><strong>通过压缩来改变声音的音头和音尾，从而改变声音的特性。</strong></p>
+<blockquote>
+<ul>
+<li>方法: 通过<strong>调整压缩的启动时间和释放时间</strong>，可以塑造出不同的声音形状。例如，延长军鼓音头或增大音尾，可以改变其打击感。</li>
+</ul>
+</blockquote>
+<p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/3.png"
+	width="585"
+	height="269"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/3_hu14660995438615969200.png 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/3_hu4770317669218670872.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="217"
+		data-flex-basis="521px"
+	
+></p>
+<h2 id="音染色彩">音染色彩
+</h2><p><strong>音染色彩是指压缩设备或插件在压缩过程中给声音带来的额外音色和音质变化。</strong></p>
+<blockquote>
+<ul>
+<li>很多模拟硬件的压缩插件能带来音色和音染，这些设备通过不同的技术和设计，会给声音带来很多不一样的色彩。</li>
+</ul>
+<p>例如，变压器可以给低频和中频带来饱满的色彩，电子元件可以带来谐波和音染。</p>
+</blockquote>
+<hr>
+<h1 id="压缩的各种参数">压缩的各种参数
+</h1><p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/7.PNG"
+	width="1305"
+	height="955"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/7_hu12315116047913324959.PNG 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/7_hu3576734935599093737.PNG 1024w"
+	loading="lazy"
+	
+		alt="压缩各种参数"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="136"
+		data-flex-basis="327px"
+	
+></p>
+<h2 id="阈值threshold">阈值（Threshold）
+</h2><blockquote>
+<p>阈值是<strong>决定压缩是否启动的界线，超过阈值的信号会触发压缩，低于阈值的信号则不会。</strong></p>
+<p>阈值相对信号的高低会决定了压缩的幅度。</p>
+</blockquote>
+<p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/4.PNG"
+	width="775"
+	height="514"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/4_hu1418061577251959684.PNG 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/4_hu2555541460189451151.PNG 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="150"
+		data-flex-basis="361px"
+	
+></p>
+<h2 id="比例ratio">比例（Ratio）
+</h2><blockquote>
+<p>决定了压缩的幅度。<strong>信号超过阈值后，动态降低的比例，每超过一定dB（如2dB），动态范围就会减少相应的dB（如1dB）。</strong></p>
+</blockquote>
+<blockquote>
+<p>如果设置<strong>二比一的比例，那么信号每超过阈值2dB，动态就减少1dB</strong>；</p>
+<p>如果是<strong>四比一的比例，则每超过阈值4dB，动态减少2dB</strong>，以此类推。</p>
+<p>高比例配合高阈值，低比例配合低阈值: <strong>高比例（如8:1）配合高的阈值，压缩较重；低比例（如2:1）配合低的阈值，压缩较轻，声音更平滑。</strong></p>
+</blockquote>
+<p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/5.PNG"
+	width="1222"
+	height="560"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/5_hu3929943947315777133.PNG 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/5_hu17417315016300544762.PNG 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="218"
+		data-flex-basis="523px"
+	
+></p>
+<h2 id="拐点knee">拐点（Knee）
+</h2><p><strong>拐点的形状很大程度上决定压缩效果的特性。</strong></p>
+<blockquote>
+<ul>
+<li>
+<p>硬拐点（Hard Knee）: 拐点较硬，声音变化更硬朗，响度大。</p>
+</li>
+<li>
+<p>软拐点（Soft Knee）: 拐点较软，声音变化平滑、渐进、自然。</p>
+</li>
+</ul>
+<p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/6.PNG"
+	width="842"
+	height="491"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/6_hu3819474209621801111.PNG 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/6_hu11680882987830418697.PNG 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="171"
+		data-flex-basis="411px"
+	
+></p>
+</blockquote>
+<blockquote>
+<p>高比例搭配 Soft Knee 可以增加声音控制能力，使压缩效果更加自然，不会过度影响动态范围。</p>
+<p>Soft Knee 优点: 提供了一种声音特别平滑、渐进、自然的感觉，增加了声音的控制力，不会使动态范围过度减小。</p>
+</blockquote>
+<h2 id="启动时间attack">启动时间（Attack）
+</h2><p><strong>当信号超过阈值时，压缩器开始工作的时间间隔。</strong></p>
+<blockquote>
+<ul>
+<li>
+<p>&lt;5ms（快速）—— 5-20ms（中速）—— &gt;30ms（慢速）</p>
+</li>
+<li>
+<p>1s = 1000ms = 1000000ps</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li>
+<p>快速的启动时间可以<strong>很好的控制一些动态，特别快把声音尖的音头抓住，让声音的动态变得平滑、均匀、限制。</strong></p>
+</li>
+<li>
+<p>但过快的启动时间会压制音头减少很多音乐的特性（比如吉他、打击乐、人声齿音）,压的过多就会缺少声音的质感，让声音感觉特别死，降低生动性。</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li>
+<p>慢速的启动时间会<strong>保留强调声音的音头（很多声音的音头是它的特性之一），可以很容易识别到，增加更多细节和力量。</strong></p>
+</li>
+<li>
+<p>但太慢了就会很容易错过，达不到控制动态的目的。</p>
+</li>
+</ul>
+</blockquote>
+<p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/8.PNG"
+	width="1142"
+	height="895"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/8_hu13020644168044936159.PNG 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/8_hu3121351938554320374.PNG 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="127"
+		data-flex-basis="306px"
+	
+></p>
+<h2 id="释放时间rlease">释放时间（Rlease）
+</h2><p><strong>决定压缩后信号恢复原始状态的时间。</strong></p>
+<blockquote>
+<ul>
+<li>&lt;50ms（快速）—— 50-100ms（中速）&gt; 100ms（慢速）</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li>
+<p>快速的释放时间可以<strong>增加整体响度，提升延音，做一些特效的结果。</strong></p>
+</li>
+<li>
+<p>但过快的释放时间可能会让声音过载或失真，因为它可能会再次触发压缩的机制，会出现不自然的 Pumping 效果（释放回来超过阈值又触发压缩）</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li>
+<p>慢速的释放时间保证声音平稳，自然，更平稳的控制动态。</p>
+</li>
+<li>
+<p>但过慢的释放时间会把动态控制死，整体都是扁扁的感觉，没有律动。</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li>一般要在两个拍子之间释放完，比如军鼓第一下敲击完压缩后，在下一拍军鼓之前要释放完，如果压缩还在工作音量就会变小。</li>
+</ul>
+</blockquote>
+<p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/9.PNG"
+	width="1159"
+	height="898"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/9_hu11684716937767192954.PNG 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/9_hu13390567726596418219.PNG 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="129"
+		data-flex-basis="309px"
+	
+></p>
+<h2 id="范围range">范围（Range）
+</h2><p><strong>限制最大增益衰减量（如最多压缩3dB），防止过度压缩破坏音乐动态。</strong>（更适合在总线或者母带处理阶段使用）</p>
+<blockquote>
+<ul>
+<li>母带处理阶段用于提升1-2dB响度时保护歌曲动态，如elysia设备的GR Limit功能</li>
+</ul>
+</blockquote>
+<h2 id="保持hold">保持（Hold）
+</h2><p><strong>设置一个时间，在压缩启动后，等一下再开始释放。</strong></p>
+<blockquote>
+<ul>
+<li>
+<p>通过延迟释放来避免强烈的 Pumping 效果。</p>
+</li>
+<li>
+<p>用在鼓组上可以有效控制或者优化节奏感。</p>
+</li>
+<li>
+<p>可以用作混响的控制，防止人声间隙时混响突然反弹（设置100ms释放时间仍会出现），让混响保持一直在人声底下的感觉。</p>
+</li>
+</ul>
+</blockquote>
+<h2 id="预判lookahead">预判（Lookahead）
+</h2><p><strong>提前看到信号，提前做出反应。</strong></p>
+<blockquote>
+<ul>
+<li>
+<p>比 0ms 更快，负ms。</p>
+</li>
+<li>
+<p>有效避免超级快速压缩带来的音头爆裂感。</p>
+</li>
+<li>
+<p>虽然可以创造出干净的音色，但有些时候会缺少压缩带来的音染和特点。</p>
+</li>
+</ul>
+</blockquote>
+<h1 id="硬件压缩的种类">硬件压缩的种类
+</h1><h2 id="fet压缩">FET压缩
+</h2><p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/10.PNG"
+	width="637"
+	height="205"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/10_hu11422145717616469521.PNG 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/10_hu10828533453160630076.PNG 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="310"
+		data-flex-basis="745px"
+	
+></p>
+<h2 id="光学压缩">光学压缩
+</h2><p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/11.PNG"
+	width="620"
+	height="228"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/11_hu2865601519113888847.PNG 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/11_hu18071261413354874913.PNG 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="271"
+		data-flex-basis="652px"
+	
+></p>
+<h2 id="vca-压缩">VCA 压缩
+</h2><p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/12.PNG"
+	width="1824"
+	height="639"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/12_hu15175533072464235794.PNG 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/12_hu13475303716056336960.PNG 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="285"
+		data-flex-basis="685px"
+	
+></p>
+<h2 id="vari-mu-压缩">Vari Mu 压缩
+</h2><p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/13.PNG"
+	width="1864"
+	height="594"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/13_hu4983965838840098252.PNG 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/13_hu8587483424882209939.PNG 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="313"
+		data-flex-basis="753px"
+	
+></p>
+<h2 id="diode-bridge-压缩">Diode Bridge 压缩
+</h2><p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/14.PNG"
+	width="1817"
+	height="566"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/14_hu1111395198261788788.PNG 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/14_hu18390464064343094359.PNG 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="321"
+		data-flex-basis="770px"
+	
+></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>小威音乐工作室</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/%E5%85%B3%E4%BA%8E%E5%BB%B6%E8%BF%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E5%85%B3%E4%BA%8E%E5%BB%B6%E8%BF%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0.1ceb234a1a85fc60a9a81893654bd305_hu16951572476061741042.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 关于延迟的一些知识"
+                        
+                        data-hash="md5-HOsjShqF/GCpqBiTZUvTBQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">关于延迟的一些知识</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%93%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1.ef7f8bf56c406002f11d3c365e36c087_hu9274120373354547625.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 关于混响的一些知识"
+                        
+                        data-hash="md5-73&#43;L9WxAYALxHTw2XjbAhw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">关于混响的一些知识</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E6%AF%8F%E7%A7%8D%E4%B9%90%E5%99%A8%E4%BA%BA%E5%A3%B0%E4%B8%8D%E5%90%8C%E9%A2%91%E6%AE%B5%E7%9A%84%E4%BD%9C%E7%94%A8/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E6%AF%8F%E7%A7%8D%E4%B9%90%E5%99%A8%E4%BA%BA%E5%A3%B0%E4%B8%8D%E5%90%8C%E9%A2%91%E6%AE%B5%E7%9A%84%E4%BD%9C%E7%94%A8/1.5358dceb40b26220521648356cfd232e_hu15895715031526658707.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 每种乐器、人声不同频段的作用"
+                        
+                        data-hash="md5-U1jc60CyYiBSFkg1bP0jLg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">每种乐器、人声不同频段的作用</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E4%BA%BA%E5%A3%B0%E8%B4%B4%E5%94%B1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E4%BA%BA%E5%A3%B0%E8%B4%B4%E5%94%B1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4/1.c0d519242f3008a0838d403250d53bb4_hu5663599120320564695.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 人声贴唱的制作步骤"
+                        
+                        data-hash="md5-wNUZJC8wCKCDjUAyUNU7tA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">人声贴唱的制作步骤</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2016 - 
+        
+        2025 小威音乐工作室
+    </section>
+    
+
+    <footer>
+        <button id="scrollToTop" style="display: none; position: fixed; bottom: 5px; left: 50%; transform: translateX(-50%); padding: 0px; width: 100px; background: #ffffff; color: #000000; border: none; border-radius: 5px; cursor: pointer;">
+            <i class="fas fa-arrow-up" style="margin-right: 5px;"></i>
+        </button>
+    </footer>
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <script>
+        
+        const scrollToTopBtn = document.getElementById('scrollToTop');
+    
+        
+        window.onscroll = function() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollToTopBtn.style.display = 'block';
+            } else {
+                scrollToTopBtn.style.display = 'none';
+            }
+        };
+    
+        
+        scrollToTopBtn.onclick = function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        };
+    </script>
+
+    
+
+<section class="totalcount">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    发表了44篇文章 · 
+    总计2.07k字
+</section>
+
+
+<section class="running-time">
+    本网站已稳定运行
+    <span id="runningdays" class="running-days"></span>
+    </section>
+
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+    
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<script>
+    (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+  
+    ChannelIO('boot', {
+      "pluginKey": "9da734c6-d727-4773-8163-059f4ac9ef71"
+    });
+  </script>
+
+
+<script>
+  let s1 = '2024-11-4'; 
+  s1 = new Date(s1.replace(/-/g, "/"));
+  let s2 = new Date();
+  let timeDifference = s2.getTime() - s1.getTime();
+
+  let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+  let result = days + "天" + hours + "小时" + minutes + "分钟";
+  document.getElementById('runningdays').innerHTML = result;
+</script>
+    </body>
+</html>

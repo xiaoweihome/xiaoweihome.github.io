@@ -2099,6 +2099,20 @@
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;把前级修饰、后级放大后的信号驱动播放出来。&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h1 id=&#34;使用音箱中的-effects-loop&#34;&gt;使用音箱中的 Effects Loop
+&lt;/h1&gt;&lt;p&gt;Loop 功能的目的就是为了&lt;strong&gt;串接效果器&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;Effects Loop有两个接口：&lt;strong&gt;Send端口是前级的输出端，而 Return 则是后级的输入端&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果把周边效果器串在失真效果器的前面，周边效果会被失真吃掉，得到的声音会很糊；&lt;/p&gt;
+&lt;p&gt;如果把音量踏板放在失真效果器的前面，那么音量踏板就会影响到其失真度，当音量踏板减小，失真度就会降低。&lt;/p&gt;
+&lt;p&gt;因此，我们一般都把周边效果器或者踏板串在失真效果器的后面。&lt;/p&gt;
+&lt;p&gt;其实，失真效果器就相当于音箱的前级，在音箱前级后面串接一些周边效果器之后再输出给音箱的后级功放，以增加音色的可调性范围。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Loop端口还有一些其他的用途。&lt;/p&gt;
+&lt;p&gt;比如将前级输出Send端口直接接入声卡，即可在录音的时候获得电子管音箱前级的音色。&lt;/p&gt;
+&lt;p&gt;或者将合成效果器的输出直接接入音箱的后级输入端口Return，绕开绕开音箱的前级，把音箱当纯后级使用。&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         </item>
         

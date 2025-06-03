@@ -6,13 +6,391 @@
         <description>Recent content on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>关于压缩的一些知识</title>
+        <link>https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</guid>
+        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0.jpg" alt="Featured image of post 关于压缩的一些知识" /&gt;&lt;h1 id=&#34;什么是动态&#34;&gt;什么是动态
+&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;动态范围(Dynamic Range)：指声音中最强和最弱信号之间的差异程度，表现为&amp;quot;大声和小声之间的区别&amp;quot;。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;核心特征：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;动态≠音量：音量是绝对响度，动态是相对变化幅度&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;大动态示例：唐僧念经时突然被惊吓大叫（从平稳到剧烈变化）（大动态带来夸张的表现力）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;小动态示例：持续均匀的念经声（音量恒定）（小动态能够让声音一致）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;测量单位：分贝(dB)，指数级增长（每增加10dB相当于能量增加10倍）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1.png&#34;
+	width=&#34;901&#34;
+	height=&#34;894&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1_hu15936649420288845176.png 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1_hu4108069468856548473.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;241px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;什么是波形&#34;&gt;什么是波形
+&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;波形(wave/envelope)：就是声音的形状，可以直观理解为声音的视觉化表现， 通过波形可以观察到声音的动态变化，但无法直接看出频率信息。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;波形的四个重要部分：ADSR（Attack 启动 / Decay 衰变 / Sustain 延音 / Release 释放）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Attack: 声音从无到达到波峰的时间（如军鼓&amp;quot;啪&amp;quot;的瞬间）&lt;/li&gt;
+&lt;li&gt;Decay: 从波峰开始衰减的时间&lt;/li&gt;
+&lt;li&gt;Sustain: 声音持续阶段的电平保持&lt;/li&gt;
+&lt;li&gt;Release: 声音完全消失的过程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;注意：这里说的 Attack 和 Release 与压缩插件中的是不同的，这里是形容波形&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/2.png&#34;
+	width=&#34;1259&#34;
+	height=&#34;800&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/2_hu9277250461764573533.png 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/2_hu9568305450771071270.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;157&#34;
+		data-flex-basis=&#34;377px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;什么是压缩&#34;&gt;什么是压缩
+&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;压缩（Compressor）用于减少声音的动态范围，使声音更加平稳。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;通过设置合适的阈值和压缩比例，可以**把过大的声音压下来，让跳动的声音变得平稳，更易于人耳捕捉。**在录音过程中，可以限制非常大的动态声音到一个范围内，避免超出声卡范围&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;声音塑形&#34;&gt;声音塑形
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;通过压缩来改变声音的音头和音尾，从而改变声音的特性。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;方法: 通过&lt;strong&gt;调整压缩的启动时间和释放时间&lt;/strong&gt;，可以塑造出不同的声音形状。例如，延长军鼓音头或增大音尾，可以改变其打击感。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/3.png&#34;
+	width=&#34;585&#34;
+	height=&#34;269&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/3_hu14660995438615969200.png 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/3_hu4770317669218670872.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;217&#34;
+		data-flex-basis=&#34;521px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;音染色彩&#34;&gt;音染色彩
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;音染色彩是指压缩设备或插件在压缩过程中给声音带来的额外音色和音质变化。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;很多模拟硬件的压缩插件能带来音色和音染，这些设备通过不同的技术和设计，会给声音带来很多不一样的色彩。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;例如，变压器可以给低频和中频带来饱满的色彩，电子元件可以带来谐波和音染。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;压缩的各种参数&#34;&gt;压缩的各种参数
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/7.PNG&#34;
+	width=&#34;1305&#34;
+	height=&#34;955&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/7_hu12315116047913324959.PNG 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/7_hu3576734935599093737.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;压缩各种参数&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;136&#34;
+		data-flex-basis=&#34;327px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;阈值threshold&#34;&gt;阈值（Threshold）
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;阈值是&lt;strong&gt;决定压缩是否启动的界线，超过阈值的信号会触发压缩，低于阈值的信号则不会。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;阈值相对信号的高低会决定了压缩的幅度。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/4.PNG&#34;
+	width=&#34;775&#34;
+	height=&#34;514&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/4_hu1418061577251959684.PNG 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/4_hu2555541460189451151.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;比例ratio&#34;&gt;比例（Ratio）
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;决定了压缩的幅度。&lt;strong&gt;信号超过阈值后，动态降低的比例，每超过一定dB（如2dB），动态范围就会减少相应的dB（如1dB）。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果设置&lt;strong&gt;二比一的比例，那么信号每超过阈值2dB，动态就减少1dB&lt;/strong&gt;；&lt;/p&gt;
+&lt;p&gt;如果是&lt;strong&gt;四比一的比例，则每超过阈值4dB，动态减少2dB&lt;/strong&gt;，以此类推。&lt;/p&gt;
+&lt;p&gt;高比例配合高阈值，低比例配合低阈值: &lt;strong&gt;高比例（如8:1）配合高的阈值，压缩较重；低比例（如2:1）配合低的阈值，压缩较轻，声音更平滑。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/5.PNG&#34;
+	width=&#34;1222&#34;
+	height=&#34;560&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/5_hu3929943947315777133.PNG 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/5_hu17417315016300544762.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;218&#34;
+		data-flex-basis=&#34;523px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;拐点knee&#34;&gt;拐点（Knee）
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;拐点的形状很大程度上决定压缩效果的特性。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;硬拐点（Hard Knee）: 拐点较硬，声音变化更硬朗，响度大。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;软拐点（Soft Knee）: 拐点较软，声音变化平滑、渐进、自然。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/6.PNG&#34;
+	width=&#34;842&#34;
+	height=&#34;491&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/6_hu3819474209621801111.PNG 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/6_hu11680882987830418697.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;411px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;高比例搭配 Soft Knee 可以增加声音控制能力，使压缩效果更加自然，不会过度影响动态范围。&lt;/p&gt;
+&lt;p&gt;Soft Knee 优点: 提供了一种声音特别平滑、渐进、自然的感觉，增加了声音的控制力，不会使动态范围过度减小。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;启动时间attack&#34;&gt;启动时间（Attack）
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;当信号超过阈值时，压缩器开始工作的时间间隔。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;lt;5ms（快速）—— 5-20ms（中速）—— &amp;gt;30ms（慢速）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1s = 1000ms = 1000000ps&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;快速的启动时间可以&lt;strong&gt;很好的控制一些动态，特别快把声音尖的音头抓住，让声音的动态变得平滑、均匀、限制。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;但过快的启动时间会压制音头减少很多音乐的特性（比如吉他、打击乐、人声齿音）,压的过多就会缺少声音的质感，让声音感觉特别死，降低生动性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;慢速的启动时间会&lt;strong&gt;保留强调声音的音头（很多声音的音头是它的特性之一），可以很容易识别到，增加更多细节和力量。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;但太慢了就会很容易错过，达不到控制动态的目的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/8.PNG&#34;
+	width=&#34;1142&#34;
+	height=&#34;895&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/8_hu13020644168044936159.PNG 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/8_hu3121351938554320374.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;306px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;释放时间rlease&#34;&gt;释放时间（Rlease）
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;决定压缩后信号恢复原始状态的时间。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;50ms（快速）—— 50-100ms（中速）&amp;gt; 100ms（慢速）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;快速的释放时间可以&lt;strong&gt;增加整体响度，提升延音，做一些特效的结果。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;但过快的释放时间可能会让声音过载或失真，因为它可能会再次触发压缩的机制，会出现不自然的 Pumping 效果（释放回来超过阈值又触发压缩）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;慢速的释放时间保证声音平稳，自然，更平稳的控制动态。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;但过慢的释放时间会把动态控制死，整体都是扁扁的感觉，没有律动。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;一般要在两个拍子之间释放完，比如军鼓第一下敲击完压缩后，在下一拍军鼓之前要释放完，如果压缩还在工作音量就会变小。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/9.PNG&#34;
+	width=&#34;1159&#34;
+	height=&#34;898&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/9_hu11684716937767192954.PNG 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/9_hu13390567726596418219.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;129&#34;
+		data-flex-basis=&#34;309px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;范围range&#34;&gt;范围（Range）
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;限制最大增益衰减量（如最多压缩3dB），防止过度压缩破坏音乐动态。&lt;/strong&gt;（更适合在总线或者母带处理阶段使用）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;母带处理阶段用于提升1-2dB响度时保护歌曲动态，如elysia设备的GR Limit功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;保持hold&#34;&gt;保持（Hold）
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;设置一个时间，在压缩启动后，等一下再开始释放。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;通过延迟释放来避免强烈的 Pumping 效果。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用在鼓组上可以有效控制或者优化节奏感。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可以用作混响的控制，防止人声间隙时混响突然反弹（设置100ms释放时间仍会出现），让混响保持一直在人声底下的感觉。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;预判lookahead&#34;&gt;预判（Lookahead）
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;提前看到信号，提前做出反应。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;比 0ms 更快，负ms。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;有效避免超级快速压缩带来的音头爆裂感。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;虽然可以创造出干净的音色，但有些时候会缺少压缩带来的音染和特点。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;硬件压缩的种类&#34;&gt;硬件压缩的种类
+&lt;/h1&gt;&lt;h2 id=&#34;fet压缩&#34;&gt;FET压缩
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/10.PNG&#34;
+	width=&#34;637&#34;
+	height=&#34;205&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/10_hu11422145717616469521.PNG 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/10_hu10828533453160630076.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;310&#34;
+		data-flex-basis=&#34;745px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;光学压缩&#34;&gt;光学压缩
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/11.PNG&#34;
+	width=&#34;620&#34;
+	height=&#34;228&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/11_hu2865601519113888847.PNG 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/11_hu18071261413354874913.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;271&#34;
+		data-flex-basis=&#34;652px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;vca-压缩&#34;&gt;VCA 压缩
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/12.PNG&#34;
+	width=&#34;1824&#34;
+	height=&#34;639&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/12_hu15175533072464235794.PNG 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/12_hu13475303716056336960.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;285&#34;
+		data-flex-basis=&#34;685px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;vari-mu-压缩&#34;&gt;Vari Mu 压缩
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/13.PNG&#34;
+	width=&#34;1864&#34;
+	height=&#34;594&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/13_hu4983965838840098252.PNG 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/13_hu8587483424882209939.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;313&#34;
+		data-flex-basis=&#34;753px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;diode-bridge-压缩&#34;&gt;Diode Bridge 压缩
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/14.PNG&#34;
+	width=&#34;1817&#34;
+	height=&#34;566&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/14_hu1111395198261788788.PNG 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/14_hu18390464064343094359.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;321&#34;
+		data-flex-basis=&#34;770px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>关于延迟的一些知识</title>
+        <link>https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%BB%B6%E8%BF%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%BB%B6%E8%BF%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</guid>
+        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%BB%B6%E8%BF%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0.jpeg" alt="Featured image of post 关于延迟的一些知识" /&gt;</description>
+        </item>
+        <item>
         <title>如何在属和弦上即兴</title>
         <link>https://xiaoweihome.github.io/p/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%B1%9E%E5%92%8C%E5%BC%A6%E4%B8%8A%E5%8D%B3%E5%85%B4/</link>
         <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
         
         <guid>https://xiaoweihome.github.io/p/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%B1%9E%E5%92%8C%E5%BC%A6%E4%B8%8A%E5%8D%B3%E5%85%B4/</guid>
-        <description>&lt;h1 id=&#34;各级属和弦的替代和弦&#34;&gt;各级属和弦的替代和弦
+        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%B1%9E%E5%92%8C%E5%BC%A6%E4%B8%8A%E5%8D%B3%E5%85%B4/0.png" alt="Featured image of post 如何在属和弦上即兴" /&gt;&lt;h1 id=&#34;各级属和弦的替代和弦&#34;&gt;各级属和弦的替代和弦
 &lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%B1%9E%E5%92%8C%E5%BC%A6%E4%B8%8A%E5%8D%B3%E5%85%B4/1.PNG&#34;
 	width=&#34;592&#34;
 	height=&#34;468&#34;
@@ -156,7 +534,8 @@
 		data-flex-basis=&#34;145px&#34;
 	
 &gt;&lt;/p&gt;
-</description>
+&lt;h1 id=&#34;一级属七和弦的曲目分析&#34;&gt;一级属七和弦的曲目分析
+&lt;/h1&gt;</description>
         </item>
         <item>
         <title>Victory V4 前级的使用方式</title>
@@ -322,6 +701,28 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%88%86%e9%a2%91%e6%ae%b5decay&#34; &gt;分频段Decay&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%8a%a8%e6%80%81%e6%8e%a7%e5%88%b6%e9%97%aa%e9%81%bf%e9%97%a8%e9%99%90%e5%8e%8b%e7%bc%a9&#34; &gt;动态控制（闪避、门限、压缩）&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#modulation&#34; &gt;Modulation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%b8%b8%e8%a7%81%e6%b7%b7%e5%93%8d%e8%af%af%e5%8c%ba&#34; &gt;常见混响误区&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%af%8f%e4%b8%aa%e9%9f%b3%e8%bd%a8%e9%83%bd%e5%8a%a0%e8%bd%bd%e6%b7%b7%e5%93%8d%e6%8f%92%e4%bb%b6&#34; &gt;每个音轨都加载混响插件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%89%80%e6%9c%89%e9%9f%b3%e8%bd%a8%e9%83%bd%e5%8f%91%e9%80%81%e5%88%b0%e4%b8%80%e4%b8%aa%e6%b7%b7%e5%93%8d%e6%8f%92%e4%bb%b6&#34; &gt;所有音轨都发送到一个混响插件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%80%89%e6%8b%a9%e9%94%99%e8%af%af%e7%9a%84%e6%b7%b7%e5%93%8d%e7%b1%bb%e5%9e%8b&#34; &gt;选择错误的混响类型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e8%af%95%e5%9b%be%e7%94%a8%e5%9d%87%e8%a1%a1%e6%94%b9%e5%8f%98%e6%b7%b7%e5%93%8d%e5%a3%b0%e9%9f%b3%e7%9a%84%e7%89%b9%e6%80%a7&#34; &gt;试图用均衡改变混响声音的特性&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%bb%8e%e6%9d%a5%e4%b8%8d%e7%94%a8%e5%9d%87%e8%a1%a1%e6%8e%a7%e5%88%b6%e6%b7%b7%e5%93%8d%e5%a3%b0%e9%9f%b3&#34; &gt;从来不用均衡控制混响声音&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%80%bb%e6%98%af%e7%94%a8%e9%95%bf%e6%b7%b7%e5%93%8d&#34; &gt;总是用长混响&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%b7%b7%e9%9f%b3%e5%bc%80%e5%a7%8b%e5%85%88%e6%94%be%e4%b8%80%e4%b8%aa%e5%a4%a7%e6%b7%b7%e5%93%8d&#34; &gt;混音开始先放一个大混响&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%90%ac%e4%b8%8d%e5%88%b0%e6%b7%b7%e5%93%8d%e5%b0%b1%e8%a7%89%e5%be%97%e9%9c%80%e8%a6%81%e5%bc%80%e6%9b%b4%e5%a4%a7&#34; &gt;听不到混响就觉得需要开更大&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%ad%a6%e4%b9%a0%e5%bb%ba%e8%ae%ae&#34; &gt;学习建议&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%a4%9a%e5%b0%9d%e8%af%95%e5%92%8c%e8%af%95%e9%94%99&#34; &gt;多尝试和试错&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e7%a0%94%e7%a9%b6%e7%bb%8f%e5%85%b8%e4%bd%9c%e5%93%81&#34; &gt;研究经典作品&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%9f%b9%e5%85%bb%e4%b8%aa%e4%ba%ba%e5%81%8f%e5%a5%bd&#34; &gt;培养个人偏好&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%bb%ba%e7%ab%8b%e7%b3%bb%e7%bb%9f%e8%ae%a4%e7%9f%a5%e4%b8%8e%e6%a1%86%e6%9e%b6&#34; &gt;建立系统认知与框架&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -521,7 +922,162 @@
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;modulation&#34;&gt;Modulation
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;如果混响声音过于平淡，可以通过 Modulation 适当的增加一些混响的色彩&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
+&lt;h1 id=&#34;使用混响的常见错误&#34;&gt;使用混响的常见错误
+&lt;/h1&gt;&lt;h2 id=&#34;每个音轨都加载混响插件&#34;&gt;每个音轨都加载混响插件
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CPU负担问题&lt;/strong&gt;：多个混响插件同时运行会导致CPU过载，影响系统性能&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;空间感混乱&lt;/strong&gt;：每个音轨独立混响会造成声音叠加过密，最终混音结果显得脏且浑浊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;解决方案&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;设计乐器组关系，明确需要混响的音轨&lt;/li&gt;
+&lt;li&gt;建立混响效果轨或发送轨（bus）&lt;/li&gt;
+&lt;li&gt;多个音轨发送到同一组混响插件进行统一管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;所有音轨都发送到一个混响插件&#34;&gt;所有音轨都发送到一个混响插件
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;适用场景&lt;/strong&gt;：需要统一空间感时（如再现现场演出氛围）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;主要问题&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;无法针对单个乐器精细调整混响参数&lt;/li&gt;
+&lt;li&gt;所有乐器混响声音趋同，难以突出特色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;推荐做法&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按乐器组分类使用不同混响插件（如人声、鼓组、贝斯等）&lt;/li&gt;
+&lt;li&gt;作者常用方式：4–6个混响插件分别处理不同乐器组&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;选择错误的混响类型&#34;&gt;选择错误的混响类型
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;类型重要性&lt;/strong&gt;：混响类型代表不同年代和音乐风格特征&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;反面案例&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;U2《Beautiful Day》使用房间混响会破坏效果&lt;/li&gt;
+&lt;li&gt;《红楼梦》对话使用大厅混响会显得极不自然&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;选择依据&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;明确音乐创作目的和风格方向&lt;/li&gt;
+&lt;li&gt;空灵效果适合大厅混响，小空间感适合房间混响&lt;/li&gt;
+&lt;li&gt;独唱 + 钢琴组合可考虑密室混响使人声更集中&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;试图用均衡改变混响声音的特性&#34;&gt;试图用均衡改变混响声音的特性
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;常见误区&lt;/strong&gt;：用EQ强行调整不合适的混响（如提升暗混响的高频）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;正确做法&lt;/strong&gt;：直接更换更适合的混响类型&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;插件选择技巧&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;关注混响插件中的不同模式（如 Valhalla Room 的 bright/dark/dirty room）&lt;/li&gt;
+&lt;li&gt;先选择符合需求的预设作为起点再微调&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;从来不用均衡控制混响声音&#34;&gt;从来不用均衡控制混响声音
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;必要性&lt;/strong&gt;：混音中空间非常宝贵，需避免频率冲突&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;典型案例&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;人声混响低频过重会淹没贝斯和鼓组&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;解决方案&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用低切（100–200Hz）清理混响低频&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;平衡技巧&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选择具有特定特点的混响类型（如平板混响的高频）&lt;/li&gt;
+&lt;li&gt;通过EQ保留优点，消除缺点&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;总是用长混响&#34;&gt;总是用长混响
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;问题本质&lt;/strong&gt;：长混响会导致声音尾巴过长，多个长混响相互干扰&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;听觉错觉&lt;/strong&gt;：人耳对混响的感知存在“听不到就加量”的心理误区&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;解决方案&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;根据歌曲整体效果调整混响时间&lt;/li&gt;
+&lt;li&gt;在混音上下文中评估混响的实际听感&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;混音开始先放一个大混响&#34;&gt;混音开始先放一个大混响
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;潜在问题&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;难以判断混响在完整音乐环境中的效果&lt;/li&gt;
+&lt;li&gt;可能掩盖其他乐器的问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;专业流程建议&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;先做音量平衡和乐器摆位&lt;/li&gt;
+&lt;li&gt;设计整体空间感&lt;/li&gt;
+&lt;li&gt;最后根据需要添加混响润色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;听不到混响就觉得需要开更大&#34;&gt;听不到混响就觉得需要开更大
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;混响本质&lt;/strong&gt;：更多是润色而非主导效果&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;理想状态&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;加入时感觉自然&lt;/li&gt;
+&lt;li&gt;移除时能察觉缺失&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;调整技巧&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;逐个乐器适度调节&lt;/li&gt;
+&lt;li&gt;在全曲环境中评估效果&lt;/li&gt;
+&lt;li&gt;避免追求明显可闻的混响感&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;学习建议&#34;&gt;学习建议
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;多尝试和试错，在错误中发现创意&lt;/li&gt;
+&lt;li&gt;研究经典作品中的混响使用手法&lt;/li&gt;
+&lt;li&gt;培养个人混响使用偏好&lt;/li&gt;
+&lt;li&gt;建立对混响的系统认知和应用框架&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 </description>
         </item>
         <item>
@@ -3255,6 +3811,20 @@
 &lt;h2 id=&#34;喇叭&#34;&gt;喇叭
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;把前级修饰、后级放大后的信号驱动播放出来。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;使用音箱中的-effects-loop&#34;&gt;使用音箱中的 Effects Loop
+&lt;/h1&gt;&lt;p&gt;Loop 功能的目的就是为了&lt;strong&gt;串接效果器&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;Effects Loop有两个接口：&lt;strong&gt;Send端口是前级的输出端，而 Return 则是后级的输入端&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果把周边效果器串在失真效果器的前面，周边效果会被失真吃掉，得到的声音会很糊；&lt;/p&gt;
+&lt;p&gt;如果把音量踏板放在失真效果器的前面，那么音量踏板就会影响到其失真度，当音量踏板减小，失真度就会降低。&lt;/p&gt;
+&lt;p&gt;因此，我们一般都把周边效果器或者踏板串在失真效果器的后面。&lt;/p&gt;
+&lt;p&gt;其实，失真效果器就相当于音箱的前级，在音箱前级后面串接一些周边效果器之后再输出给音箱的后级功放，以增加音色的可调性范围。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Loop端口还有一些其他的用途。&lt;/p&gt;
+&lt;p&gt;比如将前级输出Send端口直接接入声卡，即可在录音的时候获得电子管音箱前级的音色。&lt;/p&gt;
+&lt;p&gt;或者将合成效果器的输出直接接入音箱的后级输入端口Return，绕开绕开音箱的前级，把音箱当纯后级使用。&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         </item>
