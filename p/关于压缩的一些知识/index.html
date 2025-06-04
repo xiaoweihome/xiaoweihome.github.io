@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="什么是动态 动态范围(Dynamic Range)：指声音中最强和最弱信号之间的差异程度，表现为&quot;大声和小声之间的区别&quot;。\n核心特征：\n动态≠音量：音量是绝对响度，动态是相对变化幅度\n大动态示例：唐僧念经时突然被惊吓大叫（从平稳到剧烈变化）（大动态带来夸张的表现力）\n小动态示例：持续均匀的念经声（音量恒定）（小动态能够让声音一致）\n测量单位：分贝(dB)，指数级增长（每增加10dB相当于能量增加10倍）\n什么是波形 波形(wave/envelope)：就是声音的形状，可以直观理解为声音的视觉化表现， 通过波形可以观察到声音的动态变化，但无法直接看出频率信息。\n波形的四个重要部分：ADSR（Attack 启动 / Decay 衰变 / Sustain 延音 / Release 释放）\nAttack: 声音从无到达到波峰的时间（如军鼓&quot;啪&quot;的瞬间） Decay: 从波峰开始衰减的时间 Sustain: 声音持续阶段的电平保持 Release: 声音完全消失的过程 注意：这里说的 Attack 和 Release 与压缩插件中的是不同的，这里是形容波形\n什么是压缩 压缩（Compressor）用于减少声音的动态范围，使声音更加平稳。\n通过设置合适的阈值和压缩比例，可以**把过大的声音压下来，让跳动的声音变得平稳，更易于人耳捕捉。**在录音过程中，可以限制非常大的动态声音到一个范围内，避免超出声卡范围 声音塑形 通过压缩来改变声音的音头和音尾，从而改变声音的特性。\n方法: 通过调整压缩的启动时间和释放时间，可以塑造出不同的声音形状。例如，延长军鼓音头或增大音尾，可以改变其打击感。 音染色彩 音染色彩是指压缩设备或插件在压缩过程中给声音带来的额外音色和音质变化。\n很多模拟硬件的压缩插件能带来音色和音染，这些设备通过不同的技术和设计，会给声音带来很多不一样的色彩。 例如，变压器可以给低频和中频带来饱满的色彩，电子元件可以带来谐波和音染。\n压缩的各种参数 ">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="\r📖 目录（点击展开）\r什么是动态\n什么是波形\n什么是压缩\n声音塑形 音染色彩 压缩的各种参数\n阈值（Threshold） 比例（Ratio） 拐点（Knee） 启动时间（Attack） 释放时间（Release） 范围（Range） 保持（Hold） 预判（Lookahead） 硬件压缩的种类\nFET压缩 光学压缩 VCA 压缩 Vari Mu 压缩 Diode Bridge 压缩 压缩技巧\n串联压缩 平行压缩 侧链 均衡和压缩的关系\n压缩家族的其它成员\n">
 <title>关于压缩的一些知识</title>
 
 <link rel='canonical' href='https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/'>
 
 <link rel="stylesheet" href="/scss/style.min.f91c16411405e1fc5da08861fe7cf176ce361269bd69c3b7428065036933611e.css"><meta property='og:title' content="关于压缩的一些知识">
-<meta property='og:description' content="什么是动态 动态范围(Dynamic Range)：指声音中最强和最弱信号之间的差异程度，表现为&quot;大声和小声之间的区别&quot;。\n核心特征：\n动态≠音量：音量是绝对响度，动态是相对变化幅度\n大动态示例：唐僧念经时突然被惊吓大叫（从平稳到剧烈变化）（大动态带来夸张的表现力）\n小动态示例：持续均匀的念经声（音量恒定）（小动态能够让声音一致）\n测量单位：分贝(dB)，指数级增长（每增加10dB相当于能量增加10倍）\n什么是波形 波形(wave/envelope)：就是声音的形状，可以直观理解为声音的视觉化表现， 通过波形可以观察到声音的动态变化，但无法直接看出频率信息。\n波形的四个重要部分：ADSR（Attack 启动 / Decay 衰变 / Sustain 延音 / Release 释放）\nAttack: 声音从无到达到波峰的时间（如军鼓&quot;啪&quot;的瞬间） Decay: 从波峰开始衰减的时间 Sustain: 声音持续阶段的电平保持 Release: 声音完全消失的过程 注意：这里说的 Attack 和 Release 与压缩插件中的是不同的，这里是形容波形\n什么是压缩 压缩（Compressor）用于减少声音的动态范围，使声音更加平稳。\n通过设置合适的阈值和压缩比例，可以**把过大的声音压下来，让跳动的声音变得平稳，更易于人耳捕捉。**在录音过程中，可以限制非常大的动态声音到一个范围内，避免超出声卡范围 声音塑形 通过压缩来改变声音的音头和音尾，从而改变声音的特性。\n方法: 通过调整压缩的启动时间和释放时间，可以塑造出不同的声音形状。例如，延长军鼓音头或增大音尾，可以改变其打击感。 音染色彩 音染色彩是指压缩设备或插件在压缩过程中给声音带来的额外音色和音质变化。\n很多模拟硬件的压缩插件能带来音色和音染，这些设备通过不同的技术和设计，会给声音带来很多不一样的色彩。 例如，变压器可以给低频和中频带来饱满的色彩，电子元件可以带来谐波和音染。\n压缩的各种参数 ">
+<meta property='og:description' content="\r📖 目录（点击展开）\r什么是动态\n什么是波形\n什么是压缩\n声音塑形 音染色彩 压缩的各种参数\n阈值（Threshold） 比例（Ratio） 拐点（Knee） 启动时间（Attack） 释放时间（Release） 范围（Range） 保持（Hold） 预判（Lookahead） 硬件压缩的种类\nFET压缩 光学压缩 VCA 压缩 Vari Mu 压缩 Diode Bridge 压缩 压缩技巧\n串联压缩 平行压缩 侧链 均衡和压缩的关系\n压缩家族的其它成员\n">
 <meta property='og:url' content='https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/'>
 <meta property='og:site_name' content='小威音乐工作室'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-06-03T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-06-03T00:00:00&#43;00:00'/><meta property='og:image' content='https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0.jpg' />
 <meta name="twitter:title" content="关于压缩的一些知识">
-<meta name="twitter:description" content="什么是动态 动态范围(Dynamic Range)：指声音中最强和最弱信号之间的差异程度，表现为&quot;大声和小声之间的区别&quot;。\n核心特征：\n动态≠音量：音量是绝对响度，动态是相对变化幅度\n大动态示例：唐僧念经时突然被惊吓大叫（从平稳到剧烈变化）（大动态带来夸张的表现力）\n小动态示例：持续均匀的念经声（音量恒定）（小动态能够让声音一致）\n测量单位：分贝(dB)，指数级增长（每增加10dB相当于能量增加10倍）\n什么是波形 波形(wave/envelope)：就是声音的形状，可以直观理解为声音的视觉化表现， 通过波形可以观察到声音的动态变化，但无法直接看出频率信息。\n波形的四个重要部分：ADSR（Attack 启动 / Decay 衰变 / Sustain 延音 / Release 释放）\nAttack: 声音从无到达到波峰的时间（如军鼓&quot;啪&quot;的瞬间） Decay: 从波峰开始衰减的时间 Sustain: 声音持续阶段的电平保持 Release: 声音完全消失的过程 注意：这里说的 Attack 和 Release 与压缩插件中的是不同的，这里是形容波形\n什么是压缩 压缩（Compressor）用于减少声音的动态范围，使声音更加平稳。\n通过设置合适的阈值和压缩比例，可以**把过大的声音压下来，让跳动的声音变得平稳，更易于人耳捕捉。**在录音过程中，可以限制非常大的动态声音到一个范围内，避免超出声卡范围 声音塑形 通过压缩来改变声音的音头和音尾，从而改变声音的特性。\n方法: 通过调整压缩的启动时间和释放时间，可以塑造出不同的声音形状。例如，延长军鼓音头或增大音尾，可以改变其打击感。 音染色彩 音染色彩是指压缩设备或插件在压缩过程中给声音带来的额外音色和音质变化。\n很多模拟硬件的压缩插件能带来音色和音染，这些设备通过不同的技术和设计，会给声音带来很多不一样的色彩。 例如，变压器可以给低频和中频带来饱满的色彩，电子元件可以带来谐波和音染。\n压缩的各种参数 "><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="\r📖 目录（点击展开）\r什么是动态\n什么是波形\n什么是压缩\n声音塑形 音染色彩 压缩的各种参数\n阈值（Threshold） 比例（Ratio） 拐点（Knee） 启动时间（Attack） 释放时间（Release） 范围（Range） 保持（Hold） 预判（Lookahead） 硬件压缩的种类\nFET压缩 光学压缩 VCA 压缩 Vari Mu 压缩 Diode Bridge 压缩 压缩技巧\n串联压缩 平行压缩 侧链 均衡和压缩的关系\n压缩家族的其它成员\n"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0.jpg' />
     <link rel="shortcut icon" href="/favicon.png" />
 
@@ -388,7 +388,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 2 分钟
                 </time>
             </div>
         
@@ -403,7 +403,69 @@
     <section class="article-content">
     
     
-    <h1 id="什么是动态">什么是动态
+    <details>
+<summary style="background-color: #f0f4f8; padding: 1em; border-radius: 8px; cursor: pointer; border: 1px solid #ddd;">
+  <strong>📖 目录（点击展开）</strong>
+</summary>
+<ul>
+<li>
+<p><a class="link" href="#%e4%bb%80%e4%b9%88%e6%98%af%e5%8a%a8%e6%80%81" >什么是动态</a></p>
+</li>
+<li>
+<p><a class="link" href="#%e4%bb%80%e4%b9%88%e6%98%af%e6%b3%a2%e5%bd%a2" >什么是波形</a></p>
+</li>
+<li>
+<p><a class="link" href="#%e4%bb%80%e4%b9%88%e6%98%af%e5%8e%8b%e7%bc%a9" >什么是压缩</a></p>
+<ul>
+<li><a class="link" href="#%e5%a3%b0%e9%9f%b3%e5%a1%91%e5%bd%a2" >声音塑形</a></li>
+<li><a class="link" href="#%e9%9f%b3%e6%9f%93%e8%89%b2%e5%bd%a9" >音染色彩</a></li>
+</ul>
+</li>
+<li>
+<p><a class="link" href="#%e5%8e%8b%e7%bc%a9%e7%9a%84%e5%90%84%e7%a7%8d%e5%8f%82%e6%95%b0" >压缩的各种参数</a></p>
+<ul>
+<li><a class="link" href="#%e9%98%88%e5%80%bcthreshold" >阈值（Threshold）</a></li>
+<li><a class="link" href="#%e6%af%94%e4%be%8bratio" >比例（Ratio）</a></li>
+<li><a class="link" href="#%e6%8b%90%e7%82%b9knee" >拐点（Knee）</a></li>
+<li><a class="link" href="#%e5%90%af%e5%8a%a8%e6%97%b6%e9%97%b4attack" >启动时间（Attack）</a></li>
+<li><a class="link" href="#%e9%87%8a%e6%94%be%e6%97%b6%e9%97%b4release" >释放时间（Release）</a></li>
+<li><a class="link" href="#%e8%8c%83%e5%9b%b4range" >范围（Range）</a></li>
+<li><a class="link" href="#%e4%bf%9d%e6%8c%81hold" >保持（Hold）</a></li>
+<li><a class="link" href="#%e9%a2%84%e5%88%a4lookahead" >预判（Lookahead）</a></li>
+</ul>
+</li>
+<li>
+<p><a class="link" href="#%e7%a1%ac%e4%bb%b6%e5%8e%8b%e7%bc%a9%e7%9a%84%e7%a7%8d%e7%b1%bb" >硬件压缩的种类</a></p>
+<ul>
+<li><a class="link" href="#fet%e5%8e%8b%e7%bc%a9" >FET压缩</a></li>
+<li><a class="link" href="#%e5%85%89%e5%ad%a6%e5%8e%8b%e7%bc%a9" >光学压缩</a></li>
+<li><a class="link" href="#vca-%e5%8e%8b%e7%bc%a9" >VCA 压缩</a></li>
+<li><a class="link" href="#vari-mu-%e5%8e%8b%e7%bc%a9" >Vari Mu 压缩</a></li>
+<li><a class="link" href="#diode-bridge-%e5%8e%8b%e7%bc%a9" >Diode Bridge 压缩</a></li>
+</ul>
+</li>
+<li>
+<p><a class="link" href="#%e5%8e%8b%e7%bc%a9%e6%8a%80%e5%b7%a7" >压缩技巧</a></p>
+<ul>
+<li><a class="link" href="#%e4%b8%b2%e8%81%94%e5%8e%8b%e7%bc%a9" >串联压缩</a></li>
+<li><a class="link" href="#%e5%b9%b3%e8%a1%8c%e5%8e%8b%e7%bc%a9" >平行压缩</a></li>
+<li><a class="link" href="#%e4%be%a7%e9%93%be" >侧链</a></li>
+</ul>
+</li>
+<li>
+<p><a class="link" href="#%e5%9d%87%e8%a1%a1%e5%92%8c%e5%8e%8b%e7%bc%a9%e7%9a%84%e5%85%b3%e7%b3%bb" >均衡和压缩的关系</a></p>
+</li>
+<li>
+<p><a class="link" href="#%e5%8e%8b%e7%bc%a9%e5%ae%b6%e6%97%8f%e7%9a%84%e5%85%b6%e5%ae%83%e6%88%90%e5%91%98" >压缩家族的其它成员</a></p>
+<ul>
+<li><a class="link" href="#%e5%a4%9a%e6%ae%b5%e5%8e%8b%e7%bc%a9" >多段压缩</a></li>
+<li><a class="link" href="#%e5%8e%bb%e9%bd%bf%e9%9f%b3" >去齿音</a></li>
+<li><a class="link" href="#%e9%99%90%e5%b9%85" >限幅</a></li>
+</ul>
+</li>
+</ul>
+</details>
+<h1 id="什么是动态">什么是动态
 </h1><p><strong>动态范围(Dynamic Range)：指声音中最强和最弱信号之间的差异程度，表现为&quot;大声和小声之间的区别&quot;。</strong></p>
 <blockquote>
 <p>核心特征：</p>
@@ -765,6 +827,196 @@
 		data-flex-basis="770px"
 	
 ></p>
+<hr>
+<h1 id="压缩技巧">压缩技巧
+</h1><h2 id="串联压缩">串联压缩
+</h2><p>顾名思义，按顺序进多个压缩。</p>
+<p><strong>串联压缩的主要目的在于动态控制，每一个压缩插件进行相对微小且有针对性的处理。</strong></p>
+<p><strong>常见顺序:</strong></p>
+<blockquote>
+<ul>
+<li>
+<p>第一级（瞬态控制）：<strong>快速启动时间（&lt;1ms） + 快速释放时间</strong></p>
+</li>
+<li>
+<p>处理对象：仅针对音频信号中最尖峰的瞬态部分（约1dB处理量）</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li>
+<p>第二级（动态控制）：<strong>中速启动时间 + 快速释放时间</strong></p>
+</li>
+<li>
+<p>处理对象：在第一级基础上控制下一层动态,让更多音头出来</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li>
+<p>第三级（律动控制）：<strong>慢速启动时间 + 中速释放时间</strong></p>
+</li>
+<li>
+<p>处理对象：整体声音的韵律感，提升小音量细节，让整个声音更平滑</p>
+</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>1176 与 LA-2A 两个压缩的搭配</strong></li>
+</ul>
+<p>（1176 抓住尖的地方，把它压下来，LA-2A 再做整体的动态。）</p>
+</blockquote>
+<h2 id="平行压缩">平行压缩
+</h2><p>两个完全相同的音轨，一轨保持原样，另一轨进行压缩处理。</p>
+<ol>
+<li>
+<p>通过发送轨来实现：<strong>把原轨信号发送至压缩轨道。</strong></p>
+</li>
+<li>
+<p>原轨上实现：<strong>如果插件带 blend / mix 功能可以直接混合干湿信号。</strong></p>
+</li>
+</ol>
+<p><strong>平行压缩(parallel compression)，通过将原始信号与压缩处理信号混合实现，通过混合比例调整声音质感，做出一些特殊效果，而非主要控制动态。</strong></p>
+<blockquote>
+<ul>
+<li>
+<p><strong>压缩参数可调得较夸张以突出音染效果。</strong></p>
+</li>
+<li>
+<p>这个技巧一般不用于动态控制，而是为了通过压缩获得一种声音效果（如：底鼓轰轰声），所以在做之前需要清晰知道自己想要的声音。</p>
+</li>
+</ul>
+</blockquote>
+<h2 id="侧链">侧链
+</h2><p>侧链（Side——Chain）是指控制和触发压缩器工作的信号，<strong>压缩器只有“听到”侧链中的信号才会工作。</strong></p>
+<p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/15.PNG"
+	width="333"
+	height="188"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/15_hu12315029076829595701.PNG 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/15_hu5232101351799643392.PNG 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="425px"
+	
+></p>
+<blockquote>
+<ul>
+<li>内部侧链（Internal）：<strong>以当前音轨为目标做压缩处理。</strong></li>
+</ul>
+<p>（比如把压缩放进人声轨道，人声说话时，压缩检测到才开始工作。）</p>
+</blockquote>
+<blockquote>
+<ul>
+<li>外部侧链（External）：<strong>以其它音轨的信号为目标做压缩处理。</strong></li>
+</ul>
+<p>（比如：在背景音乐音轨上放压缩，以人声轨为目标，人声只要说话，压缩检测到信号开始工作，就会把背景音乐压下去。</p>
+</blockquote>
+<blockquote>
+<ul>
+<li>侧脸信号的强弱可以改变压缩的幅度。（增加压的就多，减少压的就少。）</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li>侧链中突出的频段，压缩会着重处理。</li>
+</ul>
+<p>（如果想让某个频段压的多，就把这个频段在侧链里把它推起来，反之，如果不希望压缩压这个频段，就在侧链里面把这个频段减少。）</p>
+</blockquote>
+<hr>
+<h1 id="均衡和压缩的关系">均衡和压缩的关系
+</h1><p>先理解均衡与压缩的关系。</p>
+<blockquote>
+<p><strong>均衡放在压缩前</strong></p>
+<ol>
+<li>
+<p>这时的均衡用于修复作用，把不需要的声音去掉后到达比较好的状态再进入压缩。</p>
+</li>
+<li>
+<p>跟刚才侧链一样，用均衡来控制压缩着重的频段。（着重压缩的频段提高，想闪避压缩的频段降低）</p>
+</li>
+</ol>
+<p>（同时压的多的频段，也会有更多的音染色彩。）</p>
+</blockquote>
+<blockquote>
+<p><strong>均衡放在压缩后面</strong></p>
+<ol>
+<li>
+<p>推多少dB就是多少dB的实际频段变化（如推3dB高频即得到3dB提升）</p>
+</li>
+<li>
+<p>不会影响压缩器的工作状态</p>
+</li>
+</ol>
+<p>适用场景：</p>
+<ul>
+<li>
+<p>压缩后的音色已满意，仅需微调频段平衡</p>
+</li>
+<li>
+<p>需要保持原始压缩特性不被EQ改变的情况</p>
+</li>
+</ul>
+</blockquote>
+<h1 id="压缩家族的其它成员">压缩家族的其它成员
+</h1><p><img src="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/16.PNG"
+	width="1684"
+	height="613"
+	srcset="/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/16_hu2862675314389345088.PNG 480w, /p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/16_hu6206458963058527911.PNG 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="274"
+		data-flex-basis="659px"
+	
+></p>
+<h2 id="多段压缩">多段压缩
+</h2><p>可以在任何频段内点击一个位置进行压缩，例如只压缩2k到3k之间的频段，而不影响其他频段。</p>
+<p>通过多段压缩，<strong>可以针对特定声音的频段进行调整，提供极大的控制能力。</strong></p>
+<h2 id="去齿音">去齿音
+</h2><p>原理: 去齿音插件<strong>通过选择特定频段的点，并使用非常快速的启动时间和释放时间进行压缩，从而去除齿音。</strong></p>
+<blockquote>
+<ul>
+<li>
+<p>选择齿音频段（如女生通常在7.5k到12k左右），调整域值和range以控制去除齿音的程度。</p>
+</li>
+<li>
+<p>注意事项: 过度的压缩可能导致声音部分被吞没，因此通常将压缩量控制在四五个dB以内。</p>
+</li>
+</ul>
+</blockquote>
+<h2 id="限幅">限幅
+</h2><p><strong>限幅器将声音限制在一个固定的幅度内，防止声音超过设定的天花板。</strong></p>
+<blockquote>
+<p>限幅器通常具有两个机制：</p>
+<ol>
+<li>
+<p>内部的 clipping 机制，硬生生的去除音头。（如果出现过多声音就不好听）</p>
+</li>
+<li>
+<p>限幅机制，用于抓住超过限制的声音。</p>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>限幅器的启动时间和释放时间跟平常理解有些不同</p>
+<ul>
+<li>
+<p>它的启动时间意思是你希望多长时间的声音放出去，让它撞到你的 clipping ，然后你的限幅尝试去抓它（比如启动时间 2ms，基本所有的音头都会撞到 cliping ）</p>
+</li>
+<li>
+<p>释放时间会直接影响整个歌曲的律动，需要很仔细的设计一个释放时间，释放时间长整体声音都会被压平，释放时间太短会不断触发 clipping 机制，导致过载。</p>
+</li>
+<li>
+<p>在限幅器中释放时间不能太长，不然声音就会被捏死；但太短出现过载也不好。</p>
+</li>
+</ul>
+</blockquote>
 
 </section>
 
@@ -1057,7 +1309,7 @@
         
     
     发表了44篇文章 · 
-    总计2.07k字
+    总计2.19k字
 </section>
 
 

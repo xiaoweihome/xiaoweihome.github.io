@@ -12,7 +12,69 @@
         <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
         
         <guid>https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</guid>
-        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0.jpg" alt="Featured image of post 关于压缩的一些知识" /&gt;&lt;h1 id=&#34;什么是动态&#34;&gt;什么是动态
+        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0.jpg" alt="Featured image of post 关于压缩的一些知识" /&gt;&lt;details&gt;
+&lt;summary style=&#34;background-color: #f0f4f8; padding: 1em; border-radius: 8px; cursor: pointer; border: 1px solid #ddd;&#34;&gt;
+  &lt;strong&gt;📖 目录（点击展开）&lt;/strong&gt;
+&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af%e5%8a%a8%e6%80%81&#34; &gt;什么是动态&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af%e6%b3%a2%e5%bd%a2&#34; &gt;什么是波形&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af%e5%8e%8b%e7%bc%a9&#34; &gt;什么是压缩&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%a3%b0%e9%9f%b3%e5%a1%91%e5%bd%a2&#34; &gt;声音塑形&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%9f%b3%e6%9f%93%e8%89%b2%e5%bd%a9&#34; &gt;音染色彩&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%8e%8b%e7%bc%a9%e7%9a%84%e5%90%84%e7%a7%8d%e5%8f%82%e6%95%b0&#34; &gt;压缩的各种参数&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%98%88%e5%80%bcthreshold&#34; &gt;阈值（Threshold）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%af%94%e4%be%8bratio&#34; &gt;比例（Ratio）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%8b%90%e7%82%b9knee&#34; &gt;拐点（Knee）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%90%af%e5%8a%a8%e6%97%b6%e9%97%b4attack&#34; &gt;启动时间（Attack）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%87%8a%e6%94%be%e6%97%b6%e9%97%b4release&#34; &gt;释放时间（Release）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e8%8c%83%e5%9b%b4range&#34; &gt;范围（Range）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%bf%9d%e6%8c%81hold&#34; &gt;保持（Hold）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%a2%84%e5%88%a4lookahead&#34; &gt;预判（Lookahead）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e7%a1%ac%e4%bb%b6%e5%8e%8b%e7%bc%a9%e7%9a%84%e7%a7%8d%e7%b1%bb&#34; &gt;硬件压缩的种类&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#fet%e5%8e%8b%e7%bc%a9&#34; &gt;FET压缩&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%85%89%e5%ad%a6%e5%8e%8b%e7%bc%a9&#34; &gt;光学压缩&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#vca-%e5%8e%8b%e7%bc%a9&#34; &gt;VCA 压缩&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#vari-mu-%e5%8e%8b%e7%bc%a9&#34; &gt;Vari Mu 压缩&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#diode-bridge-%e5%8e%8b%e7%bc%a9&#34; &gt;Diode Bridge 压缩&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%8e%8b%e7%bc%a9%e6%8a%80%e5%b7%a7&#34; &gt;压缩技巧&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%b8%b2%e8%81%94%e5%8e%8b%e7%bc%a9&#34; &gt;串联压缩&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%b9%b3%e8%a1%8c%e5%8e%8b%e7%bc%a9&#34; &gt;平行压缩&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%be%a7%e9%93%be&#34; &gt;侧链&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%9d%87%e8%a1%a1%e5%92%8c%e5%8e%8b%e7%bc%a9%e7%9a%84%e5%85%b3%e7%b3%bb&#34; &gt;均衡和压缩的关系&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%8e%8b%e7%bc%a9%e5%ae%b6%e6%97%8f%e7%9a%84%e5%85%b6%e5%ae%83%e6%88%90%e5%91%98&#34; &gt;压缩家族的其它成员&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%a4%9a%e6%ae%b5%e5%8e%8b%e7%bc%a9&#34; &gt;多段压缩&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%8e%bb%e9%bd%bf%e9%9f%b3&#34; &gt;去齿音&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%99%90%e5%b9%85&#34; &gt;限幅&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+&lt;h1 id=&#34;什么是动态&#34;&gt;什么是动态
 &lt;/h1&gt;&lt;p&gt;&lt;strong&gt;动态范围(Dynamic Range)：指声音中最强和最弱信号之间的差异程度，表现为&amp;quot;大声和小声之间的区别&amp;quot;。&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;核心特征：&lt;/p&gt;
@@ -374,6 +436,196 @@
 		data-flex-basis=&#34;770px&#34;
 	
 &gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;压缩技巧&#34;&gt;压缩技巧
+&lt;/h1&gt;&lt;h2 id=&#34;串联压缩&#34;&gt;串联压缩
+&lt;/h2&gt;&lt;p&gt;顾名思义，按顺序进多个压缩。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;串联压缩的主要目的在于动态控制，每一个压缩插件进行相对微小且有针对性的处理。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;常见顺序:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;第一级（瞬态控制）：&lt;strong&gt;快速启动时间（&amp;lt;1ms） + 快速释放时间&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;处理对象：仅针对音频信号中最尖峰的瞬态部分（约1dB处理量）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;第二级（动态控制）：&lt;strong&gt;中速启动时间 + 快速释放时间&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;处理对象：在第一级基础上控制下一层动态,让更多音头出来&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;第三级（律动控制）：&lt;strong&gt;慢速启动时间 + 中速释放时间&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;处理对象：整体声音的韵律感，提升小音量细节，让整个声音更平滑&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1176 与 LA-2A 两个压缩的搭配&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;（1176 抓住尖的地方，把它压下来，LA-2A 再做整体的动态。）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;平行压缩&#34;&gt;平行压缩
+&lt;/h2&gt;&lt;p&gt;两个完全相同的音轨，一轨保持原样，另一轨进行压缩处理。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;通过发送轨来实现：&lt;strong&gt;把原轨信号发送至压缩轨道。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;原轨上实现：&lt;strong&gt;如果插件带 blend / mix 功能可以直接混合干湿信号。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;平行压缩(parallel compression)，通过将原始信号与压缩处理信号混合实现，通过混合比例调整声音质感，做出一些特殊效果，而非主要控制动态。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;压缩参数可调得较夸张以突出音染效果。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这个技巧一般不用于动态控制，而是为了通过压缩获得一种声音效果（如：底鼓轰轰声），所以在做之前需要清晰知道自己想要的声音。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;侧链&#34;&gt;侧链
+&lt;/h2&gt;&lt;p&gt;侧链（Side——Chain）是指控制和触发压缩器工作的信号，&lt;strong&gt;压缩器只有“听到”侧链中的信号才会工作。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/15.PNG&#34;
+	width=&#34;333&#34;
+	height=&#34;188&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/15_hu12315029076829595701.PNG 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/15_hu5232101351799643392.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;425px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;内部侧链（Internal）：&lt;strong&gt;以当前音轨为目标做压缩处理。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;（比如把压缩放进人声轨道，人声说话时，压缩检测到才开始工作。）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;外部侧链（External）：&lt;strong&gt;以其它音轨的信号为目标做压缩处理。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;（比如：在背景音乐音轨上放压缩，以人声轨为目标，人声只要说话，压缩检测到信号开始工作，就会把背景音乐压下去。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;侧脸信号的强弱可以改变压缩的幅度。（增加压的就多，减少压的就少。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;侧链中突出的频段，压缩会着重处理。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;（如果想让某个频段压的多，就把这个频段在侧链里把它推起来，反之，如果不希望压缩压这个频段，就在侧链里面把这个频段减少。）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;均衡和压缩的关系&#34;&gt;均衡和压缩的关系
+&lt;/h1&gt;&lt;p&gt;先理解均衡与压缩的关系。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;均衡放在压缩前&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;这时的均衡用于修复作用，把不需要的声音去掉后到达比较好的状态再进入压缩。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;跟刚才侧链一样，用均衡来控制压缩着重的频段。（着重压缩的频段提高，想闪避压缩的频段降低）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;（同时压的多的频段，也会有更多的音染色彩。）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;均衡放在压缩后面&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;推多少dB就是多少dB的实际频段变化（如推3dB高频即得到3dB提升）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不会影响压缩器的工作状态&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;适用场景：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;压缩后的音色已满意，仅需微调频段平衡&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;需要保持原始压缩特性不被EQ改变的情况&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;压缩家族的其它成员&#34;&gt;压缩家族的其它成员
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/16.PNG&#34;
+	width=&#34;1684&#34;
+	height=&#34;613&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/16_hu2862675314389345088.PNG 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/16_hu6206458963058527911.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;274&#34;
+		data-flex-basis=&#34;659px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;多段压缩&#34;&gt;多段压缩
+&lt;/h2&gt;&lt;p&gt;可以在任何频段内点击一个位置进行压缩，例如只压缩2k到3k之间的频段，而不影响其他频段。&lt;/p&gt;
+&lt;p&gt;通过多段压缩，&lt;strong&gt;可以针对特定声音的频段进行调整，提供极大的控制能力。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;去齿音&#34;&gt;去齿音
+&lt;/h2&gt;&lt;p&gt;原理: 去齿音插件&lt;strong&gt;通过选择特定频段的点，并使用非常快速的启动时间和释放时间进行压缩，从而去除齿音。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;选择齿音频段（如女生通常在7.5k到12k左右），调整域值和range以控制去除齿音的程度。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注意事项: 过度的压缩可能导致声音部分被吞没，因此通常将压缩量控制在四五个dB以内。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;限幅&#34;&gt;限幅
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;限幅器将声音限制在一个固定的幅度内，防止声音超过设定的天花板。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;限幅器通常具有两个机制：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;内部的 clipping 机制，硬生生的去除音头。（如果出现过多声音就不好听）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;限幅机制，用于抓住超过限制的声音。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;限幅器的启动时间和释放时间跟平常理解有些不同&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;它的启动时间意思是你希望多长时间的声音放出去，让它撞到你的 clipping ，然后你的限幅尝试去抓它（比如启动时间 2ms，基本所有的音头都会撞到 cliping ）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;释放时间会直接影响整个歌曲的律动，需要很仔细的设计一个释放时间，释放时间长整体声音都会被压平，释放时间太短会不断触发 clipping 机制，导致过载。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在限幅器中释放时间不能太长，不然声音就会被捏死；但太短出现过载也不好。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 </description>
         </item>
         <item>
