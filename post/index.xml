@@ -634,7 +634,301 @@
         <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
         
         <guid>https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%BB%B6%E8%BF%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</guid>
-        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%BB%B6%E8%BF%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0.jpeg" alt="Featured image of post 关于延迟的一些知识" /&gt;</description>
+        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%BB%B6%E8%BF%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0.jpeg" alt="Featured image of post 关于延迟的一些知识" /&gt;&lt;h1 id=&#34;什么是延迟&#34;&gt;什么是延迟
+&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;基于时间的声音效果，在发出声音后一段时间重复出现，可能出现一次或多次。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;延迟与混响的区别&#34;&gt;延迟与混响的区别
+&lt;/h2&gt;&lt;p&gt;延迟是单个或少量重复的声音，混响是无数延迟密集混合的结果。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;使用场合：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;增强节奏感、空间感、距离感，使用延迟。&lt;/strong&gt;（不会像混响一样有一个很长的音位一直占据空间）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;歌曲段落之间的衔接，如果中间空了，没有任何音乐，可以用延迟填满。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一个声音变宽或者制作一种环境，可以用混响。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;把声音往后放，可以用混响。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;延迟效果器的种类&#34;&gt;延迟效果器的种类
+&lt;/h1&gt;&lt;h2 id=&#34;电话线延迟&#34;&gt;电话线延迟
+&lt;/h2&gt;&lt;p&gt;早期 20-30 年代，广播工程师利用电话线传输信号到远方再返回的方式制造延迟效果&lt;/p&gt;
+&lt;h2 id=&#34;磁带延迟&#34;&gt;磁带延迟
+&lt;/h2&gt;&lt;p&gt;通过磁带录音机以固定速度转动，磁头将音频信号记录在磁带上（电流磁化过程），再通过播放磁头将信号还原。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;延迟时间由写入磁头与播放磁头之间的距离决定，磁带转速越快延迟时间越短。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;油罐延迟&#34;&gt;油罐延迟
+&lt;/h2&gt;&lt;p&gt;20世纪五六十年代，磁带延迟是主流技术，直到 Ray Lubow（Tel-Ray）发明了油罐延迟技术。&lt;/p&gt;
+&lt;p&gt;外部电动机驱动油罐旋转，内部飞轮搅动油液形成涡流，油液在装置中表现出类似电容的性质，能够存储电荷和音频信号&lt;/p&gt;
+&lt;p&gt;不稳定的油液状态导致每台设备产生独特音色，常伴随颤音效果和混响合成特性，现代数字技术难以完全复现这种随机性。&lt;/p&gt;
+&lt;h2 id=&#34;鼓式延迟&#34;&gt;鼓式延迟
+&lt;/h2&gt;&lt;p&gt;20世纪50年代，意大利米兰的Binson公司开发出首台无磁带延迟设备，解决了当时便携磁带延迟放大器的技术瓶颈。&lt;/p&gt;
+&lt;p&gt;采用鼓式旋转结构替代传统磁带，通过磁感线实现信号延迟，在保真度、灵活性和耐用性方面有显著提升。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Pink Floyd早期作品中浓郁饱满的环境音效就源自该设备&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;水管延迟&#34;&gt;水管延迟
+&lt;/h2&gt;&lt;p&gt;使用两根普通浇花塑料水管构成声音传输通道，水管绕圈放置在大型木桶内，悬挂在弹簧减震架上防止声音干扰，利用声波在空气中传播速度()远慢于电磁波的特性实现延迟效果。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;通过不同长度水管产生14ms和16ms两种精确延迟。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;极短延迟产生类似哈斯效应的立体声增强效果。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;产生既非纯粹单声道，又非标准立体声的独特空间感。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;bbd-延迟&#34;&gt;BBD 延迟
+&lt;/h2&gt;&lt;p&gt;1969年荷兰飞利浦实验室发明Bucket Brigade Device(BBD)，最初作为固态数据存储设备使用。&lt;/p&gt;
+&lt;p&gt;由于电荷传输效率低，早期仅适用于音频场合（延迟/混响/合唱等）。&lt;/p&gt;
+&lt;p&gt;虽称&amp;quot;模拟延迟&amp;quot;，实际包含数字时钟工作，非纯模拟设备，通过继电器将电子信号在电容器间传递，数字时钟控制传输延迟时间&lt;/p&gt;
+&lt;p&gt;早期设备电容存储能力差，最长延迟仅300-500ms，高频损失明显（通常在3k-4kHz 做-3dB高切减少高频的噪音）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Electro-Harmonix Deluxe Memory Man（最经典BBD延迟效果器）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Boss DM-2&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;高频损失导致&amp;quot;温暖暗淡&amp;quot;的音色特性&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不同于磁带的粘稠感，具有独特的饱满度&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;数字延迟&#34;&gt;数字延迟
+&lt;/h2&gt;&lt;p&gt;数字延迟实际上比BBD延迟出现更早，Eventide公司在1971年就推出了首款数字延迟设备。&lt;/p&gt;
+&lt;p&gt;采用计算机内存（随机存储器）实现延迟效果，声音清晰真实但缺乏温暖感，冰冷准确，很早以前一般用于恐怖片音效的制作。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;频率响应更宽，噪音更低，动态范围更大。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;能实现特殊效果：冻结延迟、倒放、音高变调等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;延迟参数&#34;&gt;延迟参数
+&lt;/h1&gt;&lt;h2 id=&#34;时间设置time&#34;&gt;时间设置（Time）
+&lt;/h2&gt;&lt;p&gt;延迟是一个以时间为基础的效果，主要有两种计算方式：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;按照绝对的时间值，用毫秒数（ms）。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;比如吉他手爱用的兵乓 delay 的声音，由左右两个声音构成，一边375ms，一边500ms（适合模糊氛围感强的延迟，比较弥散，接近混响，不属于节奏型 delay）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;通过 tab tempo或sync功能使延迟时间与歌曲节拍同步，实现精确的节奏配合。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如U2乐队Edge常用的 1/8 dotted (左侧)和 1/16 (右侧)组合。
+（dotted 增加当前节拍的 50% 。）&lt;/p&gt;
+&lt;p&gt;这种一般用高保真、清晰的延迟。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;回授feedback&#34;&gt;回授（Feedback）
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;指输出的信号再次回到输入端进行循环处理的过程，控制延迟信号弹回的次数&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%BB%B6%E8%BF%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1.PNG&#34;
+	width=&#34;457&#34;
+	height=&#34;155&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%BB%B6%E8%BF%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1_hu7337215825877382275.PNG 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%BB%B6%E8%BF%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/1_hu18041850831745278281.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;294&#34;
+		data-flex-basis=&#34;707px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;设为 100% 时：信号无限循环（如&amp;quot;哒哒哒&amp;quot;持续不断）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;设为较低值时：信号快速消失（如&amp;quot;哒哒&amp;quot;很快结束）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;可以在回授做的事情&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;频段调整：让每次循环回来的信号都经过 EQ 调整。（比如高频衰减，让每次回授越来越暗）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;动态控制：每次循环减少音头会使声音越来越圆润模糊。（ 类似&amp;quot;呜呜&amp;quot;的渐变效果）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;左右声道不断交替互换：信号在左右声道交替循环（左→右→左→右），会得到乒乓 Delay 的效果&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;自回授self-oscillaton无限延迟&#34;&gt;自回授（Self oscillaton）（无限延迟）
+&lt;/h3&gt;&lt;p&gt;延迟效果器中声音不断循环反馈的现象，会产生逐渐夸张、混乱的持续延音效果。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;当feedback设置为100%时，输出电平等于返回电平，&lt;strong&gt;声音将在延迟回路中无限循环。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;超过100%的feedback（如105%）会导致声音持续增强。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;feedback控制类似于&amp;quot;加油和刹车&amp;quot;，可调节声音增减速度。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;单声道立体声延迟乒乓延迟multitap延迟&#34;&gt;单声道、立体声延迟、乒乓延迟、MultiTap延迟
+&lt;/h2&gt;&lt;h3 id=&#34;单声道延迟&#34;&gt;单声道延迟
+&lt;/h3&gt;&lt;p&gt;单声道延迟指&lt;strong&gt;干声和延迟信号都在同一位置（中央）出现的声音处理方式。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;当处理单声道音轨时，延迟信号只能固定在中间位置，无法进行左右声像调整。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;立体声延迟&#34;&gt;立体声延迟
+&lt;/h3&gt;&lt;p&gt;如果你想实现立体声，可以用两个插件实现，把两个插件发送到一左一右。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;左右的参数可以单独调整：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;左右延迟时间可设置不同的参数&lt;/strong&gt;（如左边 227ms、右边 240ms ，一般是几到十几毫秒的差别），会制造出很宽的声场。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;左右延迟的节拍可设置不同的参数&lt;/strong&gt;（如左边八分音符、右边附点四分音符）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;可以制造出一种类似乒乓 Delay 的感觉。&lt;/p&gt;
+&lt;h3 id=&#34;乒乓延迟&#34;&gt;乒乓延迟
+&lt;/h3&gt;&lt;p&gt;标准的乒乓延迟就是声音一次出现在左边一次出现在右边，左右交替，距离相同。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Valhalla Delay允许调整&amp;quot;乒&amp;quot;与&amp;quot;乓&amp;quot;的间隔时间。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;multitap延迟&#34;&gt;MultiTap延迟
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;在反馈回路中产生多条延迟信号线&lt;/strong&gt;（通常4个Tap：A/B/C/D），各Tap按设定时间间隔依次触发（如全音符被均分为4个1/4音符）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;可以设定非均匀分布，比如实现先快后慢（如1/8→1/4→1/2）或先慢后快的特殊效果。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SSL Echo等插件支持完全自定义各Tap时间间隔。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Feedback调节会产生机关枪式连续效果。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;多数情况使用标准单/双延迟或乒乓延迟即可满足需求，MultiTap更适合特殊音效设计。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;延迟的其他参数均衡modulationdiffusion音染&#34;&gt;延迟的其他参数：均衡、Modulation、Diffusion、音染
+&lt;/h2&gt;&lt;h3 id=&#34;均衡eq&#34;&gt;均衡（EQ）
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;通过高切滤波器（High Cut）可让延迟声音逐渐变暗，典型设置在4kHz或1kHz，避免高频干扰主音色。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;（EQ调整在 feedback loop 中会持续累积效果，每次反馈都会重复应用滤波，也就是说信号切掉一次后，再回到 feedback loop 里又会再切掉）&lt;/p&gt;
+&lt;p&gt;当然也可以切掉低频。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;调制moudulation&#34;&gt;调制（Moudulation）
+&lt;/h3&gt;&lt;p&gt;正弦波（sine wave）、方波（square wave）、锯齿波（saw wave），不同波形产生不同调制效果。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Rate 参数：以赫兹（Hz）为单位，1Hz表示每秒震荡1次。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Depth 参数：Moudulation 的程度。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可以用慢速的 rate 创造出比较飘忽随机的感觉声音，所以合唱、颤音、vibrato等等各种各样的效果器都属于 Moudulation  的一种，只是形状不同。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;diffusion&#34;&gt;Diffusion
+&lt;/h3&gt;&lt;p&gt;Diffusion 通过模糊音头使延迟回声变得更圆润柔和。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;当 Diffusion 极大时，延迟会逐渐呈现混响特性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;若插件无衍射功能，可在延迟后串联混响插件达到类似效果。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;音染&#34;&gt;音染
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Digital模式：几乎无音染&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tape模式：强烈磁带饱和特性&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;BBD模式：斗链式延迟特有的调制色彩&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;HiFi模式：更明亮的磁带风格&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Width 参数：控制左右声道的延迟时间差异，值越大空间感越强。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;并非宽度越大越好，有时适度收窄反而更合适&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;人声的延迟使用&#34;&gt;人声的延迟使用
+&lt;/h1&gt;&lt;h2 id=&#34;slap-delay&#34;&gt;Slap delay
+&lt;/h2&gt;&lt;p&gt;极短促的延迟效果（70 - 126ms），产生类似拍手回声的快速重复。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Feedback 参数设为 0% ，确保只产生单次回声。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Time 参数设为 70-90 ms。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mix 参数设为 100% 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
         </item>
         <item>
         <title>如何在属和弦上即兴</title>
