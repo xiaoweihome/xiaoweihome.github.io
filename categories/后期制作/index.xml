@@ -634,7 +634,58 @@
         <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
         
         <guid>https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%BB%B6%E8%BF%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</guid>
-        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%BB%B6%E8%BF%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0.jpeg" alt="Featured image of post 关于延迟的一些知识" /&gt;&lt;h1 id=&#34;什么是延迟&#34;&gt;什么是延迟
+        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%BB%B6%E8%BF%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/0.jpeg" alt="Featured image of post 关于延迟的一些知识" /&gt;&lt;details&gt;
+&lt;summary style=&#34;background-color: #f0f4f8; padding: 1em; border-radius: 8px; cursor: pointer; border: 1px solid #ddd;&#34;&gt;
+  &lt;strong&gt;📖 目录（点击展开）&lt;/strong&gt;
+&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af%e5%bb%b6%e8%bf%9f&#34; &gt;什么是延迟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%bb%b6%e8%bf%9f%e4%b8%8e%e6%b7%b7%e5%93%8d%e7%9a%84%e5%8c%ba%e5%88%ab&#34; &gt;延迟与混响的区别&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%bb%b6%e8%bf%9f%e6%95%88%e6%9e%9c%e5%99%a8%e7%9a%84%e7%a7%8d%e7%b1%bb&#34; &gt;延迟效果器的种类&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e7%94%b5%e8%af%9d%e7%ba%bf%e5%bb%b6%e8%bf%9f&#34; &gt;电话线延迟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e7%a3%81%e5%b8%a6%e5%bb%b6%e8%bf%9f&#34; &gt;磁带延迟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%b2%b9%e7%bd%90%e5%bb%b6%e8%bf%9f&#34; &gt;油罐延迟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%bc%93%e5%bc%8f%e5%bb%b6%e8%bf%9f&#34; &gt;鼓式延迟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%b0%b4%e7%ae%a1%e5%bb%b6%e8%bf%9f&#34; &gt;水管延迟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#bbd-%e5%bb%b6%e8%bf%9f&#34; &gt;BBD 延迟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%95%b0%e5%ad%97%e5%bb%b6%e8%bf%9f&#34; &gt;数字延迟&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%bb%b6%e8%bf%9f%e5%8f%82%e6%95%b0&#34; &gt;延迟参数&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%97%b6%e9%97%b4%e8%ae%be%e7%bd%aetime&#34; &gt;时间设置（Time）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%9b%9e%e6%8e%88feedback&#34; &gt;回授（Feedback）&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e8%87%aa%e5%9b%9e%e6%8e%88self-oscillation%e6%97%a0%e9%99%90%e5%bb%b6%e8%bf%9f&#34; &gt;自回授（Self oscillation）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%8d%95%e5%a3%b0%e9%81%93%e7%ab%8b%e4%bd%93%e5%a3%b0%e5%bb%b6%e8%bf%9f%e4%b9%92%e4%b9%93%e5%bb%b6%e8%bf%9fmultitap%e5%bb%b6%e8%bf%9f&#34; &gt;单声道、立体声、乒乓、多Tap延迟&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%8d%95%e5%a3%b0%e9%81%93%e5%bb%b6%e8%bf%9f&#34; &gt;单声道延迟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e7%ab%8b%e4%bd%93%e5%a3%b0%e5%bb%b6%e8%bf%9f&#34; &gt;立体声延迟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%b9%92%e4%b9%93%e5%bb%b6%e8%bf%9f&#34; &gt;乒乓延迟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#multitap%e5%bb%b6%e8%bf%9f&#34; &gt;MultiTap延迟&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%bb%b6%e8%bf%9f%e7%9a%84%e5%85%b6%e4%bb%96%e5%8f%82%e6%95%b0&#34; &gt;延迟的其他参数&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%9d%87%e8%a1%a1eq&#34; &gt;均衡（EQ）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e8%b0%83%e5%88%b6modulation&#34; &gt;调制（Modulation）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#diffusion&#34; &gt;Diffusion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%9f%b3%e6%9f%93&#34; &gt;音染&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e4%ba%ba%e5%a3%b0%e7%9a%84%e5%bb%b6%e8%bf%9f%e4%bd%bf%e7%94%a8&#34; &gt;人声的延迟使用&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#slap-delay&#34; &gt;Slap Delay&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+&lt;h1 id=&#34;什么是延迟&#34;&gt;什么是延迟
 &lt;/h1&gt;&lt;p&gt;&lt;strong&gt;基于时间的声音效果，在发出声音后一段时间重复出现，可能出现一次或多次。&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;延迟与混响的区别&#34;&gt;延迟与混响的区别
 &lt;/h2&gt;&lt;p&gt;延迟是单个或少量重复的声音，混响是无数延迟密集混合的结果。&lt;/p&gt;
@@ -914,7 +965,7 @@
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;人声的延迟使用&#34;&gt;人声的延迟使用
 &lt;/h1&gt;&lt;h2 id=&#34;slap-delay&#34;&gt;Slap delay
-&lt;/h2&gt;&lt;p&gt;极短促的延迟效果（70 - 126ms），产生类似拍手回声的快速重复。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;极短促的延迟效果（70 - 126ms），产生类似拍手回声的快速重复，用于增强空间感。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;
