@@ -31,7 +31,135 @@
 &lt;hr&gt;
 &lt;h1 id=&#34;大调-blues&#34;&gt;大调 Blues
 &lt;/h1&gt;&lt;h2 id=&#34;和声进行&#34;&gt;和声进行
-&lt;/h2&gt;</description>
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰ&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Ⅰ&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰ&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Ⅰ&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅳ&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Ⅳ&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰ&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Ⅰ&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅴ&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Ⅳ&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰ&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Ⅰ or Ⅴ&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;音阶&#34;&gt;音阶
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%A6%82%E4%BD%95%E5%9C%A8-12-bar-blues-%E9%87%8C%E5%8D%B3%E5%85%B4/2.png&#34;
+	width=&#34;792&#34;
+	height=&#34;1122&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%A6%82%E4%BD%95%E5%9C%A8-12-bar-blues-%E9%87%8C%E5%8D%B3%E5%85%B4/2_hu14522976843022945900.png 480w, https://xiaoweihome.github.io/p/%E5%A6%82%E4%BD%95%E5%9C%A8-12-bar-blues-%E9%87%8C%E5%8D%B3%E5%85%B4/2_hu15295194323212927048.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;小调五声音阶基础上 &amp;#43; 2、3、b5、6&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;b5&lt;/strong&gt;音是 Blues 音&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;2、3、6&lt;/strong&gt;音则来自大调五声音阶&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可以通过以下方式组合这些音符：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1 2 b3 4 5 b7&lt;/strong&gt;（小调五声音阶）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1 2 3 5 6&lt;/strong&gt;（大调五声音阶）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1 2 b3 4 b5 5 b7&lt;/strong&gt;（Blues 音阶）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1 2 b3 4 5 6 b7&lt;/strong&gt;（Dorian 音阶）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1 2 b3 4 6&lt;/strong&gt;（小调五声音阶去b7 + 6）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;音符选择以c调举例&#34;&gt;音符选择（以C调举例）
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;I级&lt;/strong&gt;：C Blues、C 大调五声&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;IV级&lt;/strong&gt;：C Blues + 6音、C Dorian（3音在IV级和弦要避免）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;V级&lt;/strong&gt;：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;好听的音符组合&#34;&gt;好听的音符组合
+&lt;/h2&gt;&lt;hr&gt;
+&lt;h1 id=&#34;小调-blues&#34;&gt;小调 Blues
+&lt;/h1&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰm&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰm&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰm&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰm&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅳm&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅳm&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰm&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰm&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;♭Ⅵ7&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅴ&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰm&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅴ&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;音符选择&#34;&gt;音符选择
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Im级&lt;/strong&gt;：C Blues、C Dorian&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;IV级&lt;/strong&gt;：F Dorian&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;♭Ⅵ7级&lt;/strong&gt;：Eb 旋律小调&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;V级&lt;/strong&gt;：G Alt&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+</description>
         </item>
         <item>
         <title>【乐句积累】Rugged Road</title>
