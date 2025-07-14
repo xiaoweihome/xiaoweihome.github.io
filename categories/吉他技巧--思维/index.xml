@@ -15,12 +15,12 @@
         <description></description>
         </item>
         <item>
-        <title>如何在 12 Bar Blues 里即兴</title>
-        <link>https://xiaoweihome.github.io/p/%E5%A6%82%E4%BD%95%E5%9C%A8-12-bar-blues-%E9%87%8C%E5%8D%B3%E5%85%B4/</link>
+        <title>12 Bar Blues 的演奏、即兴方法</title>
+        <link>https://xiaoweihome.github.io/p/12-bar-blues-%E7%9A%84%E6%BC%94%E5%A5%8F%E5%8D%B3%E5%85%B4%E6%96%B9%E6%B3%95/</link>
         <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/p/%E5%A6%82%E4%BD%95%E5%9C%A8-12-bar-blues-%E9%87%8C%E5%8D%B3%E5%85%B4/</guid>
-        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%A6%82%E4%BD%95%E5%9C%A8-12-bar-blues-%E9%87%8C%E5%8D%B3%E5%85%B4/1.jpg" alt="Featured image of post 如何在 12 Bar Blues 里即兴" /&gt;&lt;details&gt;
+        <guid>https://xiaoweihome.github.io/p/12-bar-blues-%E7%9A%84%E6%BC%94%E5%A5%8F%E5%8D%B3%E5%85%B4%E6%96%B9%E6%B3%95/</guid>
+        <description>&lt;img src="https://xiaoweihome.github.io/p/12-bar-blues-%E7%9A%84%E6%BC%94%E5%A5%8F%E5%8D%B3%E5%85%B4%E6%96%B9%E6%B3%95/1.jpg" alt="Featured image of post 12 Bar Blues 的演奏、即兴方法" /&gt;&lt;details&gt;
 &lt;summary style=&#34;background-color: #f0f4f8; padding: 1em; border-radius: 8px; cursor: pointer; border: 1px solid #ddd;&#34;&gt;
   &lt;strong&gt;📖 目录（点击展开）&lt;/strong&gt;
 &lt;/summary&gt;
@@ -29,7 +29,7 @@
 &lt;/div&gt;
 &lt;/details&gt;
 &lt;hr&gt;
-&lt;h1 id=&#34;大调-blues&#34;&gt;大调 Blues
+&lt;h1 id=&#34;blues传统布鲁斯&#34;&gt;Blues（传统布鲁斯）
 &lt;/h1&gt;&lt;h2 id=&#34;和声进行&#34;&gt;和声进行
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
@@ -56,10 +56,10 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;音阶&#34;&gt;音阶
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%A6%82%E4%BD%95%E5%9C%A8-12-bar-blues-%E9%87%8C%E5%8D%B3%E5%85%B4/2.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/12-bar-blues-%E7%9A%84%E6%BC%94%E5%A5%8F%E5%8D%B3%E5%85%B4%E6%96%B9%E6%B3%95/2.png&#34;
 	width=&#34;792&#34;
 	height=&#34;1122&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E5%A6%82%E4%BD%95%E5%9C%A8-12-bar-blues-%E9%87%8C%E5%8D%B3%E5%85%B4/2_hu4402716217861819051.png 480w, https://xiaoweihome.github.io/p/%E5%A6%82%E4%BD%95%E5%9C%A8-12-bar-blues-%E9%87%8C%E5%8D%B3%E5%85%B4/2_hu8185655520296061868.png 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/12-bar-blues-%E7%9A%84%E6%BC%94%E5%A5%8F%E5%8D%B3%E5%85%B4%E6%96%B9%E6%B3%95/2_hu4402716217861819051.png 480w, https://xiaoweihome.github.io/p/12-bar-blues-%E7%9A%84%E6%BC%94%E5%A5%8F%E5%8D%B3%E5%85%B4%E6%96%B9%E6%B3%95/2_hu8185655520296061868.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;小调五声音阶基础上 &amp;#43; 2、3、b5、6&#34;
@@ -84,13 +84,16 @@
 &lt;p&gt;可以通过以下方式组合这些音符：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;1 2 b3 4 5 b7&lt;/strong&gt;（小调五声音阶）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1 b3 4 5 b7&lt;/strong&gt;（小调五声音阶）&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;1 2 3 5 6&lt;/strong&gt;（大调五声音阶）&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;1 2 b3 4 b5 5 b7&lt;/strong&gt;（Blues 音阶）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1 b3 4 b5 5 b7&lt;/strong&gt;（Minor Blues 音阶）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1 2 b3 3 5 6&lt;/strong&gt;（Major Blues 音阶）&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;1 2 b3 4 5 6 b7&lt;/strong&gt;（Dorian 音阶）&lt;/p&gt;
@@ -102,21 +105,45 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;音符选择以c调举例&#34;&gt;音符选择（以C调举例）
 &lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;I级 C7&lt;/strong&gt;：1 3 5 b7&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;I级&lt;/strong&gt;：C Blues、C 大调五声&lt;/p&gt;
+&lt;p&gt;C Minor Blues: &lt;strong&gt;1&lt;/strong&gt;\ b3 \ 4 \ b5 \ &lt;strong&gt;5&lt;/strong&gt; \ &lt;strong&gt;b7&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;IV级&lt;/strong&gt;：C Blues + 6音、C Dorian（3音在IV级和弦要避免）&lt;/p&gt;
+&lt;p&gt;C Major Blues：&lt;strong&gt;1&lt;/strong&gt;\ 2 \ b3 \ &lt;strong&gt;3&lt;/strong&gt; \ &lt;strong&gt;5&lt;/strong&gt; \ 6&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;V级&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;C Mixolydian：&lt;strong&gt;1&lt;/strong&gt;\ 2 \ &lt;strong&gt;3&lt;/strong&gt; \ 4 \ &lt;strong&gt;5&lt;/strong&gt; \ 6 \ &lt;strong&gt;b7&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;IV级 F7&lt;/strong&gt;：4 6 1 b3&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;C Minor Blues + 6音：&lt;strong&gt;1&lt;/strong&gt;\ b3 \ &lt;strong&gt;4&lt;/strong&gt; \ b5 \ 5 \ 6 \ &lt;strong&gt;b7&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;C Dorian：&lt;strong&gt;1&lt;/strong&gt;\ 2 \ &lt;strong&gt;b3&lt;/strong&gt; \ &lt;strong&gt;4&lt;/strong&gt; \ 5 \ &lt;strong&gt;6&lt;/strong&gt; \ b7&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;（IV级和弦要注意避免 3音，因为跟根音构成小二度）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;V级 G7&lt;/strong&gt;：5 7 2 4&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;C Minor Blues: 1\ b3 \ &lt;strong&gt;4&lt;/strong&gt; \ b5 \ &lt;strong&gt;5&lt;/strong&gt; \ b7&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;G Mixolydian：&lt;strong&gt;5&lt;/strong&gt; \ 6 \ b7 \ 1 \ 2 \ 3&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;好听的音符组合&#34;&gt;好听的音符组合
 &lt;/h2&gt;&lt;hr&gt;
-&lt;h1 id=&#34;小调-blues&#34;&gt;小调 Blues
+&lt;h1 id=&#34;minor-blues小调布鲁斯&#34;&gt;Minor Blues（小调布鲁斯）
 &lt;/h1&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -143,27 +170,163 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;音符选择&#34;&gt;音符选择
 &lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Im级 C-7&lt;/strong&gt;：1 b3 5 b7&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Im级&lt;/strong&gt;：C Blues、C Dorian&lt;/p&gt;
+&lt;p&gt;C Minor Blues: &lt;strong&gt;1&lt;/strong&gt;\ &lt;strong&gt;b3&lt;/strong&gt; \ 4 \ b5 \ &lt;strong&gt;5&lt;/strong&gt; \ &lt;strong&gt;b7&lt;/strong&gt;（&lt;strong&gt;可以只用一条 C Blues 音阶通杀 12小节 全部和弦&lt;/strong&gt;）&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;IV级&lt;/strong&gt;：F Dorian&lt;/p&gt;
+&lt;p&gt;C Dorian：&lt;strong&gt;1&lt;/strong&gt;\ 2 \ &lt;strong&gt;b3&lt;/strong&gt; \ 4 \ &lt;strong&gt;5&lt;/strong&gt; \ 6 \ b7&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;♭Ⅵ7级&lt;/strong&gt;：Eb 旋律小调、Ab Mixolydian #4（Lydian b7）&lt;/p&gt;
+&lt;p&gt;C和声小调&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;V级&lt;/strong&gt;：G Alt&lt;/p&gt;
+&lt;p&gt;C旋律小调&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;IV级 F-7&lt;/strong&gt;:4 b6 1 b3&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Minor Blues 12bar &lt;strong&gt;可以只用一条 C Blues 音阶通杀全部和弦&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;C Minor Blues: &lt;strong&gt;1&lt;/strong&gt;\ &lt;strong&gt;b3&lt;/strong&gt; \ 4 \ b5 \ &lt;strong&gt;5&lt;/strong&gt; \ &lt;strong&gt;b7&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;F dorian：&lt;strong&gt;4&lt;/strong&gt; \ 5 \ &lt;strong&gt;b6&lt;/strong&gt; \ 7 \ &lt;strong&gt;1&lt;/strong&gt; \ 2 \ &lt;strong&gt;b3&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;F 和声小调&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;♭Ⅵ7级 Ab7（替代原本 II级 D-7）&lt;/strong&gt;：b6 1 b3 b5&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Eb 旋律小调：&lt;strong&gt;b3&lt;/strong&gt; / 4 / &lt;strong&gt;b5&lt;/strong&gt; / &lt;strong&gt;b6&lt;/strong&gt; / b7 / &lt;strong&gt;1&lt;/strong&gt; / 2&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ab Mixolydian #4（Lydian b7）：&lt;strong&gt;b6&lt;/strong&gt; / b7 / &lt;strong&gt;1&lt;/strong&gt; / 2 / &lt;strong&gt;b3&lt;/strong&gt; / 4 / &lt;strong&gt;b5&lt;/strong&gt; （匹配 Ab7#11 和弦）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;V级 G-7&lt;/strong&gt;：5 b7 2 4&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;C Minor Blues: &lt;strong&gt;1&lt;/strong&gt;\ &lt;strong&gt;b3&lt;/strong&gt; \ 4 \ b5 \ &lt;strong&gt;5&lt;/strong&gt; \ &lt;strong&gt;b7&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;G Alt：&lt;strong&gt;5&lt;/strong&gt; / b6 / &lt;strong&gt;b7&lt;/strong&gt; / 1 / b2 / b3 / &lt;strong&gt;4&lt;/strong&gt;（有延伸音b9、b5）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;G Mixolydian：&lt;strong&gt;5&lt;/strong&gt; / 6 / 7 / 1 / &lt;strong&gt;2&lt;/strong&gt; / 3 / &lt;strong&gt;4&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;G Prygian Dominat：&lt;strong&gt;5&lt;/strong&gt; / b6 / 7 / 1 / 2 / b3 /&lt;strong&gt;4&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
+&lt;h2 id=&#34;jazz-major-blues爵士布鲁斯&#34;&gt;Jazz Major Blues（爵士布鲁斯）
+&lt;/h2&gt;&lt;h2 id=&#34;和声进行-1&#34;&gt;和声进行
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;变化核心：&lt;strong&gt;在布鲁斯的基本框架内加入 2-5-1 进行。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰ&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;VI&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰ&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Vm I&lt;/strong&gt; （IV级的251）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅳ&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;#Ⅳo7&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰ&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;IIIm7b5 VI7&lt;/strong&gt; （IIm的251）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;IIm&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;V&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Ⅰ VI&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;II Ⅴ&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第 4 小节是IV级和弦的 2-5-1，可以变化的形式：（C调举例）&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gm9 - C13 - F9&lt;/strong&gt;（加入延伸音）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gm9 - Gb9 - F9&lt;/strong&gt;（三全音替代：用 Gb9 替代 C13）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;C13 - Gb9 - F9&lt;/strong&gt;（去掉IIm级，只用V级 C13 - Gb9）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第 6 小节是#IV级的减七和弦，可以用减七和弦的性质做替代：（C调举例）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;F#dim7 = Adim7 = Cdim7 = Ebdim7&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;F#dim7 - Adim7&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;F#dim7 - Ebdim7&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;F#dim7 - Cdim7&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第 7 小节I级和弦可以做 Passing Chord（经过和弦）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C13 - C7#5 - C7（旋律音 6 - b6 - 5 的线条&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第 8 小节IIm和弦的 2-5-1，可以做同样三全音替代：（低音线条更好听）&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bb7 - A7 - Dm7&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bb13 - A7#5 - Dm9&lt;/strong&gt;（加入延伸音）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bb13 - A7#5 - A7 - Dm9&lt;/strong&gt;（前面三个 2-5 进行加入 Vocing 线条）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第 9 小节IIm和弦可以做三全音替代：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dm11 - Ab13&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第 10 小节V和弦可以做三全音替代：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;G13 - Db9&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第 11 - 12 小节 I-VI-II-V 可以做的 Passing Chord：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 </description>
         </item>
         <item>
