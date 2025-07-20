@@ -388,7 +388,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 3 分钟
+                    阅读时长: 4 分钟
                 </time>
             </div>
         
@@ -487,8 +487,110 @@
 </ul>
 </blockquote>
 <h2 id="音符选择以c调举例">音符选择（以C调举例）
-</h2><blockquote>
-<p><strong>I级 C7</strong>：1 3 5 b7</p>
+</h2><style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  td {
+    padding: 8px 12px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 6px;
+    color: #333;
+  }
+  /* 和弦格子背景色 */
+  .chord-I {
+    background: #cfe2ff; /* 浅蓝 */
+  }
+  .chord-IV {
+    background: #ffe0f0; /* 浅粉 */
+  }
+  .chord-V {
+    background: #ffe6cc; /* 浅橙 */
+  }
+  /* 音阶说明格背景 */
+  .scale-cell {
+    background: #fff8dc; /* 柔和浅黄 */
+    border-radius: 6px;
+    padding: 12px 16px;
+    text-align: left;
+    font-family: monospace;
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+  .scale-cell p {
+    margin: 6px 0;
+    font-weight: 600;
+  }
+  .note {
+    font-weight: 700;
+    color: #b45309; /* 深黄色强调 */
+  }
+  @media (max-width: 600px) {
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+    .scale-cell {
+      white-space: normal;
+    }
+  }
+</style>
+<div class="table-wrapper"><table>
+  <tr>
+    <td class="chord-I"><b>Ⅰ</b></td>
+    <td class="chord-I"><b>Ⅰ</b></td>
+    <td class="chord-I"><b>Ⅰ</b></td>
+    <td class="chord-I"><b>Ⅰ</b></td>
+  </tr>
+  <tr>
+    <td colspan="4" class="scale-cell">
+      <p><span class="note">Minor Blues</span>：1 b3 4 b5 5 b7</p>
+      <p><span class="note">Major Blues</span>：1 2 b3 3 5 6</p>
+      <p><span class="note">Mixolydian</span>：1 2 3 4 5 6 b7</p>
+    </td>
+  </tr>
+  <tr>
+    <td class="chord-IV"><b>Ⅳ</b></td>
+    <td class="chord-IV"><b>Ⅳ</b></td>
+    <td class="chord-I"><b>Ⅰ</b></td>
+    <td class="chord-I"><b>Ⅰ</b></td>
+  </tr>
+  <tr>
+    <td colspan="2" class="scale-cell">
+      <p><span class="note">Dorian</span>：1 2 b3 4 5 6 b7</p>
+      <p><span class="note">Minor Blues + 6</span>：1 b3 4 b5 5 6 b7</p>
+    </td>
+    <td colspan="2" class="scale-cell">
+      <p>同前 I 级一样</p>
+    </td>
+  </tr>
+  <tr>
+    <td class="chord-V"><b>Ⅴ</b></td>
+    <td class="chord-IV"><b>Ⅳ</b></td>
+    <td class="chord-I"><b>Ⅰ</b></td>
+    <td class="chord-I"><b>Ⅰ or Ⅴ</b></td>
+  </tr>
+  <tr>
+    <td class="scale-cell">
+      <p><span class="note">Mixolydian</span>：5 6 b7 1 2 3</p>
+      <p><span class="note">Minor Blues</span>：b3 4 b5 5 b7</p>
+    </td>
+    <td class="scale-cell">
+      <p>同前 IV 级一样</p>
+    </td>
+    <td colspan="2" class="scale-cell">
+      <p>回 C7：使用 Minor / Major Blues</p>
+      <p>到 G7：使用 Mixolydian</p>
+    </td>
+  </tr>
+</table></div>
+<details><summary><b></b></summary>
+<blockquote>
+<p><strong>I级 C7</strong>：<code>1 3 5 b7</code></p>
 <ul>
 <li>
 <p>C Minor Blues: <strong>1</strong>\ b3 \ 4 \ b5 \ <strong>5</strong> \ <strong>b7</strong></p>
@@ -502,7 +604,7 @@
 </ul>
 </blockquote>
 <blockquote>
-<p><strong>IV级 F7</strong>：4 6 1 b3</p>
+<p><strong>IV级 F7</strong>：<code>4 6 1 b3</code></p>
 <ul>
 <li>
 <p>C Minor Blues + 6音：<strong>1</strong>\ b3 \ <strong>4</strong> \ b5 \ 5 \ 6 \ <strong>b7</strong></p>
@@ -514,7 +616,7 @@
 <p>（IV级和弦要注意避免 3音，因为跟根音构成小二度）</p>
 </blockquote>
 <blockquote>
-<p><strong>V级 G7</strong>：5 7 2 4</p>
+<p><strong>V级 G7</strong>：<code>5 7 2 4</code></p>
 <ul>
 <li>
 <p>C Minor Blues: 1\ b3 \ <strong>4</strong> \ b5 \ <strong>5</strong> \ b7</p>
@@ -524,6 +626,7 @@
 </li>
 </ul>
 </blockquote>
+</details>
 <h2 id="好听的音符组合">好听的音符组合
 </h2><hr>
 <h1 id="minor-blues小调布鲁斯">Minor Blues（小调布鲁斯）
@@ -552,65 +655,154 @@
   </tbody>
 </table></div>
 <h2 id="音符选择">音符选择
-</h2><blockquote>
-<p><strong>Im级 C-7</strong>：1 b3 5 b7</p>
+</h2><style>
+  table {
+    border-collapse: collapse;
+    width: auto;
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    table-layout: auto;
+  }
+  td {
+    padding: 8px 12px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 6px;
+    color: #333;
+    max-width: 150px;
+    word-break: break-word;
+    white-space: normal;
+  }
+  /* 和弦格子背景色 */
+  .chord-Im {
+    background: #c9daf8; /* 浅蓝 */
+  }
+  .chord-IVm {
+    background: #f9d5e5; /* 浅粉 */
+  }
+  .chord-bVI7 {
+    background: #ffe1b3; /* 浅橙 */
+  }
+  .chord-V {
+    background: #ffd6d6; /* 浅红 */
+  }
+  /* 音阶说明格背景 */
+  .scale-cell {
+    background: #fff8dc;
+    border-radius: 6px;
+    padding: 12px 16px;
+    text-align: left;
+    font-family: monospace;
+    line-height: 1.5;
+    white-space: normal;
+    max-width: 600px;
+    word-break: break-word;
+  }
+  .scale-cell p {
+    margin: 6px 0;
+    font-weight: 600;
+  }
+  .note {
+    font-weight: 700;
+    color: #b45309;
+  }
+  @media (max-width: 600px) {
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+    .scale-cell {
+      white-space: normal;
+    }
+  }
+</style>
+<div class="table-wrapper"><table>
+  <tr>
+    <td class="chord-Im"><b>Ⅰm</b></td>
+    <td class="chord-Im"><b>Ⅰm</b></td>
+    <td class="chord-Im"><b>Ⅰm</b></td>
+    <td class="chord-Im"><b>Ⅰm</b></td>
+  </tr>
+  <tr>
+    <td colspan="4" class="scale-cell">
+      <p><span class="note">C Minor Blues</span>：1 b3 4 b5 5 b7 （可用一条 C Blues 音阶通杀全部和弦）</p>
+      <p><span class="note">C Dorian</span>：1 2 b3 4 5 6 b7</p>
+      <p><span class="note">C 和声小调</span>：1 2 b3 4 5 b6 7</p>
+      <p><span class="note">C 旋律小调</span>：1 2 b3 4 5 6 7</p>
+    </td>
+  </tr>
+  <tr>
+    <td class="chord-IVm"><b>Ⅳm</b></td>
+    <td class="chord-IVm"><b>Ⅳm</b></td>
+    <td class="chord-Im"><b>Ⅰm</b></td>
+    <td class="chord-Im"><b>Ⅰm</b></td>
+  </tr>
+  <tr>
+    <td colspan="2" class="scale-cell">
+      <p><span class="note">F Dorian</span>：4 5 b6 7 1 2 b3</p>
+      <p><span class="note">F 和声小调</span>：4 5 b6 7 1 2 3</p>
+    </td>
+    <td colspan="2" class="scale-cell">
+      <p>同前 Ⅰm 级一样</p>
+    </td>
+  </tr>
+  <tr>
+    <td class="chord-bVI7"><b>♭Ⅵ7</b></td>
+    <td class="chord-V"><b>Ⅴ</b></td>
+    <td class="chord-Im"><b>Ⅰm</b></td>
+    <td class="chord-V"><b>Ⅴ</b></td>
+  </tr>
+  <tr>
+    <td class="scale-cell">
+      <p><span class="note">♭Ⅵ7</span>：Eb 旋律小调：b3 4 b5 b6 b7 1 2</p>
+      <p><span class="note">Ab Mixolydian #4 (Lydian b7)</span>：b6 b7 1 2 b3 4 b5（匹配 Ab7#11 和弦）</p>
+    </td>
+    <td class="scale-cell">
+      <p><span class="note">G Alt</span>：5 b6 b7 1 b2 b3 4（有延伸音 b9、b5）</p>
+      <p><span class="note">G Mixolydian</span>：5 6 7 1 2 3 4</p>
+      <p><span class="note">G Phrygian Dominant</span>：5 b6 7 1 2 b3 4</p>
+    </td>
+    <td colspan="2" class="scale-cell">
+      <p>同前 Ⅰm 级一样</p>
+    </td>
+  </tr>
+</table></div>
+<details><summary><b></b></summary>
+<blockquote>
+<p><strong>Im级 C-7</strong>：<code>1 b3 5 b7</code></p>
 <ul>
-<li>
-<p>C Minor Blues: <strong>1</strong>\ <strong>b3</strong> \ 4 \ b5 \ <strong>5</strong> \ <strong>b7</strong>（<strong>可以只用一条 C Blues 音阶通杀 12小节 全部和弦</strong>）</p>
-</li>
-<li>
-<p>C Dorian：<strong>1</strong>\ 2 \ <strong>b3</strong> \ 4 \ <strong>5</strong> \ 6 \ b7</p>
-</li>
-<li>
-<p>C和声小调</p>
-</li>
-<li>
-<p>C旋律小调</p>
-</li>
+<li>C Minor Blues: <strong>1</strong>\ <strong>b3</strong> \ 4 \ b5 \ <strong>5</strong> \ <strong>b7</strong>（<strong>可以只用一条 C Blues 音阶通杀 12小节 全部和弦</strong>）</li>
+<li>C Dorian：<strong>1</strong>\ 2 \ <strong>b3</strong> \ 4 \ <strong>5</strong> \ 6 \ b7</li>
+<li>C 和声小调：<strong>1</strong>\ 2 \ <strong>b3</strong> \ 4 \ <strong>5</strong> \ b6 \ 7</li>
+<li>C 旋律小调：<strong>1</strong>\ 2 \ <strong>b3</strong> \ 4 \ <strong>5</strong> \ 6 \ 7</li>
 </ul>
 </blockquote>
 <blockquote>
-<p><strong>IV级 F-7</strong>:4 b6 1 b3</p>
+<p><strong>IV级 F-7</strong>：<code>4 b6 1 b3</code></p>
 <ul>
-<li>
-<p>C Minor Blues: <strong>1</strong>\ <strong>b3</strong> \ 4 \ b5 \ <strong>5</strong> \ <strong>b7</strong></p>
-</li>
-<li>
-<p>F dorian：<strong>4</strong> \ 5 \ <strong>b6</strong> \ 7 \ <strong>1</strong> \ 2 \ <strong>b3</strong></p>
-</li>
-<li>
-<p>F 和声小调</p>
-</li>
+<li>C Minor Blues: <strong>1</strong>\ <strong>b3</strong> \ 4 \ b5 \ <strong>5</strong> \ <strong>b7</strong></li>
+<li>F dorian：<strong>4</strong> \ 5 \ <strong>b6</strong> \ 7 \ <strong>1</strong> \ 2 \ <strong>b3</strong></li>
+<li>F 和声小调：<strong>4</strong> \ 5 \ <strong>b6</strong> \ 7 \ <strong>1</strong> \ 2 \ <strong>3</strong></li>
 </ul>
 </blockquote>
 <blockquote>
-<p><strong>♭Ⅵ7级 Ab7（替代原本 II级 D-7）</strong>：b6 1 b3 b5</p>
+<p><strong>♭Ⅵ7级 Ab7（替代原本 II级 D-7）</strong>：<code>b6 1 b3 b5</code></p>
 <ul>
-<li>
-<p>Eb 旋律小调：<strong>b3</strong> / 4 / <strong>b5</strong> / <strong>b6</strong> / b7 / <strong>1</strong> / 2</p>
-</li>
-<li>
-<p>Ab Mixolydian #4（Lydian b7）：<strong>b6</strong> / b7 / <strong>1</strong> / 2 / <strong>b3</strong> / 4 / <strong>b5</strong> （匹配 Ab7#11 和弦）</p>
-</li>
+<li>Eb 旋律小调：<strong>b3</strong> \ 4 \ <strong>b5</strong> \ <strong>b6</strong> \ b7 \ <strong>1</strong> \ 2</li>
+<li>Ab Mixolydian #4（Lydian b7）：<strong>b6</strong> \ b7 \ <strong>1</strong> \ 2 \ <strong>b3</strong> \ 4 \ <strong>b5</strong> （匹配 Ab7#11 和弦）</li>
 </ul>
 </blockquote>
 <blockquote>
-<p><strong>V级 G-7</strong>：5 b7 2 4</p>
+<p><strong>V级 G-7</strong>：<code>5 b7 2 4</code></p>
 <ul>
-<li>
-<p>C Minor Blues: <strong>1</strong>\ <strong>b3</strong> \ 4 \ b5 \ <strong>5</strong> \ <strong>b7</strong></p>
-</li>
-<li>
-<p>G Alt：<strong>5</strong> / b6 / <strong>b7</strong> / 1 / b2 / b3 / <strong>4</strong>（有延伸音b9、b5）</p>
-</li>
-<li>
-<p>G Mixolydian：<strong>5</strong> / 6 / 7 / 1 / <strong>2</strong> / 3 / <strong>4</strong></p>
-</li>
-<li>
-<p>G Prygian Dominat：<strong>5</strong> / b6 / 7 / 1 / 2 / b3 /<strong>4</strong></p>
-</li>
+<li>C Minor Blues: <strong>1</strong> \ <strong>b3</strong> \ 4 \ b5 \ <strong>5</strong> \ <strong>b7</strong></li>
+<li>G Alt：<strong>5</strong> \ b6 \ <strong>b7</strong> \ 1 \ b2 \ b3 \ <strong>4</strong>（有延伸音 b9、b5）</li>
+<li>G Mixolydian：<strong>5</strong> \ 6 \ 7 \ 1 \ <strong>2</strong> \ 3 \ <strong>4</strong></li>
+<li>G Phrygian Dominant：<strong>5</strong> \ b6 \ 7 \ 1 \ 2 \ b3 \ <strong>4</strong></li>
 </ul>
 </blockquote>
+</details>
 <hr>
 <h2 id="jazz-major-blues爵士布鲁斯">Jazz Major Blues（爵士布鲁斯）
 </h2><h2 id="和声进行-1">和声进行
@@ -706,9 +898,6 @@
 </blockquote>
 <blockquote>
 <p>第 11 - 12 小节 I-VI-II-V 可以做的 Passing Chord：</p>
-<ul>
-<li></li>
-</ul>
 </blockquote>
 
 </section>
@@ -743,6 +932,19 @@
     <h2 class="section-title">相关文章</h2>
     <div class="related-content">
         <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%8A%A0%E5%B7%9E%E6%97%85%E9%A6%86%E5%92%8C%E5%A3%B0%E4%B8%8A%E5%8D%B3%E5%85%B4/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何在《加州旅馆》和声上即兴</h2>
+        </div>
+    </a>
+</article>
+
             
                 
 <article class="has-image">
@@ -835,30 +1037,6 @@
 
         <div class="article-details">
             <h2 class="article-title">Victory V4 前级的使用方式</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/">
-        
-        
-            <div class="article-image">
-                <img src="/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/1.df36691165c13913e4478bbdd49f2919_hu16918363678159072626.jpg" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post 通过五声音阶演奏调式音阶的色彩"
-                        
-                        data-hash="md5-3zZpEWXBORPkR4u91J8pGQ==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">通过五声音阶演奏调式音阶的色彩</h2>
         </div>
     </a>
 </article>
@@ -1039,8 +1217,10 @@
     
         
     
-    发表了51篇文章 · 
-    总计3.21k字
+        
+    
+    发表了52篇文章 · 
+    总计3.48k字
 </section>
 
 
