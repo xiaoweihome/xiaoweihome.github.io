@@ -463,9 +463,9 @@
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td colspan=&#34;4&#34; class=&#34;scale-cell&#34;&gt;
-      &lt;p&gt;&lt;span class=&#34;note&#34;&gt;Minor Blues&lt;/span&gt;：1 b3 4 b5 5 b7&lt;/p&gt;
-      &lt;p&gt;&lt;span class=&#34;note&#34;&gt;Major Blues&lt;/span&gt;：1 2 b3 3 5 6&lt;/p&gt;
-      &lt;p&gt;&lt;span class=&#34;note&#34;&gt;Mixolydian&lt;/span&gt;：1 2 3 4 5 6 b7&lt;/p&gt;
+      &lt;p&gt;&lt;span class=&#34;note&#34;&gt;C Minor Blues&lt;/span&gt;：1 b3 4 b5 5 b7&lt;/p&gt;
+      &lt;p&gt;&lt;span class=&#34;note&#34;&gt;C Major Blues&lt;/span&gt;：1 2 b3 3 5 6&lt;/p&gt;
+      &lt;p&gt;&lt;span class=&#34;note&#34;&gt;C Mixolydian&lt;/span&gt;：1 2 3 4 5 6 b7&lt;/p&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
@@ -476,8 +476,8 @@
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td colspan=&#34;2&#34; class=&#34;scale-cell&#34;&gt;
-      &lt;p&gt;&lt;span class=&#34;note&#34;&gt;Dorian&lt;/span&gt;：1 2 b3 4 5 6 b7&lt;/p&gt;
-      &lt;p&gt;&lt;span class=&#34;note&#34;&gt;Minor Blues + 6&lt;/span&gt;：1 b3 4 b5 5 6 b7&lt;/p&gt;
+      &lt;p&gt;&lt;span class=&#34;note&#34;&gt;C Dorian&lt;/span&gt;：1 2 b3 4 5 6 b7&lt;/p&gt;
+      &lt;p&gt;&lt;span class=&#34;note&#34;&gt;C Minor Blues + 6&lt;/span&gt;：1 b3 4 b5 5 6 b7&lt;/p&gt;
     &lt;/td&gt;
     &lt;td colspan=&#34;2&#34; class=&#34;scale-cell&#34;&gt;
       &lt;p&gt;同前 I 级一样&lt;/p&gt;
@@ -491,15 +491,15 @@
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td class=&#34;scale-cell&#34;&gt;
-      &lt;p&gt;&lt;span class=&#34;note&#34;&gt;Mixolydian&lt;/span&gt;：5 6 b7 1 2 3&lt;/p&gt;
-      &lt;p&gt;&lt;span class=&#34;note&#34;&gt;Minor Blues&lt;/span&gt;：b3 4 b5 5 b7&lt;/p&gt;
+      &lt;p&gt;&lt;span class=&#34;note&#34;&gt;G Mixolydian&lt;/span&gt;：5 6 b7 1 2 3&lt;/p&gt;
+      &lt;p&gt;&lt;span class=&#34;note&#34;&gt;C Minor Blues&lt;/span&gt;：b3 4 b5 5 b7&lt;/p&gt;
     &lt;/td&gt;
     &lt;td class=&#34;scale-cell&#34;&gt;
       &lt;p&gt;同前 IV 级一样&lt;/p&gt;
     &lt;/td&gt;
     &lt;td colspan=&#34;2&#34; class=&#34;scale-cell&#34;&gt;
-      &lt;p&gt;回 C7：使用 Minor / Major Blues&lt;/p&gt;
-      &lt;p&gt;到 G7：使用 Mixolydian&lt;/p&gt;
+      &lt;p&gt;回 C7：使用 C Minor / Major Blues&lt;/p&gt;
+      &lt;p&gt;到 G7：使用 G Mixolydian&lt;/p&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
@@ -541,7 +541,12 @@
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;好听的音符组合&#34;&gt;好听的音符组合
-&lt;/h2&gt;&lt;hr&gt;
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;b3 - 3 - 5 - 1&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
 &lt;h1 id=&#34;minor-blues小调布鲁斯&#34;&gt;Minor Blues（小调布鲁斯）
 &lt;/h1&gt;&lt;table&gt;
   &lt;thead&gt;
@@ -677,7 +682,7 @@
       &lt;p&gt;&lt;span class=&#34;note&#34;&gt;G Phrygian Dominant&lt;/span&gt;：5 b6 7 1 2 b3 4&lt;/p&gt;
     &lt;/td&gt;
     &lt;td colspan=&#34;2&#34; class=&#34;scale-cell&#34;&gt;
-      &lt;p&gt;同前 Ⅰm 级一样&lt;/p&gt;
+      &lt;p&gt;同前 Ⅰm / V 级一样&lt;/p&gt;
     &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
@@ -908,8 +913,7 @@
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td colspan=&#34;2&#34; class=&#34;note-cell&#34;&gt;
-      &lt;p&gt;第 9、10 小节：&lt;/p&gt;
-      &lt;p&gt;→ 可塞 &lt;b&gt;251 乐句&lt;/b&gt;&lt;/p&gt;
+      &lt;p&gt;可塞 &lt;b&gt;251 乐句&lt;/b&gt;&lt;/p&gt;
     &lt;/td&gt;
     &lt;td colspan=&#34;2&#34; class=&#34;note-cell&#34;&gt;
       &lt;p&gt;第一种方式：&lt;/p&gt;
@@ -2555,10 +2559,10 @@
 &lt;/div&gt;
 &lt;/details&gt;
 &lt;h1 id=&#34;dorian&#34;&gt;Dorian
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Dorian.png&#34;
-	width=&#34;792&#34;
-	height=&#34;1122&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Dorian_hu7982889619409919355.png 480w, https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Dorian_hu10430289006101803156.png 1024w&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Dorian.jpg&#34;
+	width=&#34;1586&#34;
+	height=&#34;2244&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Dorian_hu17732753845991998793.jpg 480w, https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Dorian_hu10351780618381652469.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;小调五声音阶 &amp;#43; 2 6&#34;
@@ -2570,10 +2574,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;aeolian&#34;&gt;Aeolian
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Aeolian.png&#34;
-	width=&#34;792&#34;
-	height=&#34;1122&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Aeolian_hu612117976659445954.png 480w, https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Aeolian_hu13169891472380146500.png 1024w&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Aeolian.jpg&#34;
+	width=&#34;1586&#34;
+	height=&#34;2244&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Aeolian_hu12081291844872610749.jpg 480w, https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Aeolian_hu18212852861805131397.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;小调五声音阶 &amp;#43; 2 b6&#34;
@@ -2585,25 +2589,25 @@
 	
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;phrygian&#34;&gt;Phrygian
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Phrygian.png&#34;
-	width=&#34;792&#34;
-	height=&#34;1122&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Phrygian_hu3631529128113983209.png 480w, https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Phrygian_hu5100885512969405035.png 1024w&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Phrygian.jpeg&#34;
+	width=&#34;1578&#34;
+	height=&#34;2157&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Phrygian_hu11436203648334446223.jpeg 480w, https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Phrygian_hu15197016371920174438.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;小调五声音阶 &amp;#43; b2 b6&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;70&#34;
-		data-flex-basis=&#34;169px&#34;
+		data-flex-grow=&#34;73&#34;
+		data-flex-basis=&#34;175px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h1 id=&#34;lydian对应-dorian-指法&#34;&gt;Lydian（对应 Dorian 指法）
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Lydian.png&#34;
-	width=&#34;792&#34;
-	height=&#34;1122&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Lydian_hu5090614405438180560.png 480w, https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Lydian_hu1110417286880026973.png 1024w&#34;
+&lt;h1 id=&#34;lydian&#34;&gt;Lydian
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Lydian.jpeg&#34;
+	width=&#34;1586&#34;
+	height=&#34;2244&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Lydian_hu15279335825576810828.jpeg 480w, https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Lydian_hu4912840973910510073.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;大调五声音阶 &amp;#43; #4 7&#34;
@@ -2614,11 +2618,11 @@
 		data-flex-basis=&#34;169px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h1 id=&#34;mixolydian对应-phrygian-指法&#34;&gt;Mixolydian（对应 Phrygian 指法）
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Mixolydian.png&#34;
-	width=&#34;792&#34;
-	height=&#34;1122&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Mixolydian_hu14100632550671945532.png 480w, https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Mixolydian_hu13939302052991994358.png 1024w&#34;
+&lt;h1 id=&#34;mixolydian&#34;&gt;Mixolydian
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Mixolydian.jpeg&#34;
+	width=&#34;1586&#34;
+	height=&#34;2244&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Mixolydian_hu15072360866009897195.jpeg 480w, https://xiaoweihome.github.io/p/%E9%80%9A%E8%BF%87%E4%BA%94%E5%A3%B0%E9%9F%B3%E9%98%B6%E6%BC%94%E5%A5%8F%E8%B0%83%E5%BC%8F%E9%9F%B3%E9%98%B6%E7%9A%84%E8%89%B2%E5%BD%A9/Mixolydian_hu2115171438158619499.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;大调五声音阶 &amp;#43; 4 b7&#34;
@@ -4449,6 +4453,9 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%96%b9%e5%bc%8f%e5%9b%9b%e4%bd%9c%e4%b8%ba%e8%bf%87%e6%b8%a1%e5%92%8c%e5%bc%a6&#34; &gt;方式四：作为过渡和弦&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e8%b0%83%e5%bc%8f%e9%9f%b3%e9%98%b6%e5%92%8c%e5%a3%b0%e5%b0%8f%e8%b0%83%e6%97%8b%e5%be%8b%e5%b0%8f%e8%b0%83%e7%9a%84%e9%a1%ba%e9%98%b6%e5%92%8c%e5%bc%a6&#34; &gt;调式音阶/和声小调/旋律小调的顺阶和弦&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/details&gt;
@@ -6052,7 +6059,11 @@
 &lt;/h1&gt;&lt;h2 id=&#34;惯用线&#34;&gt;惯用线
 &lt;/h2&gt;&lt;h2 id=&#34;旋律线&#34;&gt;旋律线
 &lt;/h2&gt;&lt;h2 id=&#34;空弦音&#34;&gt;空弦音
-&lt;/h2&gt;</description>
+&lt;/h2&gt;&lt;h1 id=&#34;调式音阶和声小调旋律小调的顺阶和弦&#34;&gt;调式音阶、和声小调、旋律小调的顺阶和弦
+&lt;/h1&gt;&lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;级数&lt;/th&gt;&lt;th&gt;Ionian&lt;/th&gt;&lt;th&gt;Dorian&lt;/th&gt;&lt;th&gt;Phrygian&lt;/th&gt;&lt;th&gt;Lydian&lt;/th&gt;&lt;th&gt;Mixolydian&lt;/th&gt;&lt;th&gt;Aeolian&lt;/th&gt;&lt;th&gt;Locrian&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt;&lt;td&gt;I&lt;/td&gt;&lt;td&gt;Cmaj7&lt;/td&gt;&lt;td&gt;Cm7&lt;/td&gt;&lt;td&gt;Cm7&lt;/td&gt;&lt;td&gt;Cmaj7&lt;/td&gt;&lt;td&gt;C7&lt;/td&gt;&lt;td&gt;Cm7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Cø7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;II&lt;/td&gt;&lt;td&gt;Dm7&lt;/td&gt;&lt;td&gt;Dm7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Dbmaj7&lt;/td&gt;&lt;td&gt;D7&lt;/td&gt;&lt;td&gt;Dm7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Dø7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Dbmaj7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;III&lt;/td&gt;&lt;td&gt;Em7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Ebmaj7&lt;/td&gt;&lt;td&gt;Ebmaj7&lt;/td&gt;&lt;td&gt;Em7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Eø7&lt;/td&gt;&lt;td&gt;Ebmaj7&lt;/td&gt;&lt;td&gt;Ebmaj7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;IV&lt;/td&gt;&lt;td&gt;Fmaj7&lt;/td&gt;&lt;td&gt;Fmaj7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Fm7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;F#ø7&lt;/td&gt;&lt;td&gt;Fmaj7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Fm7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Fm7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;V&lt;/td&gt;&lt;td&gt;G7&lt;/td&gt;&lt;td&gt;Gm7&lt;/td&gt;&lt;td&gt;Gm7&lt;/td&gt;&lt;td&gt;G7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Gm7&lt;/td&gt;&lt;td&gt;Gm7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Gbmaj7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;VI&lt;/td&gt;&lt;td&gt;Am7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Aø7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Abmaj7&lt;/td&gt;&lt;td&gt;Am7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Aø7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Abmaj7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Abmaj7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;VII&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Bø7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Bbmaj7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Bbm7&lt;/td&gt;&lt;td&gt;Bm7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Bbmaj7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Bbmaj7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Bbm7&lt;/td&gt;&lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;
+&lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;级数&lt;/th&gt;&lt;th&gt;Harmonic Minor&lt;/th&gt;&lt;th&gt;Locrian ♯6&lt;/th&gt;&lt;th&gt;Ionian ♯5&lt;/th&gt;&lt;th&gt;Dorian ♯4&lt;/th&gt;&lt;th&gt;Phrygian Dominant&lt;/th&gt;&lt;th&gt;Lydian ♯2&lt;/th&gt;&lt;th&gt;Super Locrian bb7&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt;&lt;td&gt;I&lt;/td&gt;&lt;td&gt;Cm(maj7)&lt;/td&gt;&lt;td&gt;Dø7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Eb+maj7&lt;/td&gt;&lt;td&gt;Fm7&lt;/td&gt;&lt;td&gt;G7&lt;/td&gt;&lt;td&gt;Abmaj7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;B°7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;II&lt;/td&gt;&lt;td&gt;Dø7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Eb+maj7&lt;/td&gt;&lt;td&gt;Fm7&lt;/td&gt;&lt;td&gt;G7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Abmaj7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;B°7&lt;/td&gt;&lt;td&gt;Cm(maj7)&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;III&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Eb+maj7&lt;/td&gt;&lt;td&gt;Fm7&lt;/td&gt;&lt;td&gt;G7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Abmaj7&lt;/td&gt;&lt;td&gt;B°7&lt;/td&gt;&lt;td&gt;Cm(maj7)&lt;/td&gt;&lt;td&gt;Dø7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;IV&lt;/td&gt;&lt;td&gt;Fm7&lt;/td&gt;&lt;td&gt;G7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Abmaj7&lt;/td&gt;&lt;td&gt;B°7&lt;/td&gt;&lt;td&gt;Cm(maj7)&lt;/td&gt;&lt;td&gt;Dø7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Eb+maj7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;V&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;G7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Abmaj7&lt;/td&gt;&lt;td&gt;B°7&lt;/td&gt;&lt;td&gt;Cm(maj7)&lt;/td&gt;&lt;td&gt;Dø7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Eb+maj7&lt;/td&gt;&lt;td&gt;Fm7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;VI&lt;/td&gt;&lt;td&gt;Abmaj7&lt;/td&gt;&lt;td&gt;B°7&lt;/td&gt;&lt;td&gt;Cm(maj7)&lt;/td&gt;&lt;td&gt;Dø7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Eb+maj7&lt;/td&gt;&lt;td&gt;Fm7&lt;/td&gt;&lt;td&gt;G7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;VII&lt;/td&gt;&lt;td&gt;B°7&lt;/td&gt;&lt;td&gt;Cm(maj7)&lt;/td&gt;&lt;td&gt;Dø7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Eb+maj7&lt;/td&gt;&lt;td&gt;Fm7&lt;/td&gt;&lt;td&gt;G7&lt;/td&gt;&lt;td&gt;Abmaj7&lt;/td&gt;&lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;
+&lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;级数&lt;/th&gt;&lt;th&gt;Melodic Minor&lt;/th&gt;&lt;th&gt;Dorian ♭2&lt;/th&gt;&lt;th&gt;Lydian Aug&lt;/th&gt;&lt;th&gt;Lydian Dom&lt;/th&gt;&lt;th&gt;Mixolydian ♭6&lt;/th&gt;&lt;th&gt;Aeolian ♭5&lt;/th&gt;&lt;th&gt;Altered&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt;&lt;td&gt;I&lt;/td&gt;&lt;td&gt;Cm(maj7)&lt;/td&gt;&lt;td&gt;Dm7&lt;/td&gt;&lt;td&gt;Ebmaj7&lt;/td&gt;&lt;td&gt;F7&lt;/td&gt;&lt;td&gt;G7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Am7♭5&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;B°7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;II&lt;/td&gt;&lt;td&gt;Dm7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Ebmaj7&lt;/td&gt;&lt;td&gt;F7&lt;/td&gt;&lt;td&gt;G7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Am7♭5&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;B°7&lt;/td&gt;&lt;td&gt;Cm(maj7)&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;III&lt;/td&gt;&lt;td&gt;Ebmaj7&lt;/td&gt;&lt;td&gt;F7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;G+maj7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Am7♭5&lt;/td&gt;&lt;td&gt;B°7&lt;/td&gt;&lt;td&gt;Cm(maj7)&lt;/td&gt;&lt;td&gt;Dm7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;IV&lt;/td&gt;&lt;td&gt;F7&lt;/td&gt;&lt;td&gt;G7&lt;/td&gt;&lt;td&gt;Am7♭5&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;B°7&lt;/td&gt;&lt;td&gt;Cm(maj7)&lt;/td&gt;&lt;td&gt;Dm7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Ebmaj7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;V&lt;/td&gt;&lt;td&gt;G7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Am7♭5&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;B°7&lt;/td&gt;&lt;td&gt;Cm(maj7)&lt;/td&gt;&lt;td&gt;Dm7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Ebmaj7&lt;/td&gt;&lt;td&gt;F7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;VI&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Am7♭5&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;B°7&lt;/td&gt;&lt;td&gt;Cm(maj7)&lt;/td&gt;&lt;td&gt;Dm7&lt;/td&gt;&lt;td&gt;Ebmaj7&lt;/td&gt;&lt;td&gt;F7&lt;/td&gt;&lt;td&gt;G7&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;VII&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;B°7&lt;/td&gt;&lt;td&gt;Cm(maj7)&lt;/td&gt;&lt;td&gt;Dm7&lt;/td&gt;&lt;td&gt;Ebmaj7&lt;/td&gt;&lt;td&gt;F7&lt;/td&gt;&lt;td&gt;G7&lt;/td&gt;&lt;td style=&#34;background-color:#d0ebff&#34;&gt;Am7♭5&lt;/td&gt;&lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;
+</description>
         </item>
         <item>
         <title>关于音箱、效果器等知识</title>
