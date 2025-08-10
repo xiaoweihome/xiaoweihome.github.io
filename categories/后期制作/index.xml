@@ -6,7 +6,187 @@
         <description>Recent content in 后期制作 on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/categories/%E5%90%8E%E6%9C%9F%E5%88%B6%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 10 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/categories/%E5%90%8E%E6%9C%9F%E5%88%B6%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Podcast 播客中的人声录制与后期处理</title>
+        <link>https://xiaoweihome.github.io/p/podcast-%E6%92%AD%E5%AE%A2%E4%B8%AD%E7%9A%84%E4%BA%BA%E5%A3%B0%E5%BD%95%E5%88%B6%E4%B8%8E%E5%90%8E%E6%9C%9F%E5%A4%84%E7%90%86/</link>
+        <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoweihome.github.io/p/podcast-%E6%92%AD%E5%AE%A2%E4%B8%AD%E7%9A%84%E4%BA%BA%E5%A3%B0%E5%BD%95%E5%88%B6%E4%B8%8E%E5%90%8E%E6%9C%9F%E5%A4%84%E7%90%86/</guid>
+        <description>&lt;img src="https://xiaoweihome.github.io/p/podcast-%E6%92%AD%E5%AE%A2%E4%B8%AD%E7%9A%84%E4%BA%BA%E5%A3%B0%E5%BD%95%E5%88%B6%E4%B8%8E%E5%90%8E%E6%9C%9F%E5%A4%84%E7%90%86/1.jpg" alt="Featured image of post Podcast 播客中的人声录制与后期处理" /&gt;&lt;details&gt;
+&lt;summary style=&#34;background-color: #f0f4f8; padding: 1em; border-radius: 8px; cursor: pointer; border: 1px solid #ddd;&#34;&gt;
+  &lt;strong&gt;📖 目录（点击展开）&lt;/strong&gt;
+&lt;/summary&gt;
+&lt;div style=&#34;background-color: #f9fbfd; padding: 1em; margin-top: 0.5em; border-radius: 8px;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%89%8d%e6%9c%9f%e5%bd%95%e9%9f%b3&#34; &gt;前期录音&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e8%ae%be%e5%a4%87%e9%80%89%e6%8b%a9&#34; &gt;设备选择&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%bd%95%e5%88%b6%e6%b3%a8%e6%84%8f%e7%82%b9&#34; &gt;录制注意点&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%90%8e%e6%9c%9f%e5%a4%84%e7%90%86&#34; &gt;后期处理&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%99%aa%e9%9f%b3%e7%9a%84%e5%a4%84%e7%90%86&#34; &gt;噪音的处理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%a3%b0%e9%9f%b3%e5%93%8d%e5%ba%a6%e5%b9%b3%e8%a1%a1&#34; &gt;声音响度平衡&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%a2%91%e6%ae%b5%e5%a4%84%e7%90%86&#34; &gt;频段处理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e6%80%bb%e7%ba%bf%e8%b0%83%e6%95%b4&#34; &gt;总线调整&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;h1 id=&#34;前期录音&#34;&gt;前期录音
+&lt;/h1&gt;&lt;p&gt;前期的录音至关重要，甚至很多情况下前期录音如果已经很完善，那后期只需要做一点点人声的频段、降噪、平衡调整就足够好了。&lt;/p&gt;
+&lt;p&gt;所以我们可以先说一下前期录音的一些注意点。&lt;/p&gt;
+&lt;h2 id=&#34;设备选择&#34;&gt;设备选择
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;麦克风&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;推荐 &lt;strong&gt;Shure 的 Sm58、Sm7b&lt;/strong&gt;，都是非常好的人声录制麦克风。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;录制设备选择&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果需要录制超过一小时的播客内容，最好不要使用电脑去录制，因为期间可能因为弹出消息、软件故障等发生一些意外现象而中断录制，推荐使用 &lt;strong&gt;Zoom 的录音机或 Rode Caster Pro 调音台&lt;/strong&gt;这些可以直接录制到设备或 SD 卡中的录音器材，对于长录音来说，稳定性更好。&lt;/p&gt;
+&lt;p&gt;（如果录制时长低于半小时，也可以选择电脑 + 声卡的组合去录音）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;其它配件&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;麦线、麦架这些必备品自然不用说，&lt;strong&gt;防喷布 或 麦克风海绵套&lt;/strong&gt; 可以购买，这样会减少喷麦或者口水声，让录制进来的声音更加干净。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;录制注意点&#34;&gt;录制注意点
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;尽可能安静的环境或录音棚、有吸音处理的房间&lt;/strong&gt;，声音会录制的更干净。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注意好输入电平的量，可以小声（后期可以调整），但是不要让人声过大接近峰值，要给人声留出一部分的余量（以免有时候说话激动比较大声，声音就会爆掉），&lt;strong&gt;控制在中等左右的输入电平就可以，是一个比较好的程度。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;录制时，&lt;strong&gt;嘴巴的朝向要对着麦克风，不要摇头晃脑或是到处摆动。&lt;/strong&gt;，
+方位的变化会很大的改变录制的声音，这个在后期是不可逆的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;后期处理&#34;&gt;后期处理
+&lt;/h1&gt;&lt;h2 id=&#34;噪音的处理&#34;&gt;噪音的处理
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;降噪&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果录制的环境不是非常安静，就需要&lt;strong&gt;用降噪去处理一些环境的杂音或底噪，让声音听起来更干净和突出。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（推荐 Neutron gate 降噪插件）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;去齿音&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;说话时，有时候会发出 s 的声音，就是齿音，去除后会让声音更干净。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;男声齿音一般在 3k - 7kHz 附近，而女声在 5k - 9kHz 附近。&lt;/p&gt;
+&lt;p&gt;（推荐 FabFilter 的 Pro-Ds 插件）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;去口水音&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;吞咽口水、巴咂嘴巴的声音，也是让人声更干净，听起来不会那么累。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（推荐 Rx11 的 Mouth De-click 插件）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;控制呼吸声&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;控制一些说话时呼吸的声音，听起来不会那么累，可做可不做&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（推荐 Rx11 的 Breath Contorol 插件）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;去掉房间混响&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有时候录制环境的吸音不好时，会带有一定的房间混响，去掉让人声更清晰。&lt;/p&gt;
+&lt;p&gt;（推荐 Waves 的 Clarity Vx DeReverb Pro 插件）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;声音响度平衡&#34;&gt;声音响度平衡
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;插件自动化处理&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;用 Youlean Loudness 插件去测试这个音频最大声、最小声的地方&lt;/strong&gt;，&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;测出差别的分贝（db）后，用 Vocal Ride 插件实时自动控制当前声音响度&lt;/strong&gt;，声音大的时候拉下来，声音小的时候提上去。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;压缩&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;可以放置一个 Attank 20ms 、 Release 40-70ms 的压缩插件&lt;/strong&gt;，控制声音以免过大。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;频段处理&#34;&gt;频段处理
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;手术刀 EQ&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;把不好听的频段给切掉，让人声更突出和干净。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;一般 100Hz 以下的低频是没什么作用，做一个低切。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;300 - 600HZ 的鼻音、闷的盒子音也可以去掉。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;有时 10k 以上也可以做一个高切，去掉录制时空气的高频毛刺音。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;（根据实际的人声情况去有判断的调整。）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;增益 EQ&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;加强好听的频段，让人声更厚、更有质感。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;500hz-1Khz左右，稍小的带宽强调第2泛音，可让人声听起来更清楚&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1.5k - 3kHz 是人声最核心的区域，也是我们人耳分辨人声的最重要的频段。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;3.5Khz-4Khz左右 强调可让声音变得有冲击力&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;8K-12Khz 强调细节、磁性&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;12Khz 以上空气声增强话会让声音变得明亮，但过多则会有毛刺感。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;（根据实际的人声情况去有判断的调整。）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;总线调整&#34;&gt;总线调整
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;压缩&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可以在总线再放一个压的比较少的压缩，对人声再做一个平衡&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;限幅&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;提升整体的响度，以及设置一个限幅点，防止声音过爆。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
         <title>关于压缩的一些知识</title>
         <link>https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E5%8E%8B%E7%BC%A9%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86/</link>
         <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
