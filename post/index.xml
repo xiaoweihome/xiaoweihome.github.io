@@ -6,7 +6,182 @@
         <description>Recent content in Posts on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>超简约调音器</title>
+        <link>https://xiaoweihome.github.io/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E8%B0%83%E9%9F%B3%E5%99%A8/</link>
+        <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoweihome.github.io/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E8%B0%83%E9%9F%B3%E5%99%A8/</guid>
+        <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;zh&#34;&gt;
+&lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+  &lt;title&gt;简约在线调音器&lt;/title&gt;
+  &lt;style&gt;
+    body {
+      font-family: &#34;Helvetica Neue&#34;, Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      text-align: center;
+      margin: 0;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #444;
+    }
+    .tuner {
+      position: relative;
+      width: 280px;
+      height: 180px;
+      margin: 40px auto;
+    }
+    .note {
+      font-size: 64px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .detune {
+      font-size: 18px;
+      color: #777;
+      margin-bottom: 30px;
+    }
+    .indicator {
+      position: relative;
+      width: 100%;
+      height: 6px;
+      background: #ddd;
+      border-radius: 3px;
+      margin: 0 auto;
+    }
+    .needle {
+      position: absolute;
+      width: 2px;
+      height: 20px;
+      background: #0078ff;
+      top: -7px;
+      left: 50%;
+      transform: translateX(-50%) rotate(0deg);
+      transform-origin: bottom center;
+      transition: transform 0.1s ease-out;
+    }
+    .controls {
+      margin-top: 30px;
+      font-size: 16px;
+      color: #444;
+    }
+    input[type=&#34;number&#34;] {
+      width: 70px;
+      padding: 4px;
+      margin-left: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      text-align: center;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&#34;tuner&#34;&gt;
+    &lt;div class=&#34;note&#34; id=&#34;note&#34;&gt;--&lt;/div&gt;
+    &lt;div class=&#34;detune&#34; id=&#34;detune&#34;&gt;等待输入...&lt;/div&gt;
+    &lt;div class=&#34;indicator&#34;&gt;
+      &lt;div class=&#34;needle&#34; id=&#34;needle&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;label for=&#34;aFreq&#34;&gt;标准A4 (Hz)&lt;/label&gt;
+    &lt;input type=&#34;number&#34; id=&#34;aFreq&#34; value=&#34;440&#34; min=&#34;400&#34; max=&#34;480&#34; step=&#34;1&#34;&gt;
+  &lt;/div&gt;
+&lt;script&gt;
+const noteStrings = [&#34;C&#34;, &#34;C#&#34;, &#34;D&#34;, &#34;D#&#34;, &#34;E&#34;, &#34;F&#34;, 
+                     &#34;F#&#34;, &#34;G&#34;, &#34;G#&#34;, &#34;A&#34;, &#34;A#&#34;, &#34;B&#34;];
+
+let A4 = 440; // 默认标准音
+document.getElementById(&#34;aFreq&#34;).addEventListener(&#34;change&#34;, e =&gt; {
+  A4 = parseFloat(e.target.value);
+});
+
+function getNote(frequency) {
+  let noteNum = 12 * (Math.log(frequency / A4) / Math.log(2));
+  return Math.round(noteNum) + 69;
+}
+function frequencyFromNoteNumber(note) {
+  return A4 * Math.pow(2, (note - 69) / 12);
+}
+function centsOffFromPitch(frequency, note) {
+  return 1200 * Math.log(frequency / frequencyFromNoteNumber(note)) / Math.log(2);
+}
+
+let audioContext = null;
+let analyser = null;
+let buffer = new Float32Array(2048);
+
+async function init() {
+  audioContext = new (window.AudioContext || window.webkitAudioContext)();
+  let stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  let source = audioContext.createMediaStreamSource(stream);
+  analyser = audioContext.createAnalyser();
+  source.connect(analyser);
+  updatePitch();
+}
+
+function autoCorrelate(buf, sampleRate) {
+  let SIZE = buf.length;
+  let MAX_SAMPLES = Math.floor(SIZE/2);
+  let best_offset = -1;
+  let best_correlation = 0;
+  let rms = 0;
+  for (let i=0;i&lt;SIZE;i++) {
+    let val = buf[i];
+    rms += val*val;
+  }
+  rms = Math.sqrt(rms/SIZE);
+  if (rms&lt;0.01) return -1;
+
+  let lastCorrelation=1;
+  for (let offset = 1; offset &lt; MAX_SAMPLES; offset++) {
+    let correlation = 0;
+    for (let i=0;i&lt;MAX_SAMPLES;i++) {
+      correlation += Math.abs((buf[i])-(buf[i+offset]));
+    }
+    correlation = 1 - (correlation/MAX_SAMPLES);
+    if (correlation&gt;0.9 &amp;&amp; correlation&gt;lastCorrelation) {
+      best_correlation = correlation; best_offset = offset;
+    }
+    lastCorrelation = correlation;
+  }
+  if (best_correlation&gt;0.01) {
+    return sampleRate/best_offset;
+  }
+  return -1;
+}
+
+function updatePitch() {
+  analyser.getFloatTimeDomainData(buffer);
+  let pitch = autoCorrelate(buffer, audioContext.sampleRate);
+  if (pitch !== -1) {
+    let note = getNote(pitch);
+    document.getElementById(&#34;note&#34;).textContent =
+      noteStrings[note % 12] + Math.floor(note/12 - 1);
+    let detune = centsOffFromPitch(pitch, note);
+    document.getElementById(&#34;detune&#34;).textContent = 
+      (detune &gt; 0 ? &#34;+&#34; : &#34;&#34;) + detune.toFixed(1) + &#34; cents&#34;;
+    let needle = document.getElementById(&#34;needle&#34;);
+    let offset = Math.max(-50, Math.min(50, detune)); // -50 到 +50
+    needle.style.transform = `translateX(${offset*2.5}px)`; // 每cents偏移
+  }
+  requestAnimationFrame(updatePitch);
+}
+
+init();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+        </item>
+        <item>
         <title>感到伤心就来一首《开心卡农》</title>
         <link>https://xiaoweihome.github.io/p/%E6%84%9F%E5%88%B0%E4%BC%A4%E5%BF%83%E5%B0%B1%E6%9D%A5%E4%B8%80%E9%A6%96%E5%BC%80%E5%BF%83%E5%8D%A1%E5%86%9C/</link>
         <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
