@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="<!DOCTYPE html>\r简约在线调音器\r--\r等待输入...\r标准A4 (Hz)\r">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="<!DOCTYPE html>\r在线调音器\r在线调音器--点击开始标准A4 (Hz)开始调音">
 <title>超简约调音器</title>
 
-<link rel='canonical' href='http://localhost:1313/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E8%B0%83%E9%9F%B3%E5%99%A8/'>
+<link rel='canonical' href='https://xiaoweihome.github.io/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E8%B0%83%E9%9F%B3%E5%99%A8/'>
 
 <link rel="stylesheet" href="/scss/style.min.f91c16411405e1fc5da08861fe7cf176ce361269bd69c3b7428065036933611e.css"><meta property='og:title' content="超简约调音器">
-<meta property='og:description' content="<!DOCTYPE html>\r简约在线调音器\r--\r等待输入...\r标准A4 (Hz)\r">
-<meta property='og:url' content='http://localhost:1313/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E8%B0%83%E9%9F%B3%E5%99%A8/'>
+<meta property='og:description' content="<!DOCTYPE html>\r在线调音器\r在线调音器--点击开始标准A4 (Hz)开始调音">
+<meta property='og:url' content='https://xiaoweihome.github.io/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E8%B0%83%E9%9F%B3%E5%99%A8/'>
 <meta property='og:site_name' content='小威音乐工作室'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-09-03T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-03T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="超简约调音器">
-<meta name="twitter:description" content="<!DOCTYPE html>\r简约在线调音器\r--\r等待输入...\r标准A4 (Hz)\r">
+<meta name="twitter:description" content="<!DOCTYPE html>\r在线调音器\r在线调音器--点击开始标准A4 (Hz)开始调音">
     <link rel="shortcut icon" href="/favicon.png" />
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-CX857XXFSH"></script>
@@ -387,136 +387,21 @@
     
     
     <!DOCTYPE html>
-<html lang="zh">
-<head>
-  <meta charset="UTF-8">
-  <title>简约在线调音器</title>
-  <style>
-    body {
-      font-family: "Helvetica Neue", Arial, sans-serif;
-      background: #f5f7fa;
-      color: #333;
-      text-align: center;
-      margin: 0;
-      padding: 40px;
-    }
-    h1 {
-      font-size: 24px;
-      margin-bottom: 20px;
-      color: #444;
-    }
-    .tuner {
-      position: relative;
-      width: 280px;
-      margin: 40px auto;
-    }
-    .note {
-      font-size: 64px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-    .detune {
-      font-size: 18px;
-      color: #777;
-      margin-bottom: 30px;
-    }
-    .indicator {
-      position: relative;
-      width: 100%;
-      height: 6px;
-      background: #ddd;
-      border-radius: 3px;
-      margin: 0 auto;
-    }
-    .needle {
-      position: absolute;
-      width: 2px;
-      height: 20px;
-      background: #0078ff;
-      top: -7px;
-      left: 50%;
-      transform: translateX(-50%);
-      transition: transform 0.1s ease-out;
-    }
-    .controls {
-      margin-top: 30px;
-      font-size: 16px;
-      color: #444;
-    }
-    input[type="number"] {
-      width: 70px;
-      padding: 4px;
-      margin-left: 8px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 14px;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-  <div class="tuner">
-    <div class="note" id="note">--</div>
-    <div class="detune" id="detune">等待输入...</div>
-    <div class="indicator">
-      <div class="needle" id="needle"></div>
-    </div>
-  </div>
-  <div class="controls">
-    <label for="aFreq">标准A4 (Hz)</label>
-    <input type="number" id="aFreq" value="440" min="400" max="480" step="1">
-  </div>
-  <!-- 引入 pitchy -->
-  <script src="https://cdn.jsdelivr.net/npm/pitchy/dist/pitchy.min.js"></script>
-  <script>
-  const noteStrings = ["C", "C#", "D", "D#", "E", "F", 
-                       "F#", "G", "G#", "A", "A#", "B"];
-  let A4 = 440;
-  document.getElementById("aFreq").addEventListener("change", e => {
-    A4 = parseFloat(e.target.value);
-  });
-  function getNote(frequency) {
-    let noteNum = 12 * (Math.log(frequency / A4) / Math.log(2));
-    return Math.round(noteNum) + 69;
-  }
-  function frequencyFromNoteNumber(note) {
-    return A4 * Math.pow(2, (note - 69) / 12);
-  }
-  function centsOffFromPitch(frequency, note) {
-    return 1200 * Math.log(frequency / frequencyFromNoteNumber(note)) / Math.log(2);
-  }
-  let audioContext, analyser, buffer, detector;
-  async function init() {
-    audioContext = new (window.AudioContext || window.webkitAudioContext)();
-    let stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-    let source = audioContext.createMediaStreamSource(stream);
-    analyser = audioContext.createAnalyser();
-    analyser.fftSize = 2048;
-    source.connect(analyser);
-    buffer = new Float32Array(analyser.fftSize);
-    detector = Pitchy.PitchDetector.forFloat32Array(analyser.fftSize);
-    updatePitch();
-  }
-  function updatePitch() {
-    analyser.getFloatTimeDomainData(buffer);
-    let [pitch, clarity] = detector.findPitch(buffer, audioContext.sampleRate);
-    if (clarity > 0.85) { // 过滤掉噪声
-      let note = getNote(pitch);
-      document.getElementById("note").textContent =
-        noteStrings[note % 12] + Math.floor(note/12 - 1);
-      let detune = centsOffFromPitch(pitch, note);
-      document.getElementById("detune").textContent =
-        (detune > 0 ? "+" : "") + detune.toFixed(1) + " cents";
-      let needle = document.getElementById("needle");
-      let offset = Math.max(-50, Math.min(50, detune)); // -50 到 +50
-      needle.style.transform = `translateX(${offset*2.5}px)`; 
-    }
-    requestAnimationFrame(updatePitch);
-  }
-  init();
-  </script>
-</body>
-</html>
+<html lang="zh"><head><meta charset="UTF-8"><title>在线调音器</title><style>
+body{font-family:"Helvetica Neue",Arial,sans-serif;background:#f5f7fa;color:#333;text-align:center;margin:0;padding:40px}
+h1{font-size:24px;margin-bottom:20px;color:#444}
+.tuner{position:relative;width:280px;margin:40px auto}
+.note{font-size:64px;font-weight:bold;margin-bottom:10px}
+.detune{font-size:18px;color:#777;margin-bottom:30px}
+.indicator{position:relative;width:100%;height:6px;background:#ddd;border-radius:3px;margin:0 auto}
+.needle{position:absolute;width:2px;height:20px;background:#0078ff;top:-7px;left:50%;transform:translateX(-50%);transition:transform .1s ease-out}
+.controls{margin-top:30px;font-size:16px;color:#444}
+input[type=number]{width:70px;padding:4px;margin-left:8px;border:1px solid #ccc;border-radius:4px;font-size:14px;text-align:center}
+button{margin-top:20px;padding:10px 20px;font-size:16px;border:none;border-radius:6px;background:#0078ff;color:#fff;cursor:pointer}
+button:disabled{background:#aaa;cursor:not-allowed}
+</style></head>
+<body><h1>在线调音器</h1><div class="tuner"><div class="note" id="note">--</div><div class="detune" id="detune">点击开始</div><div class="indicator"><div class="needle" id="needle"></div></div></div><div class="controls"><label for="aFreq">标准A4 (Hz)</label><input type="number" id="aFreq" value="440" min="400" max="480" step="1"></div><button id="startBtn">开始调音</button><script src="https://cdn.jsdelivr.net/npm/pitchy/dist/pitchy.min.js"></script><script>
+const noteStrings=["C","C#","D","D#","E","F","F#","G","G#","A","A#","B"];let A4=440;document.getElementById("aFreq").addEventListener("change",e=>{A4=parseFloat(e.target.value)});function getNote(f){let n=12*(Math.log(f/A4)/Math.log(2));return Math.round(n)+69}function frequencyFromNoteNumber(n){return A4*Math.pow(2,(n-69)/12)}function centsOffFromPitch(f,n){return 1200*Math.log(f/frequencyFromNoteNumber(n))/Math.log(2)}let audioContext,analyser,buffer,detector;async function init(){audioContext=new(window.AudioContext||window.webkitAudioContext)();let stream=await navigator.mediaDevices.getUserMedia({audio:true});let source=audioContext.createMediaStreamSource(stream);analyser=audioContext.createAnalyser();analyser.fftSize=2048;source.connect(analyser);buffer=new Float32Array(analyser.fftSize);detector=Pitchy.PitchDetector.forFloat32Array(analyser.fftSize);updatePitch()}function updatePitch(){analyser.getFloatTimeDomainData(buffer);let[pitch,clarity]=detector.findPitch(buffer,audioContext.sampleRate);if(clarity>0.85&&pitch>50&&pitch<2000){let note=getNote(pitch);document.getElementById("note").textContent=noteStrings[note%12]+Math.floor(note/12-1);let detune=centsOffFromPitch(pitch,note);document.getElementById("detune").textContent=(detune>0?"+":"")+detune.toFixed(1)+" cents";let needle=document.getElementById("needle");let offset=Math.max(-50,Math.min(50,detune));needle.style.transform=`translateX(${offset*2.5}px)`}else{document.getElementById("note").textContent="--";document.getElementById("detune").textContent="检测中..."}requestAnimationFrame(updatePitch)}document.getElementById("startBtn").addEventListener("click",()=>{init();document.getElementById("startBtn").disabled=true;document.getElementById("detune").textContent="检测中..."});</script></body></html>
 
 </section>
 
@@ -897,7 +782,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.58dc37a8e9944d3619e0fd7aeacb4fab7c861e596f47c60677429fa405542719.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
