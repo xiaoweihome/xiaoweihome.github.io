@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="<!DOCTYPE html>\r简约在线调音器\r--\r等待输入...\r标准A4 (Hz)\r">
 <title>超简约调音器</title>
 
-<link rel='canonical' href='https://xiaoweihome.github.io/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E8%B0%83%E9%9F%B3%E5%99%A8/'>
+<link rel='canonical' href='http://localhost:1313/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E8%B0%83%E9%9F%B3%E5%99%A8/'>
 
 <link rel="stylesheet" href="/scss/style.min.f91c16411405e1fc5da08861fe7cf176ce361269bd69c3b7428065036933611e.css"><meta property='og:title' content="超简约调音器">
 <meta property='og:description' content="<!DOCTYPE html>\r简约在线调音器\r--\r等待输入...\r标准A4 (Hz)\r">
-<meta property='og:url' content='https://xiaoweihome.github.io/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E8%B0%83%E9%9F%B3%E5%99%A8/'>
+<meta property='og:url' content='http://localhost:1313/p/%E8%B6%85%E7%AE%80%E7%BA%A6%E8%B0%83%E9%9F%B3%E5%99%A8/'>
 <meta property='og:site_name' content='小威音乐工作室'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-09-03T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-03T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="超简约调音器">
@@ -408,7 +408,6 @@
     .tuner {
       position: relative;
       width: 280px;
-      height: 180px;
       margin: 40px auto;
     }
     .note {
@@ -436,8 +435,7 @@
       background: #0078ff;
       top: -7px;
       left: 50%;
-      transform: translateX(-50%) rotate(0deg);
-      transform-origin: bottom center;
+      transform: translateX(-50%);
       transition: transform 0.1s ease-out;
     }
     .controls {
@@ -468,89 +466,55 @@
     <label for="aFreq">标准A4 (Hz)</label>
     <input type="number" id="aFreq" value="440" min="400" max="480" step="1">
   </div>
-<script>
-const noteStrings = ["C", "C#", "D", "D#", "E", "F", 
-                     "F#", "G", "G#", "A", "A#", "B"];
-
-let A4 = 440; // 默认标准音
-document.getElementById("aFreq").addEventListener("change", e => {
-  A4 = parseFloat(e.target.value);
-});
-
-function getNote(frequency) {
-  let noteNum = 12 * (Math.log(frequency / A4) / Math.log(2));
-  return Math.round(noteNum) + 69;
-}
-function frequencyFromNoteNumber(note) {
-  return A4 * Math.pow(2, (note - 69) / 12);
-}
-function centsOffFromPitch(frequency, note) {
-  return 1200 * Math.log(frequency / frequencyFromNoteNumber(note)) / Math.log(2);
-}
-
-let audioContext = null;
-let analyser = null;
-let buffer = new Float32Array(2048);
-
-async function init() {
-  audioContext = new (window.AudioContext || window.webkitAudioContext)();
-  let stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-  let source = audioContext.createMediaStreamSource(stream);
-  analyser = audioContext.createAnalyser();
-  source.connect(analyser);
-  updatePitch();
-}
-
-function autoCorrelate(buf, sampleRate) {
-  let SIZE = buf.length;
-  let MAX_SAMPLES = Math.floor(SIZE/2);
-  let best_offset = -1;
-  let best_correlation = 0;
-  let rms = 0;
-  for (let i=0;i<SIZE;i++) {
-    let val = buf[i];
-    rms += val*val;
+  <!-- 引入 pitchy -->
+  <script src="https://cdn.jsdelivr.net/npm/pitchy/dist/pitchy.min.js"></script>
+  <script>
+  const noteStrings = ["C", "C#", "D", "D#", "E", "F", 
+                       "F#", "G", "G#", "A", "A#", "B"];
+  let A4 = 440;
+  document.getElementById("aFreq").addEventListener("change", e => {
+    A4 = parseFloat(e.target.value);
+  });
+  function getNote(frequency) {
+    let noteNum = 12 * (Math.log(frequency / A4) / Math.log(2));
+    return Math.round(noteNum) + 69;
   }
-  rms = Math.sqrt(rms/SIZE);
-  if (rms<0.01) return -1;
-
-  let lastCorrelation=1;
-  for (let offset = 1; offset < MAX_SAMPLES; offset++) {
-    let correlation = 0;
-    for (let i=0;i<MAX_SAMPLES;i++) {
-      correlation += Math.abs((buf[i])-(buf[i+offset]));
+  function frequencyFromNoteNumber(note) {
+    return A4 * Math.pow(2, (note - 69) / 12);
+  }
+  function centsOffFromPitch(frequency, note) {
+    return 1200 * Math.log(frequency / frequencyFromNoteNumber(note)) / Math.log(2);
+  }
+  let audioContext, analyser, buffer, detector;
+  async function init() {
+    audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    let stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    let source = audioContext.createMediaStreamSource(stream);
+    analyser = audioContext.createAnalyser();
+    analyser.fftSize = 2048;
+    source.connect(analyser);
+    buffer = new Float32Array(analyser.fftSize);
+    detector = Pitchy.PitchDetector.forFloat32Array(analyser.fftSize);
+    updatePitch();
+  }
+  function updatePitch() {
+    analyser.getFloatTimeDomainData(buffer);
+    let [pitch, clarity] = detector.findPitch(buffer, audioContext.sampleRate);
+    if (clarity > 0.85) { // 过滤掉噪声
+      let note = getNote(pitch);
+      document.getElementById("note").textContent =
+        noteStrings[note % 12] + Math.floor(note/12 - 1);
+      let detune = centsOffFromPitch(pitch, note);
+      document.getElementById("detune").textContent =
+        (detune > 0 ? "+" : "") + detune.toFixed(1) + " cents";
+      let needle = document.getElementById("needle");
+      let offset = Math.max(-50, Math.min(50, detune)); // -50 到 +50
+      needle.style.transform = `translateX(${offset*2.5}px)`; 
     }
-    correlation = 1 - (correlation/MAX_SAMPLES);
-    if (correlation>0.9 && correlation>lastCorrelation) {
-      best_correlation = correlation; best_offset = offset;
-    }
-    lastCorrelation = correlation;
+    requestAnimationFrame(updatePitch);
   }
-  if (best_correlation>0.01) {
-    return sampleRate/best_offset;
-  }
-  return -1;
-}
-
-function updatePitch() {
-  analyser.getFloatTimeDomainData(buffer);
-  let pitch = autoCorrelate(buffer, audioContext.sampleRate);
-  if (pitch !== -1) {
-    let note = getNote(pitch);
-    document.getElementById("note").textContent =
-      noteStrings[note % 12] + Math.floor(note/12 - 1);
-    let detune = centsOffFromPitch(pitch, note);
-    document.getElementById("detune").textContent = 
-      (detune > 0 ? "+" : "") + detune.toFixed(1) + " cents";
-    let needle = document.getElementById("needle");
-    let offset = Math.max(-50, Math.min(50, detune)); // -50 到 +50
-    needle.style.transform = `translateX(${offset*2.5}px)`; // 每cents偏移
-  }
-  requestAnimationFrame(updatePitch);
-}
-
-init();
-</script>
+  init();
+  </script>
 </body>
 </html>
 
@@ -933,7 +897,7 @@ init();
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.58dc37a8e9944d3619e0fd7aeacb4fab7c861e596f47c60677429fa405542719.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
