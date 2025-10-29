@@ -253,7 +253,28 @@
   &lt;strong&gt;📖 目录（点击展开）&lt;/strong&gt;
 &lt;/summary&gt;
 &lt;div style=&#34;padding: 1em; margin-top: 0.5em; background-color: #f9fbfd; border-radius: 8px; border: 1px solid #eee;&#34;&gt;
-&lt;p&gt;xxx&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#blues%e4%bc%a0%e7%bb%9f%e5%b8%83%e9%b2%81%e6%96%af&#34; &gt;Blues（传统布鲁斯）&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%92%8c%e5%a3%b0%e8%bf%9b%e8%a1%8c&#34; &gt;和声进行&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%9f%b3%e9%98%b6&#34; &gt;音阶&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%9f%b3%e7%ac%a6%e9%80%89%e6%8b%a9%e4%bb%a5c%e8%b0%83%e4%b8%be%e4%be%8b&#34; &gt;音符选择（以C调举例）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%a5%bd%e5%90%ac%e7%9a%84%e9%9f%b3%e7%ac%a6%e7%bb%84%e5%90%88&#34; &gt;好听的音符组合&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#minor-blues%e5%b0%8f%e8%b0%83%e5%b8%83%e9%b2%81%e6%96%af&#34; &gt;Minor Blues（小调布鲁斯）&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%92%8c%e5%a3%b0%e8%bf%9b%e8%a1%8c-1&#34; &gt;和声进行&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%9f%b3%e7%ac%a6%e9%80%89%e6%8b%a9&#34; &gt;音符选择&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#jazz-major-blues%e7%88%b5%e5%a3%ab%e5%b8%83%e9%b2%81%e6%96%af&#34; &gt;Jazz Major Blues（爵士布鲁斯）&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e5%92%8c%e5%a3%b0%e8%bf%9b%e8%a1%8c-2&#34; &gt;和声进行&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%9f%b3%e7%ac%a6%e9%80%89%e6%8b%a9%e4%bb%a5c%e8%b0%83%e4%b8%be%e4%be%8b-1&#34; &gt;音符选择（以C调举例）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;/details&gt;
 &lt;hr&gt;
@@ -856,6 +877,7 @@
     &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
+&lt;hr&gt;
 </description>
         </item>
         <item>
