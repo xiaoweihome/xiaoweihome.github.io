@@ -133,6 +133,8 @@
         &lt;td&gt;&lt;div data-level=&#34;3&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
         &lt;td&gt;COUNTRY LICK&lt;/td&gt;
       &lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;BLUES SOLOING MASTERCLASS COMPLETE - BLUES 初级篇&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;4&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;BLUES 风格的练习、LICK、曲子&lt;/td&gt;&lt;/tr&gt;  
+      &lt;tr&gt;&lt;td&gt;BRIAN MAILLARD - TECHNIQUE CONTROL MASTERCLASS COMPLETE - ROCK 初级篇&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;2&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;ROCK 风格的技巧、LICK、曲子&lt;/td&gt;&lt;/tr&gt;  
       &lt;!-- ✅ 到这里结束，可复制 &lt;tr&gt; 段落添加新教材 --&gt;
     &lt;/tbody&gt;
   &lt;/table&gt;
@@ -155,40 +157,37 @@
       padding: 15px;
       text-align: left;
     }
-&lt;pre&gt;&lt;code&gt;/* 🌿 —— 初级/中级通用绿色主题 —— */
-.music-table thead {
-  background-color: #38a169;
-  color: white;
-}
-.music-table thead tr:first-child th {
-  background-color: #48bb78;
-  font-size: 28px;
-  text-align: center;
-  padding: 20px;
-}
-
-/* ⭐ —— 推荐程度栏：自动根据 data-level 着色 —— */
-[data-level] {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  width: 100%;
-  height: 25px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  overflow: hidden;
-}
-[data-level] div { border-right: 1px solid #fff; }
-[data-level] div:last-child { border-right: none; }
-
-/* 💡 每个等级对应的颜色定义 */
-[data-level=&amp;quot;1&amp;quot;] div:nth-child(1) { background-color: #ff6b6b; }
-[data-level=&amp;quot;2&amp;quot;] div:nth-child(-n+2) { background-color: #ffa94d; }
-[data-level=&amp;quot;3&amp;quot;] div:nth-child(-n+3) { background-color: #ffd93b; }
-[data-level=&amp;quot;4&amp;quot;] div:nth-child(-n+4) { background-color: #69db7c; }
-[data-level=&amp;quot;5&amp;quot;] div:nth-child(-n+5) { background-color: #4dabf7; }
-[data-level] div:nth-child(n+6) { background-color: #f1f3f5; }
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;/style&gt;&lt;/p&gt;
+    /* 🌿 —— 初级/中级通用绿色主题 —— */
+    .music-table thead {
+      background-color: #38a169;
+      color: white;
+    }
+    .music-table thead tr:first-child th {
+      background-color: #48bb78;
+      font-size: 28px;
+      text-align: center;
+      padding: 20px;
+    }
+    /* ⭐ —— 推荐程度栏：自动根据 data-level 着色 —— */
+    [data-level] {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      width: 100%;
+      height: 25px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    [data-level] div { border-right: 1px solid #fff; }
+    [data-level] div:last-child { border-right: none; }
+    /* 💡 每个等级对应的颜色定义 */
+    [data-level=&#34;1&#34;] div:nth-child(1) { background-color: #ff6b6b; }
+    [data-level=&#34;2&#34;] div:nth-child(-n+2) { background-color: #ffa94d; }
+    [data-level=&#34;3&#34;] div:nth-child(-n+3) { background-color: #ffd93b; }
+    [data-level=&#34;4&#34;] div:nth-child(-n+4) { background-color: #69db7c; }
+    [data-level=&#34;5&#34;] div:nth-child(-n+5) { background-color: #4dabf7; }
+    [data-level] div:nth-child(n+6) { background-color: #f1f3f5; }
+  &lt;/style&gt;
   &lt;table class=&#34;music-table&#34;&gt;  
     &lt;thead&gt;
       &lt;tr&gt;&lt;th colspan=&#34;3&#34;&gt;中级&lt;/th&gt;&lt;/tr&gt;
@@ -219,9 +218,16 @@
       &lt;tr&gt;&lt;td&gt;ANDY WOOD - CHELMSFORD - ROCK&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;4&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;Wood 摇滚风格曲子&lt;/td&gt;&lt;/tr&gt;
       &lt;tr&gt;&lt;td&gt;ANDY WOOD - FALLEN HEROES - ROCK&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;4&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;Wood 摇滚风格曲子&lt;/td&gt;&lt;/tr&gt;
       &lt;tr&gt;&lt;td&gt;ANDY WOOD - SHREDNECK - COUNTRY&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;4&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;Wood 乡村风格曲子&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;ANGUS CLARCK - TAKE 5 ROCK PATTERN SOLOING - ROCK&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;0&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;ANGUS CLARCK - TAKE 5 ROCK PATTERN SOLOING - ROCK&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;2&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;ROCK 风格的五声音阶乐句练习&lt;/td&gt;&lt;/tr&gt;
       &lt;tr&gt;&lt;td&gt;ARTUR MENEZES - SLOW MINOR BLUES - BLUES&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;3&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;Minor Blues LICK 和曲子&lt;/td&gt;&lt;/tr&gt;
       &lt;tr&gt;&lt;td&gt;ARTUR MENEZES - KEEP PUSHING BLUES - BLUES&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;3&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;Menezes 5首Blues 风格曲子&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;ARYZ BULO - LEARN TO PLAY STRINGS OF LIFE - BALLAD&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;4&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;一首抒情曲的乐句+整曲内容&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;AYNSLEY LISTER - 20 BLUES BREAKING LICKS - BLUES&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;3&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;MINOR BLUES LICK &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;AYNSLEY LISTER - 20 GRITTY BLUES LICKS - BLUES&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;3&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;ROCK BLUES LICK&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;BLUES SOLOING MASTERCLASS COMPLETE - BLUES 中级篇&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;4&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;BLUES 风格的练习、LICK、曲子&lt;/td&gt;&lt;/tr&gt;  
+      &lt;tr&gt;&lt;td&gt;BRIAN MAILLARD - 20 SHUFFLE BUILDING LICKS - ROCK&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;2&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;SHUFFLE BLUES LICK&lt;/td&gt;&lt;/tr&gt;  
+      &lt;tr&gt;&lt;td&gt;BRIAN MAILLARD - MODAL TECHNIQUES BOX SET - ROCK&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;1&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;调式音阶的练习、LICK、曲子&lt;/td&gt;&lt;/tr&gt;  
+      &lt;tr&gt;&lt;td&gt;BRIAN MAILLARD - TECHNIQUE CONTROL MASTERCLASS COMPLETE - ROCK 中级篇&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;2&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;ROCK 风格的技巧、LICK、曲子&lt;/td&gt;&lt;/tr&gt;  
       &lt;!-- ✅ 表格内容结束 --&gt;
     &lt;/tbody&gt;
   &lt;/table&gt;
@@ -230,6 +236,7 @@
 &lt;h6 id=&#34;高级&#34;&gt;高级
 &lt;/h6&gt;&lt;div style=&#34;overflow-x:auto; margin-top: 20px;&#34;&gt;
   &lt;style&gt;
+    /* 🎨 —— 表格整体样式 —— */
     .music-table {
       width: 100%;
       border-collapse: collapse;
@@ -243,35 +250,18 @@
       padding: 15px;
       text-align: left;
     }
+    /* 🌿 —— 初级/中级通用绿色主题 —— */
     .music-table thead {
-      background-color: #38a169; /* 主标题绿色 */
+      background-color: #38a169;
       color: white;
     }
     .music-table thead tr:first-child th {
-      background-color: #48bb78; /* 副标题稍浅绿色 */
+      background-color: #48bb78;
       font-size: 28px;
       text-align: center;
       padding: 20px;
     }
-    .level-bar {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      width: 100%;
-      height: 25px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      overflow: hidden;
-    }
-    .level-cell {
-      border-right: 1px solid #fff;
-    }
-    .level-cell:last-child { border-right: none; }
-    .color-1 { background-color: #ff6b6b; }
-    .color-2 { background-color: #ffa94d; }
-    .color-3 { background-color: #ffd93b; }
-    .color-4 { background-color: #69db7c; }
-    .color-5 { background-color: #4dabf7; }
-    .empty { background-color: #f1f3f5; }
+    /* ⭐ —— 推荐程度栏：自动根据 data-level 着色 —— */
     [data-level] {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
@@ -283,6 +273,7 @@
     }
     [data-level] div { border-right: 1px solid #fff; }
     [data-level] div:last-child { border-right: none; }
+    /* 💡 每个等级对应的颜色定义 */
     [data-level=&#34;1&#34;] div:nth-child(1) { background-color: #ff6b6b; }
     [data-level=&#34;2&#34;] div:nth-child(-n+2) { background-color: #ffa94d; }
     [data-level=&#34;3&#34;] div:nth-child(-n+3) { background-color: #ffd93b; }
@@ -300,19 +291,13 @@
       &lt;/tr&gt;
     &lt;/thead&gt;
     &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;曲目A&lt;/td&gt;
-        &lt;td&gt;
-          &lt;div data-level=&#34;2&#34;&gt;
-            &lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/td&gt;
-        &lt;td&gt;简单旋律&lt;/td&gt;
-      &lt;/tr&gt;
+      &lt;!-- ✅ 表格内容开始 --&gt;
+      &lt;tr&gt;&lt;td&gt;BLUES SOLOING MASTERCLASS COMPLETE - BLUES 高级篇&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;4&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt; BLUES 风格的练习、LICK、曲子&lt;/td&gt;&lt;/tr&gt; 
+      &lt;tr&gt;&lt;td&gt;BRIAN MAILLARD - TECHNIQUE CONTROL MASTERCLASS COMPLETE - ROCK 高级篇&lt;/td&gt;&lt;td&gt;&lt;div data-level=&#34;2&#34;&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;ROCK 风格的技巧、LICK、曲子&lt;/td&gt;&lt;/tr&gt;   
+      &lt;!-- ✅ 表格内容结束 --&gt;
     &lt;/tbody&gt;
   &lt;/table&gt;
-&lt;/div&gt;
-</description>
+&lt;/div&gt;</description>
         </item>
         <item>
         <title>【乐句积累】GG BLUES 1</title>
