@@ -6747,8 +6747,43 @@
         <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E9%9F%B3%E7%AE%B1%E6%95%88%E6%9E%9C%E5%99%A8%E7%AD%89%E7%9F%A5%E8%AF%86/</guid>
-        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E9%9F%B3%E7%AE%B1%E6%95%88%E6%9E%9C%E5%99%A8%E7%AD%89%E7%9F%A5%E8%AF%86/1.jpg" alt="Featured image of post 关于音箱、效果器等知识" /&gt;&lt;h1 id=&#34;效果器各个模块&#34;&gt;效果器各个模块
-&lt;/h1&gt;&lt;div style=&#34;overflow-x:auto; margin-top: 20px;&#34;&gt;
+        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E9%9F%B3%E7%AE%B1%E6%95%88%E6%9E%9C%E5%99%A8%E7%AD%89%E7%9F%A5%E8%AF%86/1.jpg" alt="Featured image of post 关于音箱、效果器等知识" /&gt;&lt;details&gt;
+&lt;summary style=&#34;background-color: #f0f4f8; padding: 1em; border-radius: 8px; cursor: pointer; border: 1px solid #ddd;&#34;&gt;
+  &lt;strong&gt;📖 目录（点击展开）&lt;/strong&gt;
+&lt;/summary&gt;
+&lt;div style=&#34;padding: 1em; margin-top: 0.5em; background-color: #f9fbfd; border-radius: 8px; border: 1px solid #eee;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#mode&#34; &gt;效果器各个模块&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#amp&#34; &gt;音箱前级 / 后级 / 喇叭&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#preamp&#34; &gt;前级的作用（AMP）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#power_amp&#34; &gt;后级的作用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#cabinet&#34; &gt;喇叭（CAB）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#%e9%9f%b3%e7%ae%b1%e4%b8%ad%e7%9a%84-effects-loop-%e5%8a%9f%e8%83%bd&#34; &gt;音箱中的 Effects Loop 功能&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#loop%e7%ab%af%e5%8f%a3%e7%9a%84%e4%b8%80%e4%ba%9b%e5%85%b6%e4%bb%96%e7%9a%84%e7%94%a8%e9%80%94&#34; &gt;Loop端口的一些其他用途&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;div id=&#34;mode&#34; style=&#34;
+    background-color: #4CAF50;  /* 简约绿色 */
+    color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    text-align: center;
+    font-family: &#39;Segoe UI&#39;, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+&#34;&gt;
+    效果器各个模块
+&lt;/div&gt;
+&lt;div style=&#34;overflow-x:auto; margin-top: 20px;&#34;&gt;
   &lt;style&gt;
     table.effect-table {
       width: 100%;
@@ -6918,14 +6953,26 @@
   &lt;/table&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;h1 id=&#34;音箱前级--后级--喇叭&#34;&gt;音箱前级 / 后级 / 喇叭
-&lt;/h1&gt;&lt;h2 id=&#34;preamp&#34;&gt;前级的作用（AMP）
+&lt;div id=&#34;amp&#34; style=&#34;
+    background-color: #4CAF50;  /* 简约绿色 */
+    color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    text-align: center;
+    font-family: &#39;Segoe UI&#39;, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+&#34;&gt;
+    音箱前级 / 后级 / 喇叭
+&lt;/div&gt;
+&lt;h2 id=&#34;preamp&#34;&gt;前级的作用（AMP）
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;放大吉他信号&lt;/li&gt;
 &lt;li&gt;均衡器作用&lt;/li&gt;
 &lt;li&gt;一般有清音和失真两个通道&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;power_amp&#34;&gt;后级的作用
 &lt;/h2&gt;&lt;ul&gt;
