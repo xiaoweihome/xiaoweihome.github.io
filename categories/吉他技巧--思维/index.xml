@@ -3223,115 +3223,178 @@
         
         <guid>https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E9%9F%B3%E7%AE%B1%E6%95%88%E6%9E%9C%E5%99%A8%E7%AD%89%E7%9F%A5%E8%AF%86/</guid>
         <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E9%9F%B3%E7%AE%B1%E6%95%88%E6%9E%9C%E5%99%A8%E7%AD%89%E7%9F%A5%E8%AF%86/1.jpg" alt="Featured image of post 关于音箱、效果器等知识" /&gt;&lt;h1 id=&#34;效果器各个模块&#34;&gt;效果器各个模块
-&lt;/h1&gt;&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;模块&lt;/th&gt;
-          &lt;th&gt;1&lt;/th&gt;
-          &lt;th&gt;2&lt;/th&gt;
-          &lt;th&gt;3&lt;/th&gt;
-          &lt;th&gt;4&lt;/th&gt;
-          &lt;th&gt;5&lt;/th&gt;
-          &lt;th&gt;6&lt;/th&gt;
-          &lt;th&gt;7&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;音箱前级（preamp）&lt;/td&gt;
-          &lt;td&gt;后级（Power amp）&lt;/td&gt;
-          &lt;td&gt;电子管（tube）&lt;/td&gt;
-          &lt;td&gt;箱体（cabinet）&lt;/td&gt;
-          &lt;td&gt;麦克风（micphone）&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;过载、失真（overdrive - distition）&lt;/td&gt;
-          &lt;td&gt;激励、推子（boost）&lt;/td&gt;
-          &lt;td&gt;过载（overdrive）&lt;/td&gt;
-          &lt;td&gt;失真（distition）&lt;/td&gt;
-          &lt;td&gt;重金属失真（metal）&lt;/td&gt;
-          &lt;td&gt;法兹（fuzz）&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;调制类（modulation）周边效果&lt;/td&gt;
-          &lt;td&gt;合唱（chorus）&lt;/td&gt;
-          &lt;td&gt;相位（phaser）&lt;/td&gt;
-          &lt;td&gt;飘忽（flanger）&lt;/td&gt;
-          &lt;td&gt;颤音（tremolo）&lt;/td&gt;
-          &lt;td&gt;弯音（vibrato）&lt;/td&gt;
-          &lt;td&gt;旋转音箱（rotary）&lt;/td&gt;
-          &lt;td&gt;uni-vibe（无翻译）&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;滤波类（filter）周边效果&lt;/td&gt;
-          &lt;td&gt;自动哇（auto wah）&lt;/td&gt;
-          &lt;td&gt;动态哇（touch wah）&lt;/td&gt;
-          &lt;td&gt;慢发音（slow gear）&lt;/td&gt;
-          &lt;td&gt;电子合成（synthesizer）&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;其他效果&lt;/td&gt;
-          &lt;td&gt;压缩（compression）&lt;/td&gt;
-          &lt;td&gt;限幅（limited）&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;其他功能&lt;/td&gt;
-          &lt;td&gt;乐句循环（looper）&lt;/td&gt;
-          &lt;td&gt;鼓机（drum loop）&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;延迟（delay）&lt;/td&gt;
-          &lt;td&gt;数字延迟（digital）&lt;/td&gt;
-          &lt;td&gt;模拟延迟（analong）&lt;/td&gt;
-          &lt;td&gt;磁带延迟（tape）&lt;/td&gt;
-          &lt;td&gt;回声延迟（echo）&lt;/td&gt;
-          &lt;td&gt;反响延迟（reverse）&lt;/td&gt;
-          &lt;td&gt;乒乓延迟（pingpong）&lt;/td&gt;
-          &lt;td&gt;双延迟（dualdelay）&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;混响（reverb）&lt;/td&gt;
-          &lt;td&gt;房间（room）&lt;/td&gt;
-          &lt;td&gt;大厅（hall）&lt;/td&gt;
-          &lt;td&gt;弹簧（spring）&lt;/td&gt;
-          &lt;td&gt;铁皮（plate）&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;踏板&lt;/td&gt;
-          &lt;td&gt;音量（volume)&lt;/td&gt;
-          &lt;td&gt;哇音（wah）&lt;/td&gt;
-          &lt;td&gt;哇米（whammy）&lt;/td&gt;
-          &lt;td&gt;表情踏板（expession）&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;/h1&gt;&lt;div style=&#34;overflow-x:auto; margin-top: 20px;&#34;&gt;
+  &lt;style&gt;
+    table.effect-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-family: &#39;Segoe UI&#39;, Tahoma, Geneva, Verdana, sans-serif;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    table.effect-table th,
+    table.effect-table td {
+      padding: 10px 12px;
+      text-align: center;
+      border-bottom: 1px solid #c8e6c9;
+    }
+    /* 第一行标题 */
+    table.effect-table th {
+      background-color: #388e3c;
+      color: #fff;
+      font-weight: 600;
+    }
+    /* 第一列模块名 */
+    table.effect-table td:first-child {
+      background-color: #a5d6a7;
+      font-weight: 600;
+      text-align: left;
+      color: #1b5e20;
+    }
+    /* 内容格子背景 */
+    table.effect-table td:not(:first-child) {
+      background-color: #e8f5e9;
+    }
+    /* 鼠标悬浮高亮效果 */
+    table.effect-table tr:hover td:not(:first-child) {
+      background-color: #c8e6c9;
+    }
+    /* 表格圆角处理 */
+    table.effect-table tr:first-child th:first-child {
+      border-top-left-radius: 10px;
+    }
+    table.effect-table tr:first-child th:last-child {
+      border-top-right-radius: 10px;
+    }
+    table.effect-table tr:last-child td:first-child {
+      border-bottom-left-radius: 10px;
+    }
+    table.effect-table tr:last-child td:last-child {
+      border-bottom-right-radius: 10px;
+    }
+    /* 平滑滚动 */
+    html {
+      scroll-behavior: smooth;
+    }
+    /* 链接样式 */
+    table.effect-table a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    table.effect-table a:hover {
+      text-decoration: underline;
+    }
+  &lt;/style&gt;
+  &lt;table class=&#34;effect-table&#34;&gt;
+    &lt;tr&gt;
+      &lt;th&gt;模块&lt;/th&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;th&gt;5&lt;/th&gt;
+      &lt;th&gt;6&lt;/th&gt;
+      &lt;th&gt;7&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&#34;#amp&#34;&gt;音箱&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#preamp&#34;&gt;音箱前级（preamp）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#power_amp&#34;&gt;后级（Power amp）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#tube&#34;&gt;电子管（tube）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#cabinet&#34;&gt;箱体（cabinet）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#micphone&#34;&gt;麦克风（micphone）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&#34;#overdrive&#34;&gt;过载、失真（overdrive - distition）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#boost&#34;&gt;激励、推子（boost）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#overdrive_item&#34;&gt;过载（overdrive）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#distition&#34;&gt;失真（distition）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#metal&#34;&gt;重金属失真（metal）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#fuzz&#34;&gt;法兹（fuzz）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&#34;#modulation&#34;&gt;调制类（modulation）周边效果&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#chorus&#34;&gt;合唱（chorus）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#phaser&#34;&gt;相位（phaser）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#flanger&#34;&gt;飘忽（flanger）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#tremolo&#34;&gt;颤音（tremolo）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#vibrato&#34;&gt;弯音（vibrato）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#rotary&#34;&gt;旋转音箱（rotary）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#uni_vibe&#34;&gt;uni-vibe（无翻译）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&#34;#filter&#34;&gt;滤波类（filter）周边效果&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#auto_wah&#34;&gt;自动哇（auto wah）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#touch_wah&#34;&gt;动态哇（touch wah）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#slow_gear&#34;&gt;慢发音（slow gear）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#synthesizer&#34;&gt;电子合成（synthesizer）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&#34;#other_effects&#34;&gt;其他效果&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#compression&#34;&gt;压缩（compression）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#limited&#34;&gt;限幅（limited）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&#34;#other_functions&#34;&gt;其他功能&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#looper&#34;&gt;乐句循环（looper）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#drum_loop&#34;&gt;鼓机（drum loop）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&#34;#delay&#34;&gt;延迟（delay）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#digital&#34;&gt;数字延迟（digital）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#analong&#34;&gt;模拟延迟（analong）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#tape&#34;&gt;磁带延迟（tape）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#echo&#34;&gt;回声延迟（echo）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#reverse&#34;&gt;反响延迟（reverse）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#pingpong&#34;&gt;乒乓延迟（pingpong）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#dualdelay&#34;&gt;双延迟（dualdelay）&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&#34;#reverb&#34;&gt;混响（reverb）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#room&#34;&gt;房间（room）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#hall&#34;&gt;大厅（hall）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#spring&#34;&gt;弹簧（spring）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#plate&#34;&gt;铁皮（plate）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&#34;#pedal&#34;&gt;踏板&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#volume&#34;&gt;音量（volume）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#wah&#34;&gt;哇音（wah）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#whammy&#34;&gt;哇米（whammy）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;#expression&#34;&gt;表情踏板（expession）&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;h1 id=&#34;音箱前级--后级--喇叭&#34;&gt;音箱前级 &amp;amp; 后级 &amp;amp; 喇叭
-&lt;/h1&gt;&lt;h2 id=&#34;前级的作用&#34;&gt;前级的作用
+&lt;h1 id=&#34;音箱前级--后级--喇叭&#34;&gt;音箱前级 / 后级 / 喇叭
+&lt;/h1&gt;&lt;h2 id=&#34;preamp&#34;&gt;前级的作用（AMP）
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;放大吉他信号&lt;/li&gt;
@@ -3339,28 +3402,48 @@
 &lt;li&gt;一般有清音和失真两个通道&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;后级的作用&#34;&gt;后级的作用
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;前级放大后，还不足以推动喇叭，所以后级是把前级修饰放大后的信号再放大到足以驱动喇叭。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;喇叭&#34;&gt;喇叭
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;把前级修饰、后级放大后的信号驱动播放出来。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&#34;使用音箱中的-effects-loop&#34;&gt;使用音箱中的 Effects Loop
-&lt;/h1&gt;&lt;p&gt;Loop 功能的目的就是为了&lt;strong&gt;串接效果器&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;power_amp&#34;&gt;后级的作用
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;前级放大后，还不足以推动喇叭，所以&lt;strong&gt;后级是把前级修饰放大后的信号再放大到足以驱动喇叭。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cabinet&#34;&gt;喇叭（CAB）
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;把前级修饰、后级放大后的信号驱动播放出来。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;音箱中的-effects-loop-功能&#34;&gt;音箱中的 Effects Loop 功能
+&lt;/h2&gt;&lt;p&gt;Loop 功能的目的就是为了&lt;strong&gt;串接效果器&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;Effects Loop有两个接口：&lt;strong&gt;Send端口是前级的输出端，而 Return 则是后级的输入端&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;如果把周边效果器串在失真效果器的前面，周边效果会被失真吃掉，得到的声音会很糊；&lt;/p&gt;
-&lt;p&gt;如果把音量踏板放在失真效果器的前面，那么音量踏板就会影响到其失真度，当音量踏板减小，失真度就会降低。&lt;/p&gt;
-&lt;p&gt;因此，我们一般都把周边效果器或者踏板串在失真效果器的后面。&lt;/p&gt;
-&lt;p&gt;其实，失真效果器就相当于音箱的前级，在音箱前级后面串接一些周边效果器之后再输出给音箱的后级功放，以增加音色的可调性范围。&lt;/p&gt;
+&lt;p&gt;如果把周边效果器串在失真效果器的前面，周边效果会被失真吃掉，得到的&lt;strong&gt;声音会很糊&lt;/strong&gt;；&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;吉他 — 周边（Chorus/Delay/Reverb） — 失真 — 音箱前级 — 后级功放 — 喇叭&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Loop端口还有一些其他的用途。&lt;/p&gt;
-&lt;p&gt;比如将前级输出Send端口直接接入声卡，即可在录音的时候获得电子管音箱前级的音色。&lt;/p&gt;
-&lt;p&gt;或者将合成效果器的输出直接接入音箱的后级输入端口Return，绕开绕开音箱的前级，把音箱当纯后级使用。&lt;/p&gt;
+&lt;p&gt;如果把音量踏板放在失真效果器的前面，那么音量踏板就会影响到其失真度，&lt;strong&gt;当音量踏板减小，失真度就会降低。&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;吉他 — 音量踏板 — 失真 — 音箱前级 — 后级功放 — 喇叭&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;因此，一般都把周边效果器或者踏板串在失真效果器的后面。&lt;/p&gt;
+&lt;p&gt;其实，失真效果器就相当于音箱的前级，在音箱前级后面串接一些周边效果器之后再输出给音箱的后级功放，以增加音色的可调性范围。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;吉他 — 失真 — 音箱前级 — (Send) — 周边 — 踏板 — (Return) — 音箱后级 — 喇叭&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;loop端口的一些其他的用途&#34;&gt;Loop端口的一些其他的用途
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;将前级输出Send端口直接接入声卡，即可在录音的时候获得电子管音箱前级的音色。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;将合成效果器的输出直接接入音箱的后级输入端口 Return ，绕开绕开音箱的前级，把音箱当纯后级使用。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
 </description>
         </item>
         
