@@ -2,63 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on 小威音乐工作室</title>
-        <link>https://xiaoweihome.github.io/page/</link>
+        <link>http://localhost:1313/page/</link>
         <description>Recent content in Pages on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>分类</title>
-        <link>https://xiaoweihome.github.io/archives/</link>
+        <link>http://localhost:1313/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/archives/</guid>
+        <guid>http://localhost:1313/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>工具</title>
-        <link>https://xiaoweihome.github.io/%E5%B7%A5%E5%85%B7/</link>
+        <link>http://localhost:1313/%E5%B7%A5%E5%85%B7/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/%E5%B7%A5%E5%85%B7/</guid>
+        <guid>http://localhost:1313/%E5%B7%A5%E5%85%B7/</guid>
         <description></description>
         </item>
         <item>
         <title>乐句库</title>
-        <link>https://xiaoweihome.github.io/%E4%B9%90%E5%8F%A5%E5%BA%93/</link>
+        <link>http://localhost:1313/%E4%B9%90%E5%8F%A5%E5%BA%93/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/%E4%B9%90%E5%8F%A5%E5%BA%93/</guid>
+        <guid>http://localhost:1313/%E4%B9%90%E5%8F%A5%E5%BA%93/</guid>
         <description></description>
         </item>
         <item>
         <title>乐谱资料</title>
-        <link>https://xiaoweihome.github.io/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/</link>
+        <link>http://localhost:1313/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/</guid>
+        <guid>http://localhost:1313/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/</guid>
         <description></description>
         </item>
         <item>
         <title>个人作品</title>
-        <link>https://xiaoweihome.github.io/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81/</link>
+        <link>http://localhost:1313/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81/</guid>
+        <guid>http://localhost:1313/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81/</guid>
         <description></description>
         </item>
         <item>
         <title>联系</title>
-        <link>https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/</link>
+        <link>http://localhost:1313/%E8%81%94%E7%B3%BB/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/</guid>
+        <guid>http://localhost:1313/%E8%81%94%E7%B3%BB/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;微信二维码&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/1.PNG&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/%E8%81%94%E7%B3%BB/1.PNG&#34;
 	width=&#34;764&#34;
 	height=&#34;1018&#34;
-	srcset=&#34;https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/1_hu5363591835774471227.PNG 480w, https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/1_hu10639405027371596935.PNG 1024w&#34;
+	srcset=&#34;http://localhost:1313/%E8%81%94%E7%B3%BB/1_hu5363591835774471227.PNG 480w, http://localhost:1313/%E8%81%94%E7%B3%BB/1_hu10639405027371596935.PNG 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;微信二维码&#34;
@@ -77,26 +77,26 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>https://xiaoweihome.github.io/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
         <item>
         <title>演奏技巧</title>
-        <link>https://xiaoweihome.github.io/%E6%BC%94%E5%A5%8F%E6%8A%80%E5%B7%A7/</link>
+        <link>http://localhost:1313/%E6%BC%94%E5%A5%8F%E6%8A%80%E5%B7%A7/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/%E6%BC%94%E5%A5%8F%E6%8A%80%E5%B7%A7/</guid>
+        <guid>http://localhost:1313/%E6%BC%94%E5%A5%8F%E6%8A%80%E5%B7%A7/</guid>
         <description></description>
         </item>
         <item>
         <title>音乐推荐</title>
-        <link>https://xiaoweihome.github.io/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/</link>
+        <link>http://localhost:1313/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/</guid>
+        <guid>http://localhost:1313/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/</guid>
         <description></description>
         </item>
         

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>演奏作品 on 小威音乐工作室</title>
-        <link>https://xiaoweihome.github.io/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</link>
+        <link>http://localhost:1313/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</link>
         <description>Recent content in 演奏作品 on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>感到伤心就来一首《开心卡农》</title>
-        <link>https://xiaoweihome.github.io/p/%E6%84%9F%E5%88%B0%E4%BC%A4%E5%BF%83%E5%B0%B1%E6%9D%A5%E4%B8%80%E9%A6%96%E5%BC%80%E5%BF%83%E5%8D%A1%E5%86%9C/</link>
+        <link>http://localhost:1313/p/%E6%84%9F%E5%88%B0%E4%BC%A4%E5%BF%83%E5%B0%B1%E6%9D%A5%E4%B8%80%E9%A6%96%E5%BC%80%E5%BF%83%E5%8D%A1%E5%86%9C/</link>
         <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/p/%E6%84%9F%E5%88%B0%E4%BC%A4%E5%BF%83%E5%B0%B1%E6%9D%A5%E4%B8%80%E9%A6%96%E5%BC%80%E5%BF%83%E5%8D%A1%E5%86%9C/</guid>
-        <description>&lt;img src="https://xiaoweihome.github.io/p/%E6%84%9F%E5%88%B0%E4%BC%A4%E5%BF%83%E5%B0%B1%E6%9D%A5%E4%B8%80%E9%A6%96%E5%BC%80%E5%BF%83%E5%8D%A1%E5%86%9C/1.jpg" alt="Featured image of post 感到伤心就来一首《开心卡农》" /&gt;
+        <guid>http://localhost:1313/p/%E6%84%9F%E5%88%B0%E4%BC%A4%E5%BF%83%E5%B0%B1%E6%9D%A5%E4%B8%80%E9%A6%96%E5%BC%80%E5%BF%83%E5%8D%A1%E5%86%9C/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E6%84%9F%E5%88%B0%E4%BC%A4%E5%BF%83%E5%B0%B1%E6%9D%A5%E4%B8%80%E9%A6%96%E5%BC%80%E5%BF%83%E5%8D%A1%E5%86%9C/1.jpg" alt="Featured image of post 感到伤心就来一首《开心卡农》" /&gt;
 
 
 
@@ -34,12 +34,39 @@
 </description>
         </item>
         <item>
-        <title>Robben Ford 特野的电吉他 Blues Solo</title>
-        <link>https://xiaoweihome.github.io/p/robben-ford-%E7%89%B9%E9%87%8E%E7%9A%84%E7%94%B5%E5%90%89%E4%BB%96-blues-solo/</link>
+        <title>【电吉他】感受 Clevan CST20 的声音</title>
+        <link>http://localhost:1313/p/%E7%94%B5%E5%90%89%E4%BB%96%E6%84%9F%E5%8F%97-clevan-cst20-%E7%9A%84%E5%A3%B0%E9%9F%B3/</link>
         <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/p/robben-ford-%E7%89%B9%E9%87%8E%E7%9A%84%E7%94%B5%E5%90%89%E4%BB%96-blues-solo/</guid>
-        <description>&lt;img src="https://xiaoweihome.github.io/p/robben-ford-%E7%89%B9%E9%87%8E%E7%9A%84%E7%94%B5%E5%90%89%E4%BB%96-blues-solo/1.PNG" alt="Featured image of post Robben Ford 特野的电吉他 Blues Solo" /&gt;
+        <guid>http://localhost:1313/p/%E7%94%B5%E5%90%89%E4%BB%96%E6%84%9F%E5%8F%97-clevan-cst20-%E7%9A%84%E5%A3%B0%E9%9F%B3/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E7%94%B5%E5%90%89%E4%BB%96%E6%84%9F%E5%8F%97-clevan-cst20-%E7%9A%84%E5%A3%B0%E9%9F%B3/1.PNG" alt="Featured image of post 【电吉他】感受 Clevan CST20 的声音" /&gt;
+
+
+
+
+
+    
+
+
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV12LCTBqE6W&#34;
+            scrolling=&#34;no&#34;
+            frameborder=&#34;no&#34;
+            framespacing=&#34;0&#34;
+            allowfullscreen=&#34;true&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
+        <title>Robben Ford 特野的电吉他 Blues Solo</title>
+        <link>http://localhost:1313/p/robben-ford-%E7%89%B9%E9%87%8E%E7%9A%84%E7%94%B5%E5%90%89%E4%BB%96-blues-solo/</link>
+        <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/robben-ford-%E7%89%B9%E9%87%8E%E7%9A%84%E7%94%B5%E5%90%89%E4%BB%96-blues-solo/</guid>
+        <description>&lt;img src="http://localhost:1313/p/robben-ford-%E7%89%B9%E9%87%8E%E7%9A%84%E7%94%B5%E5%90%89%E4%BB%96-blues-solo/1.PNG" alt="Featured image of post Robben Ford 特野的电吉他 Blues Solo" /&gt;
 
 
 
@@ -62,10 +89,10 @@
         </item>
         <item>
         <title>【爵士鼓演奏】草东没有派对《山海》</title>
-        <link>https://xiaoweihome.github.io/p/%E7%88%B5%E5%A3%AB%E9%BC%93%E6%BC%94%E5%A5%8F%E8%8D%89%E4%B8%9C%E6%B2%A1%E6%9C%89%E6%B4%BE%E5%AF%B9%E5%B1%B1%E6%B5%B7/</link>
+        <link>http://localhost:1313/p/%E7%88%B5%E5%A3%AB%E9%BC%93%E6%BC%94%E5%A5%8F%E8%8D%89%E4%B8%9C%E6%B2%A1%E6%9C%89%E6%B4%BE%E5%AF%B9%E5%B1%B1%E6%B5%B7/</link>
         <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/p/%E7%88%B5%E5%A3%AB%E9%BC%93%E6%BC%94%E5%A5%8F%E8%8D%89%E4%B8%9C%E6%B2%A1%E6%9C%89%E6%B4%BE%E5%AF%B9%E5%B1%B1%E6%B5%B7/</guid>
+        <guid>http://localhost:1313/p/%E7%88%B5%E5%A3%AB%E9%BC%93%E6%BC%94%E5%A5%8F%E8%8D%89%E4%B8%9C%E6%B2%A1%E6%9C%89%E6%B4%BE%E5%AF%B9%E5%B1%B1%E6%B5%B7/</guid>
         <description>&lt;img src="https://s3.bmp.ovh/imgs/2024/10/31/b4e072c3c9ff830e.png" alt="Featured image of post 【爵士鼓演奏】草东没有派对《山海》" /&gt;
 
 
@@ -89,10 +116,10 @@
         </item>
         <item>
         <title>Steelheart — She&#39;s Gone 电吉他翻弹</title>
-        <link>https://xiaoweihome.github.io/p/steelheart-shes-gone-%E7%94%B5%E5%90%89%E4%BB%96%E7%BF%BB%E5%BC%B9/</link>
+        <link>http://localhost:1313/p/steelheart-shes-gone-%E7%94%B5%E5%90%89%E4%BB%96%E7%BF%BB%E5%BC%B9/</link>
         <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/p/steelheart-shes-gone-%E7%94%B5%E5%90%89%E4%BB%96%E7%BF%BB%E5%BC%B9/</guid>
+        <guid>http://localhost:1313/p/steelheart-shes-gone-%E7%94%B5%E5%90%89%E4%BB%96%E7%BF%BB%E5%BC%B9/</guid>
         <description>&lt;img src="https://s3.bmp.ovh/imgs/2024/10/31/302a57a1324696e0.png" alt="Featured image of post Steelheart — She&#39;s Gone 电吉他翻弹" /&gt;
 
 
@@ -116,10 +143,10 @@
         </item>
         <item>
         <title>练一首猫咪都听烦的 Tom Quayle 基本功练习《Etude》</title>
-        <link>https://xiaoweihome.github.io/p/%E7%BB%83%E4%B8%80%E9%A6%96%E7%8C%AB%E5%92%AA%E9%83%BD%E5%90%AC%E7%83%A6%E7%9A%84-tom-quayle-%E5%9F%BA%E6%9C%AC%E5%8A%9F%E7%BB%83%E4%B9%A0etude/</link>
+        <link>http://localhost:1313/p/%E7%BB%83%E4%B8%80%E9%A6%96%E7%8C%AB%E5%92%AA%E9%83%BD%E5%90%AC%E7%83%A6%E7%9A%84-tom-quayle-%E5%9F%BA%E6%9C%AC%E5%8A%9F%E7%BB%83%E4%B9%A0etude/</link>
         <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/p/%E7%BB%83%E4%B8%80%E9%A6%96%E7%8C%AB%E5%92%AA%E9%83%BD%E5%90%AC%E7%83%A6%E7%9A%84-tom-quayle-%E5%9F%BA%E6%9C%AC%E5%8A%9F%E7%BB%83%E4%B9%A0etude/</guid>
+        <guid>http://localhost:1313/p/%E7%BB%83%E4%B8%80%E9%A6%96%E7%8C%AB%E5%92%AA%E9%83%BD%E5%90%AC%E7%83%A6%E7%9A%84-tom-quayle-%E5%9F%BA%E6%9C%AC%E5%8A%9F%E7%BB%83%E4%B9%A0etude/</guid>
         <description>&lt;img src="https://s3.bmp.ovh/imgs/2024/10/31/3396b94f22d0bc25.png" alt="Featured image of post 练一首猫咪都听烦的 Tom Quayle 基本功练习《Etude》" /&gt;
 
 
@@ -143,10 +170,10 @@
         </item>
         <item>
         <title>卢广仲《几分之几》电吉他改编演奏</title>
-        <link>https://xiaoweihome.github.io/p/%E5%8D%A2%E5%B9%BF%E4%BB%B2%E5%87%A0%E5%88%86%E4%B9%8B%E5%87%A0%E7%94%B5%E5%90%89%E4%BB%96%E6%94%B9%E7%BC%96%E6%BC%94%E5%A5%8F/</link>
+        <link>http://localhost:1313/p/%E5%8D%A2%E5%B9%BF%E4%BB%B2%E5%87%A0%E5%88%86%E4%B9%8B%E5%87%A0%E7%94%B5%E5%90%89%E4%BB%96%E6%94%B9%E7%BC%96%E6%BC%94%E5%A5%8F/</link>
         <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/p/%E5%8D%A2%E5%B9%BF%E4%BB%B2%E5%87%A0%E5%88%86%E4%B9%8B%E5%87%A0%E7%94%B5%E5%90%89%E4%BB%96%E6%94%B9%E7%BC%96%E6%BC%94%E5%A5%8F/</guid>
+        <guid>http://localhost:1313/p/%E5%8D%A2%E5%B9%BF%E4%BB%B2%E5%87%A0%E5%88%86%E4%B9%8B%E5%87%A0%E7%94%B5%E5%90%89%E4%BB%96%E6%94%B9%E7%BC%96%E6%BC%94%E5%A5%8F/</guid>
         <description>&lt;img src="https://s3.bmp.ovh/imgs/2024/10/31/05d5e6e3ed5630a6.png" alt="Featured image of post 卢广仲《几分之几》电吉他改编演奏" /&gt;
 
 
@@ -170,10 +197,10 @@
         </item>
         <item>
         <title>好听的日本抒情小曲1.0 Precious — G.O.D. Ren Tsukagoshi</title>
-        <link>https://xiaoweihome.github.io/p/%E5%A5%BD%E5%90%AC%E7%9A%84%E6%97%A5%E6%9C%AC%E6%8A%92%E6%83%85%E5%B0%8F%E6%9B%B21.0-precious-g.o.d.-ren-tsukagoshi/</link>
+        <link>http://localhost:1313/p/%E5%A5%BD%E5%90%AC%E7%9A%84%E6%97%A5%E6%9C%AC%E6%8A%92%E6%83%85%E5%B0%8F%E6%9B%B21.0-precious-g.o.d.-ren-tsukagoshi/</link>
         <pubDate>Fri, 09 Feb 2024 01:47:27 +0800</pubDate>
         
-        <guid>https://xiaoweihome.github.io/p/%E5%A5%BD%E5%90%AC%E7%9A%84%E6%97%A5%E6%9C%AC%E6%8A%92%E6%83%85%E5%B0%8F%E6%9B%B21.0-precious-g.o.d.-ren-tsukagoshi/</guid>
+        <guid>http://localhost:1313/p/%E5%A5%BD%E5%90%AC%E7%9A%84%E6%97%A5%E6%9C%AC%E6%8A%92%E6%83%85%E5%B0%8F%E6%9B%B21.0-precious-g.o.d.-ren-tsukagoshi/</guid>
         <description>&lt;img src="https://pic.imgdb.cn/item/65c519ba9f345e8d03ffa9bd.png" alt="Featured image of post 好听的日本抒情小曲1.0 Precious — G.O.D. Ren Tsukagoshi" /&gt;
 
 
@@ -197,10 +224,10 @@
         </item>
         <item>
         <title>好听抒情小曲 Time is now</title>
-        <link>https://xiaoweihome.github.io/p/%E5%A5%BD%E5%90%AC%E6%8A%92%E6%83%85%E5%B0%8F%E6%9B%B2-time-is-now/</link>
+        <link>http://localhost:1313/p/%E5%A5%BD%E5%90%AC%E6%8A%92%E6%83%85%E5%B0%8F%E6%9B%B2-time-is-now/</link>
         <pubDate>Fri, 09 Feb 2024 01:47:27 +0800</pubDate>
         
-        <guid>https://xiaoweihome.github.io/p/%E5%A5%BD%E5%90%AC%E6%8A%92%E6%83%85%E5%B0%8F%E6%9B%B2-time-is-now/</guid>
+        <guid>http://localhost:1313/p/%E5%A5%BD%E5%90%AC%E6%8A%92%E6%83%85%E5%B0%8F%E6%9B%B2-time-is-now/</guid>
         <description>&lt;img src="https://pic.imgdb.cn/item/65c5189c9f345e8d03fd5b0d.png" alt="Featured image of post 好听抒情小曲 Time is now" /&gt;
 
 
@@ -224,10 +251,10 @@
         </item>
         <item>
         <title>《OMENS OF LOVE》鼓和吉他间奏Cover</title>
-        <link>https://xiaoweihome.github.io/p/omens-of-love%E9%BC%93%E5%92%8C%E5%90%89%E4%BB%96%E9%97%B4%E5%A5%8Fcover/</link>
+        <link>http://localhost:1313/p/omens-of-love%E9%BC%93%E5%92%8C%E5%90%89%E4%BB%96%E9%97%B4%E5%A5%8Fcover/</link>
         <pubDate>Thu, 08 Feb 2024 14:22:28 +0800</pubDate>
         
-        <guid>https://xiaoweihome.github.io/p/omens-of-love%E9%BC%93%E5%92%8C%E5%90%89%E4%BB%96%E9%97%B4%E5%A5%8Fcover/</guid>
+        <guid>http://localhost:1313/p/omens-of-love%E9%BC%93%E5%92%8C%E5%90%89%E4%BB%96%E9%97%B4%E5%A5%8Fcover/</guid>
         <description>&lt;img src="https://pic.imgdb.cn/item/65c513329f345e8d03efd55d.png" alt="Featured image of post 《OMENS OF LOVE》鼓和吉他间奏Cover" /&gt;
 
 
@@ -251,10 +278,10 @@
         </item>
         <item>
         <title>Guthrie Govan《B大调练习曲》</title>
-        <link>https://xiaoweihome.github.io/p/guthrie-govanb%E5%A4%A7%E8%B0%83%E7%BB%83%E4%B9%A0%E6%9B%B2/</link>
+        <link>http://localhost:1313/p/guthrie-govanb%E5%A4%A7%E8%B0%83%E7%BB%83%E4%B9%A0%E6%9B%B2/</link>
         <pubDate>Thu, 08 Feb 2024 03:55:28 +0800</pubDate>
         
-        <guid>https://xiaoweihome.github.io/p/guthrie-govanb%E5%A4%A7%E8%B0%83%E7%BB%83%E4%B9%A0%E6%9B%B2/</guid>
+        <guid>http://localhost:1313/p/guthrie-govanb%E5%A4%A7%E8%B0%83%E7%BB%83%E4%B9%A0%E6%9B%B2/</guid>
         <description>&lt;img src="https://pic.imgdb.cn/item/65c517fe9f345e8d03fc1322.png" alt="Featured image of post Guthrie Govan《B大调练习曲》" /&gt;
 
 
