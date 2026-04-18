@@ -6,270 +6,21 @@
         <description>Recent content on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>常用和弦进行中的级数套路</title>
+        <link>https://xiaoweihome.github.io/p/%E5%B8%B8%E7%94%A8%E5%92%8C%E5%BC%A6%E8%BF%9B%E8%A1%8C%E4%B8%AD%E7%9A%84%E7%BA%A7%E6%95%B0%E5%A5%97%E8%B7%AF/</link>
+        <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoweihome.github.io/p/%E5%B8%B8%E7%94%A8%E5%92%8C%E5%BC%A6%E8%BF%9B%E8%A1%8C%E4%B8%AD%E7%9A%84%E7%BA%A7%E6%95%B0%E5%A5%97%E8%B7%AF/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>T-square《宝岛》和声分析</title>
         <link>https://xiaoweihome.github.io/p/t-square%E5%AE%9D%E5%B2%9B%E5%92%8C%E5%A3%B0%E5%88%86%E6%9E%90/</link>
         <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
         
         <guid>https://xiaoweihome.github.io/p/t-square%E5%AE%9D%E5%B2%9B%E5%92%8C%E5%A3%B0%E5%88%86%E6%9E%90/</guid>
-        <description>&lt;!DOCTYPE html&gt;
-&lt;html lang=&#34;zh-CN&#34;&gt;
-&lt;head&gt;
-&lt;meta charset=&#34;UTF-8&#34;&gt;
-&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
-&lt;title&gt;T-Square《宝岛(Takarajima)》和声完全解析&lt;/title&gt;
-&lt;script src=&#34;https://cdn.tailwindcss.com&#34;&gt;&lt;/script&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css&#34;&gt;
-&lt;style&gt;
-@import url(&#39;https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&amp;display=swap&#39;);
-body {
-font-family: &#39;Noto Sans SC&#39;, sans-serif;
-line-height: 1.6;
-color: #333;
-background-color: #f9f9f9;
-}
-.card {
-transition: transform 0.3s ease, box-shadow 0.3s ease;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-}
-.card:hover {
-transform: translateY(-2px);
-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-}
-.chord-table {
-border-collapse: separate;
-border-spacing: 0;
-}
-.chord-table th, .chord-table td {
-border: 1px solid #e2e8f0;
-padding: 0.75rem;
-}
-.chord-table th {
-background-color: #f7fafc;
-font-weight: 600;
-}
-.highlight-box {
-border-left: 4px solid #4299e1;
-background-color: #ebf8ff;
-}
-.section-divider {
-border-top: 2px dashed #cbd5e0;
-margin: 2rem 0;
-}
-.chord {
-font-weight: 700;
-color: #2b6cb0;
-}
-&lt;/style&gt;
-&lt;section class=&#34;mb-12&#34;&gt;
-&lt;h2 class=&#34;text-2xl font-bold text-gray-800 mb-6 border-b pb-2&#34;&gt;一、全曲逐小节和声总表&lt;/h2&gt;
-&lt;div class=&#34;overflow-x-auto&#34;&gt;
-&lt;table class=&#34;w-full chord-table rounded-lg overflow-hidden mb-6&#34;&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th class=&#34;text-left&#34;&gt;段落分类&lt;/th&gt;
-&lt;th class=&#34;text-center&#34;&gt;小节序号&lt;/th&gt;
-&lt;th class=&#34;text-left&#34;&gt;本小节完整和弦&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&#34;font-medium&#34; rowspan=&#34;8&#34;&gt;引子（铺垫）&lt;/td&gt;
-&lt;td class=&#34;text-center&#34;&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;Bb/C&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;Bm/C&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;F/C&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;Bb/C&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;Bm/C&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;4&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;F/C&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;5&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;Bb/C&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;Bm/C&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;6&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;F/C&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;7&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;Bb/C&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;Bm/C&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;8&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;F/C&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;Bb/C&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;F&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;font-medium&#34; rowspan=&#34;8&#34;&gt;A段（主题陈述）&lt;/td&gt;
-&lt;td class=&#34;text-center&#34;&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;BbΔ7&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;A7(#13)&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;A7&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;D-7&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;G7&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;FΔ9&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;BbΔ7&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;A7(#9,b13)&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;4&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;FΔ7&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;5&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;BbΔ7&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;A7(b13)&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;A7&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;6&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;D-7&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;G7&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;FΔ9&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;7&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;BbΔ7&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;A7(#9)&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;8&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;F&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;font-medium&#34; rowspan=&#34;8&#34;&gt;B段（情绪推进）&lt;/td&gt;
-&lt;td class=&#34;text-center&#34;&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;B-7(b5)&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;Bb-6&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;Fadd9/A&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;D-7(#9)&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;D7(b9)&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;G-7&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;Bm/C&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;4&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;FΔ7&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;5&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;E-7b5&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;A7&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;6&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;D-7&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;F/C&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;7&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;B-7(b5)&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;G7&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;text-center&#34;&gt;8&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;chord&#34;&gt;E-7&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;F#-7&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;G-7&lt;/span&gt; &lt;span class=&#34;chord&#34;&gt;A7&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section class=&#34;mb-12&#34;&gt;
-&lt;h2 class=&#34;text-2xl font-bold text-gray-800 mb-6 border-b pb-2&#34;&gt;二、逐段和声逻辑与设计巧思&lt;/h2&gt;
-&lt;p class=&#34;text-gray-700 mb-6&#34;&gt;全曲整体调性为&lt;strong&gt;F大调&lt;/strong&gt;，所有设计围绕「航海寻岛」的情绪递进层层展开：&lt;/p&gt;
-&lt;div class=&#34;bg-white rounded-xl card p-6 mb-8&#34;&gt;
-&lt;h3 class=&#34;text-xl font-semibold text-gray-800 mb-4&#34;&gt;2.1 引子：持续属功能预埋期待感&lt;/h3&gt;
-&lt;p class=&#34;text-gray-700 mb-4&#34;&gt;整个引子锁死低音C（F大调的V级属音），全程不直接解决到主和弦，从一开始就牢牢抓住听众的期待感：&lt;/p&gt;
-&lt;ul class=&#34;list-disc pl-5 space-y-2 mb-4 text-gray-700&#34;&gt;
-&lt;li&gt;&lt;span class=&#34;chord&#34;&gt;Bb/C&lt;/span&gt;本质等价于&lt;strong&gt;C9sus4（属九挂四和弦）&lt;/strong&gt;，色彩空灵悬浮，完美对应&#34;远雾中海岛轮廓&#34;的朦胧意境；&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;chord&#34;&gt;Bm/C&lt;/span&gt;是全曲第一个设计巧思：B音刚好是C属和弦的#9变化音，这个和弦等价于&lt;strong&gt;C7#9&lt;/strong&gt;，瞬间把之前松弛的张力收紧，色彩从朦胧转向紧绷，调动听众好奇心；&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;chord&#34;&gt;F/C&lt;/span&gt;是F主和弦的第二转位（四六和弦），仅短暂放松张力，依然不解决到主和弦，继续保留对主和弦的期待。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight-box p-4 rounded&#34;&gt;
-&lt;p class=&#34;text-gray-700 font-medium&#34;&gt;&lt;i class=&#34;fas fa-lightbulb text-yellow-500 mr-2&#34;&gt;&lt;/i&gt;精彩点：重复3次循环累积情绪，最后推一把才落回F主和弦，未见主题先把氛围感拉满，比平铺直叙的主和弦开场高级太多。&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;bg-white rounded-xl card p-6 mb-8&#34;&gt;
-&lt;h3 class=&#34;text-xl font-semibold text-gray-800 mb-4&#34;&gt;2.2 A段：主题陈述的清晰功能框架&lt;/h3&gt;
-&lt;p class=&#34;text-gray-700 mb-4&#34;&gt;A段核心是&lt;code&gt;IV → V/ii → ii → V → I&lt;/code&gt;的标准爵士功能框架，逻辑极其干净，完美突出主题旋律：&lt;/p&gt;
-&lt;ul class=&#34;list-disc pl-5 space-y-2 mb-4 text-gray-700&#34;&gt;
-&lt;li&gt;&lt;span class=&#34;chord&#34;&gt;BbΔ7&lt;/span&gt;：F大调IV级大七，使用Lydian调式，一开场就是开阔明亮的色彩，比从I主和弦开场更舒展，完美契合&#34;海边开阔&#34;的意境；&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;chord&#34;&gt;A7（带变化延伸音）&lt;/span&gt;：这是ii级Dm的&lt;strong&gt;副属和弦（V/ii）&lt;/strong&gt;，天然指向后面的D-7，作曲家仅加入#9/b13/#13这些延伸音，只增加fusion色彩，绝不抢旋律的存在感；&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;chord&#34;&gt;D-7 → G7 → FΔ9&lt;/span&gt;：标准ii-V-I解决，完美落回主调，完成一个乐句的起承转合。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight-box p-4 rounded&#34;&gt;
-&lt;p class=&#34;text-gray-700 font-medium&#34;&gt;&lt;i class=&#34;fas fa-lightbulb text-yellow-500 mr-2&#34;&gt;&lt;/i&gt;精彩点：用副属和弦把IV到I的连接做得动力十足又丝滑，延伸音的分寸感堪称典范——平衡了流行旋律的悦耳和爵士和声的丰富。&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;bg-white rounded-xl card p-6 mb-8&#34;&gt;
-&lt;h3 class=&#34;text-xl font-semibold text-gray-800 mb-4&#34;&gt;2.3 B段：离调模进攒动情绪张力&lt;/h3&gt;
-&lt;p class=&#34;text-gray-700 mb-4&#34;&gt;A段稳定主题后，B段用连续顺阶ii-V离调模进，把情绪一步步推向顶点：&lt;/p&gt;
-&lt;ul class=&#34;list-disc pl-5 space-y-2 mb-4 text-gray-700&#34;&gt;
-&lt;li&gt;开头&lt;span class=&#34;chord&#34;&gt;B-7(b5)&lt;/span&gt;本身自带黯淡紧张的色彩，和A段的明亮形成对比，瞬间切换情绪，开启推进；&lt;/li&gt;
-&lt;li&gt;每一组都是标准的ii-V副属连锁：&lt;span class=&#34;chord&#34;&gt;B-7(b5) → D7(b9)&lt;/span&gt;指向G，解决到&lt;span class=&#34;chord&#34;&gt;G-7&lt;/span&gt;；&lt;span class=&#34;chord&#34;&gt;E-7b5 → A7&lt;/span&gt;指向D，解决到&lt;span class=&#34;chord&#34;&gt;D-7&lt;/span&gt;；最后一组&lt;span class=&#34;chord&#34;&gt;B-7(b5)→G7 → E-7→F#-7→G-7→A7&lt;/span&gt;是&lt;strong&gt;根音顺阶上行的ii级模进&lt;/strong&gt;，张力一步步累积，最后停在A7，把情绪拉满等待解决；&lt;/li&gt;
-&lt;li&gt;细节巧思：&lt;span class=&#34;chord&#34;&gt;Fadd9/A&lt;/span&gt;这类斜线和弦，刻意调整低音，保证低音线条&lt;code&gt;B→Bb→A→D&lt;/code&gt;级进平滑，完全没有大跳的生硬感，功力全在听众察觉不到的细节里。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight-box p-4 rounded&#34;&gt;
-&lt;p class=&#34;text-gray-700 font-medium&#34;&gt;&lt;i class=&#34;fas fa-lightbulb text-yellow-500 mr-2&#34;&gt;&lt;/i&gt;精彩点：离调不是为了复杂而复杂，每一次转调都在推高情绪，就像航船不断靠近海岛时，越来越清晰的风景和越来越激动的心跳感。&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;bg-white rounded-xl card p-6 mb-8&#34;&gt;
-&lt;h3 class=&#34;text-xl font-semibold text-gray-800 mb-4&#34;&gt;2.4 过渡段：双结尾设计适配结构逻辑&lt;/h3&gt;
-&lt;p class=&#34;text-gray-700&#34;&gt;承接B段的张力，继续用ii-V模进把情绪推到顶点，同时做了双出口设计，适配不同的结构需求：1结尾落回E-7接A7，自然回A段反复，适配演出循环需求；2结尾推到D属音，自然接入Solo段，结构逻辑完全通顺。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;bg-white rounded-xl card p-6&#34;&gt;
-&lt;h3 class=&#34;text-xl font-semibold text-gray-800 mb-4&#34;&gt;2.5 Solo段：稳定框架给即兴留足空间&lt;/h3&gt;
-&lt;p class=&#34;text-gray-700&#34;&gt;Solo段没有做复杂的和声变化，直接沿用A段的核心框架，仅做了一处小修改：把原A段的&lt;span class=&#34;chord&#34;&gt;G7&lt;/span&gt;改成&lt;span class=&#34;chord&#34;&gt;C-7&lt;/span&gt;，变成&lt;span class=&#34;chord&#34;&gt;D-7 → C-7 → F&lt;/span&gt;的松弛双ii推进，让张力更持续，稳定简洁的框架给独奏者留出了足够的发挥空间，最后落回&lt;span class=&#34;chord&#34;&gt;Bb/F&lt;/span&gt;（F挂四），留足余韵。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section class=&#34;mb-12&#34;&gt;
-&lt;h2 class=&#34;text-2xl font-bold text-gray-800 mb-6 border-b pb-2&#34;&gt;三、可复用的编曲创作学习要点&lt;/h2&gt;
-&lt;p class=&#34;text-gray-700 mb-6&#34;&gt;这些思路不止适用于fusion，哪怕写流行、摇滚、民谣都可以直接套用：&lt;/p&gt;
-&lt;div class=&#34;grid md:grid-cols-2 gap-6&#34;&gt;
-&lt;div class=&#34;bg-white rounded-xl card p-6&#34;&gt;
-&lt;h3 class=&#34;text-lg font-semibold text-gray-800 mb-3&#34;&gt;3.1 开场设计：持续属功能造氛围感，好过直接落主和弦&lt;/h3&gt;
-&lt;p class=&#34;text-gray-700&#34;&gt;很多新手写开场的惯性是&#34;直接上主和弦开主题&#34;，一下子就把留白和期待感耗没了。《宝岛》的技巧非常好复制：锁死你主调V级属音做持续低音，只换上方和弦调整张力，全程不解决到主和弦，从一开始就能牢牢抓住听众，这个思路适配所有风格的创作。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;bg-white rounded-xl card p-6&#34;&gt;
-&lt;h3 class=&#34;text-lg font-semibold text-gray-800 mb-3&#34;&gt;3.2 副属和弦：功能优先，延伸音点到为止&lt;/h3&gt;
-&lt;p class=&#34;text-gray-700&#34;&gt;很多人学了副属和弦就到处乱加，把曲子搞得支离破碎。《宝岛》给的范本非常清晰：副属和弦只用来&lt;strong&gt;指向核心自然和弦&lt;/strong&gt;，所有延伸音只是加色彩，绝不抢旋律的存在感，分寸感比复杂度重要一万倍。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;bg-white rounded-xl card p-6&#34;&gt;
-&lt;h3 class=&#34;text-lg font-semibold text-gray-800 mb-3&#34;&gt;3.3 低音优先：斜线和弦保证丝滑连接&lt;/h3&gt;
-&lt;p class=&#34;text-gray-700&#34;&gt;全曲大量用斜线和弦转位，核心逻辑就是：永远优先保证低音平滑级进，不要执着于原位根音大跳。低音线条顺了，哪怕和弦变化多，听觉依旧丝般顺滑，这个细节带来的质感提升，比堆十个复杂高叠和弦有用得多。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;bg-white rounded-xl card p-6&#34;&gt;
-&lt;h3 class=&#34;text-lg font-semibold text-gray-800 mb-3&#34;&gt;3.4 推情绪：ii-V模进攒张力，好过硬升key&lt;/h3&gt;
-&lt;p class=&#34;text-gray-700&#34;&gt;很多人写桥段推情绪，只会硬升key加音量，很容易显得生硬。《宝岛》的思路是教科书级的：用顺阶上行的ii-V离调模进，一组接一组累积张力，情绪自然而然就被推起来，全程不转调不升key，听众只会觉得情绪越来越浓，完全不会觉得突兀。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;bg-white rounded-xl card p-6&#34;&gt;
-&lt;h3 class=&#34;text-lg font-semibold text-gray-800 mb-3&#34;&gt;3.5 融合审美：和声丰富但不抢主角的戏&lt;/h3&gt;
-&lt;p class=&#34;text-gray-700&#34;&gt;T-Square最值得学习的就是平衡感：主题段要清晰，绝不堆复杂和弦盖过旋律；即兴段给独奏留足空间，不搞花里胡哨的变化抢戏。真正的融合是「让听众记住旋律，同时感受到高级质感」，不是为了难而难，最后谁也听不懂谁也记不住。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;bg-white rounded-xl card p-6&#34;&gt;
-&lt;h3 class=&#34;text-lg font-semibold text-gray-800 mb-3&#34;&gt;3.6 结构思维：不同段落的和声，干不同的事&lt;/h3&gt;
-&lt;p class=&#34;text-gray-700&#34;&gt;和声永远服务于整体结构：引子负责铺氛围，A段负责稳主题，B段负责推情绪，Solo段负责留空间。永远不要为了炫技在不该复杂的地方堆和弦，所有设计都要为整体情绪和结构服务，这才是成熟编曲和新手炫技的核心区别。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section class=&#34;bg-blue-50 rounded-xl card p-6 mb-12&#34;&gt;
-&lt;h2 class=&#34;text-2xl font-bold text-gray-800 mb-4&#34;&gt;总结&lt;/h2&gt;
-&lt;p class=&#34;text-gray-700&#34;&gt;&lt;span class=&#34;font-semibold&#34;&gt;《宝岛》能成为几十年不败的融合爵士经典，本质是把最基础的爵士和声逻辑用到了极致&lt;/span&gt;——没有晦涩的实验性设计，所有的巧思都服务于意境和情绪，这种&#34;举重若轻&#34;的设计思路，才是最值得我们反复学习的核心。&lt;/p&gt;
-&lt;/section&gt;
-&lt;footer class=&#34;text-center text-sm text-gray-500 mt-12&#34;&gt;
-&lt;/footer&gt;
-&lt;script&gt;
-// 平滑滚动效果
-document.querySelectorAll(&#39;a[href^=&#34;#&#34;]&#39;).forEach(anchor =&gt; {
-anchor.addEventListener(&#39;click&#39;, function (e) {
-e.preventDefault();
-document.querySelector(this.getAttribute(&#39;href&#39;)).scrollIntoView({
-behavior: &#39;smooth&#39;
-});
-});
-});
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;</description>
+        <description></description>
         </item>
         <item>
         <title>陶喆《susan说》和声分析</title>
@@ -318,22 +69,72 @@ behavior: &#39;smooth&#39;
 &lt;/details&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;乐谱&#34;&gt;乐谱
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/1.png&#34;
-	
-	
-	
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E9%99%B6%E5%96%86%E6%99%AE%E9%80%9A%E6%9C%8B%E5%8F%8B%E5%92%8C%E5%A3%B0%E5%88%86%E6%9E%90/1.jpg&#34;
+	width=&#34;832&#34;
+	height=&#34;1089&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E9%99%B6%E5%96%86%E6%99%AE%E9%80%9A%E6%9C%8B%E5%8F%8B%E5%92%8C%E5%A3%B0%E5%88%86%E6%9E%90/1_hu7921938425670867742.jpg 480w, https://xiaoweihome.github.io/p/%E9%99%B6%E5%96%86%E6%99%AE%E9%80%9A%E6%9C%8B%E5%8F%8B%E5%92%8C%E5%A3%B0%E5%88%86%E6%9E%90/1_hu4706189550888496631.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;76&#34;
+		data-flex-basis=&#34;183px&#34;
+	
 &gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;值得分析的点&#34;&gt;值得分析的点
-&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Bridge&lt;/strong&gt;段落的连续四度二五一&lt;/p&gt;
+&lt;h1 id=&#34;值得分析的段落&#34;&gt;值得分析的段落
+&lt;/h1&gt;&lt;hr&gt;
+&lt;h2 id=&#34;verse&#34;&gt;Verse
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;E&lt;/th&gt;
+          &lt;th&gt;Am&lt;/th&gt;
+          &lt;th&gt;Emaj9&lt;/th&gt;
+          &lt;th&gt;Am&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Emaj9&lt;/td&gt;
+          &lt;td&gt;Am&lt;/td&gt;
+          &lt;td&gt;Gb-7&lt;/td&gt;
+          &lt;td&gt;B7sus4 B7&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 &lt;ul&gt;
-&lt;li&gt;Eb-7b5 - Ab7 - Dbm7 - Gb7 - Gm7 - Bsus9&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第二小节的 Am 借用了 E 小调 4 级和弦&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;后半部分的 Gb-7 → B7sus4 → B7 构成标准的 ii–V 结构，其中 sus4 延迟属和弦的解决，增加张力并在 B7 时释放。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;bridge&#34;&gt;Bridge
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Eb-7b5&lt;/th&gt;
+          &lt;th&gt;Ab7&lt;/th&gt;
+          &lt;th&gt;Db-7&lt;/th&gt;
+          &lt;th&gt;Gb7&lt;/th&gt;
+          &lt;th&gt;Gbmaj7&lt;/th&gt;
+          &lt;th&gt;A/B&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Eb-7b5 → Ab7 构成指向 Db 的 iiø–V 关系，随后 Db-7 → Gb7 构成新的 ii–V，整体呈现连续五度循环的结构。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gbmaj7 提供短暂稳定，使连续张力得到缓解。A/B 可以视为 B11（省略三度），由于缺少决定性的三度音，其功能指向被弱化，形成悬浮效果，为回归主段提供过渡空间。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
 </description>
         </item>
         <item>
@@ -1216,7 +1017,7 @@ behavior: &#39;smooth&#39;
   &lt;strong&gt;📖 目录（点击展开）&lt;/strong&gt;
 &lt;/summary&gt;
 &lt;div style=&#34;padding: 1em; margin-top: 0.5em; background-color: #f9fbfd; border-radius: 8px; border: 1px solid #eee;&#34;&gt;
-&lt;p&gt;xxx&lt;/p&gt;
+&lt;p&gt;xxxx&lt;/p&gt;
 &lt;/div&gt;
 &lt;/details&gt;
 &lt;hr&gt;
@@ -8614,14 +8415,6 @@ behavior: &#39;smooth&#39;
         
         <guid>https://xiaoweihome.github.io/categories/test/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</guid>
         <description>&lt;img src="https://xiaoweihome.github.io/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post " /&gt;</description>
-        </item>
-        <item>
-        <title>常用和弦进行中的级数套路</title>
-        <link>https://xiaoweihome.github.io/p/%E5%B8%B8%E7%94%A8%E5%92%8C%E5%BC%A6%E8%BF%9B%E8%A1%8C%E4%B8%AD%E7%9A%84%E7%BA%A7%E6%95%B0%E5%A5%97%E8%B7%AF/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://xiaoweihome.github.io/p/%E5%B8%B8%E7%94%A8%E5%92%8C%E5%BC%A6%E8%BF%9B%E8%A1%8C%E4%B8%AD%E7%9A%84%E7%BA%A7%E6%95%B0%E5%A5%97%E8%B7%AF/</guid>
-        <description></description>
         </item>
         <item>
         <title>个人作品</title>
