@@ -1,12 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>小威音乐工作室</title>
-        <link>https://xiaoweihome.github.io/</link>
-        <description>Recent content on 小威音乐工作室</description>
+        <title>Posts on 小威音乐工作室</title>
+        <link>https://xiaoweihome.github.io/post/</link>
+        <description>Recent content in Posts on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>City Pop 风格的解析</title>
+        <link>https://xiaoweihome.github.io/p/city-pop-%E9%A3%8E%E6%A0%BC%E7%9A%84%E8%A7%A3%E6%9E%90/</link>
+        <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoweihome.github.io/p/city-pop-%E9%A3%8E%E6%A0%BC%E7%9A%84%E8%A7%A3%E6%9E%90/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>《Girl from ipanema》</title>
+        <link>https://xiaoweihome.github.io/p/girl-from-ipanema/</link>
+        <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoweihome.github.io/p/girl-from-ipanema/</guid>
+        <description>&lt;img src="https://xiaoweihome.github.io/1.png" alt="Featured image of post 《Girl from ipanema》" /&gt;&lt;details&gt;
+&lt;summary style=&#34;background-color: #f0f4f8; padding: 1em; border-radius: 8px; cursor: pointer; border: 1px solid #ddd;&#34;&gt;
+  &lt;strong&gt;📖 目录（点击展开）&lt;/strong&gt;
+&lt;/summary&gt;
+&lt;div style=&#34;padding: 1em; margin-top: 0.5em; background-color: #f9fbfd; border-radius: 8px; border: 1px solid #eee;&#34;&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;乐谱&#34;&gt;乐谱
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>弹弹 Blues</title>
+        <link>https://xiaoweihome.github.io/p/%E5%BC%B9%E5%BC%B9-blues/</link>
+        <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoweihome.github.io/p/%E5%BC%B9%E5%BC%B9-blues/</guid>
+        <description>&lt;img src="https://xiaoweihome.github.io/p/%E5%BC%B9%E5%BC%B9-blues/1.PNG" alt="Featured image of post 弹弹 Blues" /&gt;
+
+
+
+
+
+    
+
+
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1pS7R6uEBZ&#34;
+            scrolling=&#34;no&#34;
+            frameborder=&#34;no&#34;
+            framespacing=&#34;0&#34;
+            allowfullscreen=&#34;true&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
         <title>常用和弦进行中的级数套路</title>
         <link>https://xiaoweihome.github.io/p/%E5%B8%B8%E7%94%A8%E5%92%8C%E5%BC%A6%E8%BF%9B%E8%A1%8C%E4%B8%AD%E7%9A%84%E7%BA%A7%E6%95%B0%E5%A5%97%E8%B7%AF/</link>
         <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
@@ -4931,12 +4993,12 @@
 </description>
         </item>
         <item>
-        <title>所有音阶与琶音指法</title>
-        <link>https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/</link>
+        <title>所有常用音阶与琶音指法</title>
+        <link>https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/</link>
         <pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/</guid>
-        <description>&lt;img src="https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/0.jpg" alt="Featured image of post 所有音阶与琶音指法" /&gt;&lt;details&gt;
+        <guid>https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/</guid>
+        <description>&lt;img src="https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/0.jpg" alt="Featured image of post 所有常用音阶与琶音指法" /&gt;&lt;details&gt;
 &lt;summary style=&#34;background-color: #f0f4f8; padding: 1em; border-radius: 8px; cursor: pointer; border: 1px solid #ddd;&#34;&gt;
   &lt;strong&gt;📖 目录（点击展开）&lt;/strong&gt;
 &lt;/summary&gt;
@@ -4968,10 +5030,10 @@
 &lt;/details&gt;
 &lt;h1 id=&#34;音阶&#34;&gt;音阶
 &lt;/h1&gt;&lt;h2 id=&#34;major大调音阶&#34;&gt;Major（大调音阶）
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/4.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/4.jpg&#34;
 	width=&#34;1231&#34;
 	height=&#34;1636&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/4_hu2411340744112507910.jpg 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/4_hu11442473175036253590.jpg 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/4_hu2411340744112507910.jpg 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/4_hu11442473175036253590.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;大调音阶&#34;
@@ -4984,10 +5046,10 @@
 &gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;minor自然小调音阶&#34;&gt;Minor（自然小调音阶）
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/1.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/1.jpg&#34;
 	width=&#34;1239&#34;
 	height=&#34;1756&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/1_hu12174902950889276524.jpg 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/1_hu14262563553996196768.jpg 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/1_hu12174902950889276524.jpg 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/1_hu14262563553996196768.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;自然小调音阶&#34;
@@ -4999,10 +5061,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;dorian&#34;&gt;Dorian
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/5.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/5.png&#34;
 	width=&#34;792&#34;
 	height=&#34;1122&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/5_hu16087647423248721977.png 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/5_hu15023062656509169063.png 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/5_hu16087647423248721977.png 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/5_hu15023062656509169063.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Dorian 音阶&#34;
@@ -5015,10 +5077,10 @@
 &gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;jazz-minor爵士旋律小调音阶&#34;&gt;Jazz Minor（爵士旋律小调音阶）
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/2.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/2.jpg&#34;
 	width=&#34;1237&#34;
 	height=&#34;1756&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/2_hu5082964955705965136.jpg 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/2_hu15139921209428344039.jpg 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/2_hu5082964955705965136.jpg 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/2_hu15139921209428344039.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;爵士旋律小调音阶&#34;
@@ -5031,10 +5093,10 @@
 &gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;harmonic-minor和声小调&#34;&gt;Harmonic Minor（和声小调）
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/3.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/3.jpg&#34;
 	width=&#34;1239&#34;
 	height=&#34;1756&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/3_hu11484665173077579437.jpg 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/3_hu14421090970385890209.jpg 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/3_hu11484665173077579437.jpg 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/3_hu14421090970385890209.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;和声小调&#34;
@@ -5047,10 +5109,10 @@
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;琶音&#34;&gt;琶音
 &lt;/h1&gt;&lt;h2 id=&#34;major大三和弦&#34;&gt;Major（大三和弦）
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/6.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/6.png&#34;
 	width=&#34;727&#34;
 	height=&#34;266&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/6_hu16057613497613695782.png 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/6_hu12329280348566458564.png 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/6_hu16057613497613695782.png 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/6_hu12329280348566458564.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;大三和弦&#34;
@@ -5062,10 +5124,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;minor小三和弦&#34;&gt;Minor（小三和弦）
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/7.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/7.png&#34;
 	width=&#34;705&#34;
 	height=&#34;261&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/7_hu12393530087235618752.png 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/7_hu3327435899813301211.png 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/7_hu12393530087235618752.png 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/7_hu3327435899813301211.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;小三和弦&#34;
@@ -5077,10 +5139,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;major-7大七和弦&#34;&gt;Major 7（大七和弦）
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/8.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/8.png&#34;
 	width=&#34;934&#34;
 	height=&#34;1266&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/8_hu11591763505651541327.png 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/8_hu9819080032374280825.png 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/8_hu11591763505651541327.png 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/8_hu9819080032374280825.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;大七和弦&#34;
@@ -5092,10 +5154,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;minor-7小七和弦&#34;&gt;Minor 7（小七和弦）
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/9.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/9.png&#34;
 	width=&#34;922&#34;
 	height=&#34;1536&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/9_hu8108165055534460173.png 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/9_hu9132421203868796819.png 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/9_hu8108165055534460173.png 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/9_hu9132421203868796819.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;小七和弦&#34;
@@ -5107,10 +5169,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;dominant-7属七和弦&#34;&gt;Dominant 7（属七和弦）
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/10.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/10.png&#34;
 	width=&#34;934&#34;
 	height=&#34;1378&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/10_hu2788511099080919889.png 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/10_hu16264692194143875443.png 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/10_hu2788511099080919889.png 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/10_hu16264692194143875443.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;属七和弦&#34;
@@ -5122,10 +5184,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;7半减七和弦&#34;&gt;⌀7（半减七和弦）
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/10.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/10.png&#34;
 	width=&#34;934&#34;
 	height=&#34;1378&#34;
-	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/10_hu2788511099080919889.png 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/10_hu16264692194143875443.png 1024w&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/10_hu2788511099080919889.png 480w, https://xiaoweihome.github.io/p/%E6%89%80%E6%9C%89%E5%B8%B8%E7%94%A8%E9%9F%B3%E9%98%B6%E4%B8%8E%E7%90%B6%E9%9F%B3%E6%8C%87%E6%B3%95/10_hu16264692194143875443.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;半减七和弦&#34;
@@ -8589,107 +8651,6 @@
 &lt;/div&gt;
 
 </description>
-        </item>
-        <item>
-        <title>分类</title>
-        <link>https://xiaoweihome.github.io/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://xiaoweihome.github.io/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>工具</title>
-        <link>https://xiaoweihome.github.io/%E5%B7%A5%E5%85%B7/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://xiaoweihome.github.io/%E5%B7%A5%E5%85%B7/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>乐句库</title>
-        <link>https://xiaoweihome.github.io/%E4%B9%90%E5%8F%A5%E5%BA%93/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://xiaoweihome.github.io/%E4%B9%90%E5%8F%A5%E5%BA%93/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>乐谱资料</title>
-        <link>https://xiaoweihome.github.io/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://xiaoweihome.github.io/%E4%B9%90%E8%B0%B1%E8%B5%84%E6%96%99/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title></title>
-        <link>https://xiaoweihome.github.io/categories/test/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://xiaoweihome.github.io/categories/test/%E6%BC%94%E5%A5%8F%E4%BD%9C%E5%93%81/</guid>
-        <description>&lt;img src="https://xiaoweihome.github.io/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post " /&gt;</description>
-        </item>
-        <item>
-        <title>个人作品</title>
-        <link>https://xiaoweihome.github.io/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://xiaoweihome.github.io/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>联系</title>
-        <link>https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;微信二维码&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/1.PNG&#34;
-	width=&#34;764&#34;
-	height=&#34;1018&#34;
-	srcset=&#34;https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/1_hu5363591835774471227.PNG 480w, https://xiaoweihome.github.io/%E8%81%94%E7%B3%BB/1_hu10639405027371596935.PNG 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;微信二维码&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;75&#34;
-		data-flex-basis=&#34;180px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;邮箱：
-&lt;a class=&#34;link&#34; href=&#34;mailto:548101652@qq.com&#34; &gt;548101652@qq.com&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        </item>
-        <item>
-        <title>搜索</title>
-        <link>https://xiaoweihome.github.io/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://xiaoweihome.github.io/search/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>演奏技巧</title>
-        <link>https://xiaoweihome.github.io/%E6%BC%94%E5%A5%8F%E6%8A%80%E5%B7%A7/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://xiaoweihome.github.io/%E6%BC%94%E5%A5%8F%E6%8A%80%E5%B7%A7/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>音乐推荐</title>
-        <link>https://xiaoweihome.github.io/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://xiaoweihome.github.io/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/</guid>
-        <description></description>
         </item>
         
     </channel>
