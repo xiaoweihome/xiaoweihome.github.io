@@ -6,7 +6,28 @@
         <description>Recent content on 小威音乐工作室</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 26 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoweihome.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>常用流行级数进行 &amp; 配置</title>
+        <link>https://xiaoweihome.github.io/p/%E5%B8%B8%E7%94%A8%E6%B5%81%E8%A1%8C%E7%BA%A7%E6%95%B0%E8%BF%9B%E8%A1%8C-%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoweihome.github.io/p/%E5%B8%B8%E7%94%A8%E6%B5%81%E8%A1%8C%E7%BA%A7%E6%95%B0%E8%BF%9B%E8%A1%8C-%E9%85%8D%E7%BD%AE/</guid>
+        <description>&lt;details&gt;
+&lt;summary style=&#34;background-color: #f0f4f8; padding: 1em; border-radius: 8px; cursor: pointer; border: 1px solid #ddd;&#34;&gt;
+  &lt;strong&gt;📖 目录（点击展开）&lt;/strong&gt;
+&lt;/summary&gt;
+&lt;div style=&#34;padding: 1em; margin-top: 0.5em; background-color: #f9fbfd; border-radius: 8px; border: 1px solid #eee;&#34;&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;h1 id=&#34;常用级数&#34;&gt;常用级数
+&lt;/h1&gt;&lt;p&gt;调内音级：&lt;strong&gt;1、2m、3m、4、5、6m、7dim&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;调外级数：&lt;strong&gt;2、2m7-5、3、4m、b7、#4m7b5、&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;转位级数：&lt;strong&gt;5/7、1/3、1/5、2/#4、3/#5&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;斜杠和弦：&lt;strong&gt;5/4、6/5&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;II-V-I过渡的级数：&lt;strong&gt;1、4、6&lt;/strong&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>利用「大树体系」理解和声思维以及训练方式</title>
         <link>https://xiaoweihome.github.io/p/%E5%88%A9%E7%94%A8%E5%A4%A7%E6%A0%91%E4%BD%93%E7%B3%BB%E7%90%86%E8%A7%A3%E5%92%8C%E5%A3%B0%E6%80%9D%E7%BB%B4%E4%BB%A5%E5%8F%8A%E8%AE%AD%E7%BB%83%E6%96%B9%E5%BC%8F/</link>
         <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
@@ -7783,6 +7804,7 @@
 &lt;div style=&#34;padding: 1em; margin-top: 0.5em; background-color: #f9fbfd; border-radius: 8px; border: 1px solid #eee;&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#mode&#34; &gt;效果器各个模块&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#connect&#34; &gt;单块的链接顺序&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#amp&#34; &gt;音箱前级 / 后级 / 喇叭&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#preamp&#34; &gt;前级的作用（AMP）&lt;/a&gt;&lt;/li&gt;
@@ -7800,6 +7822,31 @@
 &lt;/div&gt;
 &lt;/details&gt;
 &lt;hr&gt;
+&lt;div id=&#34;connect&#34; style=&#34;
+    background-color: #4CAF50;  /* 简约绿色 */
+    color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    text-align: center;
+    font-family: &#39;Segoe UI&#39;, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+&#34;&gt;
+    单块的链接顺序
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E9%9F%B3%E7%AE%B1%E6%95%88%E6%9E%9C%E5%99%A8%E7%AD%89%E7%9F%A5%E8%AF%86/2.png&#34;
+	width=&#34;1200&#34;
+	height=&#34;13353&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E9%9F%B3%E7%AE%B1%E6%95%88%E6%9E%9C%E5%99%A8%E7%AD%89%E7%9F%A5%E8%AF%86/2_hu827538088909419329.png 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E9%9F%B3%E7%AE%B1%E6%95%88%E6%9E%9C%E5%99%A8%E7%AD%89%E7%9F%A5%E8%AF%86/2_hu5736222728916837669.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;8&#34;
+		data-flex-basis=&#34;21px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;div id=&#34;mode&#34; style=&#34;
     background-color: #4CAF50;  /* 简约绿色 */
     color: white;

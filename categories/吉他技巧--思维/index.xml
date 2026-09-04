@@ -3279,6 +3279,7 @@
 &lt;div style=&#34;padding: 1em; margin-top: 0.5em; background-color: #f9fbfd; border-radius: 8px; border: 1px solid #eee;&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#mode&#34; &gt;效果器各个模块&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#connect&#34; &gt;单块的链接顺序&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#amp&#34; &gt;音箱前级 / 后级 / 喇叭&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#preamp&#34; &gt;前级的作用（AMP）&lt;/a&gt;&lt;/li&gt;
@@ -3296,6 +3297,31 @@
 &lt;/div&gt;
 &lt;/details&gt;
 &lt;hr&gt;
+&lt;div id=&#34;connect&#34; style=&#34;
+    background-color: #4CAF50;  /* 简约绿色 */
+    color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    text-align: center;
+    font-family: &#39;Segoe UI&#39;, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+&#34;&gt;
+    单块的链接顺序
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E9%9F%B3%E7%AE%B1%E6%95%88%E6%9E%9C%E5%99%A8%E7%AD%89%E7%9F%A5%E8%AF%86/2.png&#34;
+	width=&#34;1200&#34;
+	height=&#34;13353&#34;
+	srcset=&#34;https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E9%9F%B3%E7%AE%B1%E6%95%88%E6%9E%9C%E5%99%A8%E7%AD%89%E7%9F%A5%E8%AF%86/2_hu827538088909419329.png 480w, https://xiaoweihome.github.io/p/%E5%85%B3%E4%BA%8E%E9%9F%B3%E7%AE%B1%E6%95%88%E6%9E%9C%E5%99%A8%E7%AD%89%E7%9F%A5%E8%AF%86/2_hu5736222728916837669.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;8&#34;
+		data-flex-basis=&#34;21px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;div id=&#34;mode&#34; style=&#34;
     background-color: #4CAF50;  /* 简约绿色 */
     color: white;
